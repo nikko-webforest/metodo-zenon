@@ -1,0 +1,173 @@
+.mz-footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: url("images/Z.svg"), linear-gradient(180deg, #0A0A0A 0%, #0A0A0A 100%);
+    height: 487px;
+    background-repeat: no-repeat;
+    background-position: 20%;
+    font-family: "Archivo";
+    color: #FFFFFF;
+    .menu {
+        display: flex;
+        flex-direction: row;
+        margin-top: 6.5%;
+        height: 100%;
+        .menu-column {
+            display: flex;
+            flex-direction: column;
+            .head {
+                font-weight: 700;
+                font-size: 17px;
+                margin-bottom: 48px;
+                letter-spacing: 0.02em;
+            }
+            .menu-quick-links {
+                display: flex;
+                flex-direction: column;
+                .menu-quick-link {
+                    text-decoration: none;
+                    color: #FFFFFF;
+                    font-weight: 700;
+                    font-size: 13px;
+                    line-height: 16px;
+                    margin-bottom: 20px;
+                }
+            }
+            .description {
+                margin-top: -12px;
+                font-weight: 100;
+                font-size: 14px;
+                line-height: 20px;
+                width: 350px;
+            }
+            .textbox {
+                width: 280px;
+                height: 45px;
+                margin-bottom: 18px;
+            }
+            .newsletter-btn {
+                border: none;
+                outline: none;
+                width: 127.93px;
+                height: 43px;
+                font-weight: 520;
+                font-size: 14px;
+                color: #FFFFFF;
+                background: linear-gradient(180deg, #825036 0%, #49230C 100%);
+                animation: 1s ease-in-out;
+                &:hover {
+                    background: linear-gradient(180deg, #82553c 0%, #4c2710 100%);
+                    font-weight: 520;
+                    font-size: 15px;
+                }
+                &:active {
+                    background: linear-gradient(180deg, #49230C 0%, #825036 100%);
+                }
+            }
+        }
+    }
+    .copyright-and-socials
+    {
+        display: flex;
+        flex-direction: row;
+        height: 120px;
+        border-top: 0.5px solid #FFFFFF;
+        .copyright-text {
+            flex:1;
+            display: flex;
+            align-items: center;
+            font-weight: 200;
+            font-size: 12px;
+        }
+        .socials {
+            display: flex;
+            align-items: center;
+            svg {
+                width: 34px;
+                height: 30px;
+                flex: 1;
+                margin-right: 25px;
+            }
+        }
+    }
+
+}
+@media screen and (min-width: 480px) {
+    .mz-footer {
+        .menu {
+            .menu-column {
+                margin-right: 3%;
+                .description {
+                    margin-right: 7%;
+                }
+            }
+            .logo {
+                width: 36%;
+            }
+            .menu1 {
+                width: 13%;
+            }
+            .menu2 {
+                width: 16%;
+            }
+            .newsletter {
+                margin-right: 0px;
+                width: 26%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .mz-footer {
+        width: 100%;
+        height: 1167px;
+        background: url("images/Z2.svg"), linear-gradient(180deg, #0A0A0A 0%, #0A0A0A 100%);
+        background-repeat: no-repeat;
+        background-position: 20% bottom;
+        .menu {
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            .menu-column {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                margin-bottom: 10%;
+                .head {
+                    margin: 25px;
+                    svg {
+                        margin-bottom: 5px;
+                    }
+                }
+                .description {
+                    font-size: 13px;
+                    width: 98%;
+                }
+                .menu-quick-links {
+                    .menu-quick-link {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+            .newsletter {
+                margin-bottom: 50px;
+            }
+        }
+        .copyright-and-socials {
+            flex-direction: column;
+            align-items: center;
+            .socials {
+                order: -1;
+                margin-top: 30px;
+                transform: scale(77%);
+            }
+            .copyright-text {
+                transform: scale(90%);
+                margin-bottom: 10%;
+                margin-top: 5%;
+            }
+        }
+    }
+}
