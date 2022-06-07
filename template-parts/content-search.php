@@ -9,27 +9,38 @@
 
 ?>
 
+<!-- #post-<?php the_ID(); ?> -->
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+
+	<!-- .entry-header -->
 	<header class="entry-header">
+
 		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 
 		<?php if ( 'post' === get_post_type() ) : ?>
-		<div class="entry-meta">
-			<?php
-			metodo_zenon_posted_on();
-			metodo_zenon_posted_by();
-			?>
-		</div><!-- .entry-meta -->
+
+			<!-- .entry-meta -->
+			<div class="entry-meta">
+				<?php
+					metodo_zenon_posted_on();
+					metodo_zenon_posted_by();
+				?>
+			</div>
+		
 		<?php endif; ?>
-	</header><!-- .entry-header -->
+		
+	</header>
 
 	<?php metodo_zenon_post_thumbnail(); ?>
 
+	<!-- .entry-summary -->
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
-	</div><!-- .entry-summary -->
+	</div>
 
+	<!-- .entry-footer -->
 	<footer class="entry-footer">
 		<?php metodo_zenon_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
-</article><!-- #post-<?php the_ID(); ?> -->
+	</footer>
+
+</article>

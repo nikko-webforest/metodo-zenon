@@ -6,22 +6,23 @@ const concat = require('gulp-concat');
 const browserSync = require('browser-sync').create();
 
 function css() {
-    return src('./src/css/**/*.scss', { sourcemaps: true })
-        .pipe(sass().on('error', sass.logError))
-        .pipe(minifyCSS())
-        .pipe(dest('./'), { sourcemaps: true })
-        .pipe(browserSync.stream());
+  return src('./src/css/**/*.scss', { sourcemaps: true })
+    .pipe(sass().on('error', sass.logError))
+    .pipe(minifyCSS())
+    .pipe(dest('./'), { sourcemaps: true })
+    .pipe(browserSync.stream()
+  );
 }
 
 function browser() {
-    browserSync.init({
-        proxy: 'http://spro-wp.local/',
-        files: [
-            '**/*.php'
-        ]
-    });
+  browserSync.init({
+    proxy: 'http://metodozenon.local/',
+    files: [
+      '**/*.php'
+    ]
+  });
 
-    watch('src/css/sass/**/*.scss', css).on('change', browserSync.reload);
+  watch('src/css/sass/**/*.scss', css).on('change', browserSync.reload);
 }
 
 exports.css = css;

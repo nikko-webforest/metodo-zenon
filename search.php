@@ -10,44 +10,58 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
+	<!-- #main -->
+	<main id="primary" class="mz-main">
 
-		<?php if ( have_posts() ) : ?>
+		<section class="mz-section mz-search-result-section">
+			<div class="mz-container">
 
-			<header class="page-header">
-				<h1 class="page-title">
-					<?php
-					/* translators: %s: search query. */
-					printf( esc_html__( 'Search Results for: %s', 'metodo-zenon' ), '<span>' . get_search_query() . '</span>' );
+				<?php
+
+					if ( have_posts() ) :
+						
 					?>
-				</h1>
-			</header><!-- .page-header -->
 
-			<?php
-			/* Start the Loop */
-			while ( have_posts() ) :
-				the_post();
+					<!-- .page-header -->
+					<header class="page-header">
+						<h1 class="page-title">
+							<?php
+								/* translators: %s: search query. */
+								printf( esc_html__( 'Search Results for: %s', 'metodo-zenon' ), '<span>' . get_search_query() . '</span>' );
+							?>
+						</h1>
+					</header>
 
-				/**
-				 * Run the loop for the search to output the results.
-				 * If you want to overload this in a child theme then include a file
-				 * called content-search.php and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', 'search' );
+					<?php
 
-			endwhile;
+						/* Start the Loop */
+						while ( have_posts() ) :
+							the_post();
 
-			the_posts_navigation();
+							/**
+							 * Run the loop for the search to output the results.
+							 * If you want to overload this in a child theme then include a file
+							 * called content-search.php and that will be used instead.
+							 */
+							get_template_part( 'template-parts/content', 'search' );
 
-		else :
+						endwhile;
 
-			get_template_part( 'template-parts/content', 'none' );
+						the_posts_navigation();
 
-		endif;
-		?>
+					else :
 
-	</main><!-- #main -->
+						get_template_part( 'template-parts/content', 'none' );
+
+					endif;
+					
+				?>
+
+			</div>
+		</section>
+
+	</main>
 
 <?php
-get_sidebar();
-get_footer();
+	get_sidebar();
+	get_footer();

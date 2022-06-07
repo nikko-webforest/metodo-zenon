@@ -1,0 +1,152 @@
+.mz-sc-about-zenon-carousel {
+  background: linear-gradient(180deg, $primary-bg-color 0%, $secondary-bg-color 100%);
+  padding: 130px 30px 110px;
+
+  .mz-container {
+    max-width: 950px;
+
+    .mz-carousel-nav {
+      margin: 0 auto 50px;
+
+      .flickity-viewport {
+        .flickity-slider {
+          position: absolute !important;
+          left: 50% !important;
+          transform: translateX(-50%) !important;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 5px;
+          width: auto;
+          margin: 0 auto;
+
+          .mz-carousel-nav-item {
+            font-family: $secondary-font-family;
+            font-style: normal;
+            font-size: 130px;
+            font-weight: 400;
+            text-align: center;
+            letter-spacing: -0.02em;
+            line-height: 100px;
+            position: static !important;
+            left: unset !important;
+            transform: unset !important;
+            display: block;
+            background: linear-gradient(180deg, $senary-bg-color 0%, $septenary-bg-color 100%);
+            opacity: 0.14;
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-fill-color: transparent;
+            cursor: pointer;
+
+            &.is-selected {
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+
+    .mz-carousel-main {
+      .flickity-viewport {
+        .flickity-slider {
+          .mz-carousel-cell {
+            .p-01 {
+              color: $septenary-font-color;
+              font-family: $primary-font-family;
+              font-size: 32px;
+              font-weight: 300;
+              text-align: center;
+              line-height: 46px;
+              margin: 0;
+
+              span {
+                color: $white-font-color;
+                font-weight: 700;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1180px){
+  .mz-sc-about-zenon-carousel {
+    .mz-container {
+      .mz-carousel-nav {
+        .flickity-viewport {
+          .flickity-slider {
+            .mz-carousel-nav-item {
+              font-size: 100px;
+              line-height: 80px;
+            }
+          }
+        }
+      }
+
+      .mz-carousel-main {
+        .flickity-viewport {
+          .flickity-slider {
+            .mz-carousel-cell {
+              .p-01 {
+                font-size: 30px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px){
+  .mz-sc-about-zenon-carousel {
+    .mz-container {
+      .mz-carousel-nav {
+        .flickity-viewport {
+          .flickity-slider {
+            .mz-carousel-nav-item {
+              font-size: 80px;
+              line-height: 100px;
+            }
+          }
+        }
+      }
+
+      .mz-carousel-main {
+        .flickity-viewport {
+          .flickity-slider {
+            .mz-carousel-cell {
+              .p-01 {
+                font-size: 28px;
+                line-height: 40px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px){
+  .mz-sc-about-zenon-carousel {
+    .mz-container {
+      .mz-carousel-main {
+        .flickity-viewport {
+          .flickity-slider {
+            .mz-carousel-cell {
+              .p-01 {
+                font-size: 25px;
+                line-height: 35px;;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

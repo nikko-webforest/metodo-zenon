@@ -1,0 +1,149 @@
+.mz-sc-recent-articles {
+  background: linear-gradient(90deg, $tertiary-bg-color 0%, $quaternary-bg-color 75.26%, $quinary-bg-color 100%);
+  padding: 300px 30px 130px;
+  
+  .mz-container {
+    max-width: 1040px;
+
+    .mz-row {
+      &.mz-title-row {
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        margin: 0 auto 60px;
+  
+        h2 {
+          font-style: normal;
+          font-size: 32px;
+          font-weight: 700;
+          text-transform: uppercase;
+          line-height: 32px;
+          letter-spacing: -0.02em;
+          margin: 0;
+        }
+  
+        .mz-cta.mz-cta-more-articles {
+  
+        }
+      }
+      
+      &.mz-recent-articles-row {
+        justify-content: center;
+        align-items: stretch;
+        gap: 30px 40px;
+
+        .mz-col {
+          flex-basis: 320px;
+          background-color: $white-bg-color;
+
+          .mz-recent-article-img-wrap {
+            background-color: gray;
+            overflow: hidden;
+
+            .mz-recent-article-img {
+              object-fit: cover;
+              object-position: center;
+              width: 100%;
+              height: 215px;
+            }
+          }
+
+          .mz-recent-article-details-wrap {
+            padding: 30px 20px;
+
+            .mz-recent-article-title {
+              color: $black-font-color;
+              font-family: $primary-font-family;
+              font-style: normal;
+              font-size: 18px;
+              font-weight: 700;
+              text-transform: uppercase;
+              letter-spacing: -0.02em;
+              line-height: 22px;
+              margin: 0 0 25px;
+            }
+
+            .mz-recent-article-excerpt {
+              color: $senary-font-color;
+              font-style: normal;
+              font-size: 12px;
+              font-weight: 300;
+              line-height: 17px;
+              min-height: 100px;
+              margin: 0 0 40px;
+            }
+
+            .mz-inner-row {
+              justify-content: space-between;
+              align-items: center;
+              width: 100%;
+
+              .mz-recent-article-released-date {
+                color: $septenary-font-color;
+                font-style: normal;
+                font-size: 14px;
+                font-weight: 300;
+                text-transform: uppercase;
+                letter-spacing: -0.02em;
+                line-height: 15px;
+              }
+              
+              .mz-link-more-info {
+                color: $quinary-font-color;
+                font-style: normal;
+                font-size: 15px;
+                font-weight: 700;
+                text-decoration: none;
+                text-transform: uppercase;
+                line-height: 15px;
+                display: inline-block;
+                vertical-align: middle;
+
+                span {
+                  display: inline-block;
+                  vertical-align: middle;
+                  margin: 0 8px 0 0;
+                }
+
+                svg {
+                  display: inline-block;
+                  vertical-align: middle;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1180px){
+  .mz-sc-recent-articles {
+    padding: 100px 30px;
+
+    .mz-container {
+      .mz-row {
+        &.mz-title-row {
+          flex-wrap: wrap;
+          margin: 0 auto 50px;
+
+          h2 {
+            font-size: 30px;
+            text-align: center;
+            flex-basis: 100%;
+          }
+
+          .mz-cta.mz-cta-more-articles {
+            margin: 0 auto;
+          }
+        }
+
+        &.mz-recent-articles-row {
+          flex-wrap: wrap;
+          gap: 30px;
+        }
+      }
+    }
+  }
+}

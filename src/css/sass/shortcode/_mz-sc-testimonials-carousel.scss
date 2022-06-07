@@ -1,0 +1,264 @@
+.mz-sc-testimonials-carousel {
+  z-index: 1;
+  background-color: $primary-bg-color;
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto -150px;
+  padding: 60px 80px;
+
+  .mz-container {
+    .mz-row {
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px 0;
+
+      .mz-col {
+        &.col-01 {
+          flex-basis: 32%;
+
+          h3 {
+            color: $white-font-color;
+            font-style: normal;
+            font-size: 24px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: -0.02em;
+            line-height: 22px;
+          }
+          
+          h2 {
+            color: $white-font-color;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            text-transform: uppercase;
+            line-height: 35px;
+            letter-spacing: -0.02em;
+            margin: 0;
+          }
+        }
+
+        &.col-02 {
+          flex-basis: 60%;
+          padding: 0 0 0 90px;
+
+          .mz-carousel-main {
+            .flickity-viewport {
+              .flickity-slider {
+                .mz-carousel-cell {
+                  margin: 0 15px;
+
+                  .mz-inner-row {
+                    justify-content: flex-start;
+                    align-items: center;
+                    gap: 25px;
+                    width: 100%;
+                    margin: 0 0 20px;
+
+                    .mz-inner-col {
+                      &.col-01 {
+                        background-color: $white-bg-color;
+                        flex-basis: 60px;
+                        height: 60px;
+
+                        .testimony-profile-img {}
+                      }
+
+                      &.col-02 {
+                        flex-basis: 70%;
+
+                        .testimony-name {
+                          color: $white-font-color;
+                          font-style: normal;
+                          font-size: 18px;
+                          font-weight: 500;
+                          text-transform: uppercase;
+                          line-height: 18px;
+                          margin: 0 0 10px;
+                        }
+
+                        ul {
+                          display: flex;
+                          justify-content: flex-start;
+                          gap: 8px;
+
+                          li {
+                            color: $white-font-color;
+                            font-size: 18px;
+
+                            .fa {
+                              color: inherit;
+                              display: block;
+
+                              &.active {
+                                color: yellow;
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+
+                  .testimony-quotes {
+                    color: $white-font-color;
+                    font-style: normal;
+                    font-size: 13px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    margin: 0;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        &.col-03 {
+          flex-basis: 10%;
+
+          .mz-carousel-slide-count {
+            color: $white-font-color;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+
+            span {
+              color: inherit;
+              display: block;
+
+              &.mz-carousel-counter-slide {
+                font-size: 13px;
+                font-weight: 700;
+              }
+              &.mz-carousel-total-slide {
+                font-size: 10px;
+                font-weight: 400;
+              }
+            }
+          }
+
+          .mz-carousel-btn-wrap {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            max-width: 80px;
+            width: 100%;
+            margin: 0 auto;
+
+            .mz-carousel-btn {
+              display: block;
+              background-color: transparent;
+              opacity: 0.5;
+              border: none;
+
+              &:hover {
+                opacity: 1;
+              }
+
+              svg {
+                display: block;
+              }
+
+              &.mz-carousel-prev-btn {}
+              &.mz-carousel-next-btn {}
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1180px){
+  .mz-sc-testimonials-carousel {
+    padding: 60px 30px;
+
+    .mz-container {
+      max-width: 900px;
+
+      .mz-row {
+        .mz-col {
+          &.col-01 {
+            h3 {
+              font-size: 22px;  
+            }
+            
+            h2 {
+              font-size: 30px;
+            }
+          }
+          &.col-02 {
+            padding: 0 0 0 50px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px){
+  .mz-sc-testimonials-carousel {
+    margin: 0 auto;
+    
+    .mz-container {
+      max-width: 600px;
+
+      .mz-row {
+        flex-wrap: wrap;
+
+        .mz-col {
+          &.col-01 {
+            flex-basis: 100%;
+
+            h3 {
+              font-size: 20px;
+              text-align: center;
+            }
+
+            h2 {
+              font-size: 28px;
+              text-align: center;
+            }
+          }
+
+          &.col-02 {
+            flex-basis: 70%;
+            padding: 0;
+          }
+
+          &.col-03 {
+            flex-basis: 20%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px){
+  .mz-sc-testimonials-carousel {
+    .mz-container {
+      .mz-row {
+        .mz-col {
+          &.col-01 {
+            flex-basis: 100%;
+
+            h2 {
+              font-size: 26px;
+            }
+          }
+
+          &.col-02 {
+            flex-basis: 100%;
+          }
+
+          &.col-03 {
+            flex-basis: 100%;
+          }
+        }
+      }
+    }
+  }
+}
