@@ -1,0 +1,23 @@
+<svg class="mz-svg svg-mz-logo-02" width="133" height="70" viewBox="0 0 133 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M45.7511 0L0 70H19.7758L45.7511 29.5067L57.2085 46.065L66.2332 32.4103L45.7511 0Z" fill="url(#paint0_linear_664_3867)"></path>
+  <path d="M91.6592 32.8812L102.803 15.3812L132.623 69.843H114.025L91.6592 32.8812Z" fill="url(#paint1_linear_664_3867)"></path>
+  <path d="M112.142 0H46.4577L55.8747 14.6749H78.3971L42.377 70H113.24L102.018 51.009H79.3388L112.142 0Z" fill="white"></path>
+  <defs>
+    <linearGradient id="paint0_linear_664_3867" x1="66.3117" y1="0" x2="66.3117" y2="70" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2A2A2A"></stop>
+      <stop offset="0.1875" stop-color="#BBBBBA"></stop>
+      <stop offset="0.348958" stop-color="#EAE9EA"></stop>
+      <stop offset="0.505208" stop-color="#DAD9DA"></stop>
+      <stop offset="0.703125" stop-color="#A2A1A2"></stop>
+      <stop offset="1" stop-color="#444343"></stop>
+    </linearGradient>
+    <linearGradient id="paint1_linear_664_3867" x1="66.3117" y1="0" x2="66.3117" y2="70" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2A2A2A"></stop>
+      <stop offset="0.1875" stop-color="#BBBBBA"></stop>
+      <stop offset="0.348958" stop-color="#EAE9EA"></stop>
+      <stop offset="0.505208" stop-color="#DAD9DA"></stop>
+      <stop offset="0.703125" stop-color="#A2A1A2"></stop>
+      <stop offset="1" stop-color="#444343"></stop>
+    </linearGradient>
+  </defs>
+</svg>

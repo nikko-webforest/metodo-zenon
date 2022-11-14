@@ -1,0 +1,61 @@
+/* customAnimateOnScroll */
+
+/*
+ * AOS Init
+ */
+
+.aos-init {
+  transition-duration: 1000ms;
+}
+
+[data-mz-aos='fade'].aos-init {
+  opacity: 0;
+}
+
+[data-mz-aos='fade-up'].aos-init {
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+[data-mz-aos='fade-down'].aos-init {
+  opacity: 0;
+  transform: translateY(-50px);
+}
+
+[data-mz-aos='fade-left'].aos-init {
+  opacity: 0;
+  transform: translateX(-50px);
+}
+
+[data-mz-aos='fade-right'].aos-init {
+  opacity: 0;
+  transform: translateX(50px);
+}
+
+/*
+ * AOS Animate
+ */
+
+[data-mz-aos='fade'].aos-animate {
+  opacity: 1;
+}
+
+[data-mz-aos='fade-up'].aos-animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+[data-mz-aos='fade-down'].aos-animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+[data-mz-aos='fade-left'].aos-animate {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+[data-mz-aos='fade-right'].aos-animate {
+  opacity: 1;
+  transform: translateX(0);
+}

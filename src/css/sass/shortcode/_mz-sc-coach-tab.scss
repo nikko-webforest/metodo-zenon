@@ -1,0 +1,293 @@
+.mz-sc-coach-tab {
+  background: $white-color;
+  padding: 0 30px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 105px;
+    left: 0;
+    display: block;
+    // background: linear-gradient(90deg, $tertiary-bg-color 0%, $quaternary-bg-color 75.26%, $quinary-bg-color 100%);
+    width: 100%;
+    height: calc(100% - 105px);
+  }
+
+  .mz-container {
+    position: relative;
+
+    .mz-tab-btn-wrap {
+      display: flex;
+      justify-content: center;
+      align-items: stretch;
+      background: $nonary-color;
+      gap: 30px 125px;
+      padding: 50px 30px 0;
+
+      .mz-tab-btn {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        background: transparent;
+        padding: 0 0 35px;
+        border-bottom: 4px solid transparent;
+
+        .mz-img {
+          width: 120px;
+          height: 120px;
+          border: 1px solid red;
+        }
+
+        .coach-details {
+          text-align: left;
+
+          .coach-role {
+            color: $septenary-color;
+            font-family: $primary-font-family;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 150%;
+            text-transform: uppercase;
+            margin: 0 0 10px;
+          }
+
+          .coach-name {
+            color: $septenary-color;
+            font-family: $primary-font-family;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 100%;
+            letter-spacing: -0.02em;
+            text-transform: uppercase;
+          }
+        }
+
+        &.--active-tab {
+          border-color: $white-color;
+
+          .coach-details {
+            .coach-name {
+              color: $white-color;
+            }
+          }
+        }
+      }
+    }
+
+    .mz-tab-pane-wrap {
+      padding: 90px 0 135px;
+
+      .mz-tab-pane {
+        display: none;
+
+        .mz-row {
+          gap: 30px 70px;
+
+          .mz-col {
+            &:nth-child(1) {
+              flex-basis: 350px;
+
+              .coach-profile {
+                height: 300px;
+                border: 1px solid red;
+              }
+
+              .coach-details {
+                background: $white-color;
+                padding: 35px 30px 45px;
+
+                .coach-name {
+                  color: $black-color;
+                  font-family: $primary-font-family;
+                  font-style: normal;
+                  font-size: 18px;
+                  font-weight: 700;
+                  text-transform: uppercase;
+                  letter-spacing: -0.02em;
+                  line-height: 110%;
+                  margin: 0 0 5px;
+                }
+
+                .coach-role {
+                  color: $primary-color;
+                  font-family: $primary-font-family;
+                  font-style: normal;
+                  font-size: 12px;
+                  font-weight: 700;
+                  text-transform: uppercase;
+                  line-height: 150%;
+                  margin: 0 0 25px;
+                }
+
+                .coach-description {
+                  color: $senary-color;
+                  font-family: $primary-font-family;
+                  font-style: normal;
+                  font-size: 12px;
+                  font-weight: 300;
+                  line-height: 125%;
+                  margin: 0 0 40px;
+                }
+
+                .coach-social-list {
+                  display: flex;
+                  justify-content: flex-start;
+                  align-items: center;
+                  gap: 10px;
+
+                  .coach-social-item {
+                    .coach-social-link {
+                      width: 30px;
+                      height: 30px;
+
+                      svg {
+                        display: block;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+
+            &:nth-child(2) {
+              flex-basis: calc(100% - (350px + 70px));
+
+              h4 {
+                color: $black-color;
+                font-family: $primary-font-family;
+                font-style: normal;
+                font-size: 20px;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: -0.02em;
+                line-height: 150%;
+
+                &.h4-01 {
+                  margin: 30px 0;
+                }
+              }
+
+              .p-01 {
+                color: $senary-color;
+                font-family: $primary-font-family;
+                font-style: normal;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 150%;
+                margin: 0 0 65px;
+              }
+
+              .coach-expertise-list {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                gap: 30px;
+                margin: 0 auto 65px;
+
+                .coach-expertise-item {
+                  width: 100%;
+
+                  .coach-experise-name {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin: 0 auto 10px;
+
+                    h3 {
+                      color: $primary-color;
+                      font-family: $primary-font-family;
+                      font-style: normal;
+                      font-size: 20px;
+                      font-weight: 700;
+                      text-transform: uppercase;
+                      letter-spacing: -0.02em;
+                      line-height: 150%;
+                      margin: 0;
+                    }
+
+                    span {
+                      color: $primary-color;
+                      font-family: $primary-font-family;
+                      font-style: normal;
+                      font-size: 20px;
+                      font-weight: 700;
+                      letter-spacing: -0.02em;
+                      line-height: 120%;
+                      display: block;
+                    }
+                  }
+
+                  .progress-bar {
+                    background: rgba(111, 74, 55, 0.4);
+                    width: 100%;
+                    height: 5px;
+
+                    .progress-level {
+                      background: rgba(111, 74, 55);
+                      height: 100%;
+                      transition: width $hover-transition-duration ease-in-out;
+                    }
+                  }
+                }
+              }
+
+              .coach-specialties-wrap {
+                display: flex;
+                justify-content: flex-start;
+                align-items: stretch;
+                gap: 30px 70px;
+
+                .coach-specialites-item {
+                  max-width: 300px;
+                  width: 100%;
+
+                  .mz-inner-row {
+                    justify-content: flex-start;
+                    align-items: center;
+                    gap: 20px;
+
+                    .coach-specialties-icon {
+                      display: block;
+                      max-width: 55px;
+                      width: 100%;
+                    }
+
+                    .coach-specialties-details {
+                      span:nth-of-type(1) {
+                        color: $black-color;
+                        font-family: $primary-font-family;
+                        font-style: normal;
+                        font-size: 20px;
+                        font-weight: 700;
+                        letter-spacing: -0.02em;
+                        line-height: 150%;
+                        display: block;
+                        margin: 0 0 5px;
+                      }
+
+                      span:nth-of-type(2) {
+                        color: $senary-color;
+                        font-family: $primary-font-family;
+                        font-style: normal;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 150%;
+                        display: block;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        &.--active-pane {
+        }
+      }
+    }
+  }
+}

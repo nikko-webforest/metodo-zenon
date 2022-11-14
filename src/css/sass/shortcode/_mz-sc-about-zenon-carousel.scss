@@ -1,0 +1,146 @@
+.mz-sc-about-zenon-carousel {
+  background: linear-gradient(180deg, $nonary-color 0%, $denary-color 100%);
+  height: 100vh;
+  padding: 150px 30px 100px;
+
+  .mz-container {
+    max-width: 950px;
+
+    .mz-carousel-navs {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      margin: 0 auto 50px;
+
+      .mz-carousel-nav-item {
+        font-family: $secondary-font-family;
+        font-style: normal;
+        font-size: 130px;
+        font-weight: 400;
+        text-align: center;
+        letter-spacing: -0.02em;
+        line-height: 130%;
+        display: block;
+        height: 140px;
+        background: linear-gradient(180deg, $tertiary-color 0%, $quaternary-color 100%);
+        opacity: 0.14;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-fill-color: transparent;
+        cursor: pointer;
+      }
+    }
+    
+    .mz-carousel-slides {
+      overflow: hidden;
+
+      .mz-row {
+        position: relative;
+        left: 0;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 500%;
+        transition:
+          left 300ms ease-in-out;
+
+        .mz-carousel-slides-item {
+          width: 100%;
+          padding: 0 25px;
+
+          .p-01 {
+            color: $septenary-color;
+            font-family: $primary-font-family;
+            font-size: 32px;
+            font-weight: 300;
+            text-align: center;
+            line-height: 150%;
+            margin: 0;
+
+            span {
+              color: $white-color;
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1180px){
+  .mz-sc-about-zenon-carousel {
+    height: auto;
+    padding: 210px 30px 100px;
+
+    .mz-container {
+      .mz-carousel-navs {
+        .mz-carousel-nav-item {
+          font-size: 100px;
+          height: 110px;
+        }
+      }
+
+      .mz-carousel-slides {
+        .mz-row {
+          .mz-carousel-slides-item {
+            .p-01 {
+              font-size: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px){
+  .mz-sc-about-zenon-carousel {
+    padding: 140px 30px 100px;
+
+    .mz-container {
+      .mz-carousel-navs {
+        .mz-carousel-nav-item {
+          font-size: 80px;
+          height: 90px;
+        }
+      }
+
+      .mz-carousel-slides {
+        .mz-row {
+          .mz-carousel-slides-item {
+            .p-01 {
+              font-size: 26px;
+              line-height: 125%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px){
+  .mz-sc-about-zenon-carousel {
+    .mz-container {
+      .mz-carousel-navs {
+        .mz-carousel-nav-item {
+          font-size: 70px;
+          height: 80px;
+        }
+      }
+
+      .mz-carousel-slides {
+        .mz-row {
+          .mz-carousel-slides-item {
+            .p-01 {
+              font-size: 24px;
+              line-height: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

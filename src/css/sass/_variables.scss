@@ -1,0 +1,73 @@
+:root {
+  --primary-font-family       : 'Archivo', sans-serif;
+  --secondary-font-family     : 'Geometos', sans-serif;
+  --normal-font-size          : 14px;
+
+  --black-color               : #0A0A0A;
+  --white-color               : #FFFFFF;
+  --primary-color             : #512912;
+  --secondary-color           : #030303;
+  --tertiary-color            : #C2AB90;
+  --quaternary-color          : #8B663E;
+  --quinary-color             : #6F4A37;
+  --senary-color              : #373F41;
+  --septenary-color           : #AFACB4;
+  --octonary-color            : #7D7D7D;
+  --nonary-color              : #49230C;
+  --denary-color              : #0B0D0F;
+  --11th-color                : #EFEEF1;
+  --12th-color                : #DCDDE1;
+  --13th-color                : #BDBCBF;
+  --14th-color                : #825036;
+  --15th-color                : #636363;
+  --16th-color                : #F0F0F0;
+  --17th-color                : #BBBBBA;
+  --18th-color                : #808080;
+  --19th-color                : #181818;
+  --20th-color                : #1D1F24;
+  --21th-color                : #D3D3D3;
+
+  --main-container            : 1140px;
+  --lt-container              : 1080px;
+  --tb-container              : 800px;
+  --mb-container              : 600px;
+
+  --hover-transition-duration : 350ms;
+  --click-transition-duration : 300ms;
+}
+
+$primary-font-family          : var(--primary-font-family       );
+$secondary-font-family        : var(--secondary-font-family     );
+$normal-font-size             : var(--normal-font-size          );
+
+$black-color                  : var(--black-color               );
+$white-color                  : var(--white-color               );
+$primary-color                : var(--primary-color             );
+$secondary-color              : var(--secondary-color           );
+$tertiary-color               : var(--tertiary-color            );
+$quaternary-color             : var(--quaternary-color          );
+$quinary-color                : var(--quinary-color             );
+$senary-color                 : var(--senary-color              );
+$septenary-color              : var(--septenary-color           );
+$octonary-color               : var(--octonary-color            );
+$nonary-color                 : var(--nonary-color              );
+$denary-color                 : var(--denary-color              );
+$--11th-color                 : var(--11th-color                );
+$--12th-color                 : var(--12th-color                );
+$--13th-color                 : var(--13th-color                );
+$--14th-color                 : var(--14th-color                );
+$--15th-color                 : var(--15th-color                );
+$--16th-color                 : var(--16th-color                );
+$--17th-color                 : var(--17th-color                );
+$--18th-color                 : var(--18th-color                );
+$--19th-color                 : var(--19th-color                );
+$--20th-color                 : var(--20th-color                );
+$--21th-color                 : var(--21th-color                );
+
+$main-container               : var(--main-container            );
+$lt-container                 : var(--lt-container              );
+$tb-container                 : var(--tb-container              );
+$mb-container                 : var(--mb-container              );
+
+$hover-transition-duration    : var(--hover-transition-duration );
+$click-transition-duration    : var(--click-transition-duration );
