@@ -126,6 +126,7 @@
                 letter-spacing: -0.02em;
                 margin-bottom: 5px;
             }
+
             h3 {
                 color: $white-color;
                 font-style: normal;
@@ -138,6 +139,105 @@
             }
         }
     }
+
+    .mz-flex-section-02 {
+        margin: 100px 140px;
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+
+        .mz-container-card {
+            width: 445px;
+
+            .mz-card-title {
+                padding: 25px 30px;
+                height: 74px;
+                background-color: $nonary-color;
+                
+                h3 {
+                    color: $white-color;
+                    font-style: normal;
+                    font-size: 24px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    letter-spacing: -0.02em;
+                    line-height: 100%;
+                    margin: 0;
+                }
+            }
+            .mz-card-body {
+                padding: 40px 30px;
+                height: 427px;
+                background-color: $--16th-color;   
+                
+                p {
+                    color: $senary-color;
+                    font-style: normal;
+                    font-size: 14px;
+                    line-height: 20px;
+                    margin: 0;
+                    text-align: left;
+                    max-width: 350px;
+                    margin-bottom: 60px;
+                }
+
+                .mz-program-curriculum {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 20px; 
+
+                    li {
+                        display: flex;
+                        flex-direction: row;
+                        font-style: normal;
+                        font-size: 14px;
+                        padding: 10px 0px;
+                        gap:5px;
+                        text-transform: uppercase;
+                    } 
+
+                    .mz-title {
+                        color: $black-color;
+                        font-weight: 700;
+                    } 
+                    .mz-curriculum {
+                        color: $septenary-color;
+                        font-weight: 800;
+                    }
+                    .line {
+                        width: 110px;
+                        border-bottom: 1px solid rgba(175,172,180,0.4);
+                        align-self: center;
+                    }
+
+                    
+                }
+            }
+        }
+
+        .mz-details {
+            max-width: 50%;
+            margin-top: 10px;
+            h6 {
+                color: $black-color;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                text-transform: uppercase;
+                line-height: 100%;
+                letter-spacing: -0.02em;
+                margin-bottom: 20px;
+                }
+
+            p {
+                color: $senary-color;
+                font-style: normal;
+                font-size: 14px;
+                line-height: 20px;
+                margin-bottom: 75px;
+            }
+        }
+    }
 }
     
 .theme-dark {
@@ -145,7 +245,13 @@
 }
 
 @media (max-width: 1180px){
-
+    .mz-sc-programs-features {
+        .mz-flex-section-01 {
+            .mz-container {
+                scale: 1.2em;
+            }
+        }
+    }
 }
     
 @media (max-width: 768px){

@@ -643,7 +643,21 @@ add_shortcode( 'mz-sc-programs-features', function ( $atts, $content = null ){
 		'subDescription' => 'Lorem ipsum dolor sit amet, consec tetur adipiscing elit',
 		'photo' => '/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Method_Programs_For_You.png',
 		'overlapTitle' => 'Elite',
-		'overlapSubTitle' => 'Program For You'
+		'overlapSubTitle' => 'Program For You',
+		'cardTitle' => 'Elite Program',
+		'cardDescription' => 'Focused on people with experience in training, with an acceptable-good physical condition who want to increase their performance in a more specific way. Objective to gain strength and muscle at levels above the population average.
+		<br/><br/> Focused on people with experience in training, with an acceptable-good physical condition who want to increase their performance in a more specific way.',
+		'total-programs' => '3',
+		'program-title_01' => 'Program 1',
+		'program-curriculum_01' => 'Physio Curriculum 1',
+		'program-title_02' => 'Program 2',
+		'program-curriculum_02' => 'Physio Curriculum 2',
+		'program-title_03' => 'Program 3',
+		'program-curriculum_03' => 'Physio Curriculum 3',
+		'program-detail-title_01' => 'Competitive Advantages',
+		'program-detail-description_01' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean. Mattis nunc sed blandit libero. Feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed id semper risus in. Varius vel pharetra vel turpis nunc eget.',
+		'program-detail-title_02' => 'Program Features',
+		'program-detail-description_02' => 'Ut etiam sit amet nisl purus. Imperdiet proin fermentum leo vel orci porta non. Integer feugiat scelerisque varius morbi enim. Sed ullamcorper morbi tincidunt ornare. Habitant morbi tristique senectus et netus et malesuada fames ac.',
 	], $atts);
 
 	$output =
@@ -691,6 +705,69 @@ add_shortcode( 'mz-sc-programs-features', function ( $atts, $content = null ){
 							</div>
 						</div>
 					</div>
+				</div>
+				<div class="mz-flex-section-02">
+					<div class="mz-container-card">
+						<div class="mz-card-title">
+							<h3>
+								'. $attributes['cardTitle'] .'
+							</h3>
+						</div>
+						<div class="mz-card-body">
+							<p>
+								'. $attributes['cardDescription'] .'
+							</p>
+							<div class="mz-program-curriculum">
+								<ul>
+		'
+	;
+
+	for( $i = 1; $i <= $attributes['total-programs']; $i++ ){
+		$programTitle = $attributes['program-title_0'.$i];
+		$programCurriculum = $attributes['program-curriculum_0'.$i];
+		$output .=
+		'
+									<li> 
+										<div class="mz-title">
+											'. $programTitle .'
+										</div>
+										<div class="line"></div>
+										<div class="mz-curriculum">
+										'. $programCurriculum .'
+										</div>
+									</li>
+		'
+		;
+	}
+
+	$output .=
+		'
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="mz-details">
+						<div class="mz-row-01">
+							<h6>
+								'. $attributes['program-detail-title_01'] .'
+							</h6>
+							<p>
+								'. $attributes['program-detail-description_01'] .'
+							</p>
+						</div>
+						<div class="mz-row-02">
+							<h6>
+								'. $attributes['program-detail-title_02'] .'
+							</h6>
+							<p>
+								'. $attributes['program-detail-description_02'] .'
+							</p>
+						</div>
+						<div class="mz-checklist">
+							
+						</div>
+					</div>
+					
 				</div>
 			</section>
 		'
