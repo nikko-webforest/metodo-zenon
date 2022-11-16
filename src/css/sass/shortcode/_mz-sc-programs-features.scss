@@ -1,0 +1,106 @@
+.mz-sc-programs-features {
+    z-index: 1;
+    padding: 0 0 50px;
+    left:0;
+    margin-top: 60px;
+
+    .mz-container {
+        position: relative;
+        z-index: 2;
+        background: $denary-color;
+        max-width: 670px;
+        width: 100%;
+        padding: 60px 140px;
+        margin-left: 0%;
+    
+        .mz-row {
+            justify-content: space-between;
+            align-items: center;
+            // gap: 30px 0;
+    
+            .mz-col {
+                flex-basis: 100%;
+    
+                h3 {
+                color: $tertiary-color;
+                font-style: normal;
+                font-size: 24px;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: -0.02em;
+                line-height: 100%;
+                margin: 0;
+                }
+                
+                h2 {
+                color: $white-color;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                text-transform: uppercase;
+                line-height: 100%;
+                letter-spacing: -0.02em;
+                margin-bottom: 30px;
+                }
+
+                p {
+                    color: $septenary-color;
+                    font-style: normal;
+                    font-size: 13px;
+                    line-height: 20px;
+                    margin-bottom: 50px;
+                }
+            }
+
+            .mz-flex {
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+
+                img {
+                    max-height: 100%;
+                    align-self:flex-start;
+                }
+
+                .mz-flex-row {
+                    flex-basis: 60%;
+
+                    h6 {
+                        color: $white-color;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 20px;
+                        text-transform: uppercase;
+                        line-height: 100%;
+                        letter-spacing: -0.02em;
+                        margin-bottom: 10px;
+                        }
+        
+                    p {
+                        color: $septenary-color;
+                        font-style: normal;
+                        font-size: 14px;
+                        line-height: 20px;
+                        margin: 0;
+                    }
+                }
+            }
+        }   
+    }
+}
+    
+.theme-dark {
+
+}
+
+@media (max-width: 1180px){
+
+}
+    
+@media (max-width: 768px){
+
+}
+
+@media (max-width: 480px){
+
+}

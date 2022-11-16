@@ -573,7 +573,7 @@ add_shortcode( 'mz-sc-carousel', function ( $atts, $content = null ){
 
 function getTestimonialRating ($testimonialRating){
 
-	$testimonialRatingStar;
+	$testimonialRatingStar = '';
 
 	for( $a = 1; $a <= 5; $a++ ){
 		if( $a <= $testimonialRating ){
@@ -586,6 +586,99 @@ function getTestimonialRating ($testimonialRating){
 	return $testimonialRatingStar;
 
 }
+
+add_shortcode( 'mz-sc-programs-carousel', function ( $atts, $content = null ){
+
+	$attributes = shortcode_atts([
+		'carousel-autoplay' => 'false',
+		'carousel-current-slide' => '1',
+		'carousel-total-slide' => '5',
+		'program-title_01' => 'I want to maximize my sports performance',
+		'program-title_02' => 'Lorem ipsum dolor sit amet consectetur adipiscing elit',
+		'program-title_03' => 'Lorem ipsum dolor sit amet consectetur adipiscing elit',
+		'program-title_04' => 'Lorem ipsum dolor sit amet consectetur adipiscing elit',
+		'program-title_05' => 'Lorem ipsum dolor sit amet consectetur adipiscing elit',
+	], $atts);
+
+	for( $i = 1; $i <= $attributes['carousel-total-slide']; $i++ ){
+		$programTitle = $attributes['program-title_0'.$i];
+		$testimonialImg = 'testimonial-img_0'.$i;
+		$output =
+			'
+			<section class="mz-section mz-sc-programs-carousel">
+				<div class="mz-carousel" id="featured-programs">
+					<div class="program-item slide">
+						<div class="program-summary card">
+							<div class="program-info">
+								<h6 class="program-topic webdesign"> 01 </h6>
+								<h5 class="program-title"> 
+								'. $attributes['program-title_0'.$i] .'
+								</h5>
+								<hr>
+								<div class="program-meta">
+									LEARN MORE
+								</div>
+							</div>
+						</div> 
+					</div>
+				</div>
+			</section>
+			'
+		;
+	}
+
+
+	return $output;
+
+});
+
+add_shortcode( 'mz-sc-programs-features', function ( $atts, $content = null ){
+
+	$attributes = shortcode_atts([
+		'title' => 'Sports',
+		'subtitle' => 'I want to maximize my sports performance',
+		'description' => 'Eos tota dicunt democritum no. Has natum gubergren ne. soleat sadipscing cu.',
+		'icon' => '/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Method_Trainings_icon.png',
+		'subsubTitle' => 'Training',
+		'subDescription' => 'Lorem ipsum dolor sit amet, consec tetur adipiscing elit',
+	], $atts);
+
+	$output =
+		'
+		<section class="mz-section mz-sc-programs-features">
+				<div class="mz-container">
+					<div class="mz-row">
+						<div class="mz-col col-01">
+							<h3>
+								'. $attributes['title'] .'
+							</h3>
+							<h2>
+								'. $attributes['subtitle'] .'
+							</h2>
+							<p>
+								'. $attributes['description'] .'
+							</p>
+							<div class="mz-flex">
+								<img src="'. $attributes['icon'] .'">
+								<div class="mz-flex-row">
+									<h6>
+									'. $attributes['subsubTitle'] .'
+									</h6>
+									<p>
+									'. $attributes['subDescription'] .'
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		'
+	;
+
+	return $output;
+
+});
 
 add_shortcode( 'mz-sc-testimonials-carousel', function ( $atts, $conent = null ){
 
