@@ -641,33 +641,53 @@ add_shortcode( 'mz-sc-programs-features', function ( $atts, $content = null ){
 		'icon' => '/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Method_Trainings_icon.png',
 		'subsubTitle' => 'Training',
 		'subDescription' => 'Lorem ipsum dolor sit amet, consec tetur adipiscing elit',
+		'photo' => '/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Method_Programs_For_You.png',
+		'overlapTitle' => 'Elite',
+		'overlapSubTitle' => 'Program For You'
 	], $atts);
 
 	$output =
 		'
 		<section class="mz-section mz-sc-programs-features">
-				<div class="mz-container">
-					<div class="mz-row">
-						<div class="mz-col col-01">
-							<h3>
-								'. $attributes['title'] .'
-							</h3>
-							<h2>
-								'. $attributes['subtitle'] .'
-							</h2>
-							<p>
-								'. $attributes['description'] .'
-							</p>
-							<div class="mz-flex">
-								<img src="'. $attributes['icon'] .'">
-								<div class="mz-flex-row">
-									<h6>
-									'. $attributes['subsubTitle'] .'
-									</h6>
-									<p>
-									'. $attributes['subDescription'] .'
-									</p>
+				<div class="mz-flex-section-01">
+					<div class="mz-container">
+						<div class="mz-row">
+							<div class="mz-col col-01">
+								<h3>
+									'. $attributes['title'] .'
+								</h3>
+								<h2>
+									'. $attributes['subtitle'] .'
+								</h2>
+								<p>
+									'. $attributes['description'] .'
+								</p>
+								<div class="mz-flex">
+									<img src="'. $attributes['icon'] .'">
+									<div class="mz-flex-row">
+										<h6>
+										'. $attributes['subsubTitle'] .'
+										</h6>
+										<p>
+										'. $attributes['subDescription'] .'
+										</p>
+									</div>
 								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mz-section">
+						<img src="'. $attributes['photo'] .'">
+					</div>
+					<div class="mz-overlap">
+						<div class="mz-row">
+							<div class="mz-col col-01">
+								<h1>
+									'. $attributes['overlapTitle'] .'
+								</h1>
+								<h3>
+									'. $attributes['overlapSubTitle'] .'
+								</h3>
 							</div>
 						</div>
 					</div>

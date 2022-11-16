@@ -2,27 +2,132 @@
     z-index: 1;
     padding: 0 0 50px;
     left:0;
-    margin-top: 60px;
+    margin-top: 40px;
 
-    .mz-container {
-        position: relative;
-        z-index: 2;
-        background: $denary-color;
-        max-width: 670px;
-        width: 100%;
-        padding: 60px 140px;
-        margin-left: 0%;
-    
-        .mz-row {
-            justify-content: space-between;
+    .mz-flex-section-01 {
+        display: flex;
+        flex-direction: row;
+
+        .mz-container {
+            position: relative;
+            z-index: 2;
+            background: $denary-color;
+            max-width: 670px;
+            width: 100%;
+            max-height: 510px;
+            height: 100%;
+            padding: 80px 140px;
+            margin-left: 0%;
             align-items: center;
-            // gap: 30px 0;
-    
-            .mz-col {
-                flex-basis: 100%;
-    
-                h3 {
+            margin-top: 40px;
+            margin-right: 50px;
+        
+            .mz-row {
+                justify-content: space-between;
+                align-items: center;
+                // gap: 30px 0;
+        
+                .mz-col {
+                    flex-basis: 100%;
+        
+                    h3 {
+                    color: $tertiary-color;
+                    font-style: normal;
+                    font-size: 24px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    letter-spacing: -0.02em;
+                    line-height: 100%;
+                    margin: 0;
+                    }
+                    
+                    h2 {
+                    color: $white-color;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 36px;
+                    text-transform: uppercase;
+                    line-height: 100%;
+                    letter-spacing: -0.02em;
+                    margin-bottom: 30px;
+                    }
+
+                    p {
+                        color: $septenary-color;
+                        font-style: normal;
+                        font-size: 13px;
+                        line-height: 20px;
+                        margin-bottom: 70px;
+                    }
+                }
+
+                .mz-flex {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 20px;
+
+                    img {
+                        max-height: 100%;
+                        align-self:flex-start;
+                    }
+
+                    .mz-flex-row {
+                        flex-basis: 60%;
+
+                        h6 {
+                            color: $white-color;
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 20px;
+                            text-transform: uppercase;
+                            line-height: 100%;
+                            letter-spacing: -0.02em;
+                            margin-bottom: 10px;
+                            }
+            
+                        p {
+                            color: $septenary-color;
+                            font-style: normal;
+                            font-size: 14px;
+                            line-height: 20px;
+                            margin: 0;
+                        }
+                    }
+                }
+            }   
+        }
+
+        .mz-section {
+            align-items: flex-start;
+            padding: 0;
+        }
+
+        .mz-overlap {
+            text-align: left;
+            position: relative;
+            background-color: $nonary-color;
+            max-height: 180px;
+            max-width: 415px;
+            padding: 60px 50px;
+            margin-top: 20%;
+            z-index: 1;
+            margin-left: -250px;
+            flex-basis: 100%;
+            right:0;
+            margin-right: 0;
+
+            h1 {
                 color: $tertiary-color;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                text-transform: uppercase;
+                line-height: 100%;
+                letter-spacing: -0.02em;
+                margin-bottom: 5px;
+            }
+            h3 {
+                color: $white-color;
                 font-style: normal;
                 font-size: 24px;
                 font-weight: 700;
@@ -30,62 +135,8 @@
                 letter-spacing: -0.02em;
                 line-height: 100%;
                 margin: 0;
-                }
-                
-                h2 {
-                color: $white-color;
-                font-style: normal;
-                font-weight: 700;
-                font-size: 36px;
-                text-transform: uppercase;
-                line-height: 100%;
-                letter-spacing: -0.02em;
-                margin-bottom: 30px;
-                }
-
-                p {
-                    color: $septenary-color;
-                    font-style: normal;
-                    font-size: 13px;
-                    line-height: 20px;
-                    margin-bottom: 50px;
-                }
             }
-
-            .mz-flex {
-                display: flex;
-                flex-direction: row;
-                gap: 20px;
-
-                img {
-                    max-height: 100%;
-                    align-self:flex-start;
-                }
-
-                .mz-flex-row {
-                    flex-basis: 60%;
-
-                    h6 {
-                        color: $white-color;
-                        font-style: normal;
-                        font-weight: 700;
-                        font-size: 20px;
-                        text-transform: uppercase;
-                        line-height: 100%;
-                        letter-spacing: -0.02em;
-                        margin-bottom: 10px;
-                        }
-        
-                    p {
-                        color: $septenary-color;
-                        font-style: normal;
-                        font-size: 14px;
-                        line-height: 20px;
-                        margin: 0;
-                    }
-                }
-            }
-        }   
+        }
     }
 }
     
