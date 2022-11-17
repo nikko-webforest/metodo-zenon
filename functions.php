@@ -638,10 +638,10 @@ add_shortcode( 'mz-sc-programs-features', function ( $atts, $content = null ){
 		'title' => 'Sports',
 		'subtitle' => 'I want to maximize my sports performance',
 		'description' => 'Eos tota dicunt democritum no. Has natum gubergren ne. soleat sadipscing cu.',
-		'icon' => '/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Method_Trainings_icon.png',
+		'icon' => '/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Trainings_icon.png',
 		'subsubTitle' => 'Training',
 		'subDescription' => 'Lorem ipsum dolor sit amet, consec tetur adipiscing elit',
-		'photo' => '/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Method_Programs_For_You.png',
+		'photo' => '/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_For_You.png',
 		'overlapTitle' => 'Elite',
 		'overlapSubTitle' => 'Program For You',
 		'cardTitle' => 'Elite Program',
@@ -658,6 +658,14 @@ add_shortcode( 'mz-sc-programs-features', function ( $atts, $content = null ){
 		'program-detail-description_01' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean. Mattis nunc sed blandit libero. Feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed id semper risus in. Varius vel pharetra vel turpis nunc eget.',
 		'program-detail-title_02' => 'Program Features',
 		'program-detail-description_02' => 'Ut etiam sit amet nisl purus. Imperdiet proin fermentum leo vel orci porta non. Integer feugiat scelerisque varius morbi enim. Sed ullamcorper morbi tincidunt ornare. Habitant morbi tristique senectus et netus et malesuada fames ac.',
+		'total-checklist' => '6',
+		'check_icon' => '/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png',
+		'checklist_01' => 'Relieve pain',
+		'checklist_02' => 'Improve movement or ability',
+		'checklist_03' => 'Prevent or recover from a sports injury',
+		'checklist_04' => 'Prevent disability or surgery',
+		'checklist_05' => 'Rehab after a stroke, accident, injury, or surgery',
+		'checklist_06' => 'Work on balance to prevent a slip or fall'
 	], $atts);
 
 	$output =
@@ -726,7 +734,7 @@ add_shortcode( 'mz-sc-programs-features', function ( $atts, $content = null ){
 		$programTitle = $attributes['program-title_0'.$i];
 		$programCurriculum = $attributes['program-curriculum_0'.$i];
 		$output .=
-		'
+			'
 									<li> 
 										<div class="mz-title">
 											'. $programTitle .'
@@ -736,7 +744,7 @@ add_shortcode( 'mz-sc-programs-features', function ( $atts, $content = null ){
 										'. $programCurriculum .'
 										</div>
 									</li>
-		'
+			'
 		;
 	}
 
@@ -764,10 +772,47 @@ add_shortcode( 'mz-sc-programs-features', function ( $atts, $content = null ){
 							</p>
 						</div>
 						<div class="mz-checklist">
-							
+							<ul>
+		'
+		;
+
+	for( $i = 1; $i <= $attributes['total-checklist']; $i++ ){
+		$programChecklist = $attributes['checklist_0'.$i];
+		$output .=
+			'	
+								<li>
+								<img src="'. $attributes['check_icon'] .'">
+								'. $programChecklist .'
+								</li>
+			'
+		;
+	}
+
+	$output .=
+		'	
+							</ul>
+						</div>
+						<div class="mz-buttons">
+							<a
+								title="Start Now"
+								target=""
+								class="mz-cta mz-cta-start-now"
+								href=""
+								rel=""
+								>
+								Start Now
+							</a>
+							<a
+								title="Free Trial"
+								target=""
+								class="mz-cta mz-cta-free-trial"
+								href=""
+								rel=""
+								>
+								Free Trial
+							</a>
 						</div>
 					</div>
-					
 				</div>
 			</section>
 		'
@@ -780,6 +825,7 @@ add_shortcode( 'mz-sc-programs-features', function ( $atts, $content = null ){
 add_shortcode( 'mz-sc-testimonials-carousel', function ( $atts, $conent = null ){
 
 	$attributes = shortcode_atts([
+		'background' => '#FFFFFF',
 		'title' => 'Testimonials',
 		'subtitle' => 'People who have already got their change',
 		'carousel-autoplay' => 'false',
@@ -809,7 +855,7 @@ add_shortcode( 'mz-sc-testimonials-carousel', function ( $atts, $conent = null )
 
 	$output =
 		'
-			<section class="mz-section mz-sc-testimonials-carousel">
+			<section class="mz-section mz-sc-testimonials-carousel" style="background: '.$attributes['background'].';">
 				<div class="mz-container">
 					<div class="mz-row">
 						<div class="mz-col col-01">
