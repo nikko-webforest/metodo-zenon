@@ -684,33 +684,33 @@ add_shortcode( 'mz-sc-programs-features', function ( $atts, $content = null ){
 		<section class="mz-section mz-sc-programs-features">
 			<div class="mz-container">
 				<div class="mz-flex-section-01">
-						<div class="mz-container">
-							<div class="mz-row">
-								<div class="mz-col col-01">
-									<h3>
-										'. $attributes['title'] .'
-									</h3>
-									<h2>
-										'. $attributes['subtitle'] .'
-									</h2>
-									<p>
-										'. $attributes['description'] .'
-									</p>
-									<div class="mz-flex">
-										<img src="'. $attributes['icon'] .'">
-										<div class="mz-flex-row">
-											<h6>
-											'. $attributes['subsubTitle'] .'
-											</h6>
-											<p>
-											'. $attributes['subDescription'] .'
-											</p>
-										</div>
+					<div class="mz-container">
+						<div class="mz-row">
+							<div class="mz-col col-01">
+								<h3>
+									'. $attributes['title'] .'
+								</h3>
+								<h2>
+									'. $attributes['subtitle'] .'
+								</h2>
+								<p>
+									'. $attributes['description'] .'
+								</p>
+								<div class="mz-flex">
+									<img src="'. $attributes['icon'] .'">
+									<div class="mz-flex-row">
+										<h6>
+										'. $attributes['subsubTitle'] .'
+										</h6>
+										<p>
+										'. $attributes['subDescription'] .'
+										</p>
 									</div>
 								</div>
-							
 							</div>
 						</div>
+					</div>
+					<div class="mz-group">
 						<div class="mz-section">
 							<img src="'. $attributes['photo'] .'">
 						</div>
@@ -727,8 +727,11 @@ add_shortcode( 'mz-sc-programs-features', function ( $atts, $content = null ){
 							</div>
 						</div>
 					</div>
-					<div class="mz-flex-section-02">
-						<div class="mz-container-card">
+				</div>
+			</div>
+			<div class="mz-container">
+				<div class="mz-flex-section-02">
+					<div class="mz-container-card">
 						<div class="mz-card-title">
 							<h3>
 								'. $attributes['cardTitle'] .'
@@ -794,8 +797,8 @@ add_shortcode( 'mz-sc-programs-features', function ( $atts, $content = null ){
 		$output .=
 			'	
 								<li>
-								<img src="'. $attributes['check_icon'] .'">
-								'. $programChecklist .'
+									<img src="'. $attributes['check_icon'] .'">
+									'. $programChecklist .'
 								</li>
 			'
 		;
@@ -827,7 +830,8 @@ add_shortcode( 'mz-sc-programs-features', function ( $atts, $content = null ){
 						</div>
 					</div>
 				</div>
-			</section>
+			</div>
+		</section>
 		'
 	;
 

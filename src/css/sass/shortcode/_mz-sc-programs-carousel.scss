@@ -175,3 +175,18 @@
     }
   }
 }
+
+@media (max-width: 1180px){
+  .mz-sc-programs-carousel {
+    .mz-container {
+      max-width: 900px;
+      padding: 60px 30px;
+
+      .mz-carousel { 
+        flex-wrap: wrap;
+        gap: 30px;
+      }
+    }
+  }
+}
+
