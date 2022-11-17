@@ -12,11 +12,11 @@
             position: relative;
             z-index: 2;
             background: $denary-color;
-            max-width: 670px;
-            width: 100%;
-            max-height: 510px;
-            height: 100%;
-            padding: 80px 140px;
+            width: 670px;
+            max-width: 100%;
+            height: 510px;
+            max-height: 100%;
+            padding: 60px 120px 60px 40px;
             margin-left: 0%;
             align-items: center;
             margin-top: 40px;
@@ -29,6 +29,7 @@
         
                 .mz-col {
                     flex-basis: 100%;
+                    // padding: 0px 140px;
         
                     h3 {
                     color: $tertiary-color;
@@ -38,7 +39,7 @@
                     text-transform: uppercase;
                     letter-spacing: -0.02em;
                     line-height: 100%;
-                    margin: 0;
+                    margin-bottom: 10px;
                     }
                     
                     h2 {
@@ -47,7 +48,7 @@
                     font-weight: 700;
                     font-size: 36px;
                     text-transform: uppercase;
-                    line-height: 100%;
+                    line-height: 110%;
                     letter-spacing: -0.02em;
                     margin-bottom: 30px;
                     }
@@ -105,13 +106,14 @@
         .mz-overlap {
             text-align: left;
             position: relative;
-            background-color: $nonary-color;
+            background-image: linear-gradient($--14th-color,$nonary-color);
             max-height: 180px;
-            max-width: 415px;
-            padding: 60px 50px;
+            width: 415px;
+            max-width: 100%;
+            padding: 50px;
             margin-top: 20%;
             z-index: 1;
-            margin-left: -250px;
+            margin-left: -150px;
             flex-basis: 100%;
             right:0;
             margin-right: 0;
@@ -120,7 +122,7 @@
                 color: $tertiary-color;
                 font-style: normal;
                 font-weight: 700;
-                font-size: 36px;
+                font-size: 48px;
                 text-transform: uppercase;
                 line-height: 100%;
                 letter-spacing: -0.02em;
@@ -141,10 +143,10 @@
     }
 
     .mz-flex-section-02 {
-        padding: 100px 140px;
+        padding: 100px 0px;
         display: flex;
         flex-direction: row;
-        gap: 80px;
+        gap: 60px;
 
         .mz-container-card {
             width: 445px;
@@ -193,7 +195,7 @@
                         font-style: normal;
                         font-size: 14px;
                         padding: 10px 0px;
-                        gap:5px;
+                        gap: 5px;
                         text-transform: uppercase;
                     } 
 
@@ -207,7 +209,7 @@
                     }
 
                     .line {
-                        width: 110px;
+                        width: 130px;
                         border-bottom: 1px solid rgba(175,172,180,0.4);
                         align-self: center;
                     }
@@ -218,8 +220,7 @@
         }
 
         .mz-details {
-            width: 53%;
-            
+            width: 56%;
             margin-top: 10px;
 
             .mz-row-01 {
@@ -254,7 +255,7 @@
                     columns: 2;
                     -webkit-columns: 2;
                     -moz-columns: 2;
-                    column-gap: 0px;
+                    column-gap: 0;
 
                     li {
                         color: $senary-color;
@@ -279,7 +280,7 @@
                 .mz-cta.mz-cta-start-now {
                     color: $white-color;
                     background-image: linear-gradient($--14th-color,$nonary-color);
-                    border-color: none;
+                    border: none;
                     width: 175px;
     
                     &:hover {
@@ -303,18 +304,99 @@
 }
     
 .theme-dark {
-
-}
-
-@media (max-width: 1180px){
     .mz-sc-programs-features {
         .mz-flex-section-01 {
             .mz-container {
-                scale: 1.2em;
+                background-color: $--19th-color;
+            }
+        }
+        .mz-flex-section-02 {
+            .mz-container-card {
+                .mz-card-body {
+                    background-color: $--19th-color;   
+
+                    p {
+                        color: $white-color;
+                    }
+    
+                    .mz-program-curriculum {
+    
+                        .mz-title {
+                            color: $white-color;
+                            font-weight: 700;
+                        } 
+                        .mz-curriculum {
+                            color: $septenary-color;
+                            font-weight: 800;
+                        }
+    
+                        .line {
+                            border-bottom: 1px solid rgba(175,172,180,0.4);
+                            align-self: center;
+                        }
+                    }
+                }
+            }
+
+            .mz-details {
+                h6 {
+                    color: $white-color;
+                }
+    
+                p {
+                    color: $septenary-color;
+                }
+    
+                .mz-checklist{
+                    ul {
+                        columns: 2;
+                        -webkit-columns: 2;
+                        -moz-columns: 2;
+                        column-gap: 0;
+    
+                        li {
+                            color: $septenary-color;   
+                        }
+                    }
+                }
+    
+                .mz-buttons {
+                    margin-top: 75px;
+                    display: flex;
+                    gap: 20px;
+    
+                    // .mz-cta.mz-cta-start-now {
+                    //     color: $white-color;
+                    //     background-image: linear-gradient($--14th-color,$nonary-color);
+                    //     border-color: none;
+                    //     width: 175px;
+        
+                    //     &:hover {
+                    //         color: $white-color;
+                    //         background-image: linear-gradient($nonary-color,$primary-color);
+                    //     }
+                    // }
+
+                    .mz-cta.mz-cta-free-trial {
+                        color: $white-color;
+                        border-color: $white-color;
+            
+                        &:hover {
+                            color: $black-color;
+                            background: $white-color;
+                        }
+                    }
+                    
+                }
             }
         }
     }
 }
+
+@media (min-width: 1180px){
+    
+}
+
     
 @media (max-width: 768px){
 

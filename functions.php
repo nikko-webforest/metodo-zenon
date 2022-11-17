@@ -592,42 +592,53 @@ add_shortcode( 'mz-sc-programs-carousel', function ( $atts, $content = null ){
 	$attributes = shortcode_atts([
 		'carousel-autoplay' => 'false',
 		'carousel-current-slide' => '1',
-		'carousel-total-slide' => '5',
-		'program-title_01' => 'I want to maximize my sports performance',
+		'carousel-total-slide' => '4',
+		'program-title_01' => 'Lorem ipsum dolor sit amet consectetur adipiscing elit',
 		'program-title_02' => 'Lorem ipsum dolor sit amet consectetur adipiscing elit',
 		'program-title_03' => 'Lorem ipsum dolor sit amet consectetur adipiscing elit',
 		'program-title_04' => 'Lorem ipsum dolor sit amet consectetur adipiscing elit',
 		'program-title_05' => 'Lorem ipsum dolor sit amet consectetur adipiscing elit',
 	], $atts);
+	
+	$output =
+		'
+		<section class="mz-section mz-sc-programs-carousel">
+			<div class="mz-container">
+				<div class="mz-carousel" id="featured-programs">
+		'
+	;
 
 	for( $i = 1; $i <= $attributes['carousel-total-slide']; $i++ ){
 		$programTitle = $attributes['program-title_0'.$i];
-		$testimonialImg = 'testimonial-img_0'.$i;
-		$output =
+		$output .=
 			'
-			<section class="mz-section mz-sc-programs-carousel">
-				<div class="mz-carousel" id="featured-programs">
 					<div class="program-item slide">
 						<div class="program-summary card">
 							<div class="program-info">
-								<h6 class="program-topic webdesign"> 01 </h6>
+								<h6 class="program-number webdesign"> 0'.$i.' </h6>
 								<h5 class="program-title"> 
 								'. $attributes['program-title_0'.$i] .'
 								</h5>
-								<hr>
+								<div class="line"></div>
 								<div class="program-meta">
 									LEARN MORE
 								</div>
 							</div>
 						</div> 
 					</div>
-				</div>
-			</section>
-			'
+		'
 		;
 	}
 
+	$output .= 
+		'
+				</div>
+			</div>
+		</section>
+		'
+	;
 
+	
 	return $output;
 
 });
@@ -648,12 +659,12 @@ add_shortcode( 'mz-sc-programs-features', function ( $atts, $content = null ){
 		'cardDescription' => 'Focused on people with experience in training, with an acceptable-good physical condition who want to increase their performance in a more specific way. Objective to gain strength and muscle at levels above the population average.
 		<br/><br/> Focused on people with experience in training, with an acceptable-good physical condition who want to increase their performance in a more specific way.',
 		'total-programs' => '3',
-		'program-title_01' => 'Program 1',
-		'program-curriculum_01' => 'Physio Curriculum 1',
-		'program-title_02' => 'Program 2',
-		'program-curriculum_02' => 'Physio Curriculum 2',
-		'program-title_03' => 'Program 3',
-		'program-curriculum_03' => 'Physio Curriculum 3',
+		'program-title_01' => 'Program',
+		'program-curriculum_01' => 'Physio Curriculum',
+		'program-title_02' => 'Program',
+		'program-curriculum_02' => 'Physio Curriculum',
+		'program-title_03' => 'Program',
+		'program-curriculum_03' => 'Physio Curriculum',
 		'program-detail-title_01' => 'Competitive Advantages',
 		'program-detail-description_01' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean. Mattis nunc sed blandit libero. Feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed id semper risus in. Varius vel pharetra vel turpis nunc eget.',
 		'program-detail-title_02' => 'Program Features',
@@ -671,51 +682,53 @@ add_shortcode( 'mz-sc-programs-features', function ( $atts, $content = null ){
 	$output =
 		'
 		<section class="mz-section mz-sc-programs-features">
+			<div class="mz-container">
 				<div class="mz-flex-section-01">
-					<div class="mz-container">
-						<div class="mz-row">
-							<div class="mz-col col-01">
-								<h3>
-									'. $attributes['title'] .'
-								</h3>
-								<h2>
-									'. $attributes['subtitle'] .'
-								</h2>
-								<p>
-									'. $attributes['description'] .'
-								</p>
-								<div class="mz-flex">
-									<img src="'. $attributes['icon'] .'">
-									<div class="mz-flex-row">
-										<h6>
-										'. $attributes['subsubTitle'] .'
-										</h6>
-										<p>
-										'. $attributes['subDescription'] .'
-										</p>
+						<div class="mz-container">
+							<div class="mz-row">
+								<div class="mz-col col-01">
+									<h3>
+										'. $attributes['title'] .'
+									</h3>
+									<h2>
+										'. $attributes['subtitle'] .'
+									</h2>
+									<p>
+										'. $attributes['description'] .'
+									</p>
+									<div class="mz-flex">
+										<img src="'. $attributes['icon'] .'">
+										<div class="mz-flex-row">
+											<h6>
+											'. $attributes['subsubTitle'] .'
+											</h6>
+											<p>
+											'. $attributes['subDescription'] .'
+											</p>
+										</div>
 									</div>
+								</div>
+							
+							</div>
+						</div>
+						<div class="mz-section">
+							<img src="'. $attributes['photo'] .'">
+						</div>
+						<div class="mz-overlap">
+							<div class="mz-row">
+								<div class="mz-col col-01">
+									<h1>
+										'. $attributes['overlapTitle'] .'
+									</h1>
+									<h3>
+										'. $attributes['overlapSubTitle'] .'
+									</h3>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="mz-section">
-						<img src="'. $attributes['photo'] .'">
-					</div>
-					<div class="mz-overlap">
-						<div class="mz-row">
-							<div class="mz-col col-01">
-								<h1>
-									'. $attributes['overlapTitle'] .'
-								</h1>
-								<h3>
-									'. $attributes['overlapSubTitle'] .'
-								</h3>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="mz-flex-section-02">
-					<div class="mz-container-card">
+					<div class="mz-flex-section-02">
+						<div class="mz-container-card">
 						<div class="mz-card-title">
 							<h3>
 								'. $attributes['cardTitle'] .'
