@@ -1,5 +1,6 @@
 .mz-sc-recent-articles {
-  background: linear-gradient(90deg, $--11th-color 0%, $--12th-color 75.26%, $--13th-color 100%);
+  background:
+    linear-gradient( 90deg, $--11th-color 0%, $--12th-color 75.26%, $--13th-color 100% );
   padding: 120px 30px 100px;
   
   .mz-container {
@@ -40,10 +41,10 @@
 
         .mz-col {
           flex-basis: 320px;
-          background: $white-color;
+          background-color: $white-color;
 
           .mz-recent-article-img-wrap {
-            background: $--18th-color;
+            background-color: $--18th-color;
             overflow: hidden;
 
             .mz-recent-article-img {
@@ -153,7 +154,7 @@
 
 .theme-dark {
   .mz-sc-recent-articles {
-    background: $denary-color;
+    background-color: $denary-color;
 
     .mz-container {
       .mz-row {
@@ -168,14 +169,14 @@
 
             &:hover {
               color: $black-color;
-              background: $white-color;
+              background-color: $white-color;
             }
           }
         }
 
         &.mz-recent-articles-row {
           .mz-col {
-            background: $--19th-color;
+            background-color: $--19th-color;
 
             .mz-recent-article-title {
               color: $white-color;

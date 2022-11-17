@@ -3,7 +3,7 @@
   top: 0;
   z-index: 11;
   display: block;
-  background: $white-color;
+  background-color: $white-color;
   box-shadow: 0px 3px 3px 0 rgba(0, 0, 0, 0.08);
   // filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.08));
   min-width: 320px;
@@ -26,10 +26,11 @@
       .mz-header-logo-link {
         display: inline-flex;
         align-items: center;
-        background-size: contain;
+        background-image:
+          url('/wp-content/themes/metodo-zenon/images/MZ_Logo_Light.png');
         background-position: center;
         background-repeat: no-repeat;
-        background-image: url(/wp-content/themes/metodo-zenon/images/MZ_Logo_Light.png);
+        background-size: contain;
         width: 100%;
         height: 100%;
 
@@ -43,7 +44,7 @@
 
     .mz-header-hamburger-btn {
       display: none;
-      background: transparent;
+      background-color: transparent;
       max-width: 100px;
       width: 100%;
       height: 100%;
@@ -59,7 +60,7 @@
           position: absolute;
           left: 0;
           display: block;
-          background: $nonary-color;
+          background-color: $nonary-color;
           height: 4px;
           transition: $hover-transition-duration ease-in-out;
 
@@ -140,9 +141,7 @@
             position: absolute;
             left: 0;
             z-index: 99;
-            // display: none;
-            // background-image: linear-gradient(180deg, rgba(30,30,30,.25) 0, $denary-bg-color 1%, $denary-bg-color 100%);
-            background: $--16th-color;
+            background-color: $--16th-color;
             box-shadow: inset 0px 0px 16px 0px rgb(0 0 0 / 20%);
             opacity: 0;
             visibility: hidden;
@@ -178,13 +177,12 @@
                 gap: 30px;
 
                 .mz-mega-menu-item {
-                  background: $white-color;
+                  background-color: $white-color;
                   flex-basis: 170px;
 
                   .mz-mega-menu-link {
                     position: relative;
                     display: block;
-                    // box-shadow: 0 4px 8px 0 rgb(0 0 0 / 8%);
                     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.08);
                     height: 100%;
 
@@ -226,8 +224,8 @@
                       opacity: 0.9;
 
                       .mz-mega-menu-img {
-                        background: rgb(124 75 49 / 30%);
                         background-blend-mode: multiply;
+                        background-color: rgb(124 75 49 / 30%);
                         transition: $hover-transition-duration ease-in-out;
                       }
 
@@ -320,7 +318,7 @@
             position: absolute;
             left: 0;
             z-index: 99;
-            background: $--16th-color;
+            background-color: $--16th-color;
             box-shadow: inset 0px 0px 16px 0px rgb(0 0 0 / 20%);
             opacity: 0;
             visibility: hidden;
@@ -373,7 +371,7 @@
 
                     > a {
                       position: relative;
-                      background: $white-color;
+                      background-color: $white-color;
                       box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
                       width: 100%;
                       height: 265px;
@@ -385,7 +383,7 @@
                         left: 0;
                         z-index: 1;
                         display: block;
-                        background: transparent;
+                        background-color: transparent;
                         width: 100%;
                         height: 100%;
                         transition: $hover-transition-duration ease-in-out;
@@ -432,7 +430,7 @@
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        background: $--14th-color;
+                        background-color: $--14th-color;
                         width: calc(100% - 40px);
                         height: 0;
                         padding: 3px 20px;
@@ -446,7 +444,7 @@
                     &:hover {
                       > a {
                         &::before {
-                          background: rgba(124, 75, 49, 0.3);
+                          background-color: rgba(124, 75, 49, 0.3);
                         }
 
                         &::after {
@@ -527,7 +525,7 @@
 
         &:hover {
           color: $white-color;
-          background: $nonary-color;
+          background-color: $nonary-color;
         }
       }
 
@@ -545,7 +543,7 @@
 
           &:hover {
             color: $white-color;
-            background: $nonary-color;
+            background-color: $nonary-color;
           }
         }
       }
@@ -555,12 +553,13 @@
 
 .theme-dark {
   .mz-header {
-    background: $black-color;
+    background-color: $black-color;
 
     .mz-wrap {
       .mz-header-logo {
         .mz-header-logo-link {
-          background-image: url(/wp-content/themes/metodo-zenon/images/MZ_Logo_Dark.png);
+          background-image:
+            url('/wp-content/themes/metodo-zenon/images/MZ_Logo_Dark.png');
         }
       }
 
@@ -581,7 +580,7 @@
           }
 
           .sub-menu {
-            background: $black-color;
+            background-color: $black-color;
 
             .menu-item {
               &.mz-mega-menu-title {
@@ -608,7 +607,7 @@
 
             &:hover {
               color: $black-color;
-              background: $white-color;
+              background-color: $white-color;
             }
           }
         }
@@ -702,7 +701,7 @@
         position: absolute;
         top: 90px;
         display: block;
-        background: rgba(73, 35, 12, 0.95);
+        background-color: rgba(73, 35, 12, 0.95);
         height: 0;
         overflow: hidden;
         transition:
@@ -742,7 +741,7 @@
           &.mz-header-cta {
             .mz-cta {
               color: $primary-color;
-              background: $white-color;
+              background-color: $white-color;
               border-color: $white-color;
               padding: 15px 25px;
             }
@@ -766,7 +765,7 @@
         top: 90px;
         z-index: 99;
         display: block;
-        background: rgba(73,35,12,.95);
+        background-color: rgba(73,35,12,.95);
         opacity: 0;
         visibility: hidden;
         height: 0;
@@ -805,13 +804,13 @@
               color: $primary-color;
               text-align: center;
               display: block;
-              background: $white-color;
+              background-color: $white-color;
               border-width: 1px;
               border-color: $white-color;
 
               &:hover {
                 color: $white-color;
-                background: transparent;
+                background-color: transparent;
               }
             }
           }

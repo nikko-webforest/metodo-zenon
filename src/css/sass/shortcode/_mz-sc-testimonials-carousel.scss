@@ -1,12 +1,12 @@
 .mz-sc-testimonials-carousel {
   z-index: 1;
-  background: $denary-color;
+  background-color: $denary-color;
   padding: 0 0 50px;
 
   .mz-container {
     position: relative;
     z-index: 2;
-    background: $nonary-color;
+    background-color: $nonary-color;
     max-width: 1140px;
     width: 100%;
     padding: 60px 80px;
@@ -61,7 +61,7 @@
 
                     .mz-inner-col {
                       &.col-01 {
-                        background: $white-color;
+                        background-color: $white-color;
                         flex-basis: 60px;
                         height: 60px;
 
@@ -153,7 +153,7 @@
 
             .mz-carousel-btn {
               display: block;
-              background: transparent;
+              background-color: transparent;
               opacity: 0.5;
               border: none;
 
@@ -181,7 +181,8 @@
     bottom: 0;
     z-index: 1;
     display: block;
-    background: linear-gradient(90deg, $--11th-color 0%, $--12th-color 75.26%, $--13th-color 100%);
+    background:
+      linear-gradient( 90deg, $--11th-color 0%, $--12th-color 75.26%, $--13th-color 100% );
     width: 100%;
     height: calc(50% + 25px);
   }
@@ -189,14 +190,15 @@
 
 .theme-dark {
   .mz-sc-testimonials-carousel {
-    background: $black-color;
+    background-color: $black-color;
 
     .mz-container {
-      background-image: linear-gradient(180deg, $--14th-color 0%, $nonary-color 100%);
+      background:
+        linear-gradient( 180deg, $--14th-color 0%, $nonary-color 100% );
     }
 
     &::after {
-      background: $denary-color;
+      background-color: $denary-color;
     }
   }
 }
