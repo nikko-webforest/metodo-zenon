@@ -492,153 +492,42 @@ add_shortcode( 'mz-sc-about-zenon-carousel', function ( $atts, $content = null )
 
 });
 
-add_shortcode( 'mz-sc-carousel', function ( $atts, $content = null ){
+add_shortcode( 'mz-sc-coaches-carousel', function ( $atts, $content = null ){
 
 	$attributes = shortcode_atts([
-		'title' => 'Lorem Ipsum',
-		'subtitle' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-		'carousel-autoplay' => 'false',
-		'carousel-current-slide' => '',
-    'carousel-total-slide'   => '5',
-		'carousel-cell-img_01'   => '/wp-content/themes/metodo-zenon/images/mz-zenon-family-section/carousel-cell/MZ_Coach-Anna.png',
-		'carousel-cell-title_01' => 'Coach Anna',
-		'carousel-cell-desc_01'  => 'Eos tota dicunt democritum no. Has natum gubergren ne. Est viris soleat sadipscing cu. Legere epicuri insolens eu nec, dicit virtute urbanitas id nam.',
-		'carousel-cell-img_02'   => '/wp-content/themes/metodo-zenon/images/mz-zenon-family-section/carousel-cell/MZ_Coach-Anna.png',
-		'carousel-cell-title_02' => 'Coach Anna',
-		'carousel-cell-desc_02'  => 'Eos tota dicunt democritum no. Has natum gubergren ne. Est viris soleat sadipscing cu. Legere epicuri insolens eu nec, dicit virtute urbanitas id nam.',
-		'carousel-cell-img_03'   => '/wp-content/themes/metodo-zenon/images/mz-zenon-family-section/carousel-cell/MZ_Coach-Anna.png',
-		'carousel-cell-title_03' => 'Coach Anna',
-		'carousel-cell-desc_03'  => 'Eos tota dicunt democritum no. Has natum gubergren ne. Est viris soleat sadipscing cu. Legere epicuri insolens eu nec, dicit virtute urbanitas id nam.',
-		'carousel-cell-img_04'   => '/wp-content/themes/metodo-zenon/images/mz-zenon-family-section/carousel-cell/MZ_Coach-Anna.png',
-		'carousel-cell-title_04' => 'Coach Anna',
-		'carousel-cell-desc_04'  => 'Eos tota dicunt democritum no. Has natum gubergren ne. Est viris soleat sadipscing cu. Legere epicuri insolens eu nec, dicit virtute urbanitas id nam.',
-		'carousel-cell-img_05'   => '/wp-content/themes/metodo-zenon/images/mz-zenon-family-section/carousel-cell/MZ_Coach-Anna.png',
-		'carousel-cell-title_05' => 'Coach Anna',
-		'carousel-cell-desc_05'  => 'Eos tota dicunt democritum no. Has natum gubergren ne. Est viris soleat sadipscing cu. Legere epicuri insolens eu nec, dicit virtute urbanitas id nam.'
+		'title' => 'Lorem Ipsum'
 	], $atts);
 
-	$output =
-		'
-			<section class="mz-section mz-sc-carousel">
-				<div class="mz-container">
-					<h3>
-						'. $attributes['title'] .'
-					</h3>
-					<h2>
-						'. $attributes['subtitle'] .'
-					</h2>
-				  <div class="mz-carousel-main" data-carousel-autoplay="'. $attributes['carousel-autoplay'] .'">
-		'
-  ;
+	ob_start();
+	get_template_part( 'template-parts/sections/mz-sc-coaches-carousel', array(
+		'attributes' => $attributes
+	));
 
-	for( $i = 1; $i <= $attributes['carousel-total-slide']; $i++ ){
-		$carouselCellImg = 'carousel-cell-img_0'.$i;
-		$carouselCellTitle = 'carousel-cell-title_0'.$i;
-		$carouselCellDesc = 'carousel-cell-desc_0'.$i;
-		$output .=
-			'
-				<div class="mz-carousel-cell">
-					<div class="mz-carousel-cell-img">
-						<img
-							alt=""
-							title=""
-							class="mz-img"
-							src="'. $attributes[$carouselCellImg] .'"
-							width=""
-							height=""
-						/>
-					</div>
-					<div class="mz-carousel-cell-title">
-						'. $attributes[$carouselCellTitle] .'
-					</div>
-					<div class="mz-carousel-cell-desc">
-						'. $attributes[$carouselCellDesc] .'
-					</div>
-				</div>
-			'
-    ;
-	}
+	$output = ob_get_contents();
+	ob_end_clean();
 
-	$output .=
-		'
-          </div>
-				</div>
-			</section>
-		'
-  ;
+	wp_reset_postdata();
 
 	return $output;
 
 });
 
-function getTestimonialRating ($testimonialRating){
-
-	$testimonialRatingStar = '';
-
-	for( $a = 1; $a <= 5; $a++ ){
-		if( $a <= $testimonialRating ){
-			$testimonialRatingStar .= '<li><i class="fa fa-star active"></i></li>';
-		} else {
-			$testimonialRatingStar .= '<li><i class="fa fa-star"></i></li>';
-		}
-	}
-
-	return $testimonialRatingStar;
-
-}
-
-add_shortcode( 'mz-sc-programs-carousel', function ( $atts, $content = null ){
+add_shortcode( 'mz-sc-testimonials-carousel', function ( $atts, $conent = null ){
 
 	$attributes = shortcode_atts([
-		'carousel-autoplay' => 'false',
-		'carousel-current-slide' => '1',
-		'carousel-total-slide' => '4',
-		'program-title_01' => 'Lorem ipsum dolor sit amet consectetur adipiscing elit',
-		'program-title_02' => 'Lorem ipsum dolor sit amet consectetur adipiscing elit',
-		'program-title_03' => 'Lorem ipsum dolor sit amet consectetur adipiscing elit',
-		'program-title_04' => 'Lorem ipsum dolor sit amet consectetur adipiscing elit',
-		'program-title_05' => 'Lorem ipsum dolor sit amet consectetur adipiscing elit',
+		'title' => 'Lorem Ipsum'
 	], $atts);
-	
-	$output =
-		'
-		<section class="mz-section mz-sc-programs-carousel">
-			<div class="mz-container">
-				<div class="mz-carousel" id="featured-programs">
-		'
-	;
 
-	for( $i = 1; $i <= $attributes['carousel-total-slide']; $i++ ){
-		$programTitle = $attributes['program-title_0'.$i];
-		$output .=
-			'
-					<div class="program-item slide">
-						<div class="program-summary card">
-							<div class="program-info">
-								<h6 class="program-number webdesign"> 0'.$i.' </h6>
-								<h5 class="program-title"> 
-								'. $attributes['program-title_0'.$i] .'
-								</h5>
-								<div class="line"></div>
-								<div class="program-meta">
-									LEARN MORE
-								</div>
-							</div>
-						</div> 
-					</div>
-		'
-		;
-	}
+	ob_start();
+	get_template_part( 'template-parts/sections/mz-sc-testimonials-carousel', array(
+		'attributes' => $attributes
+	));
 
-	$output .= 
-		'
-				</div>
-			</div>
-		</section>
-		'
-	;
+	$output = ob_get_contents();
+	ob_end_clean();
 
-	
+	wp_reset_postdata();
+
 	return $output;
 
 });
@@ -835,123 +724,6 @@ add_shortcode( 'mz-sc-programs-features', function ( $atts, $content = null ){
 
 });
 
-add_shortcode( 'mz-sc-testimonials-carousel', function ( $atts, $conent = null ){
-
-	$attributes = shortcode_atts([
-		'background' => '#FFFFFF',
-		'title' => 'Testimonials',
-		'subtitle' => 'People who have already got their change',
-		'carousel-autoplay' => 'false',
-		'carousel-total-slide' => '5',
-		'carousel-current-slide' => '1',
-		'testimonial-rating_01' => '5',
-		'testimonial-img_01' => '',
-		'testimonial-name_01' => 'John Doe',
-		'testimonial-quote_01' => 'Eos tota dicunt democritum no. Has natum gubergren ne. Est viris soleat sadipscing cu. Legere epicuri insolens eu nec, dicit virtute urbanitas id nam, qui in habeo semper eligendi.',
-		'testimonial-rating_02' => '4',
-		'testimonial-img_02' => '',
-		'testimonial-name_02' => 'John Doe',
-		'testimonial-quote_02' => 'Eos tota dicunt democritum no. Has natum gubergren ne. Est viris soleat sadipscing cu. Legere epicuri insolens eu nec, dicit virtute urbanitas id nam, qui in habeo semper eligendi.',
-		'testimonial-rating_03' => '3',
-		'testimonial-img_03' => '',
-		'testimonial-name_03' => 'John Doe',
-		'testimonial-quote_03' => 'Eos tota dicunt democritum no. Has natum gubergren ne. Est viris soleat sadipscing cu. Legere epicuri insolens eu nec, dicit virtute urbanitas id nam, qui in habeo semper eligendi.',
-		'testimonial-rating_04' => '2',
-		'testimonial-img_04' => '',
-		'testimonial-name_04' => 'John Doe',
-		'testimonial-quote_04' => 'Eos tota dicunt democritum no. Has natum gubergren ne. Est viris soleat sadipscing cu. Legere epicuri insolens eu nec, dicit virtute urbanitas id nam, qui in habeo semper eligendi.',	
-		'testimonial-rating_05' => '1',
-		'testimonial-img_05' => '',
-		'testimonial-name_05' => 'John Doe',
-		'testimonial-quote_05' => 'Eos tota dicunt democritum no. Has natum gubergren ne. Est viris soleat sadipscing cu. Legere epicuri insolens eu nec, dicit virtute urbanitas id nam, qui in habeo semper eligendi.'
-	], $atts);
-
-	$output =
-		'
-			<section class="mz-section mz-sc-testimonials-carousel" style="background: '.$attributes['background'].';">
-				<div class="mz-container">
-					<div class="mz-row">
-						<div class="mz-col col-01">
-							<h3>
-								'. $attributes['title'] .'
-							</h3>
-							<h2>
-								'. $attributes['subtitle'] .'
-							</h2>
-						</div>
-						<div class="mz-col col-02">
-							<div class="mz-carousel-main" data-current-slide="'. $attributes['carousel-current-slide'] .'" data-carousel-autoplay="'. $attributes['carousel-autoplay'] .'">
-		'
-	;
-
-	for( $i = 1; $i <= $attributes['carousel-total-slide']; $i++ ){
-		$testimonialRating = $attributes['testimonial-rating_0'.$i];
-		$testimonialRatingStar = getTestimonialRating($testimonialRating);
-		$testimonialImg = 'testimonial-img_0'.$i;
-		$testimonialName = 'testimonial-name_0'.$i;
-		$testimonialQuote = 'testimonial-quote_0'.$i;
-		$output .=
-			'
-				<div class="mz-carousel-cell">
-					<div class="mz-inner-row">
-						<div class="mz-inner-col col-01">
-							<img
-								alt=""
-								title=""
-								class="mz-img testimony-profile-img"
-								src="'. $attributes[$testimonialImg] .'"
-								width=""
-								height=""
-							/>
-						</div>
-						<div class="mz-inner-col col-02">
-							<p class="testimony-name">
-								'. $attributes[$testimonialName] .'
-							</p>
-							<ul>
-								'. $testimonialRatingStar .'
-							</ul>
-						</div>
-					</div>
-					<p class="testimony-quotes">
-						'. $attributes[$testimonialQuote] .' 
-					</p>
-				</div>
-			'
-		;
-	}
-
-	$output .=
-		'
-							</div>
-						</div>
-						<div class="mz-col col-03">
-							<div class="mz-carousel-slide-count">
-								<span class="mz-carousel-counter-slide"></span>/<span class="mz-carousel-total-slide">0'. $attributes['carousel-total-slide'] .'</span>
-							</div>
-							<div class="mz-carousel-btn-wrap">
-								<button class="mz-carousel-btn mz-carousel-prev-btn">
-									<svg width="35" height="14" viewBox="0 0 35 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M8.27094 2L3.00062 7.2703L8.27094 12.5406M3.6339 7.2708H34.9492" stroke="white" stroke-width="3"/>
-									</svg>
-								</button>
-								<button class="mz-carousel-btn mz-carousel-next-btn">
-									<svg width="35" height="14" viewBox="0 0 35 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M26.6783 2L31.9486 7.2703L26.6783 12.5406M31.3153 7.2708H0" stroke="white" stroke-width="3"/>
-									</svg>
-								</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-		'
-	;
-
-	return $output;
-
-});
-
 add_shortcode( 'mz-sc-recent-articles', function ( $atts, $conent = null ){
 
 	$attributes = shortcode_atts([
@@ -1044,202 +816,6 @@ add_shortcode( 'mz-sc-recent-articles', function ( $atts, $conent = null ){
 			</section>
 		'
   ;
-
-	return $output;
-
-});
-
-add_shortcode( 'mz-sc-blog-post-listing', function ( $atts, $content = null ){
-
-	$attributes = shortcode_atts([
-    
-	], $atts);
-
-	$output;
-
-	$categories = get_categories(
-		array(
-			'orderby'    => 'count',
-			'order'      => 'DESC',
-			'show_count' => '1',
-			'title_li'   => '',
-			'number'     => 4,
-		)
-	);
-
-	$output .=
-		'
-			<section class="mz-section mz-sc-blog-post-listing">
-				<div class="mz-container">
-					<div class="mz-row mz-top-bar-row">
-						<ul class="mz-category-tab-filter-list">
-							<li class="mz-category-tab-filter-item --active-item"><span>All</span></li>
-		'
-	;
-
-	foreach( $categories as $category ){
-		$output .=
-			'<li class="mz-category-tab-filter-item"><span>'. $category->name .'</span></li>'
-		;
-	}
-
-	$output .=
-		'
-				</ul>
-				<div class="mz-search-bar-filter">
-					<input type="text" class="mz-search-bar-input" id="mzSearchBarInput" placeholder="Search">
-					<svg class="mz-search-bar-icon" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M7.26918 0C3.25452 0 0 3.25452 0 7.26918C0 11.2839 3.25452 14.5384 7.26918 14.5384C8.96533 14.5384 10.5251 13.9575 11.7615 12.9848L16.5232 17.7465C16.6036 17.8269 16.699 17.8906 16.804 17.9341C16.909 17.9776 17.0215 18 17.1352 18C17.2489 18 17.3614 17.9776 17.4664 17.9341C17.5714 17.8906 17.6668 17.8269 17.7472 17.7465C17.8276 17.6661 17.8913 17.5707 17.9348 17.4657C17.9783 17.3607 18.0007 17.2482 18.0007 17.1345C18.0007 17.0208 17.9783 16.9083 17.9348 16.8033C17.8913 16.6983 17.8276 16.6029 17.7472 16.5225L12.9848 11.7608C13.9935 10.4812 14.5409 8.89859 14.5384 7.26918C14.5384 3.25452 11.2839 0 7.26918 0ZM1.73076 7.26918C1.73076 5.8003 2.31427 4.39158 3.35293 3.35293C4.39158 2.31427 5.8003 1.73076 7.26918 1.73076C8.73807 1.73076 10.1468 2.31427 11.1854 3.35293C12.2241 4.39158 12.8076 5.8003 12.8076 7.26918C12.8076 8.73807 12.2241 10.1468 11.1854 11.1854C10.1468 12.2241 8.73807 12.8076 7.26918 12.8076C5.8003 12.8076 4.39158 12.2241 3.35293 11.1854C2.31427 10.1468 1.73076 8.73807 1.73076 7.26918Z" fill="#AFACB4"/>
-					</svg>
-				</div>
-			</div>
-		'
-	;
-
-	$ourCurrentPage = get_query_var('paged');
-	$allPosts = new WP_Query(array(
-		'posts_per_page' => 6,
-		'paged'          => $ourCurrentPage
-	));
-
-	if( $allPosts->have_posts() ) :
-
-		$output .= '<div class="mz-blog-post-list">';
-
-		while( $allPosts->have_posts() ) :
-      
-			$allPosts->the_post();
-
-			$output .=
-				'
-					<div
-						class="mz-blog-post-item"
-						id="post-'. get_the_ID() .'"
-            >
-				'
-			;
-
-			$categorys = get_the_category();
-      $postCategorysList = '';
-			$i = 1;
-
-			foreach( $categorys as $category ){
-				if( $i == count($categorys) ){
-          $postCategorysList .= $category->cat_name;
-				} else {
-          $postCategorysList .= $category->cat_name.', ';
-				}
-				$i++;
-			}
-
-			$tags = get_the_tags();
-      $postTagsList = '';
-			$j = 1;
-
-      if( is_array($tags) || is_object($tags) ){
-        foreach( $tags as $tag ){
-          if( $j == count($tags) ){
-            $postTagsList .= $tag->name;
-          } else {
-            $postTagsList .= $tag->name.', ';
-          }
-          $j++;
-        }
-      }
-
-      $postImgSrc = '';
-      if( has_post_thumbnail() ){
-        $postImgSrc = get_the_post_thumbnail_url();
-      } else {
-        $postImgSrc = '/wp-content/themes/metodo-zenon/images/MZ_Blog_Temp_Article_Featured_img-320x215.png';
-      }
-
-      $postTitle = get_the_title();
-      $postLink = get_the_permalink();
-      $postExcerpt = get_the_excerpt();
-      $postDate = get_the_date('M d, Y');
-
-			$output .=
-				'
-						<div class="mz-blog-post-img-wrap">
-							<a
-								title="'. $postTitle .'"
-								target=""
-								class="mz-img-link mz-blog-post-img-link"
-								href="'. $postLink .'"
-								rel=""
-								>
-								<img
-									alt="'. $postTitle .'"
-									title="'. $postTitle .'"
-									class="mz-img mz-blog-post-img"
-									src="'. $postImgSrc .'"
-									width=""
-									height=""
-								/>
-							</a>
-						</div>
-						<div class="mz-blog-post-details-wrap">
-							<h3 class="mz-blog-post-title">
-								'. $postTitle .'
-							</h3>
-							<p class="mz-blog-post-excerpt">
-								'. 
-                  // get_the_content()
-                  // get_the_excerpt()
-                  $postExcerpt
-                .'
-							</p>
-              <div class="mz-blog-post-categories">
-                '. $postCategorysList .'
-              </div>
-              <div class="mz-blog-post-tags">
-                '. $postTagsList .'
-              </div>
-							<div class="mz-inner-row">
-								<div class="mz-blog-post-released-date">
-									'. $postDate .'
-								</div>
-								<a
-									title="'. $postTitle .'"
-									target="_blank"
-									class="mz-a-link mz-link-more-info"
-									href="'. $postLink .'"
-									rel=""
-									>
-									<span>More Info</span>
-                  <span>
-                    <svg width="35" height="13" viewBox="0 0 35 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M26.9048 1.3457L32.1752 6.616L26.9048 11.8863M31.5419 6.6165H0.226562" stroke="#6F4A37" stroke-width="3"></path>
-                    </svg>
-                  </span>
-								</a>
-							</div>
-						</div>
-					</div>
-				'
-			;
-
-		endwhile;
-
-		$output .=
-			'
-						</div>
-						<div class="mz-pagination">
-							'.
-								paginate_links(array(
-									'total' => $allPosts->max_num_pages,
-									'prev_text' => '<svg width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 12L5.06 7.061L10 2.122L7.878 0L0.818 7.061L7.878 14.122L10 12Z" fill="white"/></svg>',
-									'next_text' => '<svg width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.818359 12L5.75836 7.061L0.818359 2.122L2.94036 0L10.0004 7.061L2.94036 14.122L0.818359 12Z" fill="white"/></svg>'
-								))
-							.'
-						</div>
-					</div>
-				</section>
-			'
-		;
-
-	endif;
 
 	return $output;
 

@@ -4,6 +4,15 @@
   height: 100vh;
   padding: 150px 30px 100px;
 
+  @media only screen and (max-width: 1180px) {
+    height: auto;
+    padding: 210px 30px 100px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    padding: 140px 30px 100px;
+  }
+
   .mz-container {
     max-width: 950px;
 
@@ -32,6 +41,21 @@
         -webkit-text-fill-color: transparent;
         text-fill-color: transparent;
         cursor: pointer;
+
+        @media only screen and (max-width: 1180px) {
+          font-size: 100px;
+          height: 110px;
+        }
+
+        @media only screen and (max-width: 768px) {
+          font-size: 80px;
+          height: 90px;
+        }
+
+        @media only screen and (max-width: 480px) {
+          font-size: 70px;
+          height: 80px;
+        }
       }
     }
     
@@ -60,85 +84,23 @@
             line-height: 150%;
             margin: 0;
 
-            span {
-              color: $white-color;
-              font-weight: 700;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 1180px){
-  .mz-sc-about-zenon-carousel {
-    height: auto;
-    padding: 210px 30px 100px;
-
-    .mz-container {
-      .mz-carousel-navs {
-        .mz-carousel-nav-item {
-          font-size: 100px;
-          height: 110px;
-        }
-      }
-
-      .mz-carousel-slides {
-        .mz-row {
-          .mz-carousel-slides-item {
-            .p-01 {
+            @media only screen and (max-width: 1180px) {
               font-size: 30px;
             }
-          }
-        }
-      }
-    }
-  }
-}
 
-@media (max-width: 768px){
-  .mz-sc-about-zenon-carousel {
-    padding: 140px 30px 100px;
-
-    .mz-container {
-      .mz-carousel-navs {
-        .mz-carousel-nav-item {
-          font-size: 80px;
-          height: 90px;
-        }
-      }
-
-      .mz-carousel-slides {
-        .mz-row {
-          .mz-carousel-slides-item {
-            .p-01 {
+            @media only screen and (max-width: 768px) {
               font-size: 26px;
               line-height: 125%;
             }
-          }
-        }
-      }
-    }
-  }
-}
 
-@media (max-width: 480px){
-  .mz-sc-about-zenon-carousel {
-    .mz-container {
-      .mz-carousel-navs {
-        .mz-carousel-nav-item {
-          font-size: 70px;
-          height: 80px;
-        }
-      }
-
-      .mz-carousel-slides {
-        .mz-row {
-          .mz-carousel-slides-item {
-            .p-01 {
+            @media only screen and (max-width: 480px) {
               font-size: 24px;
               line-height: 100%;
+            }
+
+            span {
+              color: $white-color;
+              font-weight: 700;
             }
           }
         }
