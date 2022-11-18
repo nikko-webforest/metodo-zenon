@@ -340,35 +340,35 @@
 						<br/><br/>
 						Focused on people with experience in training, with an acceptable-good physical condition who want to increase their performance in a more specific way. 	
 						</p>
-							<ul>
-								<li> 
-									<div class="mz-title">
-										PROGRAM
-									</div>
-									<hr>
-									<div class="mz-curriculum">
-										PHYSIO CURRICULUM
-									</div>
-								</li>
-								<li> 
-									<div class="mz-title">
-										PROGRAM
-									</div>
-									<hr>
-									<div class="mz-curriculum">
-										PHYSIO CURRICULUM
-									</div>
-								</li>
-								<li> 
-									<div class="mz-title">
-										PROGRAM
-									</div>
-									<hr>
-									<div class="mz-curriculum">
-										PHYSIO CURRICULUM
-									</div>
-								</li>
-							</ul>
+						<ul>
+							<li> 
+								<div class="mz-title">
+									PROGRAM
+								</div>
+								<hr>
+								<div class="mz-curriculum">
+									PHYSIO CURRICULUM
+								</div>
+							</li>
+							<li> 
+								<div class="mz-title">
+									PROGRAM
+								</div>
+								<hr>
+								<div class="mz-curriculum">
+									PHYSIO CURRICULUM
+								</div>
+							</li>
+							<li> 
+								<div class="mz-title">
+									PROGRAM
+								</div>
+								<hr>
+								<div class="mz-curriculum">
+									PHYSIO CURRICULUM
+								</div>
+							</li>
+						</ul>
 					</div>
 				</div>
 				<div class="mz-details">
