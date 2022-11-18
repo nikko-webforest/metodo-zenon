@@ -1180,89 +1180,90 @@
               }
             }
           }
+
+          .program-features {
+            .mz-container-card {              
+                .mz-card-body {
+                    background-color: $--19th-color;   
+  
+                    p {
+                        color: $white-color;
+                    }
+    
+  
+                        .mz-title {
+                            color: $white-color;
+                            font-weight: 700;
+                        } 
+                        .mz-curriculum {
+                            color: $septenary-color;
+                            font-weight: 800;
+                        }
+    
+                        .line {
+                            border-bottom: 1px solid rgba(175,172,180,0.4);
+                            align-self: center;
+                        }
+  
+  
+                }
+            }
+  
+            .mz-details {
+                h6 {
+                    color: $white-color;
+                }
+    
+                p {
+                    color: $septenary-color;
+                }
+    
+                .mz-checklist{
+                    ul {
+                        columns: 2;
+                        -webkit-columns: 2;
+                        -moz-columns: 2;
+                        column-gap: 0;
+    
+                        li {
+                            color: $septenary-color;   
+                        }
+                    }
+                }
+    
+                .mz-buttons {
+                    margin-top: 75px;
+                    display: flex;
+                    gap: 20px;
+    
+                    // .mz-cta.mz-cta-start-now {
+                    //     color: $white-color;
+                    //     background-image: linear-gradient($--14th-color,$nonary-color);
+                    //     border-color: none;
+                    //     width: 175px;
+        
+                    //     &:hover {
+                    //         color: $white-color;
+                    //         background-image: linear-gradient($nonary-color,$primary-color);
+                    //     }
+                    // }
+  
+                    .mz-cta.mz-cta-free-trial {
+                        color: $white-color;
+                        border-color: $white-color;
+            
+                        &:hover {
+                            color: $black-color;
+                            background: $white-color;
+                        }
+                    }
+                    
+                }
+            }
+          }
         }
       }
 
-      .program-features {
-          .mz-container-card {              
-              .mz-card-body {
-                  background-color: $--19th-color;   
-
-                  p {
-                      color: $white-color;
-                  }
-  
-
-                      .mz-title {
-                          color: $white-color;
-                          font-weight: 700;
-                      } 
-                      .mz-curriculum {
-                          color: $septenary-color;
-                          font-weight: 800;
-                      }
-  
-                      .line {
-                          border-bottom: 1px solid rgba(175,172,180,0.4);
-                          align-self: center;
-                      }
-
-
-              }
-          }
-
-          .mz-details {
-              h6 {
-                  color: $white-color;
-              }
-  
-              p {
-                  color: $septenary-color;
-              }
-  
-              .mz-checklist{
-                  ul {
-                      columns: 2;
-                      -webkit-columns: 2;
-                      -moz-columns: 2;
-                      column-gap: 0;
-  
-                      li {
-                          color: $septenary-color;   
-                      }
-                  }
-              }
-  
-              .mz-buttons {
-                  margin-top: 75px;
-                  display: flex;
-                  gap: 20px;
-  
-                  // .mz-cta.mz-cta-start-now {
-                  //     color: $white-color;
-                  //     background-image: linear-gradient($--14th-color,$nonary-color);
-                  //     border-color: none;
-                  //     width: 175px;
-      
-                  //     &:hover {
-                  //         color: $white-color;
-                  //         background-image: linear-gradient($nonary-color,$primary-color);
-                  //     }
-                  // }
-
-                  .mz-cta.mz-cta-free-trial {
-                      color: $white-color;
-                      border-color: $white-color;
-          
-                      &:hover {
-                          color: $black-color;
-                          background: $white-color;
-                      }
-                  }
-                  
-              }
-          }
-      }
     }
   }
 }
