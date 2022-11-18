@@ -1,5 +1,5 @@
 .mz-sc-coach-tab {
-  background: $white-color;
+  background-color: $white-color;
   padding: 0 30px;
 
   &::before {
@@ -8,7 +8,6 @@
     top: 105px;
     left: 0;
     display: block;
-    // background: linear-gradient(90deg, $tertiary-bg-color 0%, $quaternary-bg-color 75.26%, $quinary-bg-color 100%);
     width: 100%;
     height: calc(100% - 105px);
   }
@@ -20,7 +19,7 @@
       display: flex;
       justify-content: center;
       align-items: stretch;
-      background: $nonary-color;
+      background-color: $nonary-color;
       gap: 30px 125px;
       padding: 50px 30px 0;
 
@@ -29,7 +28,7 @@
         justify-content: center;
         align-items: center;
         gap: 25px;
-        background: transparent;
+        background-color: transparent;
         padding: 0 0 35px;
         border-bottom: 4px solid transparent;
 
@@ -96,7 +95,7 @@
               }
 
               .coach-details {
-                background: $white-color;
+                background-color: $white-color;
                 padding: 35px 30px 45px;
 
                 .coach-name {
@@ -221,12 +220,12 @@
                   }
 
                   .progress-bar {
-                    background: rgba(111, 74, 55, 0.4);
+                    background-color: rgba(111, 74, 55, 0.4);
                     width: 100%;
                     height: 5px;
 
                     .progress-level {
-                      background: rgba(111, 74, 55);
+                      background-color: rgba(111, 74, 55);
                       height: 100%;
                       transition: width $hover-transition-duration ease-in-out;
                     }
@@ -285,8 +284,7 @@
           }
         }
 
-        &.--active-pane {
-        }
+        &.--active-pane {}
       }
     }
   }

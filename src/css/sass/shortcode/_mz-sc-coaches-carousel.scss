@@ -1,9 +1,17 @@
-.mz-sc-carousel {
-  background: $white-color;
+.mz-sc-coaches-carousel {
+  background-color: $white-color;
   padding: 100px 0;
 
   .mz-container {
     max-width: 1280px;
+
+    @media only screen and (max-width: 1180px) {
+      max-width: 800px;
+    }
+
+    @media only screen and (max-width: 768px) {
+      max-width: 600px;
+    }
     
     h3 {
       color: $quinary-color;
@@ -31,23 +39,33 @@
       padding: 0 30px;
     }
 
-    .mz-carousel-main {
-      .mz-carousel-cell {
+    .carousel-main {
+      .carousel-cell {
         max-width: 334px;
         width: 100%;
         transition: opacity 300ms ease-in-out;
 
-        .mz-carousel-cell-img {
+        @media only screen and (max-width: 768px) {
+          opacity: 0.5;
+        }
+
+        &.is-selected {
+          @media only screen and (max-width: 768px) {
+            opacity: 1;
+          }
+        }
+
+        .coach-img-wrap {
           margin: 0 auto 30px;
 
-          .mz-img {
+          .coach-img {
             width: 100%;
             height: auto;
             margin: auto;
           }
         }
 
-        .mz-carousel-cell-title {
+        .coach-name {
           color: $quinary-color;
           font-family: $primary-font-family;
           font-style: normal;
@@ -58,7 +76,7 @@
           margin: 0 0 10px;
         }
 
-        .mz-carousel-cell-desc {
+        .coach-bio {
           color: $senary-color;
           font-size: 13px;
           font-style: normal;
@@ -73,9 +91,18 @@
       &.flickity-enabled {
         .flickity-viewport {
           .flickity-slider {
-            .mz-carousel-cell {
+            .carousel-cell {
               padding: 0 25px;
               transition: opacity 300ms ease-in-out;
+
+              @media only screen and (max-width: 768px) {
+                padding: 0 20px;
+              }
+
+              @media only screen and (max-width: 480px) {
+                max-width: 300px;
+                padding: 0 10px;
+              }
 
               &.is-prevOut {
                 opacity: 0.5;
@@ -97,20 +124,25 @@
         display: flex;
         justify-content: center;
         gap: 40px;
+
+        @media only screen and (max-width: 1180px) {
+          flex-wrap: wrap;
+        }
       }
     }
   }
 }
 
 .theme-dark {
-  .mz-sc-carousel {
-    background: $black-color;
+  .mz-sc-coaches-carousel {
+    background-color: $black-color;
 
     .mz-container {
       h3 {
         text-fill-color: transparent;
         -webkit-text-fill-color: transparent;
-        background-image: linear-gradient(180deg, #C2AB90 0%, #8F6C45 100%);
+        background:
+          linear-gradient( 180deg, #C2AB90 0%, #8F6C45 100% );
         -webkit-background-clip: text;
         background-clip: text;
       }
@@ -119,77 +151,14 @@
         color: $white-color;
       }
 
-      .mz-carousel-main {
-        .mz-carousel-cell {
-          .mz-carousel-cell-title {
+      .carousel-main {
+        .carousel-cell {
+          .coach-name {
             color: $white-color;
           }
 
-          .mz-carousel-cell-desc {
+          .coach-bio {
             color: $white-color;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 1180px){
-  .mz-sc-carousel {
-    .mz-container {
-      max-width: 800px;
-
-      .mz-carousel-main {
-        &.flickity-disabled {
-          flex-wrap: wrap;
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 768px){
-  .mz-sc-carousel {
-    .mz-container {
-      max-width: 600px;
-
-      .mz-carousel-main {
-        .flickity-viewport {
-          .flickity-slider {
-            .mz-carousel-cell {
-              opacity: 0.5;
-
-              &.is-selected {
-                opacity: 1;
-              }
-            }
-          }
-        }
-
-        &.flickity-enabled {
-          .flickity-viewport {
-            .flickity-slider {
-              .mz-carousel-cell {
-                padding: 0 20px;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 480px){
-  .mz-sc-carousel {
-    .mz-container {
-      .mz-carousel-main {
-        .flickity-viewport {
-          .flickity-slider {
-            .mz-carousel-cell {
-              max-width: 300px;
-              padding: 0 10px;
-            }
           }
         }
       }

@@ -60,66 +60,6 @@
   display: block;
 }
 
-.mz-a-link,
-.mz-link {
-  color: $black-color;
-  text-decoration: underline;
-  opacity: 1;
-
-  span {
-    color: inherit;
-    font-family: inherit;
-    font-style: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    text-transform: inherit;
-    letter-spacing: inherit;
-    line-height: inherit;
-  }
-
-  &:hover {
-    opacity: 0.7;
-  }
-}
-
-.mz-cta {
-  color: $quinary-color;
-  font-family: $primary-font-family;
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-  line-height: 150%;
-  display: inline-block;
-  background: transparent;
-  padding: 13px 25px;
-  border: 1px solid $quinary-color;
-
-  &:hover {
-    color: $white-color;
-    background: $quinary-color;
-  }
-
-  span {
-    color: inherit;
-    font-family: inherit;
-    font-style: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    text-align: inherit;
-    text-transform: inherit;
-    display: inline-block;
-    vertical-align: middle;
-  }
-  
-  svg {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 10px;
-  }
-}
-
 .mz-form {
   .mz-form-wrap {
     display: flex;
@@ -146,7 +86,8 @@
         text-align: center;
         text-transform: uppercase;
         display: block;
-        background: linear-gradient(180deg, $--13th-color 0, $primary-color 100%);
+        background:
+          linear-gradient( 180deg, $--13th-color 0, $primary-color 100% );
         max-width: 125px;
         min-width: 100px;
         width: 100%;
