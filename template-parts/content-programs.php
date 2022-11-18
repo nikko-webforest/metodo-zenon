@@ -12,7 +12,7 @@
 <!-- #post-<?php the_ID(); ?> -->
 <article id="page-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<?php echo do_shortcode('[mz-sc-hero-section title="We Help You" hero-bg="/wp-content/themes/metodo-zenon/images/MZ_Programs_Hero_sect-bg.png]'); ?>
+	<?php echo do_shortcode('[mz-sc-hero-section title="We Help You" hero-bg="/wp-content/themes/metodo-zenon/images/MZ_Programs_Hero_sect-bg.png"]'); ?>
 
 	<section class="mz-section mz-programs-content">
 		<div class="mz-container">

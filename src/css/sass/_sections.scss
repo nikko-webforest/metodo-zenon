@@ -495,7 +495,7 @@
 
 /*===== Programs Page =====*/
 .mz-programs-content {
-  padding: 90px 30px;
+  padding: 90px 40px;
 
   .mz-container {
     .p-01 {
@@ -545,12 +545,22 @@
       .carousel-cell {
         padding: 0 20px;
 
+        @media only screen and (max-width: 768px) {
+          padding: 0 8px;
+        }
+
         &.is-selected {
           .programs-card {
-            border-color: #6F4A37;
+            border: 2px solid #6F4A37;
           }
         }
 
+        @media only screen and (max-width: 480px) {
+            opacity: 0.35;
+            &.is-selected {
+              opacity: 1;
+            }
+        }
         &.is-prevOut,
         &.is-nextOut {
           opacity: 0.35;
@@ -633,6 +643,7 @@
           
           @media only screen and (max-width: 768px) {
             flex-direction: column;
+            padding: 0 10px;
           }
           
           &:nth-child(1) {
@@ -642,7 +653,11 @@
             margin: 0 auto 90px;            
 
             @media only screen and (max-width: 768px) {
-              gap: 40px 0;
+              gap: 50px 0;
+            }
+
+            @media only screen and (max-width: 480px) {
+              gap: 5px 0;
             }
             
             .mz-col {
@@ -657,6 +672,7 @@
 
                 @media only screen and (max-width: 768px) {
                   width: 100%;
+                  
                 }
 
                 &::before {
@@ -763,6 +779,8 @@
 
                 @media only screen and (max-width: 480px) {
                   width:initial;
+                  scale: 0.9;
+                  // width: 50%;
                 }
 
                 .mz-img {
@@ -957,7 +975,7 @@
                         }
 
                         @media only screen and (max-width: 480px) {
-                          width: 40%;
+                          width: 35%;
                         }
                 
                       }
@@ -967,7 +985,7 @@
   
           .mz-details {
               width: 60%;
-              margin-top: 10px;
+              margin-top: 5px;
   
               @media only screen and (max-width: 768px) {
                 width: 100%;
@@ -1024,6 +1042,13 @@
                       -moz-columns: 2;
                       column-gap: 0;
   
+                      @media only screen and (max-width: 768px) {
+                        columns: 1;
+                        -webkit-columns: 1;
+                        -moz-columns: 1;
+                        column-gap: 0;
+                      }
+
                       li {
                           color: $senary-color;
                           font-style: normal;
@@ -1198,18 +1223,10 @@
   
                         .mz-title {
                             color: $white-color;
-                            font-weight: 700;
                         } 
                         .mz-curriculum {
                             color: $septenary-color;
-                            font-weight: 800;
                         }
-    
-                        .line {
-                            border-bottom: 1px solid rgba(175,172,180,0.4);
-                            align-self: center;
-                        }
-  
   
                 }
             }
@@ -1225,10 +1242,6 @@
     
                 .mz-checklist{
                     ul {
-                        columns: 2;
-                        -webkit-columns: 2;
-                        -moz-columns: 2;
-                        column-gap: 0;
     
                         li {
                             color: $septenary-color;   
@@ -1237,21 +1250,6 @@
                 }
     
                 .mz-buttons {
-                    margin-top: 75px;
-                    display: flex;
-                    gap: 20px;
-    
-                    // .mz-cta.mz-cta-start-now {
-                    //     color: $white-color;
-                    //     background-image: linear-gradient($--14th-color,$nonary-color);
-                    //     border-color: none;
-                    //     width: 175px;
-        
-                    //     &:hover {
-                    //         color: $white-color;
-                    //         background-image: linear-gradient($nonary-color,$primary-color);
-                    //     }
-                    // }
   
                     .mz-cta.mz-cta-free-trial {
                         color: $white-color;
