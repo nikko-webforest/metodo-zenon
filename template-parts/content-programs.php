@@ -12,7 +12,7 @@
 <!-- #post-<?php the_ID(); ?> -->
 <article id="page-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<?php echo do_shortcode('[mz-sc-hero-section title="We Help You" hero-bg="http://metodozenon.local/wp-content/uploads/2022/11/MZ_ProgramsPage_Hero_bg-v01-1440x440-1.jpg"]'); ?>
+	<?php echo do_shortcode('[mz-sc-hero-section title="We Help You" hero-bg="/wp-content/themes/metodo-zenon/images/MZ_Programs_Hero_sect-bg.png]'); ?>
 
 	<section class="mz-section mz-programs-content">
 		<div class="mz-container">
@@ -43,7 +43,7 @@
 							02
 						</div>
 						<div class="programs-card-title">
-							I WANT TO MAXIMIZE MY SPORTS PERFORMANCE
+							I WANT TO CHANGE MY BODY
 						</div>
 						<hr>
 						<a class="programs-card-link mz-link">
@@ -57,7 +57,7 @@
 							03
 						</div>
 						<div class="programs-card-title">
-							I WANT TO MAXIMIZE MY SPORTS PERFORMANCE
+							I WANT TO STAY HEALTHY
 						</div>
 						<hr>
 						<a class="programs-card-link mz-link">
@@ -71,7 +71,7 @@
 							04
 						</div>
 						<div class="programs-card-title">
-							I WANT TO MAXIMIZE MY SPORTS PERFORMANCE
+							I WANT TO REGAIN MY HEALTH
 						</div>
 						<hr>
 						<a class="programs-card-link mz-link">
@@ -85,7 +85,7 @@
 							05
 						</div>
 						<div class="programs-card-title">
-							I WANT TO MAXIMIZE MY SPORTS PERFORMANCE
+							I WANT TO REGAIN MY HEALTH
 						</div>
 						<hr>
 						<a class="programs-card-link mz-link">
@@ -106,7 +106,8 @@
 								</p>
 								<div class="mz-inner-row">
 									<svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194Z" fill="#6F4A37"/>
+									
+								<path d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194Z" fill="#6F4A37"/>
 										<path d="M25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723Z" fill="#6F4A37"/>
 										<path d="M12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185Z" fill="#6F4A37"/>
 										<path d="M12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387Z" fill="#6F4A37"/>
@@ -326,6 +327,111 @@
 					</div>
 				</div>
 			</div>
+			<div class="program-features">
+				<div class="mz-container-card">
+					<div class="mz-card-title">
+						<h3>
+							ELITE PROGRAM
+						</h3>
+					</div>
+					<div class="mz-card-body">
+						<p>
+						Focused on people with experience in training, with an acceptable-good physical condition who want to increase their performance in a more specific way. Objective to gain strength and muscle at levels above the population average.
+						<br/><br/>
+						Focused on people with experience in training, with an acceptable-good physical condition who want to increase their performance in a more specific way. 	
+						</p>
+							<ul>
+								<li> 
+									<div class="mz-title">
+										PROGRAM
+									</div>
+									<hr>
+									<div class="mz-curriculum">
+										PHYSIO CURRICULUM
+									</div>
+								</li>
+								<li> 
+									<div class="mz-title">
+										PROGRAM
+									</div>
+									<hr>
+									<div class="mz-curriculum">
+										PHYSIO CURRICULUM
+									</div>
+								</li>
+								<li> 
+									<div class="mz-title">
+										PROGRAM
+									</div>
+									<hr>
+									<div class="mz-curriculum">
+										PHYSIO CURRICULUM
+									</div>
+								</li>
+							</ul>
+					</div>
+				</div>
+				<div class="mz-details">
+					<div class="mz-row-01">
+						<h6>
+							Competitive Advantages
+						</h6>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean. Mattis nunc sed blandit libero. Feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed id semper risus in. Varius vel pharetra vel turpis nunc eget.
+						</p>
+					</div>
+					<div class="mz-row-02">
+						<h6>
+							Program Features
+						</h6>
+						<p>
+						Ut etiam sit amet nisl purus. Imperdiet proin fermentum leo vel orci porta non. Integer feugiat scelerisque varius morbi enim. Se d ullamcorper morbi tincidunt ornare. Habitant morbi tristique senectus et netus et malesuada fames ac.
+						</p>
+					</div>
+					<div class="mz-checklist">
+						<ul>
+							<li>
+								<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Relieve pain
+							</li>
+							<li>
+								<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Improve movement or ability
+							</li>
+							<li>
+								<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Prevent or recover from a sports injury
+							</li>
+							<li>
+								<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Prevent disability or surgery
+							</li>
+							<li>
+								<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Rehab after a stroke, accident, injury, or surgery
+							</li>
+							<li>
+								<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Work on balance to prevent a slip or fall
+							</li>
+						</ul>
+					</div>
+					<div class="mz-buttons">
+						<a
+							title="Start Now"
+							target=""
+							class="mz-cta mz-cta-start-now"
+							href=""
+							rel=""
+							>
+							Start Now
+						</a>
+						<a
+							title="Free Trial"
+							target=""
+							class="mz-cta mz-cta-free-trial"
+							href=""
+							rel=""
+							>
+							Free Trial
+						</a>
+					</div>
+				</div>
+			</div>			
 		</div>
 	</section>
 
