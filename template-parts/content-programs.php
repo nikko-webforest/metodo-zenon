@@ -136,11 +136,6 @@
 							</div>
 						</div>
 					</div>
-					<div class="mz-row">
-						<div class="mz-col">
-							
-						</div>
-					</div>
 					<div class="program-features">
 						<div class="mz-container-card">
 							<div class="mz-card-title">
@@ -285,11 +280,6 @@
 								<h3>ELITE</h3>
 								<p class="p-04">PROGRAM FOR YOU</p>
 							</div>
-						</div>
-					</div>
-					<div class="mz-row">
-						<div class="mz-col">
-							
 						</div>
 					</div>
 					<div class="program-features">
@@ -438,11 +428,6 @@
 							</div>
 						</div>
 					</div>
-					<div class="mz-row">
-						<div class="mz-col">
-							
-						</div>
-					</div>
 					<div class="program-features">
 						<div class="mz-container-card">
 							<div class="mz-card-title">
@@ -589,11 +574,6 @@
 							</div>
 						</div>
 					</div>
-					<div class="mz-row">
-						<div class="mz-col">
-							
-						</div>
-					</div>
 					<div class="program-features">
 						<div class="mz-container-card">
 							<div class="mz-card-title">
@@ -738,11 +718,6 @@
 								<h3>ELITE</h3>
 								<p class="p-04">PROGRAM FOR YOU</p>
 							</div>
-						</div>
-					</div>
-					<div class="mz-row">
-						<div class="mz-col">
-							
 						</div>
 					</div>
 					<div class="program-features">
