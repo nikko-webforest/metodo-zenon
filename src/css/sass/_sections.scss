@@ -617,15 +617,21 @@
         display: none;
         width: 100%;
 
+        @keyframes fadeIn {
+          0% { opacity: 0; }
+          100% { opacity: 1; }
+        }
+
         &.is-selected {
           display: block;
+          animation: fadeIn 2s;
         }
         
         .mz-row {
           display: flex;
           flex-direction: row;
           
-          @media only screen and (max-width: 480px) {
+          @media only screen and (max-width: 768px) {
             flex-direction: column;
           }
           
@@ -635,7 +641,7 @@
             gap: 0 50px;
             margin: 0 auto 90px;            
 
-            @media only screen and (max-width: 480px) {
+            @media only screen and (max-width: 768px) {
               gap: 40px 0;
             }
             
@@ -649,7 +655,7 @@
                   // max-height: 420px;
                 }
 
-                @media only screen and (max-width: 480px) {
+                @media only screen and (max-width: 768px) {
                   width: 100%;
                 }
 
@@ -833,11 +839,11 @@
           gap: 60px;
           width: 100%;
   
-          @media only screen and (max-width: 768px) {
-            gap: 40px;
-          }
+          // @media only screen and (max-width: 768px) {
+          //   gap: 40px;
+          // }
   
-          @media only screen and (max-width: 480px) {
+          @media only screen and (max-width:768px) {
             flex-direction: column;
           }
   
@@ -845,7 +851,7 @@
               // width: 445px;
               width: 40%;
               
-              @media only screen and (max-width: 480px) {
+              @media only screen and (max-width: 768px) {
                 width: 100%;
               }
         
@@ -898,7 +904,7 @@
                       line-height: 20px;
                       margin: 0;
                       text-align: left;
-                      max-width: 350px;
+                      // max-width: 350px;
                       margin-bottom: 50px;
   
                       @media only screen and (max-width: 768px) {
@@ -916,8 +922,8 @@
                           gap: 5px;
                           text-transform: uppercase;
                           width: 100%;
-                          max-width: 350px;
-                          color: $black-color;
+                          // max-width: 350px;
+                          
                           @media only screen and (max-width: 768px) {
                             font-size: 12px;
                             padding: 5px 0px;
@@ -927,13 +933,13 @@
                       .mz-title {
                           color: $black-color;
                           font-weight: 700;
-                          width: 25%;
+                          // width: 25%;
                       } 
   
                       .mz-curriculum {
                           color: $septenary-color;
                           font-weight: 800;
-                          width: 50%;
+                          // width: 50%;
                       }
   
                       hr {
@@ -946,6 +952,13 @@
                         align-items: center;
                         justify-items: center;
   
+                        @media only screen and (max-width: 768px) {
+                          width: 65%;
+                        }
+
+                        @media only screen and (max-width: 480px) {
+                          width: 40%;
+                        }
                 
                       }
                     } 
@@ -956,7 +969,7 @@
               width: 60%;
               margin-top: 10px;
   
-              @media only screen and (max-width: 480px) {
+              @media only screen and (max-width: 768px) {
                 width: 100%;
               }
   
@@ -1052,10 +1065,6 @@
                       }
   
                       @media only screen and (max-width: 768px) {
-                        width:45%;
-                      }
-  
-                      @media only screen and (max-width: 480px) {
                         width:50%;
                       }
   
@@ -1069,12 +1078,8 @@
                       &:hover {
                           color: $white-color;
                       }
-  
+
                       @media only screen and (max-width: 768px) {
-                        width:45%;
-                      }
-  
-                      @media only screen and (max-width: 480px) {
                         width:50%;
                       }
                   }
@@ -1268,6 +1273,8 @@
   }
 }
 
+
+
 /*===== Zenon Family Page =====*/
 .mz-pb-about-us-section {
   background-color: $white-color;
@@ -1309,4 +1316,13 @@
       line-height: 125%;
     }
   }
+}
+
+/*===== Zenon Testimonials Background =====*/
+.programs-main .mz-sc-testimonials-carousel {
+  background: $white-color;
+}
+
+.theme-dark .programs-main .mz-sc-testimonials-carousel {
+  background-color: $black-color;
 }
