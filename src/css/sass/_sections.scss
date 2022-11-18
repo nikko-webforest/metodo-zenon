@@ -826,262 +826,261 @@
             }
           }
         }
-      }
-    }
-
-    .program-features {
-      padding: 10px 0px;
-      display: flex;
-      flex-direction: row;
-      gap: 60px;
-      width: 100%;
-
-      @media only screen and (max-width: 768px) {
-        gap: 40px;
-      }
-
-      @media only screen and (max-width: 480px) {
-        flex-direction: column;
-      }
-
-      .mz-container-card {
-          // width: 445px;
-          width: 40%;
-          
-          @media only screen and (max-width: 480px) {
-            width: 100%;
+        .program-features {
+          padding: 10px 0px;
+          display: flex;
+          flex-direction: row;
+          gap: 60px;
+          width: 100%;
+  
+          @media only screen and (max-width: 768px) {
+            gap: 40px;
           }
-    
-          
-          .mz-card-title {
-              padding: 25px 30px;
-              max-height: 75px;
-              background-color: $nonary-color;
-              height: 100%;
-
-              @media only screen and (max-width: 768px) {     
-                padding: 15px 30px;
-                max-height: 51px;
-              }
-
+  
+          @media only screen and (max-width: 480px) {
+            flex-direction: column;
+          }
+  
+          .mz-container-card {
+              // width: 445px;
+              width: 40%;
+              
               @media only screen and (max-width: 480px) {
-                padding: 23px 30px;
-                max-height: 66px;
+                width: 100%;
               }
-
-              h3 {
-                  color: $white-color;
-                  font-style: normal;
-                  font-size: 24px;
-                  font-weight: 700;
-                  text-transform: uppercase;
-                  letter-spacing: -0.02em;
-                  line-height: 100%;
-                  margin: 0;
-
-                  @media only screen and (max-width: 768px) {
-                    font-size: 20px;
+        
+              
+              .mz-card-title {
+                  padding: 25px 30px;
+                  max-height: 75px;
+                  background-color: $nonary-color;
+                  height: 100%;
+  
+                  @media only screen and (max-width: 768px) {     
+                    padding: 15px 30px;
+                    max-height: 51px;
+                  }
+  
+                  @media only screen and (max-width: 480px) {
+                    padding: 23px 30px;
+                    max-height: 66px;
+                  }
+  
+                  h3 {
+                      color: $white-color;
+                      font-style: normal;
+                      font-size: 24px;
+                      font-weight: 700;
+                      text-transform: uppercase;
+                      letter-spacing: -0.02em;
+                      line-height: 100%;
+                      margin: 0;
+  
+                      @media only screen and (max-width: 768px) {
+                        font-size: 20px;
+                      }
                   }
               }
-          }
-
-          .mz-card-body {
-              padding: 40px 30px;
-              background-color: $--16th-color;   
-              
-              @media only screen and (max-width: 768px) {
-                padding: 25px 30px;
+  
+              .mz-card-body {
+                  padding: 40px 30px;
+                  background-color: $--16th-color;   
+                  
+                  @media only screen and (max-width: 768px) {
+                    padding: 25px 30px;
+                  }
+  
+                  p {
+                      color: $senary-color;
+                      font-style: normal;
+                      font-weight: 500;
+                      font-size: 14px;
+                      line-height: 20px;
+                      margin: 0;
+                      text-align: left;
+                      max-width: 350px;
+                      margin-bottom: 50px;
+  
+                      @media only screen and (max-width: 768px) {
+                        margin-bottom: 30px;
+                      }
+                  }
+  
+  
+                      li {
+                          display: flex;
+                          flex-direction: row;
+                          font-style: normal;
+                          font-size: 14px;
+                          padding: 10px 0px;
+                          gap: 5px;
+                          text-transform: uppercase;
+                          width: 100%;
+                          max-width: 350px;
+                          color: $black-color;
+                          @media only screen and (max-width: 768px) {
+                            font-size: 12px;
+                            padding: 5px 0px;
+                          }
+                      
+  
+                      .mz-title {
+                          color: $black-color;
+                          font-weight: 700;
+                          width: 25%;
+                      } 
+  
+                      .mz-curriculum {
+                          color: $septenary-color;
+                          font-weight: 800;
+                          width: 50%;
+                      }
+  
+                      hr {
+                        display: flex;
+                        background-color:rgba(175,172,180,0.4);
+                        width: 25%;
+                        height: 1px;
+                        margin: 10px 0;
+                        border: none;
+                        align-items: center;
+                        justify-items: center;
+  
+                
+                      }
+                    } 
               }
-
+          }
+  
+          .mz-details {
+              width: 60%;
+              margin-top: 10px;
+  
+              @media only screen and (max-width: 480px) {
+                width: 100%;
+              }
+  
+              .mz-row-01 {
+                  margin-bottom: 75px;
+  
+                  @media only screen and (max-width: 768px) {
+                    margin-bottom: 40px;
+                  }
+              }
+  
+              .mz-row-02 {
+                  margin-bottom: 40px;
+  
+                  @media only screen and (max-width: 768px) {
+                    margin-bottom: 10px;
+                  }
+              }
+  
+              h6 {
+                  color: $black-color;
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 20px;
+                  text-transform: uppercase;
+                  line-height: 100%;
+                  letter-spacing: -0.02em;
+                  margin-bottom: 20px;
+  
+                  @media only screen and (max-width: 768px) {
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                  }
+              }
+  
               p {
                   color: $senary-color;
                   font-style: normal;
                   font-weight: 500;
                   font-size: 14px;
                   line-height: 20px;
-                  margin: 0;
-                  text-align: left;
-                  max-width: 350px;
-                  margin-bottom: 50px;
-
+  
                   @media only screen and (max-width: 768px) {
-                    margin-bottom: 30px;
+                    font-size: 13px;
                   }
               }
-
-
-                  li {
-                      display: flex;
-                      flex-direction: row;
-                      font-style: normal;
-                      font-size: 14px;
-                      padding: 10px 0px;
-                      gap: 5px;
-                      text-transform: uppercase;
-                      width: 100%;
-                      max-width: 350px;
-                      color: $black-color;
-                      @media only screen and (max-width: 768px) {
-                        font-size: 12px;
-                        padding: 5px 0px;
+  
+              .mz-checklist{
+                  ul {
+                      columns: 2;
+                      -webkit-columns: 2;
+                      -moz-columns: 2;
+                      column-gap: 0;
+  
+                      li {
+                          color: $senary-color;
+                          font-style: normal;
+                          font-weight: 500;
+                          font-size: 14px;
+                          line-height: 20px;
+                          padding: 5px 0px;
+                          
+                          @media only screen and (max-width: 768px) {
+                            font-size: 13px;
+                          }
+  
+                          img {
+                              padding-inline-end: 4px;
+                          }
                       }
+                  }
+              }
+  
+              .mz-buttons {
+                  margin-top: 75px;
+                  display: flex;
+                  gap: 20px;
+                  width: 100%;
+  
+                  @media only screen and (max-width: 768px) {
+                    margin-top: 40px;
+                  }
+  
+                  .mz-cta.mz-cta-start-now {
+                      color: $white-color;
+                      background-image: linear-gradient($--14th-color,$nonary-color);
+                      border: none;
+                      width: 175px;
+      
+                      &:hover {
+                          color: $white-color;
+                          background-image: linear-gradient($nonary-color,$primary-color);
+                      }
+  
+                      @media only screen and (max-width: 768px) {
+                        width:45%;
+                      }
+  
+                      @media only screen and (max-width: 480px) {
+                        width:50%;
+                      }
+  
+                  }
                   
-
-                  .mz-title {
-                      color: $black-color;
-                      font-weight: 700;
-                      width: 25%;
-                  } 
-
-                  .mz-curriculum {
-                      color: $septenary-color;
-                      font-weight: 800;
-                      width: 50%;
-                  }
-
-                  hr {
-                    display: flex;
-                    background-color:rgba(175,172,180,0.4);
-                    width: 25%;
-                    height: 1px;
-                    margin: 10px 0;
-                    border: none;
-                    align-items: center;
-                    justify-items: center;
-
-            
-                  }
-                } 
-          }
-      }
-
-      .mz-details {
-          width: 60%;
-          margin-top: 10px;
-
-          @media only screen and (max-width: 480px) {
-            width: 100%;
-          }
-
-          .mz-row-01 {
-              margin-bottom: 75px;
-
-              @media only screen and (max-width: 768px) {
-                margin-bottom: 40px;
-              }
-          }
-
-          .mz-row-02 {
-              margin-bottom: 40px;
-
-              @media only screen and (max-width: 768px) {
-                margin-bottom: 10px;
-              }
-          }
-
-          h6 {
-              color: $black-color;
-              font-style: normal;
-              font-weight: 700;
-              font-size: 20px;
-              text-transform: uppercase;
-              line-height: 100%;
-              letter-spacing: -0.02em;
-              margin-bottom: 20px;
-
-              @media only screen and (max-width: 768px) {
-                font-size: 18px;
-                margin-bottom: 10px;
-              }
-          }
-
-          p {
-              color: $senary-color;
-              font-style: normal;
-              font-weight: 500;
-              font-size: 14px;
-              line-height: 20px;
-
-              @media only screen and (max-width: 768px) {
-                font-size: 13px;
-              }
-          }
-
-          .mz-checklist{
-              ul {
-                  columns: 2;
-                  -webkit-columns: 2;
-                  -moz-columns: 2;
-                  column-gap: 0;
-
-                  li {
-                      color: $senary-color;
-                      font-style: normal;
-                      font-weight: 500;
-                      font-size: 14px;
-                      line-height: 20px;
-                      padding: 5px 0px;
-                      
+                  .mz-cta.mz-cta-free-trial {
+                      color: $quinary-color;
+                      border-color: $quinary-color;
+                      width: 175px;
+      
+                      &:hover {
+                          color: $white-color;
+                      }
+  
                       @media only screen and (max-width: 768px) {
-                        font-size: 13px;
+                        width:45%;
                       }
-
-                      img {
-                          padding-inline-end: 4px;
+  
+                      @media only screen and (max-width: 480px) {
+                        width:50%;
                       }
                   }
               }
           }
-
-          .mz-buttons {
-              margin-top: 75px;
-              display: flex;
-              gap: 20px;
-              width: 100%;
-
-              @media only screen and (max-width: 768px) {
-                margin-top: 40px;
-              }
-
-              .mz-cta.mz-cta-start-now {
-                  color: $white-color;
-                  background-image: linear-gradient($--14th-color,$nonary-color);
-                  border: none;
-                  width: 175px;
-  
-                  &:hover {
-                      color: $white-color;
-                      background-image: linear-gradient($nonary-color,$primary-color);
-                  }
-
-                  @media only screen and (max-width: 768px) {
-                    width:45%;
-                  }
-
-                  @media only screen and (max-width: 480px) {
-                    width:50%;
-                  }
-
-              }
-              
-              .mz-cta.mz-cta-free-trial {
-                  color: $quinary-color;
-                  border-color: $quinary-color;
-                  width: 175px;
-  
-                  &:hover {
-                      color: $white-color;
-                  }
-
-                  @media only screen and (max-width: 768px) {
-                    width:45%;
-                  }
-
-                  @media only screen and (max-width: 480px) {
-                    width:50%;
-                  }
-              }
-          }
+        }
       }
     }
   }

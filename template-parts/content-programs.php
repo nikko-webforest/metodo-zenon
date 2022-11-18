@@ -141,6 +141,111 @@
 							
 						</div>
 					</div>
+					<div class="program-features">
+						<div class="mz-container-card">
+							<div class="mz-card-title">
+								<h3>
+									ELITE PROGRAM 1
+								</h3>
+							</div>
+							<div class="mz-card-body">
+								<p>
+								Focused on people with experience in training, with an acceptable-good physical condition who want to increase their performance in a more specific way. Objective to gain strength and muscle at levels above the population average.
+								<br/><br/>
+								Focused on people with experience in training, with an acceptable-good physical condition who want to increase their performance in a more specific way. 	
+								</p>
+								<ul>
+									<li> 
+										<div class="mz-title">
+											PROGRAM
+										</div>
+										<hr>
+										<div class="mz-curriculum">
+											PHYSIO CURRICULUM
+										</div>
+									</li>
+									<li> 
+										<div class="mz-title">
+											PROGRAM
+										</div>
+										<hr>
+										<div class="mz-curriculum">
+											PHYSIO CURRICULUM
+										</div>
+									</li>
+									<li> 
+										<div class="mz-title">
+											PROGRAM
+										</div>
+										<hr>
+										<div class="mz-curriculum">
+											PHYSIO CURRICULUM
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="mz-details">
+							<div class="mz-row-01">
+								<h6>
+									Competitive Advantages
+								</h6>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean. Mattis nunc sed blandit libero. Feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed id semper risus in. Varius vel pharetra vel turpis nunc eget.
+								</p>
+							</div>
+							<div class="mz-row-02">
+								<h6>
+									Program Features
+								</h6>
+								<p>
+								Ut etiam sit amet nisl purus. Imperdiet proin fermentum leo vel orci porta non. Integer feugiat scelerisque varius morbi enim. Se d ullamcorper morbi tincidunt ornare. Habitant morbi tristique senectus et netus et malesuada fames ac.
+								</p>
+							</div>
+							<div class="mz-checklist">
+								<ul>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Relieve pain
+									</li>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Improve movement or ability
+									</li>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Prevent or recover from a sports injury
+									</li>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Prevent disability or surgery
+									</li>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Rehab after a stroke, accident, injury, or surgery
+									</li>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Work on balance to prevent a slip or fall
+									</li>
+								</ul>
+							</div>
+							<div class="mz-buttons">
+								<a
+									title="Start Now"
+									target=""
+									class="mz-cta mz-cta-start-now"
+									href=""
+									rel=""
+									>
+									Start Now
+								</a>
+								<a
+									title="Free Trial"
+									target=""
+									class="mz-cta mz-cta-free-trial"
+									href=""
+									rel=""
+									>
+									Free Trial
+								</a>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="carousel-cell">
 					<div class="mz-row">
@@ -187,6 +292,111 @@
 							
 						</div>
 					</div>
+					<div class="program-features">
+						<div class="mz-container-card">
+							<div class="mz-card-title">
+								<h3>
+									ELITE PROGRAM 2
+								</h3>
+							</div>
+							<div class="mz-card-body">
+								<p>
+								Focused on people with experience in training, with an acceptable-good physical condition who want to increase their performance in a more specific way. Objective to gain strength and muscle at levels above the population average.
+								<br/><br/>
+								Focused on people with experience in training, with an acceptable-good physical condition who want to increase their performance in a more specific way. 	
+								</p>
+								<ul>
+									<li> 
+										<div class="mz-title">
+											PROGRAM
+										</div>
+										<hr>
+										<div class="mz-curriculum">
+											PHYSIO CURRICULUM
+										</div>
+									</li>
+									<li> 
+										<div class="mz-title">
+											PROGRAM
+										</div>
+										<hr>
+										<div class="mz-curriculum">
+											PHYSIO CURRICULUM
+										</div>
+									</li>
+									<li> 
+										<div class="mz-title">
+											PROGRAM
+										</div>
+										<hr>
+										<div class="mz-curriculum">
+											PHYSIO CURRICULUM
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="mz-details">
+							<div class="mz-row-01">
+								<h6>
+									Competitive Advantages
+								</h6>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean. Mattis nunc sed blandit libero. Feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed id semper risus in. Varius vel pharetra vel turpis nunc eget.
+								</p>
+							</div>
+							<div class="mz-row-02">
+								<h6>
+									Program Features
+								</h6>
+								<p>
+								Ut etiam sit amet nisl purus. Imperdiet proin fermentum leo vel orci porta non. Integer feugiat scelerisque varius morbi enim. Se d ullamcorper morbi tincidunt ornare. Habitant morbi tristique senectus et netus et malesuada fames ac.
+								</p>
+							</div>
+							<div class="mz-checklist">
+								<ul>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Relieve pain
+									</li>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Improve movement or ability
+									</li>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Prevent or recover from a sports injury
+									</li>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Prevent disability or surgery
+									</li>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Rehab after a stroke, accident, injury, or surgery
+									</li>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Work on balance to prevent a slip or fall
+									</li>
+								</ul>
+							</div>
+							<div class="mz-buttons">
+								<a
+									title="Start Now"
+									target=""
+									class="mz-cta mz-cta-start-now"
+									href=""
+									rel=""
+									>
+									Start Now
+								</a>
+								<a
+									title="Free Trial"
+									target=""
+									class="mz-cta mz-cta-free-trial"
+									href=""
+									rel=""
+									>
+									Free Trial
+								</a>
+							</div>
+						</div>
+					</div>			
 				</div>
 				<div class="carousel-cell">
 					<div class="mz-row">
@@ -233,6 +443,111 @@
 							
 						</div>
 					</div>
+					<div class="program-features">
+						<div class="mz-container-card">
+							<div class="mz-card-title">
+								<h3>
+									ELITE PROGRAM 3
+								</h3>
+							</div>
+							<div class="mz-card-body">
+								<p>
+								Focused on people with experience in training, with an acceptable-good physical condition who want to increase their performance in a more specific way. Objective to gain strength and muscle at levels above the population average.
+								<br/><br/>
+								Focused on people with experience in training, with an acceptable-good physical condition who want to increase their performance in a more specific way. 	
+								</p>
+								<ul>
+									<li> 
+										<div class="mz-title">
+											PROGRAM
+										</div>
+										<hr>
+										<div class="mz-curriculum">
+											PHYSIO CURRICULUM
+										</div>
+									</li>
+									<li> 
+										<div class="mz-title">
+											PROGRAM
+										</div>
+										<hr>
+										<div class="mz-curriculum">
+											PHYSIO CURRICULUM
+										</div>
+									</li>
+									<li> 
+										<div class="mz-title">
+											PROGRAM
+										</div>
+										<hr>
+										<div class="mz-curriculum">
+											PHYSIO CURRICULUM
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="mz-details">
+							<div class="mz-row-01">
+								<h6>
+									Competitive Advantages
+								</h6>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean. Mattis nunc sed blandit libero. Feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed id semper risus in. Varius vel pharetra vel turpis nunc eget.
+								</p>
+							</div>
+							<div class="mz-row-02">
+								<h6>
+									Program Features
+								</h6>
+								<p>
+								Ut etiam sit amet nisl purus. Imperdiet proin fermentum leo vel orci porta non. Integer feugiat scelerisque varius morbi enim. Se d ullamcorper morbi tincidunt ornare. Habitant morbi tristique senectus et netus et malesuada fames ac.
+								</p>
+							</div>
+							<div class="mz-checklist">
+								<ul>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Relieve pain
+									</li>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Improve movement or ability
+									</li>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Prevent or recover from a sports injury
+									</li>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Prevent disability or surgery
+									</li>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Rehab after a stroke, accident, injury, or surgery
+									</li>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Work on balance to prevent a slip or fall
+									</li>
+								</ul>
+							</div>
+							<div class="mz-buttons">
+								<a
+									title="Start Now"
+									target=""
+									class="mz-cta mz-cta-start-now"
+									href=""
+									rel=""
+									>
+									Start Now
+								</a>
+								<a
+									title="Free Trial"
+									target=""
+									class="mz-cta mz-cta-free-trial"
+									href=""
+									rel=""
+									>
+									Free Trial
+								</a>
+							</div>
+						</div>
+					</div>	
 				</div>
 				<div class="carousel-cell">
 					<div class="mz-row">
@@ -279,6 +594,111 @@
 							
 						</div>
 					</div>
+					<div class="program-features">
+						<div class="mz-container-card">
+							<div class="mz-card-title">
+								<h3>
+									ELITE PROGRAM 4
+								</h3>
+							</div>
+							<div class="mz-card-body">
+								<p>
+								Focused on people with experience in training, with an acceptable-good physical condition who want to increase their performance in a more specific way. Objective to gain strength and muscle at levels above the population average.
+								<br/><br/>
+								Focused on people with experience in training, with an acceptable-good physical condition who want to increase their performance in a more specific way. 	
+								</p>
+								<ul>
+									<li> 
+										<div class="mz-title">
+											PROGRAM
+										</div>
+										<hr>
+										<div class="mz-curriculum">
+											PHYSIO CURRICULUM
+										</div>
+									</li>
+									<li> 
+										<div class="mz-title">
+											PROGRAM
+										</div>
+										<hr>
+										<div class="mz-curriculum">
+											PHYSIO CURRICULUM
+										</div>
+									</li>
+									<li> 
+										<div class="mz-title">
+											PROGRAM
+										</div>
+										<hr>
+										<div class="mz-curriculum">
+											PHYSIO CURRICULUM
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="mz-details">
+							<div class="mz-row-01">
+								<h6>
+									Competitive Advantages
+								</h6>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean. Mattis nunc sed blandit libero. Feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed id semper risus in. Varius vel pharetra vel turpis nunc eget.
+								</p>
+							</div>
+							<div class="mz-row-02">
+								<h6>
+									Program Features
+								</h6>
+								<p>
+								Ut etiam sit amet nisl purus. Imperdiet proin fermentum leo vel orci porta non. Integer feugiat scelerisque varius morbi enim. Se d ullamcorper morbi tincidunt ornare. Habitant morbi tristique senectus et netus et malesuada fames ac.
+								</p>
+							</div>
+							<div class="mz-checklist">
+								<ul>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Relieve pain
+									</li>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Improve movement or ability
+									</li>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Prevent or recover from a sports injury
+									</li>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Prevent disability or surgery
+									</li>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Rehab after a stroke, accident, injury, or surgery
+									</li>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Work on balance to prevent a slip or fall
+									</li>
+								</ul>
+							</div>
+							<div class="mz-buttons">
+								<a
+									title="Start Now"
+									target=""
+									class="mz-cta mz-cta-start-now"
+									href=""
+									rel=""
+									>
+									Start Now
+								</a>
+								<a
+									title="Free Trial"
+									target=""
+									class="mz-cta mz-cta-free-trial"
+									href=""
+									rel=""
+									>
+									Free Trial
+								</a>
+							</div>
+						</div>
+					</div>	
 				</div>
 				<div class="carousel-cell">
 					<div class="mz-row">
@@ -325,113 +745,113 @@
 							
 						</div>
 					</div>
+					<div class="program-features">
+						<div class="mz-container-card">
+							<div class="mz-card-title">
+								<h3>
+									ELITE PROGRAM 5
+								</h3>
+							</div>
+							<div class="mz-card-body">
+								<p>
+								Focused on people with experience in training, with an acceptable-good physical condition who want to increase their performance in a more specific way. Objective to gain strength and muscle at levels above the population average.
+								<br/><br/>
+								Focused on people with experience in training, with an acceptable-good physical condition who want to increase their performance in a more specific way. 	
+								</p>
+								<ul>
+									<li> 
+										<div class="mz-title">
+											PROGRAM
+										</div>
+										<hr>
+										<div class="mz-curriculum">
+											PHYSIO CURRICULUM
+										</div>
+									</li>
+									<li> 
+										<div class="mz-title">
+											PROGRAM
+										</div>
+										<hr>
+										<div class="mz-curriculum">
+											PHYSIO CURRICULUM
+										</div>
+									</li>
+									<li> 
+										<div class="mz-title">
+											PROGRAM
+										</div>
+										<hr>
+										<div class="mz-curriculum">
+											PHYSIO CURRICULUM
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="mz-details">
+							<div class="mz-row-01">
+								<h6>
+									Competitive Advantages
+								</h6>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean. Mattis nunc sed blandit libero. Feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed id semper risus in. Varius vel pharetra vel turpis nunc eget.
+								</p>
+							</div>
+							<div class="mz-row-02">
+								<h6>
+									Program Features
+								</h6>
+								<p>
+								Ut etiam sit amet nisl purus. Imperdiet proin fermentum leo vel orci porta non. Integer feugiat scelerisque varius morbi enim. Se d ullamcorper morbi tincidunt ornare. Habitant morbi tristique senectus et netus et malesuada fames ac.
+								</p>
+							</div>
+							<div class="mz-checklist">
+								<ul>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Relieve pain
+									</li>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Improve movement or ability
+									</li>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Prevent or recover from a sports injury
+									</li>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Prevent disability or surgery
+									</li>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Rehab after a stroke, accident, injury, or surgery
+									</li>
+									<li>
+										<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Work on balance to prevent a slip or fall
+									</li>
+								</ul>
+							</div>
+							<div class="mz-buttons">
+								<a
+									title="Start Now"
+									target=""
+									class="mz-cta mz-cta-start-now"
+									href=""
+									rel=""
+									>
+									Start Now
+								</a>
+								<a
+									title="Free Trial"
+									target=""
+									class="mz-cta mz-cta-free-trial"
+									href=""
+									rel=""
+									>
+									Free Trial
+								</a>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="program-features">
-				<div class="mz-container-card">
-					<div class="mz-card-title">
-						<h3>
-							ELITE PROGRAM
-						</h3>
-					</div>
-					<div class="mz-card-body">
-						<p>
-						Focused on people with experience in training, with an acceptable-good physical condition who want to increase their performance in a more specific way. Objective to gain strength and muscle at levels above the population average.
-						<br/><br/>
-						Focused on people with experience in training, with an acceptable-good physical condition who want to increase their performance in a more specific way. 	
-						</p>
-						<ul>
-							<li> 
-								<div class="mz-title">
-									PROGRAM
-								</div>
-								<hr>
-								<div class="mz-curriculum">
-									PHYSIO CURRICULUM
-								</div>
-							</li>
-							<li> 
-								<div class="mz-title">
-									PROGRAM
-								</div>
-								<hr>
-								<div class="mz-curriculum">
-									PHYSIO CURRICULUM
-								</div>
-							</li>
-							<li> 
-								<div class="mz-title">
-									PROGRAM
-								</div>
-								<hr>
-								<div class="mz-curriculum">
-									PHYSIO CURRICULUM
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="mz-details">
-					<div class="mz-row-01">
-						<h6>
-							Competitive Advantages
-						</h6>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean. Mattis nunc sed blandit libero. Feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed id semper risus in. Varius vel pharetra vel turpis nunc eget.
-						</p>
-					</div>
-					<div class="mz-row-02">
-						<h6>
-							Program Features
-						</h6>
-						<p>
-						Ut etiam sit amet nisl purus. Imperdiet proin fermentum leo vel orci porta non. Integer feugiat scelerisque varius morbi enim. Se d ullamcorper morbi tincidunt ornare. Habitant morbi tristique senectus et netus et malesuada fames ac.
-						</p>
-					</div>
-					<div class="mz-checklist">
-						<ul>
-							<li>
-								<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Relieve pain
-							</li>
-							<li>
-								<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Improve movement or ability
-							</li>
-							<li>
-								<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Prevent or recover from a sports injury
-							</li>
-							<li>
-								<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Prevent disability or surgery
-							</li>
-							<li>
-								<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Rehab after a stroke, accident, injury, or surgery
-							</li>
-							<li>
-								<img src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png"> Work on balance to prevent a slip or fall
-							</li>
-						</ul>
-					</div>
-					<div class="mz-buttons">
-						<a
-							title="Start Now"
-							target=""
-							class="mz-cta mz-cta-start-now"
-							href=""
-							rel=""
-							>
-							Start Now
-						</a>
-						<a
-							title="Free Trial"
-							target=""
-							class="mz-cta mz-cta-free-trial"
-							href=""
-							rel=""
-							>
-							Free Trial
-						</a>
-					</div>
-				</div>
-			</div>			
 		</div>
 	</section>
 
