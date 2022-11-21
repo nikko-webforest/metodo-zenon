@@ -1,4 +1,4 @@
-.mz-sc-testimonials-carousel {
+.mz-sc-section--testimonials-carousel {
   z-index: 1;
   background-color: $denary-color;
   padding: 0 0 50px;
@@ -263,7 +263,7 @@
     z-index: 1;
     display: block;
     background:
-      linear-gradient( 90deg, $--11th-color 0%, $--12th-color 75.26%, $--13th-color 100% );
+      linear-gradient( 90deg, #EFEEF0, #DCDDE1 75.26%, #BDBCBF 100% );
     width: 100%;
     height: calc(50% + 25px);
 
@@ -274,15 +274,16 @@
 }
 
 .theme-dark {
-  .mz-sc-testimonials-carousel {
+  .mz-sc-section--testimonials-carousel {
     background-color: $black-color;
 
     .mz-container {
       background:
-        linear-gradient( 180deg, $--14th-color 0%, $nonary-color 100% );
+        linear-gradient( 180deg, #825036 0%, $nonary-color 100% );
     }
 
     &::after {
+      background: $denary-color;
       background-color: $denary-color;
     }
   }

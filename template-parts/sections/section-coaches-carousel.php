@@ -1,4 +1,4 @@
-<section class="mz-section mz-coaches-carousel">
+<section class="mz-section mz-sc-section--coaches-carousel">
   <div class="mz-container">
     <h3>Lorem Ipsum</h3>
     <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>

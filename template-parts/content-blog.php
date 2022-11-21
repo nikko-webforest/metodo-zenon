@@ -12,7 +12,7 @@
 <!-- #post-<?php the_ID(); ?> -->
 <article id="page-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<?php echo do_shortcode('[mz-sc-hero-section title="Our Blogs"]'); ?>
+	<?php echo do_shortcode('[mz-sc-section--hero title="Our Blogs"]'); ?>
 
 	<?php
 		$categories = get_categories(
@@ -33,7 +33,7 @@
 		));
 	?>
 	
-	<section class="mz-section mz-sc-blog-post-listing">
+	<section class="mz-section mz-section--blog-listing">
 		<div class="mz-container">
 			<div class="mz-row mz-top-bar-row">
 				<ul class="mz-category-tab-filter-list">

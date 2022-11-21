@@ -76,15 +76,14 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /*================*/
 /*   Shortcodes   */
 /*================*/
-@import 'sass/shortcode/mz-sc-zenon-method';
-@import 'sass/shortcode/mz-sc-about-zenon-carousel';
-@import 'sass/shortcode/mz-sc-coaches-carousel';
-@import 'sass/shortcode/mz-sc-testimonials-carousel';
-@import 'sass/shortcode/mz-sc-recent-articles';
-@import 'sass/shortcode/mz-sc-hero-sections';
-@import 'sass/shortcode/mz-sc-blog-post-listing';
+@import 'sass/shortcode/mz-sc-section--hero';
+@import 'sass/shortcode/mz-sc-section--zenon-method';
+@import 'sass/shortcode/mz-sc-section--about-zenon-carousel';
+@import 'sass/shortcode/mz-sc-section--testimonials-carousel';
+@import 'sass/shortcode/mz-sc-section--recent-articles';
+@import 'sass/shortcode/mz-sc-section--coaches-carousel';
+
 @import 'sass/shortcode/mz-sc-coach-tab';
-@import 'sass/shortcode/mz-sc-programs-features';
 
 /*==============*/
 /*   Sections   */
@@ -96,93 +95,10 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /*=========*/
 @import 'sass/404';
 
-/*===============*/
-/*   Customize   */
-/*===============*/
-/*===== AOS - Animate On Scroll =====*/
-@import 'sass/shortcode/mz-custom-aos';
-
-
-/*===== Search Result Page =====*/
-.mz-search-result-section {
-  .mz-container {
-    .page-header {
-      .page-title {
-        text-align: center;
-      }
-    }
-
-    article {
-      display: grid;
-      grid-template-areas:
-        'item02 item01 item01 item01'
-        'item02 item03 item03 item03'
-        'item02 item04 item04 item04';
-      grid-gap: 5px 30px;
-      margin: 0 auto 30px;
-
-      .entry-header {
-        grid-area: item01;
-
-        .entry-title {
-          font-size: 30px;
-          line-height: 125%;
-          margin: 0 auto 20px;
-        }
-
-        .entry-meta {
-          .posted-on {
-            a {
-              .entry-date {}
-              .updated {}
-            }
-          }
-        }
-
-        .byline {
-          .author {
-            a.url {}
-          }
-
-          .vcard {
-            a.url {}
-          }
-        }
-      }
-
-      .post-thumbnail {
-        grid-area: item02;
-        display: block;
-
-        img {
-          display: block;
-        }
-      }
-
-      .entry-summary {
-        grid-area: item03;
-
-        p {
-          margin: 0 auto 10px;
-        }
-      }
-
-      .entry-footer {
-        grid-area: item04;
-
-        .cat-links {
-          a {}
-        }
-        
-        .comments-link {
-          a {
-            span {}
-          }
-        }
-      }
-    }
-  }
-}
+/*=======================*/
+/*   Animate On Scroll   */
+/*=======================*/
+@import 'sass/aos';
 
 @media only screen and (max-width: 1180px) {}
 

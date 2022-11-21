@@ -176,7 +176,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
-add_shortcode( 'mz-sc-hero-section', function ( $atts, $content = null ){
+add_shortcode( 'mz-sc-section--hero', function ( $atts, $content = null ){
 
 	$attributes = shortcode_atts([
 		'title' => 'Lorem Ipsum',
@@ -185,7 +185,7 @@ add_shortcode( 'mz-sc-hero-section', function ( $atts, $content = null ){
 
 	$output =
 		'
-			<section class="mz-section mz-hero-section" style="background-image: url('. $attributes['hero-bg'].');">
+			<section class="mz-section mz-sc-section--hero" style="background-image: url('. $attributes['hero-bg'].');">
 				<div class="mz-container">
 					<div class="mz-wrap">
 						<h1>
@@ -201,7 +201,7 @@ add_shortcode( 'mz-sc-hero-section', function ( $atts, $content = null ){
 
 });
 
-add_shortcode( 'mz-sc-zenon-method', function ( $atts, $content = null ){
+add_shortcode( 'mz-sc-section--zenon-method', function ( $atts, $content = null ){
 	
 	$attributes = shortcode_atts([
 		'title' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
@@ -267,24 +267,22 @@ add_shortcode( 'mz-sc-zenon-method', function ( $atts, $content = null ){
 		'method-icon_01' => '/wp-content/themes/metodo-zenon/images/mz-zenon-method-section/MZ_Zenon-Method_Training_icon.png',
 		'method-title_02' => 'Lorem Ipsum',
 		'method-desc_02' => '<b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
-		'method-icon_02' => '/wp-content/themes/metodo-zenon/images/mz-zenon-method-section/MZ_Zenon-Method_Training_icon.png',
+		'method-icon_02' => '/wp-content/themes/metodo-zenon/images/mz-zenon-method-section/MZ_Zenon-Method_Nutrition_icon.png',
 		'method-title_03' => 'Lorem Ipsum',
 		'method-desc_03' => '<b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
-		'method-icon_03' => '/wp-content/themes/metodo-zenon/images/mz-zenon-method-section/MZ_Zenon-Method_Training_icon.png',
+		'method-icon_03' => '/wp-content/themes/metodo-zenon/images/mz-zenon-method-section/MZ_Zenon-Method_Psychological-Health-and-Habits_icon.png',
 		'method-title_04' => 'Lorem Ipsum',
 		'method-desc_04' => '<b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
-		'method-icon_04' => '/wp-content/themes/metodo-zenon/images/mz-zenon-method-section/MZ_Zenon-Method_Training_icon.png',
+		'method-icon_04' => '/wp-content/themes/metodo-zenon/images/mz-zenon-method-section/MZ_Zenon-Method_Physiotherapy_icon.png',
 		'sub-text' => 'These four factors should support in harmony the board on which you will support your life.',
 		'method-cta' => 'Metodo Zenon'
 	], $atts);
-
-	$mzCTAclass = $attributes['method-cta'];
-	$mzCTAclass = strtolower($mzCTAclass);
-	$mzCTAclass = str_replace(' ', '-', $mzCTAclass);
+	
+	$mzCTAclass = str_replace(' ', '-', strtolower( $attributes['method-cta'] ) );
 
 	$output =
 		'
-			<section class="mz-section mz-sc-zenon-method">
+			<section class="mz-section mz-sc-section--zenon-method">
 				<div class="mz-container">
 					<h2 class="mz-title">
 						'. $attributes['title'] .'
@@ -306,7 +304,7 @@ add_shortcode( 'mz-sc-zenon-method', function ( $atts, $content = null ){
             </div>
           </div>
 					<div class="mz-row">
-						<div class="mz-col --col-01">
+						<div class="mz-col">
 							<div class="mz-inner-row">
 								<div class="mz-inner-col --inner-col-01">
 									<img
@@ -328,7 +326,7 @@ add_shortcode( 'mz-sc-zenon-method', function ( $atts, $content = null ){
 								</div>
 							</div>
 						</div>
-						<div class="mz-col --col-02">
+						<div class="mz-col">
 							<div class="mz-inner-row">
 								<div class="mz-inner-col --inner-col-01">
 									<img
@@ -350,7 +348,7 @@ add_shortcode( 'mz-sc-zenon-method', function ( $atts, $content = null ){
 								</div>
 							</div>
 						</div>
-						<div class="mz-col --col-03">
+						<div class="mz-col">
 							<div class="mz-inner-row">
 								<div class="mz-inner-col --inner-col-01">
 									<img
@@ -372,7 +370,7 @@ add_shortcode( 'mz-sc-zenon-method', function ( $atts, $content = null ){
 								</div>
 							</div>
 						</div>
-						<div class="mz-col --col-04">
+						<div class="mz-col">
 							<div class="mz-inner-row">
 								<div class="mz-inner-col --inner-col-01">
 									<img
@@ -394,7 +392,7 @@ add_shortcode( 'mz-sc-zenon-method', function ( $atts, $content = null ){
 								</div>
 							</div>
 						</div>
-						<div class="mz-col --col-05">
+						<div class="mz-col">
 							<p class="p-02">
 								'. $attributes['sub-text'] .'
 							</p>
@@ -417,7 +415,7 @@ add_shortcode( 'mz-sc-zenon-method', function ( $atts, $content = null ){
 
 });
 
-add_shortcode( 'mz-sc-about-zenon-carousel', function ( $atts, $content = null ){
+add_shortcode( 'mz-sc-section--about-zenon-carousel', function ( $atts, $content = null ){
 
 	$attributes = shortcode_atts([
 		'slideCount' => '5',
@@ -435,7 +433,7 @@ add_shortcode( 'mz-sc-about-zenon-carousel', function ( $atts, $content = null )
 
   $output =
     '
-      <section class="mz-section mz-sc-about-zenon-carousel">
+      <section class="mz-section mz-sc-section--about-zenon-carousel">
         <div class="mz-container">
           <div class="mz-carousel-navs">
             <div class="mz-carousel-item mz-carousel-nav-item">
@@ -492,14 +490,63 @@ add_shortcode( 'mz-sc-about-zenon-carousel', function ( $atts, $content = null )
 
 });
 
-add_shortcode( 'mz-sc-coaches-carousel', function ( $atts, $content = null ){
+add_shortcode( 'mz-sc-section--testimonials-carousel', function ( $atts, $conent = null ){
 
 	$attributes = shortcode_atts([
 		'title' => 'Lorem Ipsum'
 	], $atts);
 
 	ob_start();
-	get_template_part( 'template-parts/sections/mz-sc-coaches-carousel', array(
+	get_template_part( 'template-parts/sections/section', 'testimonials-carousel', array(
+		'attributes' => $attributes
+	));
+
+	$output = ob_get_contents();
+	ob_end_clean();
+
+	return $output;
+
+});
+
+add_shortcode( 'mz-sc-section--recent-articles', function ( $atts, $conent = null ){
+
+	$attributes = shortcode_atts([
+		'title' => 'Lorem Ipsum'
+	], $atts);
+
+	$args = array(
+		'post_type'      => 'post',
+		'post_status'    => 'publish',
+		'posts_per_page' => 3,
+		'orderby'        => 'date',
+		'order'          => 'DESC'
+	);
+
+	$query = new WP_Query( $args );
+
+	ob_start();
+	get_template_part( 'template-parts/sections/section', 'recent-articles', array(
+		'title' => $attributes['title'],
+		'posts' => $query
+	));
+
+	$output = ob_get_contents();
+	ob_end_clean();
+
+	wp_reset_postdata();
+	
+	return $output;
+
+});
+
+add_shortcode( 'mz-sc-section--coaches-carousel', function ( $atts, $content = null ){
+
+	$attributes = shortcode_atts([
+		'title' => 'Lorem Ipsum'
+	], $atts);
+
+	ob_start();
+	get_template_part( 'template-parts/sections/section', 'coaches-carousel', array(
 		'attributes' => $attributes
 	));
 
@@ -507,319 +554,6 @@ add_shortcode( 'mz-sc-coaches-carousel', function ( $atts, $content = null ){
 	ob_end_clean();
 
 	wp_reset_postdata();
-
-	return $output;
-
-});
-
-add_shortcode( 'mz-sc-testimonials-carousel', function ( $atts, $conent = null ){
-
-	$attributes = shortcode_atts([
-		'title' => 'Lorem Ipsum'
-	], $atts);
-
-	ob_start();
-	get_template_part( 'template-parts/sections/mz-sc-testimonials-carousel', array(
-		'attributes' => $attributes
-	));
-
-	$output = ob_get_contents();
-	ob_end_clean();
-
-	wp_reset_postdata();
-
-	return $output;
-
-});
-
-add_shortcode( 'mz-sc-programs-features', function ( $atts, $content = null ){
-
-	$attributes = shortcode_atts([
-		'title' => 'Sports',
-		'subtitle' => 'I want to maximize my sports performance',
-		'description' => 'Eos tota dicunt democritum no. Has natum gubergren ne. soleat sadipscing cu.',
-		'icon' => '/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Trainings_icon.png',
-		'subsubTitle' => 'Training',
-		'subDescription' => 'Lorem ipsum dolor sit amet, consec tetur adipiscing elit',
-		'photo' => '/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_For_You.png',
-		'overlapTitle' => 'Elite',
-		'overlapSubTitle' => 'Program For You',
-		'cardTitle' => 'Elite Program',
-		'cardDescription' => 'Focused on people with experience in training, with an acceptable-good physical condition who want to increase their performance in a more specific way. Objective to gain strength and muscle at levels above the population average.
-		<br/><br/> Focused on people with experience in training, with an acceptable-good physical condition who want to increase their performance in a more specific way.',
-		'total-programs' => '3',
-		'program-title_01' => 'Program',
-		'program-curriculum_01' => 'Physio Curriculum',
-		'program-title_02' => 'Program',
-		'program-curriculum_02' => 'Physio Curriculum',
-		'program-title_03' => 'Program',
-		'program-curriculum_03' => 'Physio Curriculum',
-		'program-detail-title_01' => 'Competitive Advantages',
-		'program-detail-description_01' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean. Mattis nunc sed blandit libero. Feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed id semper risus in. Varius vel pharetra vel turpis nunc eget.',
-		'program-detail-title_02' => 'Program Features',
-		'program-detail-description_02' => 'Ut etiam sit amet nisl purus. Imperdiet proin fermentum leo vel orci porta non. Integer feugiat scelerisque varius morbi enim. Sed ullamcorper morbi tincidunt ornare. Habitant morbi tristique senectus et netus et malesuada fames ac.',
-		'total-checklist' => '6',
-		'check_icon' => '/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_Check_icon.png',
-		'checklist_01' => 'Relieve pain',
-		'checklist_02' => 'Improve movement or ability',
-		'checklist_03' => 'Prevent or recover from a sports injury',
-		'checklist_04' => 'Prevent disability or surgery',
-		'checklist_05' => 'Rehab after a stroke, accident, injury, or surgery',
-		'checklist_06' => 'Work on balance to prevent a slip or fall'
-	], $atts);
-
-	$output =
-		'
-		<section class="mz-section mz-sc-programs-features">
-			<div class="mz-container">
-				<div class="mz-flex-section-01">
-					<div class="mz-container">
-						<div class="mz-row">
-							<div class="mz-col col-01">
-								<h3>
-									'. $attributes['title'] .'
-								</h3>
-								<h2>
-									'. $attributes['subtitle'] .'
-								</h2>
-								<p>
-									'. $attributes['description'] .'
-								</p>
-								<div class="mz-flex">
-									<img src="'. $attributes['icon'] .'">
-									<div class="mz-flex-row">
-										<h6>
-										'. $attributes['subsubTitle'] .'
-										</h6>
-										<p>
-										'. $attributes['subDescription'] .'
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="mz-group">
-						<div class="mz-section">
-							<img src="'. $attributes['photo'] .'">
-						</div>
-						<div class="mz-overlap">
-							<div class="mz-row">
-								<div class="mz-col col-01">
-									<h1>
-										'. $attributes['overlapTitle'] .'
-									</h1>
-									<h3>
-										'. $attributes['overlapSubTitle'] .'
-									</h3>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="mz-container">
-				<div class="mz-flex-section-02">
-					<div class="mz-container-card">
-						<div class="mz-card-title">
-							<h3>
-								'. $attributes['cardTitle'] .'
-							</h3>
-						</div>
-						<div class="mz-card-body">
-							<p>
-								'. $attributes['cardDescription'] .'
-							</p>
-							<div class="mz-program-curriculum">
-								<ul>
-		'
-	;
-
-	for( $i = 1; $i <= $attributes['total-programs']; $i++ ){
-		$programTitle = $attributes['program-title_0'.$i];
-		$programCurriculum = $attributes['program-curriculum_0'.$i];
-		$output .=
-			'
-									<li> 
-										<div class="mz-title">
-											'. $programTitle .'
-										</div>
-										<div class="line"></div>
-										<div class="mz-curriculum">
-										'. $programCurriculum .'
-										</div>
-									</li>
-			'
-		;
-	}
-
-	$output .=
-		'
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="mz-details">
-						<div class="mz-row-01">
-							<h6>
-								'. $attributes['program-detail-title_01'] .'
-							</h6>
-							<p>
-								'. $attributes['program-detail-description_01'] .'
-							</p>
-						</div>
-						<div class="mz-row-02">
-							<h6>
-								'. $attributes['program-detail-title_02'] .'
-							</h6>
-							<p>
-								'. $attributes['program-detail-description_02'] .'
-							</p>
-						</div>
-						<div class="mz-checklist">
-							<ul>
-		'
-		;
-
-	for( $i = 1; $i <= $attributes['total-checklist']; $i++ ){
-		$programChecklist = $attributes['checklist_0'.$i];
-		$output .=
-			'	
-								<li>
-									<img src="'. $attributes['check_icon'] .'">
-									'. $programChecklist .'
-								</li>
-			'
-		;
-	}
-
-	$output .=
-		'	
-							</ul>
-						</div>
-						<div class="mz-buttons">
-							<a
-								title="Start Now"
-								target=""
-								class="mz-cta mz-cta-start-now"
-								href=""
-								rel=""
-								>
-								Start Now
-							</a>
-							<a
-								title="Free Trial"
-								target=""
-								class="mz-cta mz-cta-free-trial"
-								href=""
-								rel=""
-								>
-								Free Trial
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		'
-	;
-
-	return $output;
-
-});
-
-add_shortcode( 'mz-sc-recent-articles', function ( $atts, $conent = null ){
-
-	$attributes = shortcode_atts([
-    
-	], $atts);
-
-	$args = array( 'numberposts' => '3' );
-	$recent_posts = wp_get_recent_posts( $args );
-
-	$output =
-		'
-			<section class="mz-section mz-sc-recent-articles">
-				<div class="mz-container">
-					<div class="mz-row mz-title-row">
-						<h2>
-							Últimos artículos
-						</h2>
-						<a
-							title="Más contenido"
-							target=""
-							class="mz-cta mz-cta-more-articles"
-							href=""
-							rel=""
-							>
-							Más contenido
-						</a>
-					</div>
-					<div class="mz-row mz-recent-articles-row">
-		'
-  ;
-
-	foreach( $recent_posts as $recent ){
-
-    $recentArticleFeatureImg = '';
-    if( has_post_thumbnail( $recent['ID'] )){
-      $recentArticleFeatureImg = wp_get_attachment_url( get_post_thumbnail_id( $recent['ID'] ) );
-    } else {
-      $recentArticleFeatureImg = '/wp-content/themes/metodo-zenon/images/MZ_Blog_Temp_Article_Featured_img-320x215.png';
-    }
-
-		$output .=
-			'
-				<div class="mz-col mz-recent-articles-col-'. $recent['ID'] .'" id="article-'. $recent['ID'] .'">
-					<div class="mz-recent-article-img-wrap">
-						<img
-							alt=""
-							title=""
-							class="mz-img mz-recent-article-img"
-							src="'. $recentArticleFeatureImg .'"
-							width=""
-							height=""
-						/>
-					</div>
-					<div class="mz-recent-article-details-wrap">
-						<h3 class="mz-recent-article-title">
-							'. $recent["post_title"] .'
-						</h3>
-						<p class="mz-recent-article-excerpt">
-							'. get_the_excerpt($recent["ID"]) .'
-						</p>
-						<div class="mz-inner-row">
-							<div class="mz-recent-article-released-date">
-								'. date('M j, Y', strtotime($recent['post_date'])) .'
-							</div>
-							<a
-								title=""
-								target=""
-								class="mz-a-link mz-link-more-info"
-								href="'. get_permalink($recent['ID']) .'"
-								rel=""
-								>
-								<span>Leer</span>
-                <span>
-                  <svg width="35" height="13" viewBox="0 0 35 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M26.9048 1.3457L32.1752 6.616L26.9048 11.8863M31.5419 6.6165H0.226562" stroke="#6F4A37" stroke-width="3"/>
-                  </svg>
-                </span>
-							</a>
-						</div>
-					</div>
-				</div>
-			'
-    ;
-	}
-
-	$output .=
-		'
-					</div>
-				</div>
-			</section>
-		'
-  ;
 
 	return $output;
 

@@ -1,4 +1,4 @@
-<section class="mz-section mz-sc-testimonials-carousel">
+<section class="mz-section mz-sc-section--testimonials-carousel">
   <div class="mz-container">
     <div class="mz-row">
       <div class="mz-col col-01">

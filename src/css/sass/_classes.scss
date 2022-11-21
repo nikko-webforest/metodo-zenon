@@ -87,7 +87,7 @@
         text-transform: uppercase;
         display: block;
         background:
-          linear-gradient( 180deg, $--13th-color 0, $primary-color 100% );
+          linear-gradient( 180deg, #BDBCBF 0, $primary-color 100% );
         max-width: 125px;
         min-width: 100px;
         width: 100%;
@@ -100,7 +100,7 @@
 
 .mz-section.test {
   .mz-container {
-    border: 1px solid $--18th-color;
+    border: 1px solid #808080;
 
     h1 {
       color: $white-color;

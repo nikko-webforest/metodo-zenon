@@ -12,9 +12,9 @@
 <!-- #post-<?php the_ID(); ?> -->
 <article id="page-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<?php echo do_shortcode('[mz-sc-hero-section title="We Help You" hero-bg="/wp-content/themes/metodo-zenon/images/MZ_Programs_Hero_sect-bg.png"]'); ?>
+	<?php echo do_shortcode('[mz-sc-section--hero title="We Help You" hero-bg="/wp-content/themes/metodo-zenon/images/MZ_Programs_Hero_sect-bg.png"]'); ?>
 
-	<section class="mz-section mz-programs-content">
+	<section class="mz-section mz-section--programs-content">
 		<div class="mz-container">
 			<p class="p-01">
 				Your Goal
@@ -830,9 +830,9 @@
 		</div>
 	</section>
 
-	<?php echo do_shortcode('[mz-sc-testimonials-carousel]'); ?>
+	<?php echo do_shortcode('[mz-sc-section--testimonials-carousel]'); ?>
 
-	<?php echo do_shortcode('[mz-sc-recent-articles]'); ?>
+	<?php echo do_shortcode('[mz-sc-section--recent-articles]'); ?>
 
 	<!-- .entry-content -->
 	<div class="entry-content">

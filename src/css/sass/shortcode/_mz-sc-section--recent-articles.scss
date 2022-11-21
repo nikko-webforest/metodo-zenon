@@ -1,6 +1,6 @@
-.mz-sc-recent-articles {
+.mz-sc-section--recent-articles {
   background:
-    linear-gradient( 90deg, $--11th-color 0%, $--12th-color 75.26%, $--13th-color 100% );
+    linear-gradient( 90deg, #EFEEF1 0%, #DCDDE1 75.26%, #BDBCBF 100% );
   padding: 120px 30px 100px;
 
   @media only screen and (max-width: 1180px) {
@@ -35,7 +35,7 @@
           @media only screen and (max-width: 1180px) {
             font-size: 30px;
             text-align: center;
-            flex-basis: 100%;
+            width: 100%;
           }
         }
   
@@ -64,11 +64,12 @@
         }
 
         .mz-col {
-          flex-basis: 320px;
           background-color: $white-color;
+          max-width: 320px;
+          width: 100%;
 
           .mz-recent-article-img-wrap {
-            background-color: $--18th-color;
+            background-color: #808080;
             overflow: hidden;
 
             .mz-recent-article-img {
@@ -177,7 +178,8 @@
 }
 
 .theme-dark {
-  .mz-sc-recent-articles {
+  .mz-sc-section--recent-articles {
+    background: $denary-color;
     background-color: $denary-color;
 
     .mz-container {
@@ -200,7 +202,7 @@
 
         &.mz-recent-articles-row {
           .mz-col {
-            background-color: $--19th-color;
+            background-color: #181818;
 
             .mz-recent-article-title {
               color: $white-color;
