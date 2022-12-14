@@ -1,5 +1,5 @@
 .mz-sc-section--hero {
-  background-color: $black-color;
+  background-color: #000000;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,12 +27,12 @@
       height: 100%;
 
       h1 {
-        color: $white-color;
+        color: #FFFFFF;
         font-style: normal;
         font-size: 36px;
         text-align: center;
         text-transform: uppercase;
-        line-height: 150%;
+        line-height: 1.5em;
         margin: 0;
 
         @media only screen and (max-width: 1180px) {

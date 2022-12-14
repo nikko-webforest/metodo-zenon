@@ -206,17 +206,17 @@
     gsap.defaults({duration: 30});
 
     const tl = gsap.timeline();
-    tl.from(thisSectionClass+' .mz-title', {y:50, opacity: 0, delay: 0});
-    tl.from(thisSectionClass+' .mz-svg-wrap', {opacity: 0, delay: 2});
-    tl.from(thisSectionClass+' .--col-01', {x:-50, opacity: 0, delay: 6});
-    tl.from(thisSectionClass+' .--col-02', {x:50, opacity: 0, delay: 8});
-    tl.from(thisSectionClass+' .--col-03', {x:-50, opacity: 0, delay: 10});
-    tl.from(thisSectionClass+' .--col-04', {x:50, opacity: 0, delay: 12});
-    tl.from(thisSectionClass+' .--col-05', {y:50, opacity: 0, delay: 14});
+    tl.from(thisSectionClass+' .mz-ds-view .mz-title', {y:50, opacity: 0, delay: 0});
+    tl.from(thisSectionClass+' .mz-ds-view .mz-svg-wrap', {opacity: 0, delay: 2});
+    tl.from(thisSectionClass+' .mz-ds-view .mz-col:nth-child(1)', {x:-50, opacity: 0, delay: 6});
+    tl.from(thisSectionClass+' .mz-ds-view .mz-col:nth-child(2)', {x:50, opacity: 0, delay: 8});
+    tl.from(thisSectionClass+' .mz-ds-view .mz-col:nth-child(3)', {x:-50, opacity: 0, delay: 10});
+    tl.from(thisSectionClass+' .mz-ds-view .mz-col:nth-child(4)', {x:50, opacity: 0, delay: 12});
+    tl.from(thisSectionClass+' .mz-ds-view .mz-col:nth-child(5)', {y:50, opacity: 0, delay: 14});
 
     ScrollTrigger.create({
       animation: tl,
-      trigger: thisSectionClass,
+      trigger: thisSectionClass+' .mz-ds-view',
       start: "top top",
       scrub: 1,
       snap: {

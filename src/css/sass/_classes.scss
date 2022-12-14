@@ -80,14 +80,14 @@
       flex-basis: 100%;
 
       .mz-form-submit {
-        color: $white-color;
+        color: #FFFFFF;
         font-size: 14px;
         font-weight: 500;
         text-align: center;
         text-transform: uppercase;
         display: block;
         background:
-          linear-gradient( 180deg, #BDBCBF 0, $primary-color 100% );
+          linear-gradient( 180deg, #BDBCBF 0, #512912 100% );
         max-width: 125px;
         min-width: 100px;
         width: 100%;
@@ -103,7 +103,7 @@
     border: 1px solid #808080;
 
     h1 {
-      color: $white-color;
+      color: #FFFFFF;
       text-align: center;
       margin: 0;
     }

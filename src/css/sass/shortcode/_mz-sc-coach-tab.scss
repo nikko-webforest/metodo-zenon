@@ -1,5 +1,5 @@
 .mz-sc-coach-tab {
-  background-color: $white-color;
+  background-color: #FFFFFF;
   padding: 0 30px;
 
   &::before {
@@ -19,7 +19,7 @@
       display: flex;
       justify-content: center;
       align-items: stretch;
-      background-color: $nonary-color;
+      background-color: #49230C;
       gap: 30px 125px;
       padding: 50px 30px 0;
 
@@ -42,34 +42,34 @@
           text-align: left;
 
           .coach-role {
-            color: $septenary-color;
+            color: #AFACB4;
             font-family: $primary-font-family;
             font-style: normal;
             font-weight: 700;
             font-size: 12px;
-            line-height: 150%;
+            line-height: 1.5em;
             text-transform: uppercase;
             margin: 0 0 10px;
           }
 
           .coach-name {
-            color: $septenary-color;
+            color: #AFACB4;
             font-family: $primary-font-family;
             font-style: normal;
             font-weight: 700;
             font-size: 32px;
-            line-height: 100%;
+            line-height: 1em;
             letter-spacing: -0.02em;
             text-transform: uppercase;
           }
         }
 
         &.--active-tab {
-          border-color: $white-color;
+          border-color: #FFFFFF;
 
           .coach-details {
             .coach-name {
-              color: $white-color;
+              color: #FFFFFF;
             }
           }
         }
@@ -95,39 +95,39 @@
               }
 
               .coach-details {
-                background-color: $white-color;
+                background-color: #FFFFFF;
                 padding: 35px 30px 45px;
 
                 .coach-name {
-                  color: $black-color;
+                  color: #000000;
                   font-family: $primary-font-family;
                   font-style: normal;
                   font-size: 18px;
                   font-weight: 700;
                   text-transform: uppercase;
                   letter-spacing: -0.02em;
-                  line-height: 110%;
+                  line-height: 1.1em;
                   margin: 0 0 5px;
                 }
 
                 .coach-role {
-                  color: $primary-color;
+                  color: #512912;
                   font-family: $primary-font-family;
                   font-style: normal;
                   font-size: 12px;
                   font-weight: 700;
                   text-transform: uppercase;
-                  line-height: 150%;
+                  line-height: 1.5em;
                   margin: 0 0 25px;
                 }
 
                 .coach-description {
-                  color: $senary-color;
+                  color: #373F41;
                   font-family: $primary-font-family;
                   font-style: normal;
                   font-size: 12px;
                   font-weight: 300;
-                  line-height: 125%;
+                  line-height: 1.25em;
                   margin: 0 0 40px;
                 }
 
@@ -155,14 +155,14 @@
               flex-basis: calc(100% - (350px + 70px));
 
               h4 {
-                color: $black-color;
+                color: #000000;
                 font-family: $primary-font-family;
                 font-style: normal;
                 font-size: 20px;
                 font-weight: 700;
                 text-transform: uppercase;
                 letter-spacing: -0.02em;
-                line-height: 150%;
+                line-height: 1.5em;
 
                 &.h4-01 {
                   margin: 30px 0;
@@ -170,12 +170,12 @@
               }
 
               .p-01 {
-                color: $senary-color;
+                color: #373F41;
                 font-family: $primary-font-family;
                 font-style: normal;
                 font-size: 14px;
                 font-weight: 400;
-                line-height: 150%;
+                line-height: 1.5em;
                 margin: 0 0 65px;
               }
 
@@ -196,25 +196,25 @@
                     margin: 0 auto 10px;
 
                     h3 {
-                      color: $primary-color;
+                      color: #512912;
                       font-family: $primary-font-family;
                       font-style: normal;
                       font-size: 20px;
                       font-weight: 700;
                       text-transform: uppercase;
                       letter-spacing: -0.02em;
-                      line-height: 150%;
+                      line-height: 1.5em;
                       margin: 0;
                     }
 
                     span {
-                      color: $primary-color;
+                      color: #512912;
                       font-family: $primary-font-family;
                       font-style: normal;
                       font-size: 20px;
                       font-weight: 700;
                       letter-spacing: -0.02em;
-                      line-height: 120%;
+                      line-height: 1.2em;
                       display: block;
                     }
                   }
@@ -227,7 +227,8 @@
                     .progress-level {
                       background-color: rgba(111, 74, 55);
                       height: 100%;
-                      transition: width $hover-transition-duration ease-in-out;
+                      transition:
+                        width $hover-transition-duration ease-in-out;
                     }
                   }
                 }
@@ -256,24 +257,24 @@
 
                     .coach-specialties-details {
                       span:nth-of-type(1) {
-                        color: $black-color;
+                        color: #000000;
                         font-family: $primary-font-family;
                         font-style: normal;
                         font-size: 20px;
                         font-weight: 700;
                         letter-spacing: -0.02em;
-                        line-height: 150%;
+                        line-height: 1.5em;
                         display: block;
                         margin: 0 0 5px;
                       }
 
                       span:nth-of-type(2) {
-                        color: $senary-color;
+                        color: #373F41;
                         font-family: $primary-font-family;
                         font-style: normal;
                         font-size: 14px;
                         font-weight: 400;
-                        line-height: 150%;
+                        line-height: 1.5em;
                         display: block;
                       }
                     }

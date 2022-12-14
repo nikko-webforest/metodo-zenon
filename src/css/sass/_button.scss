@@ -1,6 +1,6 @@
 .mz-a-link,
 .mz-link {
-  color: $black-color;
+  color: #000000;
   text-decoration: underline;
   opacity: 1;
 
@@ -21,22 +21,22 @@
 }
 
 .mz-cta {
-  color: $quinary-color;
+  color: #6F4A37;
   font-family: $primary-font-family;
   font-style: normal;
   font-size: 14px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  line-height: 150%;
+  line-height: 1.5em;
   display: inline-block;
   background-color: transparent;
   padding: 13px 25px;
-  border: 1px solid $quinary-color;
+  border: 1px solid #6F4A37;
 
   &:hover {
-    color: $white-color;
-    background-color: $quinary-color;
+    color: #FFFFFF;
+    background-color: #6F4A37;
   }
 
   span {
@@ -61,13 +61,13 @@
 .theme-dark {
   /*===== mz-cta =====*/
   .mz-cta {
-    color: $white-color;
+    color: #FFFFFF;
     background-color: transparent;
-    border-color: $white-color;
+    border-color: #FFFFFF;
 
     &:hover {
-      color: $black-color;
-      background-color: $white-color;
+      color: #000000;
+      background-color: #FFFFFF;
     }
   }
 }
@@ -81,12 +81,13 @@
   justify-content: flex-start;
   align-items: center;
   gap: 0 20px;
+  background-color: #FFFFFF;
   max-width: 200px;
   min-width: 200px;
   padding: 3px;
   border-width: 2px;
   border-style: solid;
-  border-color: transparent;
+  border-color: #1A171C;
   border-radius: 50px;
 
   &.theme-light {
@@ -152,6 +153,6 @@
     font-size: 15px;
     text-align: center;
     text-transform: uppercase;
-    line-height: 100%;
+    line-height: 1em;
   }
 }

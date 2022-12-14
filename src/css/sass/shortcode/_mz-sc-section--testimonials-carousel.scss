@@ -1,23 +1,25 @@
 .mz-sc-section--testimonials-carousel {
   z-index: 1;
-  background-color: $denary-color;
+  background-color: #0B0D0F;
   padding: 0 0 50px;
+
+  @media only screen and (max-width: 1180px) {
+    padding: 0 30px 50px;
+  }
 
   @media only screen and (max-width: 768px) {
     margin: 0 auto;
-    padding: 0 30px 50px;
   }
 
   .mz-container {
     position: relative;
     z-index: 2;
-    background-color: $nonary-color;
+    background-color: #49230C;
     max-width: 1140px;
     width: 100%;
     padding: 60px 80px;
 
     @media only screen and (max-width: 1180px) {
-      max-width: 900px;
       padding: 60px 30px;
     }
 
@@ -33,56 +35,32 @@
     .mz-row {
       justify-content: space-between;
       align-items: center;
-      gap: 30px 0;
+      gap: 30px 20px;
 
       @media only screen and (max-width: 768px) {
         flex-wrap: wrap;
+        gap: 20px;
       }
 
       .mz-col {
-        &.col-01 {
-          flex-basis: 32%;
+        &:nth-child(1) {
+          width: 32%;
 
           @media only screen and (max-width: 768px) {
-            flex-basis: 100%;
+            width: 100%;
           }
 
           @media only screen and (max-width: 480px) {
-            flex-basis: 100%;
-          }
-
-          h3 {
-            color: $white-color;
-            font-style: normal;
-            font-size: 24px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: -0.02em;
-            line-height: 120%;
-
-            @media only screen and (max-width: 1180px) {
-              font-size: 22px;
-            }
-
-            @media only screen and (max-width: 768px) {
-              font-size: 20px;
-              text-align: center;
-            }
-
-            @media only screen and (max-width: 480px) {
-              font-size: 16px;
-              line-height: 150%;
-              margin: 0 auto 15px;
-            }
+            width: 100%;
           }
           
           h2 {
-            color: $white-color;
+            color: #FFFFFF;
             font-style: normal;
             font-weight: 700;
             font-size: 32px;
             text-transform: uppercase;
-            line-height: 150%;
+            line-height: 1.1em;
             letter-spacing: -0.02em;
             margin: 0;
 
@@ -97,22 +75,20 @@
 
             @media only screen and (max-width: 480px) {
               font-size: 20px;
-              line-height: 150%;
+              line-height: 1.5em;
             }
           }
         }
 
-        &.col-02 {
-          flex-basis: 60%;
-          padding: 0 0 0 90px;
+        &:nth-child(2) {
+          width: 60%;
 
           @media only screen and (max-width: 768px) {
-            flex-basis: 70%;
-            padding: 0;
+            width: calc(70% - 15px);
           }
 
           @media only screen and (max-width: 480px) {
-            flex-basis: 100%;
+            width: 100%;
           }
 
           .mz-carousel-main {
@@ -129,24 +105,24 @@
                     margin: 0 0 20px;
 
                     .mz-inner-col {
-                      &.col-01 {
-                        background-color: $white-color;
-                        flex-basis: 60px;
+                      &:nth-child(1) {
+                        background-color: #FFFFFF;
+                        width: 60px;
                         height: 60px;
 
                         .testimony-profile-img {}
                       }
 
-                      &.col-02 {
-                        flex-basis: 70%;
+                      &:nth-child(2) {
+                        width: 70%;
 
                         .testimony-name {
-                          color: $white-color;
+                          color: #FFFFFF;
                           font-style: normal;
                           font-size: 18px;
                           font-weight: 500;
                           text-transform: uppercase;
-                          line-height: 150%;
+                          line-height: 1.5em;
                           margin: 0 0 10px;
                         }
 
@@ -156,7 +132,7 @@
                           gap: 8px;
 
                           li {
-                            color: $white-color;
+                            color: #FFFFFF;
                             font-size: 18px;
 
                             .fa {
@@ -174,11 +150,11 @@
                   }
 
                   .testimony-quotes {
-                    color: $white-color;
+                    color: #FFFFFF;
                     font-style: normal;
                     font-size: 13px;
                     font-weight: 400;
-                    line-height: 150%;
+                    line-height: 1.5em;
                     margin: 0;
                   }
                 }
@@ -187,23 +163,19 @@
           }
         }
 
-        &.col-03 {
-          flex-basis: 10%;
-
-          @media only screen and (max-width: 1180px) {
-            padding: 0 0 0 50px;
-          }
+        &:nth-child(3) {
+          width: 10%;
 
           @media only screen and (max-width: 768px) {
-            flex-basis: 20%;
+            width: calc(30% - 15px);
           }
 
           @media only screen and (max-width: 480px) {
-            flex-basis: 100%;
+            width: 100%;
           }
 
           .mz-carousel-slide-count {
-            color: $white-color;
+            color: #FFFFFF;
             display: flex;
             justify-content: center;
             align-items: flex-end;
@@ -216,6 +188,7 @@
                 font-size: 13px;
                 font-weight: 700;
               }
+
               &.mz-carousel-total-slide {
                 font-size: 10px;
                 font-weight: 400;
@@ -275,16 +248,16 @@
 
 .theme-dark {
   .mz-sc-section--testimonials-carousel {
-    background-color: $black-color;
+    background-color: #000000;
 
     .mz-container {
       background:
-        linear-gradient( 180deg, #825036 0%, $nonary-color 100% );
+        linear-gradient( 180deg, #825036 0%, #49230C 100% );
     }
 
     &::after {
-      background: $denary-color;
-      background-color: $denary-color;
+      background: #0B0D0F;
+      background-color: #0B0D0F;
     }
   }
 }

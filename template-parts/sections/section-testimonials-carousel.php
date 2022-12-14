@@ -1,17 +1,18 @@
 <section class="mz-section mz-sc-section--testimonials-carousel">
   <div class="mz-container">
     <div class="mz-row">
-      <div class="mz-col col-01">
-        <h3>Testimonials</h3>
-        <h2>People who have already got their change</h2>
+      <div class="mz-col">
+        <h2>
+          Opiniones de deportistas que ya están mejorando con el MÉTODO ZENON
+        </h2>
       </div>
-      <div class="mz-col col-02">
+      <div class="mz-col">
         <div class="mz-carousel-main"
           data-current-slide="1"
           data-carousel-autoplay="false">
           <div class="mz-carousel-cell">
             <div class="mz-inner-row">
-              <div class="mz-inner-col col-01">
+              <div class="mz-inner-col">
                 <img class="mz-img testimony-profile-img"
                   alt=""
                   title=""
@@ -19,7 +20,7 @@
                   width=""
                   height=""/>
               </div>
-              <div class="mz-inner-col col-02">
+              <div class="mz-inner-col">
                 <p class="testimony-name">
                   John Doe
                 </p>
@@ -38,7 +39,7 @@
           </div>
           <div class="mz-carousel-cell">
             <div class="mz-inner-row">
-              <div class="mz-inner-col col-01">
+              <div class="mz-inner-col">
                 <img class="mz-img testimony-profile-img"
                   alt=""
                   title=""
@@ -46,7 +47,7 @@
                   width=""
                   height=""/>
               </div>
-              <div class="mz-inner-col col-02">
+              <div class="mz-inner-col">
                 <p class="testimony-name">
                   John Doe
                 </p>
@@ -65,7 +66,7 @@
           </div>
           <div class="mz-carousel-cell">
             <div class="mz-inner-row">
-              <div class="mz-inner-col col-01">
+              <div class="mz-inner-col">
                 <img class="mz-img testimony-profile-img"
                   alt=""
                   title=""
@@ -73,7 +74,7 @@
                   width=""
                   height=""/>
               </div>
-              <div class="mz-inner-col col-02">
+              <div class="mz-inner-col">
                 <p class="testimony-name">
                   John Doe
                 </p>
@@ -92,7 +93,7 @@
           </div>
           <div class="mz-carousel-cell">
             <div class="mz-inner-row">
-              <div class="mz-inner-col col-01">
+              <div class="mz-inner-col">
                 <img class="mz-img testimony-profile-img"
                   alt=""
                   title=""
@@ -100,7 +101,7 @@
                   width=""
                   height=""/>
               </div>
-              <div class="mz-inner-col col-02">
+              <div class="mz-inner-col">
                 <p class="testimony-name">
                   John Doe
                 </p>
@@ -119,7 +120,7 @@
           </div>
           <div class="mz-carousel-cell">
             <div class="mz-inner-row">
-              <div class="mz-inner-col col-01">
+              <div class="mz-inner-col">
                 <img class="mz-img testimony-profile-img"
                   alt=""
                   title=""
@@ -127,7 +128,7 @@
                   width=""
                   height=""/>
               </div>
-              <div class="mz-inner-col col-02">
+              <div class="mz-inner-col">
                 <p class="testimony-name">
                   John Doe
                 </p>
@@ -146,7 +147,7 @@
           </div>
         </div>
       </div>
-      <div class="mz-col col-03">
+      <div class="mz-col">
         <div class="mz-carousel-slide-count">
           <span class="mz-carousel-counter-slide"></span>/<span class="mz-carousel-total-slide">05</span>
         </div>

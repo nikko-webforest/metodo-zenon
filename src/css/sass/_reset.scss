@@ -24,8 +24,8 @@ body {
   font-family: $primary-font-family;
   font-style: normal;
   font-size: $normal-font-size;
-  line-height: 100%;
-  background: $white-color;
+  line-height: 1em;
+  background: #FFFFFF;
 
   &::before {
     content: "Horizontal";
@@ -60,11 +60,11 @@ body {
   }
 
   &.theme-dark {
-    background: $black-color;
+    background: #000000;
   }
 
   &.theme-light {
-    background: $white-color;
+    background: #FFFFFF;
   }
 }
 
@@ -88,11 +88,11 @@ input[type=submit] {
 }
 
 a {
-  color: $black-color;
+  color: #000000;
   text-decoration: none;
   
   &:hover {
-    color: $primary-color;
+    color: #512912;
   }
   
   &:focus {}
@@ -106,18 +106,18 @@ input[type=url],
 textarea {
   width: 100%;
   padding: 10px;
-  border: 1px solid $primary-color;
+  border: 1px solid #512912;
 }
 
 input[type=submit] {
-  color: $white-color;
+  color: #FFFFFF;
   font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
-  background: $nonary-color;
+  background-color: #49230C;
   opacity: 1;
   padding: 15px 20px;
-  border: 1px solid $primary-color;
+  border: 1px solid #512912;
 
   &:hover {
     opacity: 0.8;
@@ -125,7 +125,7 @@ input[type=submit] {
 }
 
 h1, h2, h3, h4, h5, h6, p {
-  line-height: 150%;
+  line-height: 1.5em;
   margin: 0 0 30px;
 }
 

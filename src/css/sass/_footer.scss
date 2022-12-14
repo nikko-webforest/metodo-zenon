@@ -16,7 +16,7 @@
     }
 
     .mz-container {
-      border-bottom: 1px solid $white-color;
+      border-bottom: 1px solid #FFFFFF;
 
       @media only screen and (max-width: 1180px) {
         max-width: 900px;
@@ -115,7 +115,7 @@
           }
 
           .p-01 {
-            color: $white-color;
+            color: #FFFFFF;
 
             @media only screen and (max-width: 768px) {
               text-align: center;
@@ -137,7 +137,7 @@
           }
 
           .mz-menu-title {
-            color: $white-color;
+            color: #FFFFFF;
             font-size: 17px;
             font-weight: 700;
             text-transform: uppercase;
@@ -151,11 +151,11 @@
 
           .mz-menu-list {
             .mz-menu-item {
-              color: $white-color;
+              color: #FFFFFF;
               font-size: 13px;
               font-weight: 700;
               text-transform: uppercase;
-              line-height: 125%;
+              line-height: 1.25em;
               margin: 0 0 20px;
 
               @media only screen and (max-width: 480px) {
@@ -163,7 +163,7 @@
               }
               
               &:hover {
-                color: $tertiary-color;
+                color: #C2AB90;
               }
               
               .mz-menu-links {
@@ -231,7 +231,7 @@
           }
 
           .p-01 {
-            color: $white-color;
+            color: #FFFFFF;
             font-size: 12px;
             font-weight: 300;
             margin: 0;
@@ -272,7 +272,7 @@
     width: 0;
     height: 0;
     overflow: hidden;
-    background-color: $nonary-color;
+    background-color: #49230C;
     box-shadow: 0 4px 8px rgb(0 0 0 / 25%);
     opacity: 1;
     transform: translate(-50%, -50%);
@@ -299,12 +299,12 @@
   .mz-footer {
     background:
       url('images/MZ_Footer_Z_ds-light.svg') no-repeat center/cover,
-      linear-gradient( 180deg, $black-color 0, $black-color 100% );
+      linear-gradient( 180deg, #000000 0, #000000 100% );
 
     @media only screen and (max-width: 768px) {
       background:
         url('images/MZ_Footer_Z_mb-light.svg') no-repeat center/cover,
-        linear-gradient( 180deg, $black-color 0, $black-color 100% );
+        linear-gradient( 180deg, #000000 0, #000000 100% );
     }
   }
 }

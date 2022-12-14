@@ -1,246 +1,186 @@
 .mz-sc-section--zenon-method {
-  background-color: $white-color;
-  padding: 135px 30px 100px;
+  padding: 0;
 
-  @media only screen and (max-width: 1180px) {
-    padding: 210px 30px 100px;
-  }
-
-  @media only screen and (max-width: 768px) {
+  .mz-ds-view,
+  .mz-tb-view {
+    background-color: #FFFFFF;
     padding: 135px 30px 100px;
-  }
 
-  .mz-container {
     @media only screen and (max-width: 1180px) {
-      max-width: 1020px;
+      padding: 210px 30px 100px;
     }
 
-    h2 {
-      color: $black-color;
-      font-style: normal;
-      font-size: 32px;
-      font-weight: 700;
-      text-align: center;
-      text-transform: uppercase;
-      letter-spacing: -0.02em;
-      line-height: 110%;
-      max-width: 500px;
-      margin: 0 auto 60px;
-
+    @media only screen and (max-width: 768px) {
+      padding: 135px 30px 100px;
+    }
+      
+    .mz-container {
       @media only screen and (max-width: 1180px) {
-        font-size: 30px;
+        max-width: 1020px;
       }
 
-      @media only screen and (max-width: 768px) {
-        font-size: 28px;
-        max-width: 460px;
-      }
-    }
+      h2 {
+        color: #000000;
+        font-style: normal;
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: -0.02em;
+        line-height: 1.1em;
+        max-width: 500px;
+        margin: 0 auto 60px;
 
-    .mz-bg-wrap {
-      position: relative;
-      margin: 0 auto 50px;
-
-      .mz-svg-wrap {
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        display: block;
-        max-width: 605px;
-        width: 100%;
-        margin: 0 auto;
-        
-        svg {
-          width: 100%;
-
-          &:nth-child(1) {
-            display: block;
-          }
-
-          &:nth-child(2) {
-            display: none;
-          }
+        @media only screen and (max-width: 1180px) {
+          font-size: 30px;
         }
-      }
-
-      .mz-img-wrap {
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        display: block;
-        max-width: 450px;
-        width: 100%;
-        margin: 0 auto;
 
         @media only screen and (max-width: 768px) {
-          position: relative;
-          top: unset;
-          left: unset;
-          transform: unset;
+          font-size: 28px;
+          max-width: 460px;
         }
-
-        .girl-on-table-bg-img {
-          display: block;
-          width: 100%;
-        }
-      }
-    }
-
-    .mz-row {
-      position: relative;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-content: center;
-      height: 700px;
-      gap: 100px;
-
-      @media only screen and (max-width: 1180px) {
-        gap: 150px 45px;
-      }
-
-      @media only screen and (max-width: 768px) {
-        flex-wrap: wrap;
-        justify-content: center;
-        height: unset;
-        gap: 30px;
-        margin: 0 auto 30px;
-      }
-
-      .mz-col {
-        max-width: 330px;
-        width: 100%;
-
-        &:nth-of-type(1) {
-          @media only screen and (max-width: 768px) {
-            order: 2;
-          }
-        }
-
-        &:nth-of-type(2) {
-          @media only screen and (max-width: 768px) {
-            order: 3;
-          }
-        }
-
-        &:nth-of-type(3) {
-          @media only screen and (max-width: 768px) {
-            order: 4;
-          }
-        }
-
-        &:nth-of-type(4) {
-          @media only screen and (max-width: 768px) {
-            order: 5;
-          }
-        }
-
-        &:last-child {
-          max-width: 100%;
-
-          @media only screen and (max-width: 768px) {
-            order: 1;
-          }
-        }
-
-        .mz-inner-row {
-          justify-content: flex-start;
-          align-items: flex-start;
-          gap: 15px;
-
-          .mz-inner-col {
-            &.--inner-col-01 {
-              max-width: 80px;
-              min-width: 80px;
-              width: 100%;
-
-              .mz-img {}
-            }
-
-            &.--inner-col-02 {
-              h3 {
-                color: $black-color;
-                font-style: normal;
-                font-size: 20px;
-                font-weight: 700;
-                line-height: 120%;
-                text-transform: uppercase;
-                letter-spacing: -0.02em;
-                margin: 0 0 10px;
-              }
-              
-              p {
-                color: $senary-color;
-                font-style: normal;
-                font-size: 14px;
-                font-weight: 400;
-                line-height: 125%;
-                margin: 0;
-              }
-            }
-          }
-        }
-      }
-    }
-
-    .p-02 {
-      color: $senary-color;
-      font-style: normal;
-      font-size: 16px;
-      font-weight: 400;
-      text-align: center;
-      line-height: 125%;
-      max-width: 350px;
-      margin: 0 auto;
-
-      @media only screen and (max-width: 768px) {
-        order: 5;
-      }
-    }
-
-    .mz-cta {
-      display: block;
-      max-width: 350px;
-      margin: 0 auto;
-    }
-  }
-}
-
-.theme-dark {
-  .mz-sc-section--zenon-method {
-    background-color: $black-color;
-
-    .mz-container {
-      h2 {
-        color: $white-color;
       }
 
       .mz-bg-wrap {
+        position: relative;
+        margin: 0 auto 50px;
+
         .mz-svg-wrap {
+          position: absolute;
+          top: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          display: block;
+          max-width: 605px;
+          width: 100%;
+          margin: 0 auto;
+          
           svg {
+            width: 100%;
+
             &:nth-child(1) {
-              display: none;
+              display: block;
             }
 
             &:nth-child(2) {
-              display: block;
+              display: none;
             }
+          }
+        }
+
+        .mz-img-wrap {
+          position: absolute;
+          top: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          display: block;
+          max-width: 450px;
+          width: 100%;
+          margin: 0 auto;
+
+          @media only screen and (max-width: 768px) {
+            position: relative;
+            top: unset;
+            left: unset;
+            transform: unset;
+          }
+
+          .girl-on-table-bg-img {
+            display: block;
+            width: 100%;
           }
         }
       }
 
       .mz-row {
-        .mz-col {
-          .mz-inner-row {
-            .mz-inner-col {
-              &.--inner-col-02 {
-                h3 {
-                  color: $white-color;
-                }
+        position: relative;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+        height: 700px;
+        gap: 100px;
 
+        @media only screen and (max-width: 1180px) {
+          gap: 150px 45px;
+        }
+
+        @media only screen and (max-width: 768px) {
+          flex-wrap: wrap;
+          justify-content: center;
+          height: unset;
+          gap: 30px;
+          margin: 0 auto 30px;
+        }
+
+        .mz-col {
+          max-width: 330px;
+          width: 100%;
+
+          &:nth-of-type(1) {
+            @media only screen and (max-width: 768px) {
+              order: 2;
+            }
+          }
+
+          &:nth-of-type(2) {
+            @media only screen and (max-width: 768px) {
+              order: 3;
+            }
+          }
+
+          &:nth-of-type(3) {
+            @media only screen and (max-width: 768px) {
+              order: 4;
+            }
+          }
+
+          &:nth-of-type(4) {
+            @media only screen and (max-width: 768px) {
+              order: 5;
+            }
+          }
+
+          &:last-child {
+            max-width: 100%;
+
+            @media only screen and (max-width: 768px) {
+              order: 1;
+            }
+          }
+
+          .mz-inner-row {
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 15px;
+
+            .mz-inner-col {
+              &:nth-child(1) {
+                max-width: 80px;
+                min-width: 80px;
+                width: 100%;
+
+                .mz-img {}
+              }
+
+              &:nth-child(2) {
+                h3 {
+                  color: #000000;
+                  font-style: normal;
+                  font-size: 20px;
+                  font-weight: 700;
+                  line-height: 1.2em;
+                  text-transform: uppercase;
+                  letter-spacing: -0.02em;
+                  margin: 0 0 10px;
+                }
+                
                 p {
-                  color: $septenary-color;
+                  color: #373F41;
+                  font-style: normal;
+                  font-size: 14px;
+                  font-weight: 400;
+                  line-height: 1.25em;
+                  margin: 0;
                 }
               }
             }
@@ -249,7 +189,91 @@
       }
 
       .p-02 {
-        color: $septenary-color;
+        color: #373F41;
+        font-style: normal;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 1.25em;
+        max-width: 350px;
+        margin: 0 auto;
+
+        @media only screen and (max-width: 768px) {
+          order: 5;
+        }
+      }
+
+      .mz-cta {
+        display: block;
+        max-width: 350px;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .mz-ds-view {
+    display: block;
+    
+    @media only screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  .mz-tb-view {
+    display: none;
+
+    @media only screen and (max-width: 768px) {
+      display: block;
+    }
+  }
+}
+
+.theme-dark {
+  .mz-sc-section--zenon-method {
+    .mz-ds-view,
+    .mz-tb-view {
+      background-color: #000000;
+      
+      .mz-container {
+        h2 {
+          color: #FFFFFF;
+        }
+
+        .mz-bg-wrap {
+          .mz-svg-wrap {
+            svg {
+              &:nth-child(1) {
+                display: none;
+              }
+
+              &:nth-child(2) {
+                display: block;
+              }
+            }
+          }
+        }
+
+        .mz-row {
+          .mz-col {
+            .mz-inner-row {
+              .mz-inner-col {
+                &:nth-child(2) {
+                  h3 {
+                    color: #FFFFFF;
+                  }
+
+                  p {
+                    color: #AFACB4;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .p-02 {
+          color: #AFACB4;
+        }
       }
     }
   }

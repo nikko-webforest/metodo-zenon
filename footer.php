@@ -80,7 +80,7 @@
             <div class="mz-col col-04">
               <h5 class="mz-menu-title">
                 <?php /* Subscribe to Newsletter */ ?>
-                Déjanos tu correo y te enviaremos contenido extra
+                Escribe tu correo para descargarte una guía sobre cómo monitorizar tu carga de entrenamiento
               </h5>
               <form class="mz-form" action="">
                 <div class="mz-form-wrap">

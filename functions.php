@@ -180,12 +180,13 @@ add_shortcode( 'mz-sc-section--hero', function ( $atts, $content = null ){
 
 	$attributes = shortcode_atts([
 		'title' => 'Lorem Ipsum',
-		'hero-bg' => '/wp-content/themes/metodo-zenon/images/MZ_Home_Hero_sect-bg.png'
+		'hero-bg' => '/wp-content/themes/metodo-zenon/images/MZ_Home_Hero_sect-bg-v01-1440x718.png'
 	], $atts);
 
 	$output =
 		'
-			<section class="mz-section mz-sc-section--hero" style="background-image: url('. $attributes['hero-bg'].');">
+			<section class="mz-section mz-sc-section--hero"
+				style="background-image: url('. $attributes['hero-bg'].');">
 				<div class="mz-container">
 					<div class="mz-wrap">
 						<h1>
@@ -283,129 +284,241 @@ add_shortcode( 'mz-sc-section--zenon-method', function ( $atts, $content = null 
 	$output =
 		'
 			<section class="mz-section mz-sc-section--zenon-method">
-				<div class="mz-container">
-					<h2 class="mz-title">
-						'. $attributes['title'] .'
-					</h2>
-          <div class="mz-bg-wrap">
-            <div class="mz-svg-wrap">
-              '. $attributes['zenon-svg'] .'
-            </div>
-            <div class="mz-img-wrap">
-              <img
-                alt=""
-                title=""
-                class="mz-img girl-on-table-bg-img"
-                src="/wp-content/themes/metodo-zenon/images/mz-zenon-method-section/MZ_Zenon-Method_Girl-on-Table.png"
-                data-aos-delay="200" data-aos-easing="ease-out-cubic" data-aos-anchor-placement="top-bottom"
-                width=""
-                height=""
-              />
-            </div>
-          </div>
-					<div class="mz-row">
-						<div class="mz-col">
-							<div class="mz-inner-row">
-								<div class="mz-inner-col --inner-col-01">
-									<img
-										alt=""
-										title=""
-										class="mz-img"
-										src="'. $attributes['method-icon_01'] .'"
-										width=""
-										height=""
-									/>
-								</div>
-								<div class="mz-inner-col --inner-col-02">
-									<h3>
-										'. $attributes['method-title_01'] .'
-									</h3>
-									<p class="p-01">
-										'. $attributes['method-desc_01'] .'
-									</p>
-								</div>
+				<div class="mz-ds-view">
+					<div class="mz-container">
+						<h2 class="mz-title">
+							'. $attributes['title'] .'
+						</h2>
+						<div class="mz-bg-wrap">
+							<div class="mz-svg-wrap">
+								'. $attributes['zenon-svg'] .'
+							</div>
+							<div class="mz-img-wrap">
+								<img class="mz-img girl-on-table-bg-img"
+									alt=""
+									title=""
+									src="/wp-content/themes/metodo-zenon/images/mz-zenon-method-section/MZ_Zenon-Method_Girl-on-Table.png"
+									data-aos-delay="200" data-aos-easing="ease-out-cubic" data-aos-anchor-placement="top-bottom"
+									width=""
+									height=""/>
 							</div>
 						</div>
-						<div class="mz-col">
-							<div class="mz-inner-row">
-								<div class="mz-inner-col --inner-col-01">
-									<img
-										alt=""
-										title=""
-										class="mz-img"
-										src="'. $attributes['method-icon_02'] .'"
-										width=""
-										height=""
-									/>
-								</div>
-								<div class="mz-inner-col --inner-col-02">
-									<h3>
-										'. $attributes['method-title_02'] .'
-									</h3>
-									<p class="p-01">
-										'. $attributes['method-desc_02'] .'
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="mz-col">
-							<div class="mz-inner-row">
-								<div class="mz-inner-col --inner-col-01">
-									<img
-										alt=""
-										title=""
-										class="mz-img"
-										src="'. $attributes['method-icon_03'] .'"
-										width=""
-										height=""
-									/>
-								</div>
-								<div class="mz-inner-col --inner-col-02">
-									<h3>
-										'. $attributes['method-title_03'] .'
-									</h3>
-									<p class="p-01">
-										'. $attributes['method-desc_03'] .'
-									</p>
+						<div class="mz-row">
+							<div class="mz-col">
+								<div class="mz-inner-row">
+									<div class="mz-inner-col">
+										<img class="mz-img"
+											alt=""
+											title=""
+											src="'. $attributes['method-icon_01'] .'"
+											width=""
+											height=""/>
+									</div>
+									<div class="mz-inner-col">
+										<h3>
+											'. $attributes['method-title_01'] .'
+										</h3>
+										<p class="p-01">
+											'. $attributes['method-desc_01'] .'
+										</p>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="mz-col">
-							<div class="mz-inner-row">
-								<div class="mz-inner-col --inner-col-01">
-									<img
-										alt=""
-										title=""
-										class="mz-img"
-										src="'. $attributes['method-icon_04'] .'"
-										width=""
-										height=""
-									/>
-								</div>
-								<div class="mz-inner-col --inner-col-02">
-									<h3>
-										'. $attributes['method-title_04'] .'
-									</h3>
-									<p class="p-01">
-										'. $attributes['method-desc_04'] .'
-									</p>
+							<div class="mz-col">
+								<div class="mz-inner-row">
+									<div class="mz-inner-col">
+										<img class="mz-img"
+											alt=""
+											title=""
+											src="'. $attributes['method-icon_02'] .'"
+											width=""
+											height=""/>
+									</div>
+									<div class="mz-inner-col">
+										<h3>
+											'. $attributes['method-title_02'] .'
+										</h3>
+										<p class="p-01">
+											'. $attributes['method-desc_02'] .'
+										</p>
+									</div>
 								</div>
 							</div>
+							<div class="mz-col">
+								<div class="mz-inner-row">
+									<div class="mz-inner-col">
+										<img class="mz-img"
+											alt=""
+											title=""
+											src="'. $attributes['method-icon_03'] .'"
+											width=""
+											height=""/>
+									</div>
+									<div class="mz-inner-col">
+										<h3>
+											'. $attributes['method-title_03'] .'
+										</h3>
+										<p class="p-01">
+											'. $attributes['method-desc_03'] .'
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="mz-col">
+								<div class="mz-inner-row">
+									<div class="mz-inner-col">
+										<img class="mz-img"
+											alt=""
+											title=""
+											src="'. $attributes['method-icon_04'] .'"
+											width=""
+											height=""/>
+									</div>
+									<div class="mz-inner-col">
+										<h3>
+											'. $attributes['method-title_04'] .'
+										</h3>
+										<p class="p-01">
+											'. $attributes['method-desc_04'] .'
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="mz-col">
+								<p class="p-02">
+									'. $attributes['sub-text'] .'
+								</p>
+							</div>
 						</div>
-						<div class="mz-col">
-							<p class="p-02">
-								'. $attributes['sub-text'] .'
-							</p>
-						</div>
+						<a class="mz-cta mz-cta-'. $mzCTAclass .'"
+							title="'. $attributes['method-cta'] .'"
+							target="_blank"
+							href="#">
+							'. $attributes['method-cta'] .'
+						</a>
 					</div>
-					<a
-						title="'. $attributes['method-cta'] .'"
-						target="_blank"
-						class="mz-cta mz-cta-'. $mzCTAclass .'"
-						href="#"
-						>
-						'. $attributes['method-cta'] .'
-					</a>
+				</div>
+				<div class="mz-tb-view">
+					<div class="mz-container">
+						<h2 class="mz-title"
+							data-mz-aos="fade-up" data-mz-aos-delay="0">
+							'. $attributes['title'] .'
+						</h2>
+						<div class="mz-bg-wrap"
+							data-mz-aos="fade-up" data-mz-aos-delay="100">
+							<div class="mz-svg-wrap">
+								'. $attributes['zenon-svg'] .'
+							</div>
+							<div class="mz-img-wrap">
+								<img class="mz-img girl-on-table-bg-img"
+									alt=""
+									title=""
+									src="/wp-content/themes/metodo-zenon/images/mz-zenon-method-section/MZ_Zenon-Method_Girl-on-Table.png"
+									data-aos-delay="200" data-aos-easing="ease-out-cubic" data-aos-anchor-placement="top-bottom"
+									width=""
+									height=""/>
+							</div>
+						</div>
+						<div class="mz-row">
+							<div class="mz-col"
+								data-mz-aos="fade-up" data-mz-aos-delay="200">
+								<div class="mz-inner-row">
+									<div class="mz-inner-col">
+										<img class="mz-img"
+											alt=""
+											title=""
+											src="'. $attributes['method-icon_01'] .'"
+											width=""
+											height=""/>
+									</div>
+									<div class="mz-inner-col">
+										<h3>
+											'. $attributes['method-title_01'] .'
+										</h3>
+										<p class="p-01">
+											'. $attributes['method-desc_01'] .'
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="mz-col"
+								data-mz-aos="fade-up" data-mz-aos-delay="300">
+								<div class="mz-inner-row">
+									<div class="mz-inner-col">
+										<img class="mz-img"
+											alt=""
+											title=""
+											src="'. $attributes['method-icon_02'] .'"
+											width=""
+											height=""/>
+									</div>
+									<div class="mz-inner-col">
+										<h3>
+											'. $attributes['method-title_02'] .'
+										</h3>
+										<p class="p-01">
+											'. $attributes['method-desc_02'] .'
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="mz-col"
+								data-mz-aos="fade-up" data-mz-aos-delay="400">
+								<div class="mz-inner-row">
+									<div class="mz-inner-col">
+										<img class="mz-img"
+											alt=""
+											title=""
+											src="'. $attributes['method-icon_03'] .'"
+											width=""
+											height=""/>
+									</div>
+									<div class="mz-inner-col">
+										<h3>
+											'. $attributes['method-title_03'] .'
+										</h3>
+										<p class="p-01">
+											'. $attributes['method-desc_03'] .'
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="mz-col"
+								data-mz-aos="fade-up" data-mz-aos-delay="500">
+								<div class="mz-inner-row">
+									<div class="mz-inner-col">
+										<img class="mz-img"
+											alt=""
+											title=""
+											src="'. $attributes['method-icon_04'] .'"
+											width=""
+											height=""/>
+									</div>
+									<div class="mz-inner-col">
+										<h3>
+											'. $attributes['method-title_04'] .'
+										</h3>
+										<p class="p-01">
+											'. $attributes['method-desc_04'] .'
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="mz-col"
+								data-mz-aos="fade-up" data-mz-aos-delay="600">
+								<p class="p-02">
+									'. $attributes['sub-text'] .'
+								</p>
+							</div>
+						</div>
+						<a class="mz-cta mz-cta-'. $mzCTAclass .'"
+							title="'. $attributes['method-cta'] .'"
+							target="_blank"
+							href="#"
+							data-mz-aos="fade-up" data-mz-aos-delay="700">
+							'. $attributes['method-cta'] .'
+						</a>
+					</div>
 				</div>
 			</section>
 		'
@@ -571,14 +684,12 @@ add_shortcode( 'mz-sc-coach-tab', function ( $atts, $content = null ){
 				<div class="mz-container">
 					<div class="mz-tab-btn-wrap">
 						<button class="mz-tab-btn" data-tab-index="1">
-							<img
+							<img class="mz-img"
 								alt=""
 								title=""
-								class="mz-img"
 								src=""
 								width=""
-								height=""
-							/>
+								height=""/>
 							<div class="coach-details">
 								<span class="coach-role">
 									Lorem Ipsum
@@ -590,14 +701,12 @@ add_shortcode( 'mz-sc-coach-tab', function ( $atts, $content = null ){
 							</div>
 						</button>
 						<button class="mz-tab-btn" data-tab-index="2">
-							<img
+							<img class="mz-img"
 								alt=""
 								title=""
-								class="mz-img"
 								src=""
 								width=""
-								height=""
-							/>
+								height=""/>
 							<div class="coach-details">
 								<span class="coach-role">
 									Lorem Ipsum
@@ -609,14 +718,12 @@ add_shortcode( 'mz-sc-coach-tab', function ( $atts, $content = null ){
 							</div>
 						</button>
 						<button class="mz-tab-btn" data-tab-index="3">
-							<img
+							<img class="mz-img"
 								alt=""
 								title=""
-								class="mz-img"
 								src=""
 								width=""
-								height=""
-							/>
+								height=""/>
 							<div class="coach-details">
 								<span class="coach-role">
 									Lorem Ipsum
@@ -632,14 +739,12 @@ add_shortcode( 'mz-sc-coach-tab', function ( $atts, $content = null ){
 						<div class="mz-tab-pane pane-01">
 							<div class="mz-row">
 								<div class="mz-col">
-									<img
+									<img class="mz-img coach-profile"
 										alt=""
 										title=""
-										class="mz-img coach-profile"
 										src=""
 										width=""
-										height=""
-									/>
+										height=""/>
 									<div class="coach-details">
 										<div class="coach-name">
 											Pane 1
@@ -652,13 +757,11 @@ add_shortcode( 'mz-sc-coach-tab', function ( $atts, $content = null ){
 										</div>
 										<ul class="coach-social-list">
 											<li class="coach-social-item">
-												<a
+												<a class="mz-a-link coach-social-link"
 													title=""
 													target=""
-													class="mz-a-link coach-social-link"
 													href=""
-													rel=""
-													>
+													rel="">
 													<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 														<rect width="30" height="30" fill="#6F4A37"/>
 														<path d="M24 15.5517C24 10.8276 20.1956 7 15.5 7C10.8044 7 7 10.8276 7 15.5517C7 19.82 10.1083 23.3579 14.1719 24V18.0238H12.0126V15.5517H14.1719V13.6676C14.1719 11.5245 15.44 10.3407 17.3823 10.3407C18.3125 10.3407 19.2852 10.5076 19.2852 10.5076V12.611H18.2131C17.1575 12.611 16.8281 13.2703 16.8281 13.9466V15.5517H19.1855L18.8085 18.0238H16.8281V24C20.8917 23.3579 24 19.82 24 15.5517Z" fill="white"/>
@@ -666,13 +769,11 @@ add_shortcode( 'mz-sc-coach-tab', function ( $atts, $content = null ){
 												</a>
 											</li>
 											<li class="coach-social-item">
-												<a
+												<a class="mz-a-link coach-social-link"
 													title=""
 													target=""
-													class="mz-a-link coach-social-link"
 													href=""
-													rel=""
-													>
+													rel="">
 													<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 														<rect width="30" height="30" fill="#6F4A37"/>
 														<path fill-rule="evenodd" clip-rule="evenodd" d="M15.0039 11.1414C12.5913 11.1414 10.6453 13.0874 10.6453 15.5C10.6453 17.9126 12.5913 19.8586 15.0039 19.8586C17.4165 19.8586 19.3626 17.9126 19.3626 15.5C19.3626 13.0874 17.4165 11.1414 15.0039 11.1414ZM15.004 18.3336C13.4449 18.3336 12.1704 17.0628 12.1704 15.5C12.1704 13.9371 13.4411 12.6663 15.004 12.6663C16.5669 12.6663 17.8377 13.9371 17.8377 15.5C17.8377 17.0628 16.5631 18.3336 15.004 18.3336H15.004ZM20.5576 10.9632C20.5576 11.5284 20.1023 11.9798 19.5409 11.9798C18.9757 11.9798 18.5243 11.5246 18.5243 10.9632C18.5243 10.4018 18.9795 9.94655 19.5409 9.94655C20.1023 9.94655 20.5576 10.4018 20.5576 10.9632ZM23.4443 11.9949C23.3798 10.6331 23.0688 9.42681 22.0711 8.43295C21.0772 7.43908 19.8709 7.12803 18.5091 7.05975C17.1055 6.98008 12.8986 6.98008 11.495 7.05975C10.137 7.12423 8.93064 7.43529 7.93297 8.42915C6.9353 9.42302 6.62803 10.6293 6.55975 11.9911C6.48008 13.3947 6.48008 17.6015 6.55975 19.0051C6.62424 20.3669 6.9353 21.5732 7.93297 22.5671C8.93064 23.5609 10.1332 23.872 11.495 23.9403C12.8986 24.0199 17.1055 24.0199 18.5091 23.9403C19.8709 23.8758 21.0772 23.5647 22.0711 22.5671C23.065 21.5732 23.3761 20.3669 23.4443 19.0051C23.524 17.6015 23.524 13.3985 23.4443 11.9949H23.4443ZM21.631 20.5109C21.3352 21.2544 20.7623 21.8272 20.015 22.1269C18.896 22.5707 16.2406 22.4683 15.0039 22.4683C13.7673 22.4683 11.1081 22.5669 9.99281 22.1269C9.2493 21.831 8.67649 21.2582 8.37681 20.5109C7.93298 19.3919 8.0354 16.7365 8.0354 15.4999C8.0354 14.2632 7.93677 11.6041 8.37681 10.4888C8.6727 9.74534 9.24551 9.17254 9.99281 8.87286C11.1119 8.42903 13.7673 8.53146 15.0039 8.53146C16.2406 8.53146 18.8998 8.43283 20.015 8.87286C20.7586 9.16874 21.3314 9.74154 21.631 10.4888C22.0749 11.6079 21.9725 14.2632 21.9725 15.4999C21.9725 16.7365 22.0749 19.3957 21.631 20.5109Z" fill="white"/>
@@ -680,13 +781,11 @@ add_shortcode( 'mz-sc-coach-tab', function ( $atts, $content = null ){
 												</a>
 											</li>
 											<li class="coach-social-item">
-												<a
+												<a class="mz-a-link coach-social-link"
 													title=""
 													target=""
-													class="mz-a-link coach-social-link"
 													href=""
-													rel=""
-													>
+													rel="">
 													<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 														<rect width="30" height="30" fill="#6F4A37"/>
 														<path d="M22.0463 11.7383C22.0576 11.9023 22.0576 12.0664 22.0576 12.2305C22.0576 17.2344 18.3695 23 11.6287 23C9.55196 23 7.62279 22.3789 6 21.3008C6.29506 21.3359 6.57874 21.3477 6.88515 21.3477C8.59869 21.3477 10.1761 20.75 11.4358 19.7305C9.82432 19.6953 8.47389 18.6055 8.0086 17.1055C8.23559 17.1406 8.46253 17.164 8.70087 17.164C9.02995 17.164 9.35907 17.1172 9.66545 17.0352C7.98593 16.6836 6.72625 15.1601 6.72625 13.3203V13.2734C7.2142 13.5547 7.78166 13.7305 8.38306 13.7539C7.39577 13.0742 6.74896 11.914 6.74896 10.6015C6.74896 9.89842 6.93049 9.25389 7.24826 8.69139C9.05262 10.9883 11.7648 12.4882 14.8061 12.6523C14.7494 12.3711 14.7153 12.0781 14.7153 11.7852C14.7153 9.6992 16.3495 8 18.3808 8C19.4361 8 20.3894 8.45703 21.0589 9.19531C21.8873 9.03126 22.6817 8.71484 23.3853 8.28125C23.1129 9.16018 22.5342 9.89846 21.7739 10.3672C22.5115 10.2852 23.2264 10.0742 23.8846 9.78126C23.3854 10.5312 22.7612 11.1992 22.0463 11.7383V11.7383Z" fill="white"/>
@@ -785,14 +884,12 @@ add_shortcode( 'mz-sc-coach-tab', function ( $atts, $content = null ){
 						<div class="mz-tab-pane pane-02">
 							<div class="mz-row">
 								<div class="mz-col">
-									<img
+									<img class="mz-img coach-profile"
 										alt=""
 										title=""
-										class="mz-img coach-profile"
 										src=""
 										width=""
-										height=""
-									/>
+										height=""/>
 									<div class="coach-details">
 										<div class="coach-name">
 											Pane 2
@@ -805,13 +902,11 @@ add_shortcode( 'mz-sc-coach-tab', function ( $atts, $content = null ){
 										</div>
 										<ul class="coach-social-list">
 											<li class="coach-social-item">
-												<a
+												<a class="mz-a-link coach-social-link"
 													title=""
 													target=""
-													class="mz-a-link coach-social-link"
 													href=""
-													rel=""
-													>
+													rel="">
 													<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 														<rect width="30" height="30" fill="#6F4A37"/>
 														<path d="M24 15.5517C24 10.8276 20.1956 7 15.5 7C10.8044 7 7 10.8276 7 15.5517C7 19.82 10.1083 23.3579 14.1719 24V18.0238H12.0126V15.5517H14.1719V13.6676C14.1719 11.5245 15.44 10.3407 17.3823 10.3407C18.3125 10.3407 19.2852 10.5076 19.2852 10.5076V12.611H18.2131C17.1575 12.611 16.8281 13.2703 16.8281 13.9466V15.5517H19.1855L18.8085 18.0238H16.8281V24C20.8917 23.3579 24 19.82 24 15.5517Z" fill="white"/>
@@ -819,13 +914,11 @@ add_shortcode( 'mz-sc-coach-tab', function ( $atts, $content = null ){
 												</a>
 											</li>
 											<li class="coach-social-item">
-												<a
+												<a class="mz-a-link coach-social-link"
 													title=""
 													target=""
-													class="mz-a-link coach-social-link"
 													href=""
-													rel=""
-													>
+													rel="">
 													<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 														<rect width="30" height="30" fill="#6F4A37"/>
 														<path fill-rule="evenodd" clip-rule="evenodd" d="M15.0039 11.1414C12.5913 11.1414 10.6453 13.0874 10.6453 15.5C10.6453 17.9126 12.5913 19.8586 15.0039 19.8586C17.4165 19.8586 19.3626 17.9126 19.3626 15.5C19.3626 13.0874 17.4165 11.1414 15.0039 11.1414ZM15.004 18.3336C13.4449 18.3336 12.1704 17.0628 12.1704 15.5C12.1704 13.9371 13.4411 12.6663 15.004 12.6663C16.5669 12.6663 17.8377 13.9371 17.8377 15.5C17.8377 17.0628 16.5631 18.3336 15.004 18.3336H15.004ZM20.5576 10.9632C20.5576 11.5284 20.1023 11.9798 19.5409 11.9798C18.9757 11.9798 18.5243 11.5246 18.5243 10.9632C18.5243 10.4018 18.9795 9.94655 19.5409 9.94655C20.1023 9.94655 20.5576 10.4018 20.5576 10.9632ZM23.4443 11.9949C23.3798 10.6331 23.0688 9.42681 22.0711 8.43295C21.0772 7.43908 19.8709 7.12803 18.5091 7.05975C17.1055 6.98008 12.8986 6.98008 11.495 7.05975C10.137 7.12423 8.93064 7.43529 7.93297 8.42915C6.9353 9.42302 6.62803 10.6293 6.55975 11.9911C6.48008 13.3947 6.48008 17.6015 6.55975 19.0051C6.62424 20.3669 6.9353 21.5732 7.93297 22.5671C8.93064 23.5609 10.1332 23.872 11.495 23.9403C12.8986 24.0199 17.1055 24.0199 18.5091 23.9403C19.8709 23.8758 21.0772 23.5647 22.0711 22.5671C23.065 21.5732 23.3761 20.3669 23.4443 19.0051C23.524 17.6015 23.524 13.3985 23.4443 11.9949H23.4443ZM21.631 20.5109C21.3352 21.2544 20.7623 21.8272 20.015 22.1269C18.896 22.5707 16.2406 22.4683 15.0039 22.4683C13.7673 22.4683 11.1081 22.5669 9.99281 22.1269C9.2493 21.831 8.67649 21.2582 8.37681 20.5109C7.93298 19.3919 8.0354 16.7365 8.0354 15.4999C8.0354 14.2632 7.93677 11.6041 8.37681 10.4888C8.6727 9.74534 9.24551 9.17254 9.99281 8.87286C11.1119 8.42903 13.7673 8.53146 15.0039 8.53146C16.2406 8.53146 18.8998 8.43283 20.015 8.87286C20.7586 9.16874 21.3314 9.74154 21.631 10.4888C22.0749 11.6079 21.9725 14.2632 21.9725 15.4999C21.9725 16.7365 22.0749 19.3957 21.631 20.5109Z" fill="white"/>
@@ -833,13 +926,11 @@ add_shortcode( 'mz-sc-coach-tab', function ( $atts, $content = null ){
 												</a>
 											</li>
 											<li class="coach-social-item">
-												<a
+												<a class="mz-a-link coach-social-link"
 													title=""
 													target=""
-													class="mz-a-link coach-social-link"
 													href=""
-													rel=""
-													>
+													rel="">
 													<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 														<rect width="30" height="30" fill="#6F4A37"/>
 														<path d="M22.0463 11.7383C22.0576 11.9023 22.0576 12.0664 22.0576 12.2305C22.0576 17.2344 18.3695 23 11.6287 23C9.55196 23 7.62279 22.3789 6 21.3008C6.29506 21.3359 6.57874 21.3477 6.88515 21.3477C8.59869 21.3477 10.1761 20.75 11.4358 19.7305C9.82432 19.6953 8.47389 18.6055 8.0086 17.1055C8.23559 17.1406 8.46253 17.164 8.70087 17.164C9.02995 17.164 9.35907 17.1172 9.66545 17.0352C7.98593 16.6836 6.72625 15.1601 6.72625 13.3203V13.2734C7.2142 13.5547 7.78166 13.7305 8.38306 13.7539C7.39577 13.0742 6.74896 11.914 6.74896 10.6015C6.74896 9.89842 6.93049 9.25389 7.24826 8.69139C9.05262 10.9883 11.7648 12.4882 14.8061 12.6523C14.7494 12.3711 14.7153 12.0781 14.7153 11.7852C14.7153 9.6992 16.3495 8 18.3808 8C19.4361 8 20.3894 8.45703 21.0589 9.19531C21.8873 9.03126 22.6817 8.71484 23.3853 8.28125C23.1129 9.16018 22.5342 9.89846 21.7739 10.3672C22.5115 10.2852 23.2264 10.0742 23.8846 9.78126C23.3854 10.5312 22.7612 11.1992 22.0463 11.7383V11.7383Z" fill="white"/>
@@ -938,14 +1029,12 @@ add_shortcode( 'mz-sc-coach-tab', function ( $atts, $content = null ){
 						<div class="mz-tab-pane pane-03">
 							<div class="mz-row">
 								<div class="mz-col">
-									<img
+									<img class="mz-img coach-profile"
 										alt=""
 										title=""
-										class="mz-img coach-profile"
 										src=""
 										width=""
-										height=""
-									/>
+										height=""/>
 									<div class="coach-details">
 										<div class="coach-name">
 											Pane 3
@@ -958,13 +1047,11 @@ add_shortcode( 'mz-sc-coach-tab', function ( $atts, $content = null ){
 										</div>
 										<ul class="coach-social-list">
 											<li class="coach-social-item">
-												<a
+												<a class="mz-a-link coach-social-link"
 													title=""
 													target=""
-													class="mz-a-link coach-social-link"
 													href=""
-													rel=""
-													>
+													rel="">
 													<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 														<rect width="30" height="30" fill="#6F4A37"/>
 														<path d="M24 15.5517C24 10.8276 20.1956 7 15.5 7C10.8044 7 7 10.8276 7 15.5517C7 19.82 10.1083 23.3579 14.1719 24V18.0238H12.0126V15.5517H14.1719V13.6676C14.1719 11.5245 15.44 10.3407 17.3823 10.3407C18.3125 10.3407 19.2852 10.5076 19.2852 10.5076V12.611H18.2131C17.1575 12.611 16.8281 13.2703 16.8281 13.9466V15.5517H19.1855L18.8085 18.0238H16.8281V24C20.8917 23.3579 24 19.82 24 15.5517Z" fill="white"/>
@@ -972,13 +1059,11 @@ add_shortcode( 'mz-sc-coach-tab', function ( $atts, $content = null ){
 												</a>
 											</li>
 											<li class="coach-social-item">
-												<a
+												<a class="mz-a-link coach-social-link"
 													title=""
 													target=""
-													class="mz-a-link coach-social-link"
 													href=""
-													rel=""
-													>
+													rel="">
 													<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 														<rect width="30" height="30" fill="#6F4A37"/>
 														<path fill-rule="evenodd" clip-rule="evenodd" d="M15.0039 11.1414C12.5913 11.1414 10.6453 13.0874 10.6453 15.5C10.6453 17.9126 12.5913 19.8586 15.0039 19.8586C17.4165 19.8586 19.3626 17.9126 19.3626 15.5C19.3626 13.0874 17.4165 11.1414 15.0039 11.1414ZM15.004 18.3336C13.4449 18.3336 12.1704 17.0628 12.1704 15.5C12.1704 13.9371 13.4411 12.6663 15.004 12.6663C16.5669 12.6663 17.8377 13.9371 17.8377 15.5C17.8377 17.0628 16.5631 18.3336 15.004 18.3336H15.004ZM20.5576 10.9632C20.5576 11.5284 20.1023 11.9798 19.5409 11.9798C18.9757 11.9798 18.5243 11.5246 18.5243 10.9632C18.5243 10.4018 18.9795 9.94655 19.5409 9.94655C20.1023 9.94655 20.5576 10.4018 20.5576 10.9632ZM23.4443 11.9949C23.3798 10.6331 23.0688 9.42681 22.0711 8.43295C21.0772 7.43908 19.8709 7.12803 18.5091 7.05975C17.1055 6.98008 12.8986 6.98008 11.495 7.05975C10.137 7.12423 8.93064 7.43529 7.93297 8.42915C6.9353 9.42302 6.62803 10.6293 6.55975 11.9911C6.48008 13.3947 6.48008 17.6015 6.55975 19.0051C6.62424 20.3669 6.9353 21.5732 7.93297 22.5671C8.93064 23.5609 10.1332 23.872 11.495 23.9403C12.8986 24.0199 17.1055 24.0199 18.5091 23.9403C19.8709 23.8758 21.0772 23.5647 22.0711 22.5671C23.065 21.5732 23.3761 20.3669 23.4443 19.0051C23.524 17.6015 23.524 13.3985 23.4443 11.9949H23.4443ZM21.631 20.5109C21.3352 21.2544 20.7623 21.8272 20.015 22.1269C18.896 22.5707 16.2406 22.4683 15.0039 22.4683C13.7673 22.4683 11.1081 22.5669 9.99281 22.1269C9.2493 21.831 8.67649 21.2582 8.37681 20.5109C7.93298 19.3919 8.0354 16.7365 8.0354 15.4999C8.0354 14.2632 7.93677 11.6041 8.37681 10.4888C8.6727 9.74534 9.24551 9.17254 9.99281 8.87286C11.1119 8.42903 13.7673 8.53146 15.0039 8.53146C16.2406 8.53146 18.8998 8.43283 20.015 8.87286C20.7586 9.16874 21.3314 9.74154 21.631 10.4888C22.0749 11.6079 21.9725 14.2632 21.9725 15.4999C21.9725 16.7365 22.0749 19.3957 21.631 20.5109Z" fill="white"/>
@@ -986,13 +1071,11 @@ add_shortcode( 'mz-sc-coach-tab', function ( $atts, $content = null ){
 												</a>
 											</li>
 											<li class="coach-social-item">
-												<a
+												<a class="mz-a-link coach-social-link"
 													title=""
 													target=""
-													class="mz-a-link coach-social-link"
 													href=""
-													rel=""
-													>
+													rel="">
 													<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 														<rect width="30" height="30" fill="#6F4A37"/>
 														<path d="M22.0463 11.7383C22.0576 11.9023 22.0576 12.0664 22.0576 12.2305C22.0576 17.2344 18.3695 23 11.6287 23C9.55196 23 7.62279 22.3789 6 21.3008C6.29506 21.3359 6.57874 21.3477 6.88515 21.3477C8.59869 21.3477 10.1761 20.75 11.4358 19.7305C9.82432 19.6953 8.47389 18.6055 8.0086 17.1055C8.23559 17.1406 8.46253 17.164 8.70087 17.164C9.02995 17.164 9.35907 17.1172 9.66545 17.0352C7.98593 16.6836 6.72625 15.1601 6.72625 13.3203V13.2734C7.2142 13.5547 7.78166 13.7305 8.38306 13.7539C7.39577 13.0742 6.74896 11.914 6.74896 10.6015C6.74896 9.89842 6.93049 9.25389 7.24826 8.69139C9.05262 10.9883 11.7648 12.4882 14.8061 12.6523C14.7494 12.3711 14.7153 12.0781 14.7153 11.7852C14.7153 9.6992 16.3495 8 18.3808 8C19.4361 8 20.3894 8.45703 21.0589 9.19531C21.8873 9.03126 22.6817 8.71484 23.3853 8.28125C23.1129 9.16018 22.5342 9.89846 21.7739 10.3672C22.5115 10.2852 23.2264 10.0742 23.8846 9.78126C23.3854 10.5312 22.7612 11.1992 22.0463 11.7383V11.7383Z" fill="white"/>
@@ -1115,14 +1198,12 @@ add_shortcode( 'mz-sc-cta', function ( $atts, $content = null ){
 
   $output =
     '
-      <a
+      <a class="mz-cta mz-cta_'.$titleToLowerCase.'"
         title="'. $attributes['title'] .'"
         target="'. $attributes['target'] .'"
-        class="mz-cta mz-cta_'.$titleToLowerCase.'"
         href="'. $attributes['href'] .'"
         rel="'. $attributes['rel'] .'"
-        style="'. $attributes['style'] .'"
-        >
+        style="'. $attributes['style'] .'">
         <span>'. $attributes['title'] .'</span>
         '. $attributes['cta-icon'] .'
       </a>

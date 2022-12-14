@@ -23,12 +23,12 @@
         }
   
         h2 {
-          color: $black-color;
+          color: #000000;
           font-style: normal;
           font-size: 32px;
           font-weight: 700;
           text-transform: uppercase;
-          line-height: 120%;
+          line-height: 1.2em;
           letter-spacing: -0.02em;
           margin: 0;
 
@@ -40,15 +40,15 @@
         }
   
         .mz-cta.mz-cta-more-articles {
-          color: $quinary-color;
-          border-color: $quinary-color;
+          color: #6F4A37;
+          border-color: #6F4A37;
 
           @media only screen and (max-width: 1180px) {
             margin: 0 auto;
           }
 
           &:hover {
-            color: $white-color;
+            color: #FFFFFF;
           }
         }
       }
@@ -64,7 +64,7 @@
         }
 
         .mz-col {
-          background-color: $white-color;
+          background-color: #FFFFFF;
           max-width: 320px;
           width: 100%;
 
@@ -89,23 +89,23 @@
             padding: 30px 20px;
 
             .mz-recent-article-title {
-              color: $black-color;
+              color: #000000;
               font-family: $primary-font-family;
               font-style: normal;
               font-size: 18px;
               font-weight: 700;
               text-transform: uppercase;
               letter-spacing: -0.02em;
-              line-height: 125%;
+              line-height: 1.25em;
               margin: 0;
             }
 
             .mz-recent-article-excerpt {
-              color: $senary-color;
+              color: #373F41;
               font-style: normal;
               font-size: 12px;
               font-weight: 300;
-              line-height: 150%;
+              line-height: 1.5em;
               min-height: 100px;
               margin: 0 0 15px;
             }
@@ -117,23 +117,23 @@
               margin: auto 0 0 0;
 
               .mz-recent-article-released-date {
-                color: $septenary-color;
+                color: #AFACB4;
                 font-style: normal;
                 font-size: 14px;
                 font-weight: 300;
                 text-transform: uppercase;
                 letter-spacing: -0.02em;
-                line-height: 115%;
+                line-height: 1.15em;
               }
               
               .mz-link-more-info {
-                color: $quinary-color;
+                color: #6F4A37;
                 font-style: normal;
                 font-size: 15px;
                 font-weight: 700;
                 text-decoration: none;
                 text-transform: uppercase;
-                line-height: 125%;
+                line-height: 1.25em;
                 display: inline-block;
                 vertical-align: middle;
 
@@ -179,23 +179,23 @@
 
 .theme-dark {
   .mz-sc-section--recent-articles {
-    background: $denary-color;
-    background-color: $denary-color;
+    background: #0B0D0F;
+    background-color: #0B0D0F;
 
     .mz-container {
       .mz-row {
         &.mz-title-row {
           h2 {
-            color: $white-color;
+            color: #FFFFFF;
           }
 
           .mz-cta.mz-cta-more-articles {
-            color: $white-color;
-            border-color: $white-color;
+            color: #FFFFFF;
+            border-color: #FFFFFF;
 
             &:hover {
-              color: $black-color;
-              background-color: $white-color;
+              color: #000000;
+              background-color: #FFFFFF;
             }
           }
         }
@@ -205,11 +205,11 @@
             background-color: #181818;
 
             .mz-recent-article-title {
-              color: $white-color;
+              color: #FFFFFF;
             }
 
             .mz-recent-article-excerpt {
-              color: $septenary-color;
+              color: #AFACB4;
             }
 
             .mz-inner-row {

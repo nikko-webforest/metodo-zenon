@@ -3,7 +3,7 @@
   top: 0;
   z-index: 11;
   display: block;
-  background-color: $white-color;
+  background-color: #FFFFFF;
   box-shadow: 0px 3px 3px 0 rgba(0, 0, 0, 0.08);
   // filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.08));
   min-width: 320px;
@@ -60,7 +60,7 @@
           position: absolute;
           left: 0;
           display: block;
-          background-color: $nonary-color;
+          background-color: #49230C;
           height: 4px;
           transition: $hover-transition-duration ease-in-out;
 
@@ -158,7 +158,7 @@
                 font-weight: 800;
                 text-align: center;
                 text-transform: uppercase;
-                line-height: 125%;
+                line-height: 1.25em;
                 margin: 0 auto 10px;
               }
 
@@ -166,7 +166,7 @@
                 font-size: 18px;
                 font-weight: 300;
                 text-align: center;
-                line-height: 125%;
+                line-height: 1.25em;
                 margin: 0 auto 50px;
               }
 
@@ -177,7 +177,7 @@
                 gap: 30px;
 
                 .mz-mega-menu-item {
-                  background-color: $white-color;
+                  background-color: #FFFFFF;
                   flex-basis: 170px;
 
                   .mz-mega-menu-link {
@@ -211,7 +211,7 @@
                       display: flex;
                       justify-content: center;
                       align-items: center;
-                      background: $primary-color;
+                      background-color: #512912;
                       width: 100%;
                       height: 10px;
                       overflow: hidden;
@@ -230,7 +230,7 @@
                       }
 
                       .mz-mega-menu-fore-text {
-                        color: $white-color;
+                        color: #FFFFFF;
                         height: 120px;
                       }
                     }
@@ -261,7 +261,7 @@
 
         &:hover {
           .mz-header-menu-item-link {
-            border-color: $nonary-color;
+            border-color: #49230C;
           }
         }
       }
@@ -276,9 +276,9 @@
         .mz-header-cta-list {
           .mz-header-cta-item {
             a {
-              color: $white-color;
+              color: #FFFFFF;
               padding: 20px;
-              border: 1px solid $white-color;
+              border: 1px solid #FFFFFF;
             }
           }
         }
@@ -334,12 +334,12 @@
 
             .mz-mega-menu-title {
               > a {
-                color: $black-color;
+                color: #000000;
                 font-size: 33px;
                 font-weight: 800;
                 text-align: center;
                 text-transform: uppercase;
-                line-height: 150%;
+                line-height: 1.5em;
                 display: block;
                 margin: 0 auto 10px;
                 pointer-events: none;
@@ -349,11 +349,11 @@
             .mz-mega-menu-subtitle {
               &.menu-item-has-children {
                 > a {
-                  color: $black-color;
+                  color: #000000;
                   font-size: 18px;
                   font-weight: 300;
                   text-align: center;
-                  line-height: 125%;
+                  line-height: 1.25em;
                   display: block;
                   margin: 0 auto 50px;
                   pointer-events: none;
@@ -371,7 +371,7 @@
 
                     > a {
                       position: relative;
-                      background-color: $white-color;
+                      background-color: #FFFFFF;
                       box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
                       width: 100%;
                       height: 265px;
@@ -398,7 +398,7 @@
                       }
 
                       > .menu-image-title {
-                        color: $black-color;
+                        color: #000000;
                         font-family: $primary-font-family;
                         font-style: normal;
                         font-weight: 700;
@@ -406,7 +406,7 @@
                         text-align: left;
                         text-transform: uppercase;
                         letter-spacing: -0.02em;
-                        line-height: 125%;
+                        line-height: 1.25em;
                         position: absolute;
                         top: 145px;
                         width: 100%;
@@ -423,7 +423,7 @@
                         font-size: 14px;
                         text-transform: uppercase;
                         letter-spacing: -0.02em;
-                        line-height: 125%;
+                        line-height: 1.25em;
                         position: absolute;
                         top: 145px;
                         left: 0;
@@ -448,7 +448,7 @@
                         }
 
                         &::after {
-                          color: $white-color;
+                          color: #FFFFFF;
                           height: 120px;
                           padding: 20px;
                         }
@@ -463,16 +463,16 @@
 
         &.current-menu-item {
           > a {
-            color: $primary-color;
-            border-color: $primary-color;
+            color: #512912;
+            border-color: #512912;
           }
         }
 
         > a {
-          color: $black-color;
+          color: #000000;
           font-weight: 600;
           text-transform: uppercase;
-          line-height: 125%;
+          line-height: 1.25em;
           display: block;
           padding: 30px 0 27px;
           border-width: 0 0 3px 0;
@@ -482,8 +482,8 @@
 
         &:hover {
           > a {
-            color: $primary-color;
-            border-color: $primary-color;
+            color: #512912;
+            border-color: #512912;
 
             &::after {
               transform: rotate(180deg);
@@ -506,10 +506,10 @@
           
           a {
             text-align: center;
-            color: $white-color;
+            color: #FFFFFF;
             display: block;
             padding: 20px;
-            border: 1px solid $white-color;
+            border: 1px solid #FFFFFF;
           }
         }
       }
@@ -524,14 +524,14 @@
         width: 100%;
 
         &:hover {
-          color: $white-color;
-          background-color: $nonary-color;
+          color: #FFFFFF;
+          background-color: #49230C;
         }
       }
 
       .menu-item {
         a {
-          color: $primary-color;
+          color: #512912;
           font-size: 15px;
           font-weight: 600;
           text-align: center;
@@ -539,11 +539,11 @@
           display: inline-block;
           width: 100%;
           padding: 15px 20px;
-          border: 1px solid $primary-color;
+          border: 1px solid #512912;
 
           &:hover {
-            color: $white-color;
-            background-color: $nonary-color;
+            color: #FFFFFF;
+            background-color: #49230C;
           }
         }
       }
@@ -553,7 +553,7 @@
 
 .theme-dark {
   .mz-header {
-    background-color: $black-color;
+    background-color: #000000;
 
     .mz-wrap {
       .mz-header-logo {
@@ -566,26 +566,26 @@
       ul.mz-header-menu {
         .menu-item {
           a {
-            color: $white-color;
+            color: #FFFFFF;
 
             &:hover {
-              border-color: $white-color;
+              border-color: #FFFFFF;
             }
           }
 
           &.current-menu-item {
             a {
-              border-color: $white-color;
+              border-color: #FFFFFF;
             }
           }
 
           .sub-menu {
-            background-color: $black-color;
+            background-color: #000000;
 
             .menu-item {
               &.mz-mega-menu-title {
                 a {
-                  color: $white-color;
+                  color: #FFFFFF;
 
                   &::after {
                     width: 100%;
@@ -595,7 +595,7 @@
 
               &.mz-mega-menu-subtitle {
                 a {
-                  color: $white-color;
+                  color: #FFFFFF;
                 }
               }
             }
@@ -606,12 +606,12 @@
       .mz-header-cta {
         .menu-item {
           a {
-            color: $white-color;
-            border-color: $white-color;
+            color: #FFFFFF;
+            border-color: #FFFFFF;
 
             &:hover {
-              color: $black-color;
-              background-color: $white-color;
+              color: #000000;
+              background-color: #FFFFFF;
             }
           }
         }
@@ -640,7 +640,7 @@
       div.mz-header-menu {
         order: 4;
         width: 100%;
-        border-top: 1px solid $primary-color;
+        border-top: 1px solid #512912;
 
         .mz-header-menu-item {
           .mz-header-menu-item-link {
@@ -662,7 +662,7 @@
       ul.mz-header-menu {
         order: 4;
         width: 100%;
-        border-top: 1px solid $primary-color;
+        border-top: 1px solid #512912;
         
         > .menu-item {
           &.menu-item-has-children {
@@ -715,12 +715,12 @@
           padding: 0 30px;
           
           .mz-header-menu-item-link {
-            color: $white-color;
+            color: #FFFFFF;
             font-size: 18px;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            border-color: $white-color;
+            border-color: #FFFFFF;
           }
 
           &.--has-mega-menu {
@@ -744,9 +744,9 @@
 
           &.mz-header-cta {
             .mz-cta {
-              color: $primary-color;
-              background-color: $white-color;
-              border-color: $white-color;
+              color: #512912;
+              background-color: #FFFFFF;
+              border-color: #FFFFFF;
               padding: 15px 25px;
             }
           }
@@ -785,12 +785,12 @@
           height: unset;
 
           > a {
-            color: $white-color;
+            color: #FFFFFF;
             font-size: 18px;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            border-color: $white-color;
+            border-color: #FFFFFF;
           }
 
           &.menu-item-has-children {
@@ -805,15 +805,15 @@
             width: 100%;
 
             > a {
-              color: $primary-color;
+              color: #512912;
               text-align: center;
               display: block;
-              background-color: $white-color;
+              background-color: #FFFFFF;
               border-width: 1px;
-              border-color: $white-color;
+              border-color: #FFFFFF;
 
               &:hover {
-                color: $white-color;
+                color: #FFFFFF;
                 background-color: transparent;
               }
             }
@@ -821,14 +821,14 @@
 
           &:hover {
             > a {
-              color: $white-color;
+              color: #FFFFFF;
             }
           }
 
           &.current-menu-item {
             > a {
-              color: $white-color;
-              border-color: $white-color;
+              color: #FFFFFF;
+              border-color: #FFFFFF;
             }
           }
         }

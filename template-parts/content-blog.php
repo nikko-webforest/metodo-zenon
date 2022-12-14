@@ -12,7 +12,7 @@
 <!-- #post-<?php the_ID(); ?> -->
 <article id="page-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<?php echo do_shortcode('[mz-sc-section--hero title="Our Blogs"]'); ?>
+	<?php echo do_shortcode('[mz-sc-section--hero title="Our Blogs" hero-bg="/wp-content/themes/metodo-zenon/images/MZ_Blog_Hero_sect-bg-v01-1440x440.jpg"]'); ?>
 
 	<?php
 		$categories = get_categories(
@@ -134,7 +134,7 @@
 				</div>
 				<div class="mz-pagination">
 					<?php
-						paginate_links(array(
+						echo paginate_links(array(
 							'total' => $blogPost->max_num_pages,
 							'prev_text' => '<svg width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 12L5.06 7.061L10 2.122L7.878 0L0.818 7.061L7.878 14.122L10 12Z" fill="white"/></svg>',
 							'next_text' => '<svg width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.818359 12L5.75836 7.061L0.818359 2.122L2.94036 0L10.0004 7.061L2.94036 14.122L0.818359 12Z" fill="white"/></svg>'
