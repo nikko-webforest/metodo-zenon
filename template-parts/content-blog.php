@@ -13,33 +13,29 @@
 <article id="page-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<?php echo do_shortcode('[mz-sc-section--hero title="Our Blogs" hero-bg="/wp-content/themes/metodo-zenon/images/MZ_Blog_Hero_sect-bg-v01-1440x440.jpg"]'); ?>
-
-	<?php
-		$categories = get_categories(
-			array(
-				'orderby'    => 'count',
-				'order'      => 'DESC',
-				'show_count' => '1',
-				'title_li'   => '',
-				'number'     => 4,
-			)
-		);
-
-		$paged = 1;
-		$paged = get_query_var('paged');
-		$blogPost = new WP_Query(array(
-			'posts_per_page' => 6,
-			'paged'          => $paged
-		));
-	?>
 	
-	<section class="mz-section mz-section--blog-listing">
+	<section class="mz-section mz-section--blog-listing"
+		data-filter-cat-id="<?php echo $args['active-cat-id']; ?>"
+		data-filter-cat-name="<?php echo $args['active-cat-name']; ?>"
+		data-filter-cat-slug="<?php echo $args['active-cat-slug']; ?>">
 		<div class="mz-container">
 			<div class="mz-row mz-top-bar-row">
 				<ul class="mz-category-tab-filter-list">
-					<li class="mz-category-tab-filter-item --active-item"><span>All</span></li>
-					<?php foreach( $categories as $cateogry ) : ?>
-						<li class="mz-category-tab-filter-item"><span><?php echo $cateogry->name; ?></span></li>
+					<li class="mz-category-tab-filter-item">
+						<a class="mz-category-tab-filter-link"
+							title="All"
+							href="/blog">
+							All
+						</a>
+					</li>
+					<?php foreach( $args['categories'] as $category ) : ?>
+						<li class="mz-category-tab-filter-item">
+							<a class="mz-category-tab-filter-link"
+								title="<?php echo $category->name; ?>"
+								href="<?php echo '/blog/category/'.$category->slug; ?>">
+								<?php echo $category->name; ?>
+							</a>
+						</li>
 					<?php endforeach; ?>
 				</ul>
 				<div class="mz-search-bar-filter">
@@ -52,98 +48,105 @@
 					</svg>
 				</div>
 			</div>
-			<?php if( $blogPost->have_posts() ) : ?>
-				<div class="mz-blog-post-list">
-					<?php while( $blogPost->have_posts() ) : ?>
-						<?php $blogPost->the_post(); ?>
-						<?php
-							$categorys = get_the_category();
-							$postCategorysList = '';
-							$i = 1;
-					
-							foreach( $categorys as $category ){
-								if( $i == count($categorys) ){
-									$postCategorysList .= $category->cat_name;
-								} else {
-									$postCategorysList .= $category->cat_name.', ';
-								}
-								$i++;
+			<div class="mz-blog-post-list">
+				<?php foreach( $args['posts']->posts as $post) : ?>
+					<?php
+						$postCatArr = get_the_category($post->ID);
+						$postCatList = '';
+						$postCatIndex = 1;
+						foreach( $postCatArr as $item ){
+							if( $postCatIndex == count($postCatArr) ){
+								$postCatList .= $item->cat_name;
 							}
-					
-							$tags = get_the_tags();
-							$postTagsList = '';
-							$j = 1;
-					
-							if( is_array($tags) || is_object($tags) ){
-								foreach( $tags as $tag ){
-									if( $j == count($tags) ){
-										$postTagsList .= $tag->name;
-									} else {
-										$postTagsList .= $tag->name.', ';
-									}
-									$j++;
-								}
+							else {
+								$postCatList .= $item->cat_name.', ';	
 							}
-						?>
-						<div class="mz-blog-post-item"
-							id="post-<?php echo get_the_ID(); ?>'">
-							<div class="mz-blog-post-img-wrap">
-								<a class="mz-img-link mz-blog-post-img-link"
-									title="'<?php echo the_title(); ?>'"
-									href="'<?php echo get_permalink(); ?>"
+							$postCatIndex++;
+						}
+						
+						$postTagArr = wp_get_post_tags($post->ID);
+						$postTagList = '';
+						$postTagIndex = 1;
+						foreach( $postTagArr as $item ){
+							if( $postTagIndex == count($postTagArr) ){
+								$postTagList .= $item->name;
+							}
+							else {
+								$postTagList .= $item->name.', ';	
+							}
+							$postTagIndex++;
+						}
+					?>
+					<div class="mz-blog-post-item"
+						id="blog-<?php echo $post->ID; ?>"
+						data-categorys="<?php echo $postCatList; ?>"
+						data-tags="<?php echo $postTagList; ?>">
+						<div class="mz-blog-post-img-wrap">
+							<a class="mz-img-link mz-blog-post-img-link"
+								title="<?php echo $post->post_title; ?>"
+								href="<?php echo '/blog/'.$post->post_name; ?>"
+								rel="">
+								<img class="mz-img mz-blog-post-img"
+									alt="<?php echo $post->post_name; ?>"
+									title="<?php echo $post->post_name; ?>"
+									src="
+										<?php
+											if( empty( get_the_post_thumbnail_url($post->ID) ) ){
+												echo '/wp-content/themes/metodo-zenon/images/MZ_Blog_Temp_Article_Featured_img-320x215.png';
+											}
+											else {
+												echo get_the_post_thumbnail_url($post->ID);
+											}
+										?>"
+									width=""
+									height=""/>
+							</a>
+						</div>
+						<div class="mz-blog-post-details-wrap">
+							<h3 class="mz-blog-post-title"><?php echo $post->post_name; ?></h3>
+							<p class="mz-blog-post-excerpt"><?php echo get_the_excerpt($post->ID); ?></p>
+							<div class="mz-blog-post-categories"><?php echo get_the_category($post->ID); ?></div>
+							<div class="mz-blog-post-tags"><?php echo wp_get_post_tags($post->ID); ?></div>
+							<div class="mz-inner-row">
+								<div class="mz-blog-post-released-date">
+									<?php
+										$dateCreate = date_create( $post->post_date );
+										echo date_format($dateCreate, 'M d, Y');
+									?>
+								</div>
+								<a class="mz-a-link mz-link-more-info"
+									title="<?php echo $post->post_name; ?>"
+									href="<?php echo get_permalink(); ?>"
 									rel="">
-									<?php if( empty( get_the_post_thumbnail_url() ) ) : ?>
-										<img class="mz-img mz-blog-post-img"
-											alt="<?php echo the_title(); ?>"
-											title="<?php echo the_title(); ?>"
-											src="/wp-content/themes/metodo-zenon/images/MZ_Blog_Temp_Article_Featured_img-320x215.png"
-											width=""
-											height=""/>
-									<?php else : ?>
-										<img class="mz-img mz-blog-post-img"
-											alt="<?php echo the_title(); ?>"
-											title="<?php echo the_title(); ?>"
-											src="<?php echo get_the_post_thumbnail_url(); ?>"
-											width=""
-											height=""/>
-									<?php endif; ?>
+									<span>More Info</span>
+									<span>
+										<svg class="mz-svg" width="35" height="13" viewBox="0 0 35 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M26.9048 1.3457L32.1752 6.616L26.9048 11.8863M31.5419 6.6165H0.226562" stroke="#6F4A37" stroke-width="3"></path>
+										</svg>
+									</span>
 								</a>
 							</div>
-							<div class="mz-blog-post-details-wrap">
-								<h3 class="mz-blog-post-title"><?php echo the_title(); ?></h3>
-								<p class="mz-blog-post-excerpt"><?php echo get_the_excerpt(); ?></p>
-								<div class="mz-blog-post-categories"><?php echo $postCategorysList; ?></div>
-								<div class="mz-blog-post-tags"><?php echo $postTagsList; ?></div>
-								<div class="mz-inner-row">
-									<div class="mz-blog-post-released-date"><?php get_the_date('M d, Y') ?></div>
-									<a class="mz-a-link mz-link-more-info"
-										title="<?php echo the_title(); ?>"
-										href="<?php echo get_permalink(); ?>"
-										rel="">
-										<span>More Info</span>
-										<span>
-											<svg width="35" height="13" viewBox="0 0 35 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<path d="M26.9048 1.3457L32.1752 6.616L26.9048 11.8863M31.5419 6.6165H0.226562" stroke="#6F4A37" stroke-width="3"></path>
-											</svg>
-										</span>
-									</a>
-								</div>
-							</div>
 						</div>
-					<?php	endwhile; ?>
-				</div>
-				<div class="mz-pagination">
-					<?php
-						echo paginate_links(array(
-							'total' => $blogPost->max_num_pages,
-							'prev_text' => '<svg width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 12L5.06 7.061L10 2.122L7.878 0L0.818 7.061L7.878 14.122L10 12Z" fill="white"/></svg>',
-							'next_text' => '<svg width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.818359 12L5.75836 7.061L0.818359 2.122L2.94036 0L10.0004 7.061L2.94036 14.122L0.818359 12Z" fill="white"/></svg>'
-						));
-					?>
-				</div>
-			<?php endif; ?>
+					</div>
+				<?php	endforeach; ?>
+			</div>
+			<div class="mz-pagination">
+				<?php
+					$big = 999999999;  
+					echo paginate_links(array(
+						'base' => str_replace($big, '%#%', esc_url(get_pagenum_link($big))),
+						'format' => '/page/%#%',
+						'current' => max(1, $args['paged']),
+						'prev_text' => '<svg class="mz-svg" width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 12L5.06 7.061L10 2.122L7.878 0L0.818 7.061L7.878 14.122L10 12Z" fill="white"/></svg>',
+						'next_text' => '<svg class="mz-svg" width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.818359 12L5.75836 7.061L0.818359 2.122L2.94036 0L10.0004 7.061L2.94036 14.122L0.818359 12Z" fill="white"/></svg>',
+						'show_all' => false,
+						'total' => $args['posts']->max_num_pages
+					));
+				?>
+			</div>
 		</div>
 	</section>
+	<?php //print("<pre>".print_r($args['posts']->posts,true)."</pre>"); ?>
 
 	<?php if( get_edit_post_link() ) : ?>
 

@@ -165,6 +165,10 @@
               &:hover {
                 color: #C2AB90;
               }
+
+              &.current-menu {
+                color: #C2AB90;
+              }
               
               .mz-menu-links {
                 color: inherit;
@@ -173,12 +177,31 @@
             }
           }
 
+          /*
           .mz-form {
             .mz-form-wrap {
-              .mz-form-col {}
+              .mz-form-col {
+                .mz-form-input {
+                  font-family: $primary-font-family;
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 14px;
+                  line-height: 1.25em;
+
+                  &:focus {
+                    outline: auto;
+                  }
+                }
+              }
 
               .mz-form-submit-col {
                 .mz-form-submit {
+                  color: #FFFFFF;
+                  font-family: $primary-font-family;
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 14px;
+                  line-height: 1.25em;
                   overflow: hidden;
                   margin: 0;
 
@@ -193,6 +216,7 @@
               }
             }
           }
+          */
         }
       }
     }

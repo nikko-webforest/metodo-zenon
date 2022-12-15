@@ -1,5 +1,18 @@
 .mz-error-404-not-found-section {
+  height: 500px;
+
   .mz-container {
     max-width: 900px;
+    height: 100%;
+    
+    .mz-row {
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+
+      h1 {
+        text-align: center;
+      }
+    }
   }
 }

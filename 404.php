@@ -16,11 +16,11 @@ get_header();
 		<!-- .mz-error-404-not-found-section -->
 		<section class="mz-section mz-error-404-not-found-section">
 			<div class="mz-container">
-				
-				<h1 class="page-title">
-					<?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'metodo-zenon' ); ?>
-				</h1>
-
+				<div class="mz-row">
+					<h1 class="page-title">
+						<?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'metodo-zenon' ); ?>
+					</h1>
+				</div>
 			</div>
 		</section>
 

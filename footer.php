@@ -35,12 +35,16 @@
               <ul class="mz-menu-list">
                 <?php
                   $menuFooterPrimaryMenu01 = wp_get_nav_menu_items('Footer - Primary - Menu #01');
+                  $menuFooterPrimaryMenuCurrent;
                   
                   foreach( $menuFooterPrimaryMenu01 as $item ){
+                    $menuFooterPrimaryMenuCurrent = ( $item->object_id == get_queried_object_id() ) ? 'current-menu' : '';
                     echo
                       '
-                        <li class="mz-menu-item">
+                        <li class="mz-menu-item '.$menuFooterPrimaryMenuCurrent.'">
                           <a class="mz-menu-links"
+                            id="'.$item->ID.'"
+                            object-id="'.$item->object_id.'"
                             title="'.$item->title.'"
                             href="'.$item->url.'">
                             '.$item->title.'
@@ -82,20 +86,7 @@
                 <?php /* Subscribe to Newsletter */ ?>
                 Escribe tu correo para descargarte una guía sobre cómo monitorizar tu carga de entrenamiento
               </h5>
-              <form class="mz-form" action="">
-                <div class="mz-form-wrap">
-                  <div class="mz-form-col">
-                    <input class="mz-form-input"
-                      type="text"
-                      placeholder="Enter your email"/>
-                  </div>
-                  <div class="mz-form-submit-col">
-                    <input class="mz-form-submit" 
-                      type="submit"
-                      value="Enviar"/>
-                  </div>
-                </div>
-              </form>
+              <?php echo do_shortcode('[fluentform id="3"]'); ?>
             </div>
           </div>
         </div>

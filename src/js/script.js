@@ -63,59 +63,6 @@
 
 })();
 
-/* mz-section--blog-listing | category-tab-filter */
-(function () {
-
-  var
-    thisSectionClass = '.mz-section--blog-listing',
-    filterCategory,
-    blogPostItem,
-    blogPostItemLength,
-    blogPostCategory
-  ;
-
-  if( document.querySelectorAll(thisSectionClass).length >= 1 ){
-
-    console.log('');
-    console.log('thisSectionClass = '+thisSectionClass);
-    console.log('for-category-tab-filter');
-
-    blogPostItem = document.querySelectorAll('.mz-blog-post-item');
-    
-    const clickedCategory = document.querySelectorAll('.mz-category-tab-filter-item');
-
-    for( var i = 0; i < clickedCategory.length; i++ ){
-      clickedCategory[i].addEventListener('click', function(){
-        console.log('\nthisSectionClass   = '+thisSectionClass);
-        for( var j = 0; j < clickedCategory.length; j++ ){
-          clickedCategory[j].classList.remove('--active-item');
-        }
-        this.classList.add('--active-item');
-
-        filterCategory = this.innerText.toLowerCase();
-        console.log('filterCategory     = '+filterCategory);
-        console.log('blogPostItemLength = '+blogPostItemLength);
-        
-        for( var k = 0; k < blogPostItem.length; k++ ){
-          blogPostCategory = blogPostItem[k].getElementsByClassName('mz-blog-post-categories')[0].innerHTML.trim();
-          console.log("blogPostItem["+k+"]    = "+blogPostCategory);
-          
-          if( filterCategory == 'all' ){
-            for( var l = 0; l < blogPostItem.length; l++ ){
-              blogPostItem[l].style.display = 'block';
-            }
-          } else if( blogPostCategory.toLowerCase().indexOf(filterCategory) > -1 ){
-            blogPostItem[k].style.display = '';
-          } else {
-            blogPostItem[k].style.display = 'none';
-          }
-        }
-      });
-    }
-  }
-
-})();
-
 /* mz-section--blog-listing | search-filter */
 (function (){
 
@@ -184,6 +131,26 @@
         }
       }
     }
+
+    var colWidth = $('.mz-blog-post-item').width();
+
+    window.onresize = function() {
+      var colWidth = $('.mz-blog-post-item').width();
+    }
+
+    var $grid = $(".mz-blog-post-list").masonry({
+      // options
+      itemSelector: ".mz-blog-post-item",
+      columnWidth: ".mz-blog-post-item",
+      gutter: 40,
+    });
+
+    $grid.masonry( 'on', 'layoutComplete', function() {
+      console.log(' ');
+      console.log('thisSectionClass = '+thisSectionClass);
+      console.log('for-resizing-to-masonry-grid');
+      console.log('Grid Masonry Layout is Complete');
+    });
   }
 
 })();
@@ -521,6 +488,25 @@
         pageDots: false,
       });
 
+      var getUrlParameter = function getUrlParameter(sParam) {
+        var sPageURL = window.location.search.substring(1),
+          sURLVariables = sPageURL.split('&'),
+          sParameterName,
+          i;
+    
+        for( i = 0; i < sURLVariables.length; i++ ){
+          sParameterName = sURLVariables[i].split('=');
+    
+          if( sParameterName[0] === sParam ){
+            return sParameterName[1] === undefined ? true : decodeURIComponent( sParameterName[1] );
+          }
+        }
+        return false;
+      }
+  
+      var URLparamSlide = getUrlParameter('slide');
+      console.log('URLparamSlide = '+URLparamSlide);
+
       // carouselInitialize02 = new Flickity(thisSectionClass+' .carousel-content', {
       //   wrapAround: true,
       //   prevNextButtons: false,
@@ -530,7 +516,12 @@
       
       // get data-current-slide from shortcode attribute then set as current slide
       // carouselSetCurrentSlide = $(thisSectionClass+' '+carouselMainClass).attr('data-current-slide');
-      carouselSetCurrentSlide = document.querySelector(thisSectionClass+' '+carouselMainClass).dataset.currentSlide;
+      if( URLparamSlide ){
+        carouselSetCurrentSlide = URLparamSlide;  
+      }
+      else {
+        carouselSetCurrentSlide = document.querySelector(thisSectionClass+' '+carouselMainClass).dataset.currentSlide;
+      }
 
       // get data-carousel-autoplay from shortcode attribute
       // carouselAutoPlay = $(thisSectionClass+' '+carouselMainClass).attr('data-carousel-autoplay');

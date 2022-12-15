@@ -176,6 +176,15 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+function custom_pre_get_posts($query){
+	if( $query->is_main_query() && !$query->is_feed() && !is_admin() && is_category() ){
+		$query->set('page_val', get_query_var('paged'));
+		$query->set('paged', 0);
+	}
+}
+
+add_action('pre_get_posts', 'custom_pre_get_posts');
+
 add_shortcode( 'mz-sc-section--hero', function ( $atts, $content = null ){
 
 	$attributes = shortcode_atts([
@@ -421,7 +430,7 @@ add_shortcode( 'mz-sc-section--zenon-method', function ( $atts, $content = null 
 						</div>
 						<div class="mz-row">
 							<div class="mz-col"
-								data-mz-aos="fade-up" data-mz-aos-delay="200">
+								data-mz-aos="fade-up" data-mz-aos-delay="100">
 								<div class="mz-inner-row">
 									<div class="mz-inner-col">
 										<img class="mz-img"
@@ -442,7 +451,7 @@ add_shortcode( 'mz-sc-section--zenon-method', function ( $atts, $content = null 
 								</div>
 							</div>
 							<div class="mz-col"
-								data-mz-aos="fade-up" data-mz-aos-delay="300">
+								data-mz-aos="fade-up" data-mz-aos-delay="100">
 								<div class="mz-inner-row">
 									<div class="mz-inner-col">
 										<img class="mz-img"
@@ -463,7 +472,7 @@ add_shortcode( 'mz-sc-section--zenon-method', function ( $atts, $content = null 
 								</div>
 							</div>
 							<div class="mz-col"
-								data-mz-aos="fade-up" data-mz-aos-delay="400">
+								data-mz-aos="fade-up" data-mz-aos-delay="100">
 								<div class="mz-inner-row">
 									<div class="mz-inner-col">
 										<img class="mz-img"
@@ -484,7 +493,7 @@ add_shortcode( 'mz-sc-section--zenon-method', function ( $atts, $content = null 
 								</div>
 							</div>
 							<div class="mz-col"
-								data-mz-aos="fade-up" data-mz-aos-delay="500">
+								data-mz-aos="fade-up" data-mz-aos-delay="100">
 								<div class="mz-inner-row">
 									<div class="mz-inner-col">
 										<img class="mz-img"
@@ -505,7 +514,7 @@ add_shortcode( 'mz-sc-section--zenon-method', function ( $atts, $content = null 
 								</div>
 							</div>
 							<div class="mz-col"
-								data-mz-aos="fade-up" data-mz-aos-delay="600">
+								data-mz-aos="fade-up" data-mz-aos-delay="100">
 								<p class="p-02">
 									'. $attributes['sub-text'] .'
 								</p>
