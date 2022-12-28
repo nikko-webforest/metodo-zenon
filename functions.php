@@ -401,8 +401,8 @@ add_shortcode( 'mz-sc-section--zenon-method', function ( $atts, $content = null 
 						</div>
 						<a class="mz-cta mz-cta-'. $mzCTAclass .'"
 							title="'. $attributes['method-cta'] .'"
-							target="_blank"
-							href="#">
+							target=""
+							href="/contact-us">
 							'. $attributes['method-cta'] .'
 						</a>
 					</div>

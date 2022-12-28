@@ -236,17 +236,17 @@
 									<a class="mz-cta mz-cta--primary"
 										title="Prueba gratis el Método Zenon"
 										target=""
-										href=""
+										href="/contact-us"
 										rel="">
 										Prueba gratis el Método Zenon
 									</a>
-									<a class="mz-cta mz-cta--secondary"
+									<!-- <a class="mz-cta mz-cta--secondary"
 										title="Prueba gratis el Método Zenon"
 										target=""
 										href=""
 										rel="">
 										Prueba gratis el Método Zenon
-									</a>
+									</a> -->
 								</div>
 							</div>
 						</div>
@@ -383,17 +383,17 @@
 									<a class="mz-cta mz-cta--primary"
 										title="Prueba gratis el Método Zenon"
 										target=""
-										href=""
+										href="/contact-us"
 										rel="">
 										Prueba gratis el Método Zenon
 									</a>
-									<a class="mz-cta mz-cta--secondary"
+									<!-- <a class="mz-cta mz-cta--secondary"
 										title="Prueba gratis el Método Zenon"
 										target=""
 										href=""
 										rel="">
 										Prueba gratis el Método Zenon
-									</a>
+									</a> -->
 								</div>
 							</div>
 						</div>
@@ -536,17 +536,17 @@
 									<a class="mz-cta mz-cta--primary"
 										title="Prueba gratis el Método Zenon"
 										target=""
-										href=""
+										href="/contact-us"
 										rel="">
 										Prueba gratis el Método Zenon
 									</a>
-									<a class="mz-cta mz-cta--secondary"
+									<!-- <a class="mz-cta mz-cta--secondary"
 										title="Prueba gratis el Método Zenon"
 										target=""
 										href=""
 										rel="">
 										Prueba gratis el Método Zenon
-									</a>
+									</a> -->
 								</div>
 							</div>
 						</div>
@@ -686,17 +686,17 @@
 									<a class="mz-cta mz-cta--primary"
 										title="Prueba gratis el Método Zenon"
 										target=""
-										href=""
+										href="/contact-us"
 										rel="">
 										Prueba gratis el Método Zenon
 									</a>
-									<a class="mz-cta mz-cta--secondary"
+									<!-- <a class="mz-cta mz-cta--secondary"
 										title="Prueba gratis el Método Zenon"
 										target=""
 										href=""
 										rel="">
 										Prueba gratis el Método Zenon
-									</a>
+									</a> -->
 								</div>
 							</div>
 						</div>
@@ -841,17 +841,17 @@
 									<a class="mz-cta mz-cta--primary"
 										title="Prueba gratis el Método Zenon"
 										target=""
-										href=""
+										href="/contact-us"
 										rel="">
 										Prueba gratis el Método Zenon
 									</a>
-									<a class="mz-cta mz-cta--secondary"
+									<!-- <a class="mz-cta mz-cta--secondary"
 										title="Prueba gratis el Método Zenon"
 										target=""
 										href=""
 										rel="">
 										Prueba gratis el Método Zenon
-									</a>
+									</a> -->
 								</div>
 							</div>
 						</div>
@@ -982,17 +982,17 @@
 									<a class="mz-cta mz-cta--primary"
 										title="Prueba gratis el Método Zenon"
 										target=""
-										href=""
+										href="/contact-us"
 										rel="">
 										Prueba gratis el Método Zenon
 									</a>
-									<a class="mz-cta mz-cta--secondary"
+									<!-- <a class="mz-cta mz-cta--secondary"
 										title="Prueba gratis el Método Zenon"
 										target=""
 										href=""
 										rel="">
 										Prueba gratis el Método Zenon
-									</a>
+									</a> -->
 								</div>
 							</div>
 						</div>

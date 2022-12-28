@@ -99,7 +99,7 @@
                 Copyright &copy; Metodo Zenon. All Right Reserved.
               </p>
             </div>
-            <div class="mz-col">
+            <!-- <div class="mz-col">
               <ul class="mz-social-list">
                 <li class="mz-social-item">
                   <a class="mz-social-link"
@@ -142,7 +142,7 @@
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
