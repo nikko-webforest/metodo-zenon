@@ -1767,6 +1767,7 @@
         }
       }
     }
+
     .mz-section { 
         display: flex;
         flex-direction: row;
@@ -1865,122 +1866,257 @@
       }
     }
 
-  .mz-col {
-    margin: 100px auto;
-    
-    .mz-title-02 {
-      display: flex;
-      flex-direction: column;
-      width: 50%;
-      margin: 0px auto;
-      justify-content: center;
-
-      h3 {
-        color: $quinary-color;
-        font-family: $primary-font-family;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        text-align: center;
-        letter-spacing: -0.02em;
-        text-transform: uppercase;
-        margin: 0 0;
-      }
-
-      .loc {
-        color: $black-color;
-        font-family: $primary-font-family;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 32px;
-        text-align: center;
-        letter-spacing: -0.02em;
-        text-transform: uppercase;
-        margin: 0 0 50px;
-        line-height: 35px;
-      }
-    }
-  }
-
-  .mz-row {
-      padding: 0 0;
-      margin: 0 0 ;
-      gap: 0px;
-
     .mz-col {
-      display: flex;
-      flex-direction: row;
-      gap: 10px;
-      margin: 50px 0 0;
-      padding:0;
-      flex-wrap: nowrap;
-      align-items: flex-start;
-
-      .mz-icon {
-        margin-top: 20px;
+      margin: 100px auto;
+      
+      .mz-title-02 {
         display: flex;
         flex-direction: column;
-        gap: 7px;
-        
-        .point {
-          align-self: center;
+        width: 50%;
+        margin: 0px auto;
+        justify-content: center;
+
+        h3 {
+          color: $quinary-color;
+          font-family: $primary-font-family;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          text-align: center;
+          letter-spacing: -0.02em;
+          text-transform: uppercase;
+          margin: 0 0;
+        }
+
+        .loc {
+          color: $black-color;
+          font-family: $primary-font-family;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 32px;
+          text-align: center;
+          letter-spacing: -0.02em;
+          text-transform: uppercase;
+          margin: 0 0 50px;
+          line-height: 35px;
         }
       }
+    }
 
-      .mz-content {
+    .mz-row {
+        padding: 0 0;
+        margin: 0 0 ;
+        gap: 0px;
+
+      .mz-col {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin: 50px 0 0;
+        padding:0;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+
+        .mz-icon {
+          margin-top: 20px;
+          display: flex;
+          flex-direction: column;
+          gap: 7px;
+          
+          .point {
+            align-self: center;
+          }
+        }
+
+        .mz-content {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            align-items: flex-end;
+            margin:0;
+            
+            svg {
+              filter: invert(76%) sepia(13%) saturate(1153%) hue-rotate(341deg) brightness(88%) contrast(86%);
+            }
+
+            .icon2{
+              display: none;
+            }
+
+            .icon {
+              display: flex;
+            }
+            
+          .mz-inner-row {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            
+            h4 {
+              color: $black-color;
+              font-family: $primary-font-family;
+              font-style: normal;
+              font-weight: 700;
+              font-size: 16px;
+              letter-spacing: -0.02em;
+              text-transform: uppercase;
+              margin: 0 0;
+            }
+
+            p {
+              color: $senary-color;
+              font-family: $primary-font-family;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 14px;
+              letter-spacing: -0.02em;
+              margin: 0 0;
+              text-align: left;
+              line-height: 20px;
+            }
+          }
+        }
+
+        .mz-point {
+          margin: 5px 5px;
+        }
+      }
+    }
+
+    hr {
+      display: block;
+      background-color: #909090;
+      width: 99%;
+      height: 2px;
+      margin: 20px 0 0 10px;
+      border: none;
+      z-index: -1;
+      margin-top: -9px;
+    }
+}
+
+.theme-dark {
+  .mz-section--contact-us-content {
+  
+    .mz-row {
+      .mz-col-01 { 
+        &::before {
+          background:  linear-gradient(#825036 0%, #49230C 100% );
+        }
+      }
+    }
+
+    .mz-section { 
+      .mz-col {
+        .mz-title-01 {
+
+          h3 {
+            background: -webkit-linear-gradient( #C2AB90, #8F6C45 );
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+
+          h2 {
+            color: $white-color;
+          }
+        }
+        .mz-row {
           display: flex;
           flex-direction: row;
           gap: 20px;
-          align-items: flex-end;
-          margin:0;
           
-        .mz-inner-row {
-          display: flex;
-          flex-direction: column;
-          width: 50%;
-          
-          h4 {
-            color: $black-color;
-            font-family: $primary-font-family;
-            font-style: normal;
-            font-weight: 700;
-            font-size: 16px;
-            letter-spacing: -0.02em;
-            text-transform: uppercase;
-            margin: 0 0;
+          path {
+            fill: #D3A07A;
           }
-
-          p {
-            color: $senary-color;
-            font-family: $primary-font-family;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            letter-spacing: -0.02em;
-            margin: 0 0;
-            text-align: left;
-            line-height: 20px;
+      
+          .mz-inner-col {
+            h4 {
+              color: $white-color;
+            }
+      
+            .p-03 {
+              color: $white-color;
+            }
           }
         }
       }
 
-      .mz-point {
-        margin: 5px 5px;
+      .mz-contact-form {
+        background-color: #181818;
+
+        h4 {
+          color: $white-color;
+        }
       }
+    }
+
+    .mz-col {      
+      .mz-title-02 {
+        h3 {
+          background: -webkit-linear-gradient( #C2AB90, #8F6C45 );
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+
+        .loc {
+          color: $white-color;
+        }
+      }
+    }
+
+    .mz-row {
+      .mz-col {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin: 50px 0 0;
+        padding:0;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+
+        .mz-icon {
+          path {
+            fill: #D3A07A;
+          }
+          .point {
+            circle{
+              fill: #D3A07A;
+            }
+            }
+          }
+        }
+
+        .mz-content {            
+
+          svg {
+            filter: invert(24%) sepia(75%) saturate(303%) hue-rotate(326deg) brightness(85%) contrast(82%);
+          }
+
+          .mz-inner-row {            
+            h4 {
+              color: $white-color;
+            }
+
+            p {
+              color: $septenary-color;
+            }
+          }
+        }
+      }
+    }
+
+    hr {
+      display: block;
+      background-color: #909090;
+      width: 99%;
+      height: 2px;
+      margin: 20px 0 0 10px;
+      border: none;
+      z-index: -1;
+      margin-top: -9px;
     }
   }
 
-  hr {
-    display: block;
-    background-color: #909090;
-    width: 99%;
-    height: 2px;
-    margin: 20px 0 0 10px;
-    border: none;
-    z-index: -1;
-    margin-top: -9px;
-  }
-}
   
 /*===== Zenon Family Page =====*/
 .mz-pb-about-us-section {
