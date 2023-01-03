@@ -101,7 +101,7 @@
 						Our Location
 					</h3>
 					<h2 class="loc">
-						Sra Ana Jimenez, Mimbreras 4 03201 ELCHE (Alicante)
+						Sra Ana Jimenez, Mimbreras 4 <br> 03201 ELCHE (Alicante)
 					</h2>
 				</div>
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6265.1478641895455!2d-0.7076804999999573!3d38.26618665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd63b6fa33032777%3A0x1c02af723e14e4e0!2s03201%20Elche%2C%20Alicante%2C%20Spain!5e0!3m2!1sen!2sph!4v1672324937635!5m2!1sen!2sph" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -123,7 +123,7 @@
 							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44.721" height="34.999" viewBox="0 0 46 36">
 								<image y="3" width="46" height="28" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAbCAYAAADoOQYqAAAEJUlEQVRYhb2Ya4iWVRDHf/t6ycWMvJSLioUghrouQVppWBR0kwiJljIjQtuQIvrQF7tABdHlQ4R0oyUqSiPNiuyC0oUiNgqFlNTMTFcqXVKrTd1Wdvcfs/wfODy+7/bebODhOWfmnJl55szMmXkaJFEhLARuA0YCfUDKoJBjNczvL4C1QHelwopCKF3Bc5Ok46oO1kgaV6G8ok8llm4BPgaagM+AX4HzgWbTY/6VrZ9ZuNfrFwCnA28AK4Cj/4elz7SlAlYn+PmSjhr/4BD775XU53UvSGqsxdLlLrzDAndJmpngZ0vqNG35f/BYkSj+jKSRp1LpOZIOS+qVdGeO1ixpvxVpK4PXPZIGvP5xSYVTofRYSW9ZyNoi9FmS9pq+rEyhd0k64T2PSRpRb6XbzHynpClF6PMkHfGa+yoQ/FCSf1ZWqvTwJCYnAnOdfyPqJwErTQvcPOAC5+IB4B/gemCs1ywGdpo+rEjMD/h9xHti/yjgERjUY4Mz0KFc7j8JspQ3DVgFLKopFdUGfwLfAjuAn4BdwF5gH9Cfcg6lG4GXgZtrFCpb+gfn7uk18jsBbAe2AJuBb4BtgycmqamGWy6FDknn2u8ulrS7DjxT+NExNOh/48LiNVoloNNHmY1/qwPPFOLkHgVGRwCMKGPDcfvYeGBqiTVXAu3Ad8AlwEUVKnUQOOBrv6mEIaNYm5BdED0ljiSu6Ce8ZoKkSZKulvRpHY/9gKQHJE23jHMk3ZJcWimEni0RiM2O2lG5r/oLuBt4E7gRmA8cBl53Wgr8tRVaMw9xgtc5yJY4gCPtrQYiQbwPnJfsiTR54VCWXiVpjKRPcvhjklolTZa0p0Yrtzp4O3L4sPJlkhZJOpSzdHNWW+SVzgqj9hLCuiQtkLS4BoU/kDRR0nsl6FHvTJP0ak7pOQW7Qf4G2uxAWO555N424EXflmebtt2uUg202zUyF3vX7rjOMiKrLQW+BP5I+PdjF/g6+ZpuSfe7Igs4KOkq59/hkp40fqukGyStq9LSLZJe8fh7STMs4zRJnxu/wye6z/Pf43QK7iKeT67KHgfDTM+3Ahs9jq5kk8dNrle6qrByl+uP8Z6vB3Z73OsAjKCbDOw3Dvea3QW7xtvAwyYUXCBlH9FXQvCAC6PGKpQ+AxiTzPuSgoqkYe53MdVgV4wCrier8sK6TwEfmWF83VmmzXa66/DmhcYfM6M4hQ9dK5QD2aWxwV19QCuwBtjj+eU2Rqf5LnHsdA5Sh6hbL038b4u7lqftV7LfNVTbMhWpq9e7ZXstyWbPSRpdSRMQ7f473txvRlnH8bek22tUOJ6pkraZ54ALt6yPjNt4bjWdyyzn7Dw8WweFs+caSb/k+IeBlpY6yXL+e0wBbgWucEETvhf/P+oJM4Bl/o/yM/CS6+iTAfgXbF4F4mkyl5oAAAAASUVORK5CYII="/>
 							</svg>
-							<div class="mz-inner-row">
+							<div class="mz-inner-row point-01">
 								<h4>
 									By Car
 								</h4>
@@ -150,7 +150,7 @@
 							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34.995" height="34.995" viewBox="0 0 128 128">
 								<image x="26" y="1" width="76" height="127" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAjCAYAAAB7NEEmAAACNklEQVRIiaWWTYiOURTH/zQYlMJu0iBfG5MNFlMKYxaSojQrHwuF2diqUYrVRMO7m1BqImnKwmCjhizYjJSomUbJzGKUWFj4aMRPd7rvdB3343nNv27Pc8/H/z3n3HPu8wqoui4AE8ALYFfOpyrhdf5F+1xIW4DpCOmtlM98ldHkl8WClGcV0klJgxH5QNKjgYM6DYwAo8CRnO28mcKWsUzSXkmtkm5I+pz1qBDhYXNAk8CqubTUlcipOwz9D+lC4HGCsI4djZBuAKYKhA73q5LuD5x+A78KxDtLpOuMwyDwtED6sEQannLNy8YjRGOm3gdzpLXAsBloTUQ3AKw2svOp2d/qn+8k/ZDUmWjtD5ImJPUGsnOSXkpqCZt/OfDF/+odL7udiLQriGof8NXoD9SVnYGwO1NPhzWmhs1+GOp4UlccC4RrgaYE4Whmko76QLrqgqW+PS77/aEEKd45O94pRS1D6tCRI01d0tsLl+GQpPWNXH0rzYl+BPqAbybat75sldLfY5zHvbw7Uobhqunb1F/7Z7+kPqPbLelalfTvmWh6jD42FFty6W+LOMT+NDwzNsdz6V8y+weSnkdKdNfs21Lpn4xE2ZboxQ5j9yiW/grgkzG8mGlw9zX9GdhO+dH+i7TfELrP8OLCOI4Zn81hTdslnTI1Oivpe6SWIV6Z/ab6iyM9Y5TDkm4WCB3emP1sfzvSRUbZU4HQYcTsp2ffgI3Ae1+XE6Vrzayr3s/17ZIZGegPQQQOEQnAPRQAAAAASUVORK5CYII="/>
 							</svg>
-							<div class="mz-inner-row">
+							<div class="mz-inner-row point-02">
 								<h4>
 									By Foot
 								</h4>
@@ -177,24 +177,19 @@
 						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34.992" height="34.992" viewBox="0 0 480 480">
 							<image width="480" height="480" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAACA0lEQVRYhe2Yz0sVURTHP/P81Q8VKyMrKHGjbh7hLsKVWxfu3AmuWrYyEKKwjbQUBP8JNyW4EoToL2gRogs1XSiW1jNJzbxy4AzIOO/OHe97M0/wAwNvZs459/vOvffMmQmMMQCtwHtgCLgrFzLiFzAPvAF+iJgW4CvQmaGIKNtAsQB8yFmI8ACYlszsAW05ixEOJDO3akCIUFcPHAONDsYHwCkQWGwkXlOCTTn+ibNxMQT6gK2EgRo007IpHgPPgFGgx0mOMaZkkjk2xjRIGbjkMeUwRqmQIo33UthGeQXMJBnJbippWm3IND3RaQq5AdwPEwycAH+B35Y4mzp9ceynyUyUfmANWNfjuw72DZgo4zNtC1jvIUZ8wz8T6G9ZwL3AW+Am8Dris2gL6JOZk4T7Y8CdyLWdaolxoTVic5qXmGVdR+exVnsfMc2We7vAcExBLdoC+izgpUjtOALkobsBfAJ+xvi8tEZMUYE7PCqwHIOVrMA+vAA+JvlXW0yHtrNfXMbyWTNdwMi57RpovNtaX54Cz/Wx4YSPGGkP3nn4X8BnmvYrKYQM1kwqrsWU48qK+Z9wnpkYE9OLWHuTy+BaZ8RuTnvcQAvdw0qLkYb8UF+88uawoG+UtYARMbM1ImZBpkm+QKwA7TkKkff47vDL1SNgEhiIaaKryR/gMzAOrJ4B171W9K70kcAAAAAASUVORK5CYII="/>
 						</svg>
-							<div class="mz-inner-row">
+							<div class="mz-inner-row point-03">
 								<h4>
 									Where to Park
 								</h4>
 								<p>
-									Lorem Ipsum es simplemente el texto
+									Lorem Ipsum es simplemente el texto de relleno de las
 								</p>
 							</div>
 						</div>
 					</div>
 				</div>
-				<hr>
-				<!-- <div class="mz-point">
-					<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<circle cx="8" cy="8" r="8" fill="#6F4A37"/>
-					</svg>
-				</div>
-			 -->
+				<hr class="h-01">
+				<hr class="h-02">
 			</div>
 		</div>
 	</section>

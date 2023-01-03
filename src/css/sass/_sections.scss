@@ -1733,6 +1733,17 @@
       margin: 0px auto;
       align-items: center;
 
+      @media only screen and (max-width: 1100px) {
+        max-width: 60%;
+      }
+
+      @media only screen and (max-width: 860px) {
+        max-width: 80%;
+      }
+
+      @media only screen and (max-width: 768px) {
+        max-width: 90%;
+      }
       &::before {
         content:"";
         background-color: $nonary-color;
@@ -1780,13 +1791,31 @@
       gap: 120px;
       margin: 0 0;
       padding: 0 80px;
+      
+      @media only screen and (max-width: 980px) {
+        gap: 80px;
+        padding: 0 50px;
+      }
 
+      @media only screen and (max-width: 860px) {
+        gap: 40px;
+      }
+
+      @media only screen and (max-width: 768px) {
+        flex-direction: column;
+        gap: 80px;
+        padding: 0 50px;
+      }
     .mz-col {
       display: flex;
       flex-direction: column;
       gap: 50px;
       margin: 100px 0 0;
       width: 50%;
+
+      @media only screen and (max-width: 768px) {
+        width: 100%;
+      }
 
       .mz-title-01 {
 
@@ -1857,6 +1886,22 @@
       width: 75%;
       background-color: #F0F0F0;
 
+      @media only screen and (max-width: 1180px) {
+        padding: 100px 50px 60px;
+      }
+
+      @media only screen and (max-width: 860px) {
+        padding: 100px 30px 60px;
+      }
+
+      @media only screen and (max-width: 768px) {
+        padding: 60px 30px 50px;
+      }
+
+      @media only screen and (max-width: 768px) {
+        width: 100%;
+      }
+
       h4 {
         color: $black-color;
         font-family: $primary-font-family;
@@ -1882,6 +1927,18 @@
         width: 50%;
         margin: 0px auto;
         justify-content: center;
+
+        @media only screen and (max-width: 1180px) {
+          width: 75%;
+        }
+        
+        @media only screen and (max-width: 768px) {
+          width: 80%;
+        }
+
+        @media only screen and (max-width: 768px) {
+          width: 100%;
+        }
 
         h3 {
           color: $quinary-color;
@@ -1915,6 +1972,10 @@
         margin: 0 0 ;
         gap: 0px;
 
+        @media only screen and (max-width: 768px) {
+          flex-direction: column;
+        }
+        
       .mz-col {
         display: flex;
         flex-direction: row;
@@ -1924,12 +1985,27 @@
         flex-wrap: nowrap;
         align-items: flex-start;
 
+        
+
         .mz-icon {
           margin-top: 20px;
           display: flex;
           flex-direction: column;
           gap: 7px;
           
+
+          @media only screen and (max-width: 1157px) {
+            margin-top: 35px;
+          }
+
+          @media only screen and (max-width: 886px) {
+            margin-top: 45px;
+          }
+
+          @media only screen and (max-width: 768px) {
+            margin-top: 20px;
+          }
+
           .point {
             align-self: center;
           }
@@ -1941,56 +2017,50 @@
             gap: 20px;
             align-items: flex-end;
             margin:0;
-            
+
             svg {
-              filter: invert(73%) sepia(13%) saturate(1136%) hue-rotate(341deg) brightness(95%) contrast(86%);
+              filter: invert(73%) sepia(18%) saturate(1136%) hue-rotate(341deg) brightness(99%) contrast(86%);
             }
-
-            .icon2{
-              display: none;
-            }
-
-            .icon {
+            
+            .mz-inner-row {
               display: flex;
-            }
-            
-          .mz-inner-row {
-            display: flex;
-            flex-direction: column;
-            width: 50%;
-            
-            h4 {
-              color: $black-color;
-              font-family: $primary-font-family;
-              font-style: normal;
-              font-weight: 700;
-              font-size: 16px;
-              letter-spacing: -0.02em;
-              text-transform: uppercase;
-              margin: 0 0;
-            }
+              flex-direction: column;
+              // width: 50%;
 
-            p {
-              color: $senary-color;
-              font-family: $primary-font-family;
-              font-style: normal;
-              font-weight: 500;
-              font-size: 14px;
-              letter-spacing: -0.02em;
-              margin: 0 0;
-              text-align: left;
-              line-height: 20px;
+              h4 {
+                color: $black-color;
+                font-family: $primary-font-family;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                letter-spacing: -0.02em;
+                text-transform: uppercase;
+                margin: 0 0;
+              }
+
+              p {
+                color: $senary-color;
+                font-family: $primary-font-family;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                letter-spacing: -0.02em;
+                margin: 0 0;
+                text-align: left;
+                line-height: 20px;
+                width: 65%;
+
+                @media only screen and (max-width: 768px) {
+                  width: 55%;
+                }
+              }
             }
+            
           }
-        }
-
-        .mz-point {
-          margin: 5px 5px;
-        }
       }
     }
   }
-    hr {
+    .h-01 {
       display: block;
       background-color: #909090;
       width: 99%;
@@ -1999,6 +2069,27 @@
       border: none;
       z-index: -1;
       margin-top: -9px;
+
+      @media only screen and (max-width: 768px) {
+        border: none;
+        border-left: 2px solid #909090;
+        height: 10vh;
+        width: 2px; 
+        margin: -290px 0 0 14px;
+
+      }
+    }
+    .h-02 {
+      display: none;
+
+      @media only screen and (max-width: 768px) {
+        display: block;
+        border: none;
+        border-left: 2px solid #909090;
+        height: 10vh;
+        width: 2px; 
+        margin: 50px 0 0 14px;
+      }
     }
 }
 
@@ -2098,7 +2189,7 @@
           .mz-content {            
   
             svg {
-              filter: invert(24%) sepia(75%) saturate(303%) hue-rotate(326deg) brightness(85%) contrast(82%);
+              filter: invert(24%) sepia(78%) saturate(303%) hue-rotate(326deg) brightness(85%) contrast(82%);
             }
   
             .mz-inner-row {            
@@ -2113,23 +2204,8 @@
           }
         }
     }
-
-    
-    }
-
-    hr {
-      display: block;
-      background-color: #909090;
-      width: 99%;
-      height: 2px;
-      margin: 20px 0 0 10px;
-      border: none;
-      z-index: -1;
-      margin-top: -9px;
-    }
   }
-
-  
+}
 /*===== Zenon Family Page =====*/
 .mz-pb-about-us-section {
   background-color: #FFFFFF;
