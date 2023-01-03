@@ -14,7 +14,7 @@
 
 	<?php echo do_shortcode('[mz-sc-section--hero title="WHERE WE ARE" hero-bg="/wp-content/themes/metodo-zenon/images/MZ_Contact_Us_Hero_sect-bg-v01-1440x440.png"]'); ?>
 
-    <section class="mz-section mz-section--contact-us-content" id="contact-us-content">
+    <section class="mz-section mz-section--zenon-method">
         <div class="mz-container">
 			<div class ="mz-row">
 				<div class="mz-col-01">
@@ -26,6 +26,10 @@
 					</p>	
 				</div>			
 			</div>
+        </div>
+    </section>
+	<section class="mz-section mz-section--talk-to-zenon">
+        <div class="mz-container">
 			<div class ="mz-section">
 				<div class="mz-col">
 					<div class="mz-title-01">
@@ -80,12 +84,17 @@
 					</div>
 				</div>
 				<div class="mz-contact-form">
+					<!-- <div class ="mz-form-container"></div> -->
 					<h4>
 						Leave us a message
 					</h4>
 					<?php echo do_shortcode('[fluentform id="4"]'); ?>
 				</div>
 			</div>
+		</div>
+	</section>
+	<section class="mz-section mz-section--our-location">
+        <div class="mz-container">
 			<div class ="mz-col">
 				<div class="mz-title-02">
 					<h3>
@@ -187,8 +196,8 @@
 				</div>
 			 -->
 			</div>
-        </div>
-    </section>
+		</div>
+	</section>
 	<!-- .entry-content -->
 	<div class="entry-content">
 		<?php
