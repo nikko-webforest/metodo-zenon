@@ -176,7 +176,16 @@
 										<p class="p-05">
 											Enfocado a personas con experiencia en entrenamiento, con una buena condición física que quieren aumentar su rendimiento de manera más específica. Mejoraremos tus niveles de fuerza, masa muscular, resistencia, potencia y resiliencia músculo-esquelética. Haciendo que estas mejorase se traduzcan en un aumento del rendimiento deportivo.
 											<br/>
+											<br/>
 											Marca diferencias respecto a tus compañeros y contrincantes en solo unas semanas.
+											<br/>
+											<br/>
+											¿Cómo?<br/>
+											Con el MÉTODO ZENON<br/>
+											Una metodología basada en la evidencia científica. <br/>
+											Probada y mejorada a lo largo de casi 10 años.<br/>
+											Aplicada en deportistas de diferentes niveles, incluyendo la élite..<br/>
+											Deja de ser uno más en tu deporte, destroza a tus rivales ;)
 										</p>
 									</div>
 								</div>
@@ -865,10 +874,10 @@
 										ZENON
 									</h4>
 									<h3>
-										Si eres una persona que sabe lo que quiere y no le importa el precio, el PROGRAMA ZENON es para ti Lo tendrás TODO
+										Quiero Atención 100% Personalizada
 									</h3>
 									<p class="p-02">
-										Eos tota dicunt democritum no. Has natum gubergren ne. soleat sadipscing cu.
+										Si eres una persona que sabe lo que quiere y no le importa el precio, el PROGRAMA ZENON es para ti 
 									</p>
 									<div class="mz-inner-row">
 										<svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
