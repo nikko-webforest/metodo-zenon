@@ -1,123 +1,180 @@
 /*===== Home Page =====*/
 .mz-pb-home-hero-section {
   background-color: #1D1F24;
-  height: 700px;
   padding: 0;
 
-  @media only screen and (max-width: 1180px) {
-    height: 600px;
-  }
-
-  @media only screen and (max-width: 768px) {
-    height: 500px;
-  }
-
-  &::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    z-index: 1;
-    display: block;
-    background-image:
-      url('/wp-content/themes/metodo-zenon/images/MZ_Home_Hero_sect-bg-v04-1438x712.png');
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-  }
-
-  &::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    z-index: 2;
-    display: block;
-    background:
-      linear-gradient(180deg, rgba(20, 16, 14, 0) 59.13%, #19110E 100%),
-      linear-gradient(0deg, rgba(73, 35, 12, 0.2), rgba(73, 35, 12, 0.2));
-    width: 100%;
-    height: 100%;
-  }
-
-  .mz-container {
-    position: relative;
-    z-index: 3;
-    height: 100%;
-
-    .mz-wrap {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100%;
-
-      p {
-        color: #FFFFFF;
-        font-style: normal;
-        font-size: 33px;
-        font-weight: 700;
-        text-align: center;
-        text-transform: uppercase;
-        letter-spacing: -0.02em;
-        line-height: 1em;
-        margin: 0;
-
-        @media only screen and (max-width: 1180px) {
-          font-size: 30px;
-        }
+  .mz-group {
+    &:nth-child(1) {
+      position: relative;
+      height: 700px;
+      
+      @media only screen and (max-width: 1180px) {
+        height: 600px;
       }
 
-      .p-01 {
-        word-spacing: 35px;
-        margin: 0 auto 45px;
-
-        @media only screen and (max-width: 768px) {
-          word-spacing: 10px;
-          margin: 0 auto 25px;
-        }
+      @media only screen and (max-width: 768px) {
+        height: 500px;
       }
 
-      h1 {
-        font-family: $secondary-font-family;
-        font-style: normal;
-        font-size: 130px;
-        font-weight: 400;
-        text-align: center;
-        -webkit-text-fill-color: transparent;
-        text-fill-color: transparent;
-        letter-spacing: -0.02em;
-        line-height: 1.2em;
+      &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        display: block;
+        background-image:
+          url('/wp-content/themes/metodo-zenon/images/MZ_Home_Hero_sect-bg-v04-1438x712.png');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+      }
+
+      &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        z-index: 2;
+        display: block;
         background:
-          linear-gradient( 179.25deg, #FFFFFF 0.65%, #030303 146.06% );
-        -webkit-background-clip: text;
-        background-clip: text;
-        margin: 0 auto 20px;
-
-        @media only screen and (max-width: 1180px) {
-          font-size: 100px;
-        }
-        
-        @media only screen and (max-width: 768px) {
-          font-size: 80px;
-        }
-
-        @media only screen and (max-width: 480px) {
-          font-size: 50px;
-        }
+          linear-gradient(180deg, rgba(20, 16, 14, 0) 59.13%, #19110E 100%),
+          linear-gradient(0deg, rgba(73, 35, 12, 0.2), rgba(73, 35, 12, 0.2));
+        width: 100%;
+        height: 100%;
       }
 
-      .p-02 {
-        margin: 0 auto 80px;
+      .mz-container {
+        position: relative;
+        z-index: 3;
+        height: 100%;
 
-        @media only screen and (max-width: 768px) {
-          margin: 0 auto 50px;
+        .mz-wrap {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+
+          p {
+            color: #FFFFFF;
+            font-style: normal;
+            font-size: 33px;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: -0.02em;
+            line-height: 1em;
+            margin: 0;
+
+            @media only screen and (max-width: 1180px) {
+              font-size: 30px;
+            }
+          }
+
+          .p-01 {
+            word-spacing: 35px;
+            margin: 0 auto 45px;
+
+            @media only screen and (max-width: 768px) {
+              word-spacing: 10px;
+              margin: 0 auto 25px;
+            }
+          }
+
+          h1 {
+            font-family: $secondary-font-family;
+            font-style: normal;
+            font-size: 130px;
+            font-weight: 400;
+            text-align: center;
+            -webkit-text-fill-color: transparent;
+            text-fill-color: transparent;
+            letter-spacing: -0.02em;
+            line-height: 1.2em;
+            background:
+              linear-gradient( 179.25deg, #FFFFFF 0.65%, #030303 146.06% );
+            -webkit-background-clip: text;
+            background-clip: text;
+            margin: 0 auto 20px;
+
+            @media only screen and (max-width: 1180px) {
+              font-size: 100px;
+            }
+            
+            @media only screen and (max-width: 768px) {
+              font-size: 80px;
+            }
+
+            @media only screen and (max-width: 480px) {
+              font-size: 50px;
+            }
+          }
+
+          .p-02 {
+            margin: 0 auto 80px;
+
+            @media only screen and (max-width: 768px) {
+              margin: 0 auto 50px;
+            }
+          }
+
+          .mz-cta.mz-cta_zenon-method-form {
+            &:hover {
+              opacity: 0.9;
+            }
+          }
         }
       }
+    }
 
-      .mz-cta.mz-cta_zenon-method-form {
-        &:hover {
-          opacity: 0.9;
+    &:nth-child(2) {
+      background:
+        linear-gradient(180deg, #18110E 0%, #49230C 100%);
+      padding: 40px 30px;
+
+      .mz-container {
+        max-width: 540px;
+
+        @media only screen and (max-width: 768px) {
+          max-width: 600px;
+        }
+    
+        h2 {
+          color: #FFFFFF;
+          font-style: normal;
+          font-size: 36px;
+          font-weight: 700;
+          text-align: center;
+          text-transform: uppercase;
+          letter-spacing: -0.02em;
+          line-height: 1.5em;
+          margin: 0;
+  
+          @media only screen and (max-width: 1180px) {
+            font-size: 32px;
+          }
+  
+          @media only screen and (max-width: 768px) {
+            font-size: 30px;
+          }
+  
+          @media only screen and (max-width: 480px) {
+            font-size: 28px;
+          }
+        }
+  
+        .p-01 {
+          color: #FFFFFF;
+          font-style: normal;
+          font-size: 18px;
+          font-weight: 300;
+          line-height: 1.25em;
+          margin: 0;
+  
+          @media only screen and (max-width: 480px) {
+            font-size: 16px;
+          }
         }
       }
     }
@@ -2206,6 +2263,7 @@
     }
   }
 }
+
 /*===== Zenon Family Page =====*/
 .mz-pb-about-us-section {
   background-color: #FFFFFF;
