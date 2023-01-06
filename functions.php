@@ -99,8 +99,75 @@ function metodo_zenon_setup() {
 			'flex-height' => true,
 		)
 	);
+
+	/**
+	 * 
+	 * Add Custom Post Type
+	 * 
+	 **/
+	register_post_type( 'testimonials',
+		array(
+			'labels' => array(
+				'name'          => __( 'Testimonials' ),
+				'singular_name' => __( 'Testimonial' ),
+				'menu_name'     => __( 'Testimonials' ),
+				'add_new'       => __( 'Add Testimonial' ),
+				'add_new_item'  => __( 'Add New Testimonial' ),
+				'new_item'      => __( 'New Testimonial' ),
+				'edit_item'     => __( 'Edit Testimonail' ),
+				'view_item'     => __( 'View Testimonial' ),
+				'update_item'   => __( 'Update Testimonial' ),
+				'all_items'     => __( 'All Testimonials' ),
+				'search_items'  => __( 'Search Testimonials' )
+			),
+			'public'              => true,
+			'has_archive'         => true,
+			'rewrite' => array(
+				'slug'        => 'testimonials',
+				'with_front'  => false
+			),
+			'exclude_from_search' => true,
+			'publicly_queryable'  => true,
+			'show_in_nav_menus'   => true,
+			'show_in_admin_bar'   => true,
+			'show_in_menu'        => true,
+			'menu_icon'           => 'dashicons-video-alt3',
+			'menu_position'       => 10,
+			'capability_type'     => 'post',
+			'can_export'          => true,
+			'supports' => array(
+				'title',
+				'editor',
+				// 'excerpt',
+				// 'author',
+				'category',
+				'custom-fields',
+				'thumbnail',
+				// 'trackbacks',
+				'revisions',
+				'page-attributes',
+				'post-formats',
+			),
+		)
+	);
+
+	register_taxonomy( 'testimonials_category', 'testimonials',
+		array(
+			'label'        => __( 'Categories' ),
+			'hierarchical' => false,
+			'query_var'    => true,
+			'show_in_rest' => true,
+			'show_ui'      => true,
+			'rewrite' => array(
+				'slug'       => 'testimonials',
+				'with_front' => false
+			),
+		)
+	);
 }
 add_action( 'after_setup_theme', 'metodo_zenon_setup' );
+
+
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
@@ -620,11 +687,42 @@ add_shortcode( 'mz-sc-section--testimonials-carousel', function ( $atts, $conent
 
 	ob_start();
 	get_template_part( 'template-parts/sections/section', 'testimonials-carousel', array(
-		'attributes' => $attributes
+		'attributes' => $attributes,
 	));
 
 	$output = ob_get_contents();
 	ob_end_clean();
+
+	return $output;
+
+});
+
+add_shortcode( 'mz-sc-section--video-testimonials-carousel', function ( $atts, $content = null ){
+
+	$attributes = shortcode_atts([
+		'title' => 'Lorem Ipsum'
+	], $atts);
+
+	$testimonialsArgs = array(
+		'post_type'   => 'testimonials',
+		'post_status' => 'publish',
+		'category'    => 'video-testimonial',
+		'orderby'     => 'date',
+		'order'       => 'DESC',
+	);
+
+	$testimonialsQuery = new WP_Query( $testimonialsArgs );
+
+	ob_start();
+	get_template_part( 'template-parts/sections/section', 'video-testimonials-carousel', array(
+		'attributes' => $attributes,
+		'posts' => $testimonialsQuery
+	));
+
+	$output = ob_get_contents();
+	ob_end_clean();
+
+	wp_reset_postdata();
 
 	return $output;
 

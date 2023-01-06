@@ -1011,9 +1011,7 @@
 		</div>
 	</section>
 
-	<?php echo do_shortcode('[mz-sc-section--testimonials-carousel]'); ?>
-
-	<?php echo do_shortcode('[mz-sc-section--recent-articles]'); ?>
+	<?php echo do_shortcode('[mz-sc-section--video-testimonials-carousel]'); ?>
 
 	<!-- .entry-content -->
 	<div class="entry-content">

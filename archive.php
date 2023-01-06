@@ -27,7 +27,6 @@ get_header();
 			);
 
 			$paged = ( $category != '') ? (get_query_var('page_val') ? get_query_var('page_val') : 1) : ( get_query_var('paged') ? get_query_var('paged') : 1 );
-			echo 'paged'.$paged;
 
 			$blogPost = new WP_Query(array(
 				'posts_per_page' => 6,
