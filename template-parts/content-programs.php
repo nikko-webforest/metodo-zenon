@@ -150,7 +150,7 @@
 								<img class="mz-img"
 									alt=""
 									title=""
-									src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_For_You.png"
+									src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_ProgramsPage_Featured_Elite.jpg"
 									width=""
 									height=""
 									loading=""/>
@@ -299,7 +299,7 @@
 								<img class="mz-img"
 									alt=""
 									title=""
-									src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_For_You.png"
+									src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_ProgramsPage_Featured_Metamorfosis.jpg"
 									width=""
 									height=""
 									loading=""/>
@@ -451,7 +451,7 @@
 								<img class="mz-img"
 									alt=""
 									title=""
-									src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_For_You.png"
+									src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_ProgramsPage_Featured_EspaldaSana.jpg"
 									width=""
 									height=""
 									loading=""/>
@@ -601,7 +601,7 @@
 								<img class="mz-img"
 									alt=""
 									title=""
-									src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_For_You.png"
+									src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_ProgramsPage_Featured_Recuperation.jpg"
 									width=""
 									height=""
 									loading=""/>
@@ -749,7 +749,7 @@
 								<img class="mz-img"
 									alt=""
 									title=""
-									src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_For_You.png"
+									src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_ProgramsPage_Featured_Nurture.jpg"
 									width=""
 									height=""
 									loading=""/>
@@ -904,7 +904,7 @@
 								<img class="mz-img"
 									alt=""
 									title=""
-									src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_Zenon-Programs_For_You.png"
+									src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_ProgramsPage_Featured_Zenon.jpg"
 									width=""
 									height=""
 									loading=""/>
