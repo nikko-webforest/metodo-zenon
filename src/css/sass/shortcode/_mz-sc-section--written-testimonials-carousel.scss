@@ -1,4 +1,4 @@
-.mz-sc-section--testimonials-carousel {
+.mz-sc-section--written-testimonials-carousel {
   z-index: 1;
   background-color: #0B0D0F;
   padding: 0 0 50px;
@@ -58,7 +58,7 @@
             color: #FFFFFF;
             font-style: normal;
             font-weight: 700;
-            font-size: 32px;
+            font-size: 33px;
             text-transform: uppercase;
             line-height: 1.1em;
             letter-spacing: -0.02em;
@@ -91,10 +91,17 @@
             width: 100%;
           }
 
-          .mz-carousel-main {
+          .no-written-testimonial-found {
+            color: #FFFFFF;
+            font-size: 21px;
+            text-align: center;
+            margin: 0;
+          }
+
+          .testimonial-carousel-main {
             .flickity-viewport {
               .flickity-slider {
-                .mz-carousel-cell {
+                .testimonial-carousel-cell {
                   margin: 0 15px;
 
                   .mz-inner-row {
@@ -110,7 +117,12 @@
                         width: 60px;
                         height: 60px;
 
-                        .testimony-profile-img {}
+                        .testimony-profile-img {
+                          display: block;
+                          object-fit: cover;
+                          width: 100%;
+                          height: 100%;
+                        }
                       }
 
                       &:nth-child(2) {
@@ -119,7 +131,7 @@
                         .testimony-name {
                           color: #FFFFFF;
                           font-style: normal;
-                          font-size: 18px;
+                          font-size: 19px;
                           font-weight: 500;
                           text-transform: uppercase;
                           line-height: 1.5em;
@@ -133,7 +145,7 @@
 
                           li {
                             color: #FFFFFF;
-                            font-size: 18px;
+                            font-size: 19px;
 
                             .fa {
                               color: inherit;
@@ -152,7 +164,7 @@
                   .testimony-quotes {
                     color: #FFFFFF;
                     font-style: normal;
-                    font-size: 13px;
+                    font-size: 14px;
                     font-weight: 400;
                     line-height: 1.5em;
                     margin: 0;
@@ -174,7 +186,7 @@
             width: 100%;
           }
 
-          .mz-carousel-slide-count {
+          .testimonial-carousel-slide-count {
             color: #FFFFFF;
             display: flex;
             justify-content: center;
@@ -184,19 +196,19 @@
               color: inherit;
               display: block;
 
-              &.mz-carousel-counter-slide {
-                font-size: 13px;
+              &.testimonial-carousel-counter-slide {
+                font-size: 14px;
                 font-weight: 700;
               }
 
-              &.mz-carousel-total-slide {
-                font-size: 10px;
+              &.testimonial-carousel-total-slide {
+                font-size: 11px;
                 font-weight: 400;
               }
             }
           }
 
-          .mz-carousel-btn-wrap {
+          .testimonial-carousel-btn-wrap {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -205,7 +217,7 @@
             width: 100%;
             margin: 0 auto;
 
-            .mz-carousel-btn {
+            .testimonial-carousel-btn {
               display: block;
               background-color: transparent;
               opacity: 0.5;
@@ -219,8 +231,8 @@
                 display: block;
               }
 
-              &.mz-carousel-prev-btn {}
-              &.mz-carousel-next-btn {}
+              &.testimonial-carousel-prev-btn {}
+              &.testimonial-carousel-next-btn {}
             }
           }
         }
@@ -247,7 +259,7 @@
 }
 
 .theme-dark {
-  .mz-sc-section--testimonials-carousel {
+  .mz-sc-section--written-testimonials-carousel {
     .mz-container {
       background:
         linear-gradient( 180deg, #825036 0%, #49230C 100% );

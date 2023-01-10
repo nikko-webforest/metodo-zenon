@@ -45,9 +45,9 @@
 </head>
 <body <?php body_class(); ?>>
   <!-- .mz-toggle-theme-btn -->
-  <button
-    class="mz-toggle-theme-btn">
-    <svg class="mz-svg" width="45" height="44" viewBox="0 0 45 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <button class="mz-toggle-theme-btn"
+    title="Toggle Theme">
+    <svg class="mz-svg" width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
       <ellipse id="eclipse_01" cx="22.2858" cy="22.0613" rx="21.86" ry="21.875" fill="#1A171C"/>
       <path id="path_01" d="M42.3133 22.1226C42.3133 33.1547 33.3761 42.098 22.3516 42.098V2.14706C33.3761 2.14706 42.3133 11.0904 42.3133 22.1226Z" fill="white"/>
       <path id="path_02" d="M22.3466 36.3382C14.5008 36.3382 8.14062 29.9737 8.14062 22.1225C8.14062 14.2714 14.5008 7.90686 22.3466 7.90686V36.3382Z" fill="white"/>

@@ -59,7 +59,7 @@
           p {
             color: #FFFFFF;
             font-style: normal;
-            font-size: 33px;
+            font-size: 34px;
             font-weight: 700;
             text-align: center;
             text-transform: uppercase;
@@ -143,7 +143,7 @@
         h2 {
           color: #FFFFFF;
           font-style: normal;
-          font-size: 36px;
+          font-size: 37px;
           font-weight: 700;
           text-align: center;
           text-transform: uppercase;
@@ -167,13 +167,13 @@
         .p-01 {
           color: #FFFFFF;
           font-style: normal;
-          font-size: 18px;
+          font-size: 19px;
           font-weight: 300;
           line-height: 1.25em;
           margin: 0;
   
           @media only screen and (max-width: 480px) {
-            font-size: 16px;
+            font-size: 17px;
           }
         }
       }
@@ -208,7 +208,7 @@
       h2 {
         color: #FFFFFF;
         font-style: normal;
-        font-size: 36px;
+        font-size: 37px;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: -0.02em;
@@ -234,7 +234,7 @@
       .p-01 {
         color: #FFFFFF;
         font-style: normal;
-        font-size: 18px;
+        font-size: 19px;
         font-weight: 300;
         line-height: 1.25em;
         max-width: 370px;
@@ -254,7 +254,7 @@
 
 .mz-section--how-we-work {
   background-color: #0B0D0F;
-  padding: 125px 30px 135px;
+  padding: 20px 30px 135px;
 
   @media only screen and (max-width: 768px) {
     padding: 100px 30px;
@@ -312,7 +312,7 @@
         h2 {
           color: #FFFFFF;
           font-style: normal;
-          font-size: 32px;
+          font-size: 33px;
           font-weight: 700;
           text-transform: uppercase;
           letter-spacing: -0.02em;
@@ -347,7 +347,7 @@
 
             h3 {
               color: #FFFFFF;
-              font-size: 18px;
+              font-size: 19px;
               font-weight: 700;
               text-transform: uppercase;
               letter-spacing: -0.02em;
@@ -357,7 +357,7 @@
 
             p {
               color: #AFACB4;
-              font-size: 12px;
+              font-size: 13px;
               font-weight: 300;
               line-height: 1.25em;
               margin: 0;
@@ -394,7 +394,7 @@
         font-family: $primary-font-family;
         font-style: normal;
         font-weight: 700;
-        font-size: 15px;
+        font-size: 16px;
         line-height: 1.15em;
         text-transform: uppercase;
         width: 100%;
@@ -406,7 +406,7 @@
         font-family: 'Archivo';
         font-style: normal;
         font-weight: 700;
-        font-size: 30px;
+        font-size: 31px;
         line-height: 1.5em;
         letter-spacing: -0.02em;
         width: 100%;
@@ -452,7 +452,7 @@
             font-family: $primary-font-family;
             font-style: normal;
             font-weight: 700;
-            font-size: 45px;
+            font-size: 46px;
             line-height: 1em;
             letter-spacing: -0.02em;
             text-transform: uppercase;
@@ -476,7 +476,7 @@
             font-family: $primary-font-family;
             font-style: normal;
             font-weight: 500;
-            font-size: 20px;
+            font-size: 21px;
             line-height: 1.35em;
             letter-spacing: -0.02em;
             text-transform: capitalize;
@@ -488,7 +488,7 @@
             font-family: $primary-font-family;
             font-style: normal;
             font-weight: 400;
-            font-size: 16px;
+            font-size: 17px;
             line-height: 1.75em;
             letter-spacing: -0.02em;
             text-transform: capitalize;
@@ -615,7 +615,7 @@
             font-family: $primary-font-family;
             font-style: normal;
             font-weight: 700;
-            font-size: 16px;
+            font-size: 17px;
             text-align: center;
             text-transform: uppercase;
             line-height: 1.5em;
@@ -683,7 +683,7 @@
           font-family: $primary-font-family;
           font-style: normal;
           font-weight: 400;
-          font-size: 16px;
+          font-size: 17px;
           line-height: 1.25em;
           background-color: transparent;
           width: 100%;
@@ -749,7 +749,7 @@
             color: #000000;
             font-family: $primary-font-family;
             font-style: normal;
-            font-size: 18px;
+            font-size: 19px;
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: -0.02em;
@@ -760,7 +760,7 @@
           .mz-blog-post-excerpt {
             color: #373F41;
             font-style: normal;
-            font-size: 12px;
+            font-size: 13px;
             font-weight: 300;
             line-height: 1.25em;
             margin: 0 0 20px;
@@ -782,7 +782,7 @@
             .mz-blog-post-released-date {
               color: #AFACB4;
               font-style: normal;
-              font-size: 14px;
+              font-size: 15px;
               font-weight: 300;
               text-transform: uppercase;
               letter-spacing: -0.02em;
@@ -792,7 +792,7 @@
             .mz-a-link.mz-link-more-info {
               color: #6F4A37;
               font-style: normal;
-              font-size: 15px;
+              font-size: 16px;
               font-weight: 700;
               text-decoration: none;
               text-transform: uppercase;
@@ -846,7 +846,7 @@
 
       .page-numbers {
         font-style: normal;
-        font-size: 20px;
+        font-size: 21px;
         font-weight: 600;
         text-align: center;
         display: inline-flex;
@@ -874,11 +874,22 @@
       }
     }
   }
+
+  .no-blogpost-found {
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    
+    @media only screen and (max-width: 480px) {
+      font-size: 18px;
+    }
+  }
 }
 
 .theme-dark {
   .mz-section--blog-listing {
-    background-color: #000000;
+    background-color: #0E0E0E;
 
     .mz-container {
       .mz-top-bar-row {
@@ -886,7 +897,9 @@
           background-color: rgba(255, 255, 255, 0.05);
 
           .mz-category-tab-filter-item {
-            color: #FFFFFF;
+            .mz-category-tab-filter-link {
+              color: #FFFFFF;
+            }
           }
         }
 
@@ -951,6 +964,10 @@
         }
       }
     }
+
+    .no-blogpost-found {
+      color: #FFFFFF;
+    }
   }
 }
 
@@ -970,7 +987,7 @@
         font-family: $primary-font-family;
         font-style: normal;
         font-weight: 700;
-        font-size: 24px;
+        font-size: 25px;
         text-align: center;
         text-transform: uppercase;
         letter-spacing: -0.02em;
@@ -989,7 +1006,7 @@
         font-family: $primary-font-family;
         font-style: normal;
         font-weight: 700;
-        font-size: 32px;
+        font-size: 33px;
         text-align: center;
         letter-spacing: -0.02em;
         line-height: 1.1em;
@@ -1049,9 +1066,9 @@
             .programs-card-number {
               color: #6F4A37;
               font-family: $primary-font-family;
+              font-size: 65px;
               font-style: normal;
               font-weight: 700;
-              font-size: 64px;
               letter-spacing: -0.02em;
               line-height: 1em;
               width: max-content;
@@ -1063,7 +1080,7 @@
               font-family: $primary-font-family;
               font-style: normal;
               font-weight: 700;
-              font-size: 18px;
+              font-size: 19px;
               text-transform: uppercase;
               letter-spacing: -0.02em;
               line-height: 1.25em;
@@ -1083,7 +1100,7 @@
               font-family: $primary-font-family;
               font-style: normal;
               font-weight: 700;
-              font-size: 14px;
+              font-size: 15px;
               text-decoration: none;
               text-transform: uppercase;
               line-height: 1.3em;
@@ -1173,7 +1190,7 @@
                       font-family: $primary-font-family;
                       font-style: normal;
                       font-weight: 700;
-                      font-size: 24px;
+                      font-size: 25px;
                       letter-spacing: -0.02em;
                       line-height: 1em;
 
@@ -1187,7 +1204,7 @@
                       font-family: $primary-font-family;
                       font-style: normal;
                       font-weight: 700;
-                      font-size: 36px;
+                      font-size: 37px;
                       letter-spacing: -0.02em;
                       line-height: 1em;
                       margin: 0 0 30px;
@@ -1202,7 +1219,7 @@
                       font-family: $primary-font-family;
                       font-style: normal;
                       font-weight: 400;
-                      font-size: 13px;
+                      font-size: 14px;
                       line-height: 1.5em;
                     }
 
@@ -1223,7 +1240,7 @@
                           font-family: $primary-font-family;
                           font-style: normal;
                           font-weight: 700;
-                          font-size: 20px;
+                          font-size: 21px;
                           letter-spacing: -0.02em;
                           line-height: 1em;
                           margin: 0 0 5px;
@@ -1234,7 +1251,7 @@
                           font-family: $primary-font-family;
                           font-style: normal;
                           font-weight: 400;
-                          font-size: 14px;
+                          font-size: 15px;
                           line-height: 1.45em;
                           margin: 0;
                         }
@@ -1315,13 +1332,13 @@
                       font-family: $primary-font-family;
                       font-style: normal;
                       font-weight: 700;
-                      font-size: 48px;
+                      font-size: 49px;
                       letter-spacing: -0.02em;
                       line-height: 1.05em;
                       margin: 0 0 10px;
 
                       @media only screen and (max-width: 768px) {
-                        font-size: 35px;
+                        font-size: 36px;
                         margin: 0 0 3px;
                       }
                     }
@@ -1331,7 +1348,7 @@
                       font-family: $primary-font-family;
                       font-style: normal;
                       font-weight: 700;
-                      font-size: 24px;
+                      font-size: 25px;
                       letter-spacing: -0.02em;
                       line-height: 1em;
                       margin: 0;
@@ -1380,7 +1397,7 @@
                       h3 {
                         color: #FFFFFF;
                         font-style: normal;
-                        font-size: 24px;
+                        font-size: 25px;
                         font-weight: 700;
                         text-transform: uppercase;
                         letter-spacing: -0.02em;
@@ -1405,7 +1422,7 @@
                         color: #373F41;
                         font-style: normal;
                         font-weight: 500;
-                        font-size: 14px;
+                        font-size: 15px;
                         text-align: left;
                         line-height: 1.25em;
                         margin: 0;
@@ -1427,12 +1444,12 @@
                           .mz-title {
                             color: #000000;
                             font-style: normal;
-                            font-size: 14px;
+                            font-size: 15px;
                             font-weight: 700;
                             text-transform: uppercase;
 
                             @media only screen and (max-width: 768px) {
-                              font-size: 12px;
+                              font-size: 13px;
                             }
                           }
 
@@ -1448,12 +1465,12 @@
                           .mz-curriculum {
                             color: #AFACB4;
                             font-style: normal;
-                            font-size: 14px;
+                            font-size: 15px;
                             font-weight: 800;
                             text-transform: uppercase;
 
                             @media only screen and (max-width: 768px) {
-                              font-size: 12px;
+                              font-size: 13px;
                             }
                           }
                         }
@@ -1475,7 +1492,7 @@
                     color: #000000;
                     font-style: normal;
                     font-weight: 700;
-                    font-size: 20px;
+                    font-size: 21px;
                     text-transform: uppercase;
                     line-height: 1em;
                     letter-spacing: -0.02em;
@@ -1491,12 +1508,12 @@
                     color: #373F41;
                     font-style: normal;
                     font-weight: 500;
-                    font-size: 14px;
+                    font-size: 15px;
                     line-height: 1.25em;
                     margin: 0 0 70px;
     
                     @media only screen and (max-width: 768px) {
-                      font-size: 13px;
+                      font-size: 14px;
                     }
                   }
 
@@ -1504,11 +1521,11 @@
                     color: #373F41;
                     font-style: normal;
                     font-weight: 500;
-                    font-size: 14px;
+                    font-size: 15px;
                     line-height: 1.25em;
     
                     @media only screen and (max-width: 768px) {
-                      font-size: 13px;
+                      font-size: 14px;
                     }
                   }
 
@@ -1547,11 +1564,11 @@
                         color: #373F41;
                         font-style: normal;
                         font-weight: 500;
-                        font-size: 14px;
+                        font-size: 15px;
                         line-height: 1.25em;
 
                         @media only screen and (max-width: 768px) {
-                          font-size: 13px;
+                          font-size: 14px;
                         }
                       }
                     }
@@ -1757,141 +1774,6 @@
   }
 }
 
-.programs-main {
-  .mz-sc-section--testimonials-carousel {
-    background-color: #FFFFFF;
-  }
-}
-
-.theme-dark {
-  .programs-main {
-    .mz-sc-section--testimonials-carousel {
-      background-color: #000000;
-    }
-  }
-}
-
-.mz-sc-section--video-testimonials-carousel {
-  padding: 50px 30px;
-
-  .mz-container {
-    h2 {
-      text-align: center;
-    }
-
-    .testimonial-carousel-main {
-      .testimonial-carousel-cell {
-        padding: 0 10px;
-
-        .video-container {
-          position: relative;
-          display: block;
-          width: 350px;
-          height: 600px;
-
-          @media only screen and (max-width: 1180px) {
-            width: 300px;
-            height: 500px;
-          }
-
-          @media only screen and (max-width: 768px) {
-            width: 300px;
-            height: 400px;
-          }
-
-          .video-button {
-            position: absolute;
-            z-index: 2;
-            display: block;
-            background-color: transparent;
-            opacity: 0;
-            border: 0;
-            cursor: pointer;
-            
-            &.--play-pause {
-              top: 50%;
-              left: 50%;
-              transform: translate(-50%, -50%);
-
-              &.control-play {
-                .svg-icon-play {
-                  display: none;
-                }
-
-                .svg-icon-pause {
-                  display: block;
-                }
-              }
-
-              &.control-pause {
-                .svg-icon-play {
-                  display: block;
-                }
-
-                .svg-icon-pause {
-                  display: none;
-                }
-              }
-            }
-
-            &.--full-screen {
-              top: 15px;
-              right: 15px;
-              width: 25px;
-              height: 25px;
-
-              .mz-svg {
-                width: 100%;
-                height: 100%;
-              }
-            }
-
-            .mz-svg {
-              display: block;
-            }
-          }
-
-          video {
-            position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            z-index: 1;
-            display: inline-block;
-            vertical-align: baseline;
-            background-position: center;
-            background-size: cover;
-            object-fit: cover;
-            object-position: center;
-            width: 100%;
-            height: 600px;
-            margin: auto;
-
-            &:-webkit-full-screen {
-              object-fit: none;
-            }
-
-            &:-ms-fullscreen {
-              object-fit: none;
-            }
-            
-            &:fullscreen {
-              object-fit: none;
-            }
-          }
-
-          &:hover {
-            .video-button {
-              opacity: 1;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
 /*===== Contact Us Page =====*/
 .mz-section--zenon-method {
   padding: 0;
@@ -1922,6 +1804,7 @@
       @media only screen and (max-width: 768px) {
         max-width: 90%;
       }
+      
       &::before {
         content:"";
         background-color: $nonary-color;
@@ -1939,7 +1822,7 @@
         font-family: $primary-font-family;
         font-style: normal;
         font-weight: 700;
-        font-size: 25px;
+        font-size: 26px;
         text-align: center;
         letter-spacing: -0.02em;
         line-height: 27px;
@@ -1951,7 +1834,7 @@
         font-family: $primary-font-family;
         font-style: normal;
         font-weight: 300;
-        font-size: 16px;
+        font-size: 17px;
         text-align: center;
         letter-spacing: -0.02em;
         line-height: 27px;
@@ -1964,26 +1847,27 @@
   padding: 0;
 
   .mz-section { 
-      display: flex;
-      flex-direction: row;
-      gap: 120px;
-      margin: 0 0;
-      padding: 0 80px;
-      
-      @media only screen and (max-width: 980px) {
-        gap: 80px;
-        padding: 0 50px;
-      }
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    margin: 0 0;
+    padding: 0 80px;
+    
+    @media only screen and (max-width: 980px) {
+      gap: 80px;
+      padding: 0 50px;
+    }
 
-      @media only screen and (max-width: 860px) {
-        gap: 40px;
-      }
+    @media only screen and (max-width: 860px) {
+      gap: 40px;
+    }
 
-      @media only screen and (max-width: 768px) {
-        flex-direction: column;
-        gap: 80px;
-        padding: 0 50px;
-      }
+    @media only screen and (max-width: 768px) {
+      flex-direction: column;
+      gap: 80px;
+      padding: 0 50px;
+    }
+
     .mz-col {
       display: flex;
       flex-direction: column;
@@ -1996,13 +1880,12 @@
       }
 
       .mz-title-01 {
-
         h3 {
           color: $quinary-color;
           font-family: $primary-font-family;
           font-style: normal;
           font-weight: 700;
-          font-size: 24px;
+          font-size: 25px;
           text-align: left;
           letter-spacing: -0.02em;
           text-transform: uppercase;
@@ -2014,13 +1897,14 @@
           font-family: $primary-font-family;
           font-style: normal;
           font-weight: 700;
-          font-size: 32px;
+          font-size: 33px;
           text-align: left;
           letter-spacing: -0.02em;
           text-transform: uppercase;
           margin: 0 0;
         }
       }
+
       .mz-row {
         display: flex;
         flex-direction: row;
@@ -2039,7 +1923,7 @@
             font-family: $primary-font-family;
             font-style: normal;
             font-weight: 700;
-            font-size: 20px;
+            font-size: 21px;
             letter-spacing: -0.02em;
             line-height: 1em;
             margin: 0 0 10px;
@@ -2050,7 +1934,7 @@
             font-family: $primary-font-family;
             font-style: normal;
             font-weight: 400;
-            font-size: 14px;
+            font-size: 15px;
             line-height: 1.45em;
             margin: 0;
           }
@@ -2085,7 +1969,7 @@
         font-family: $primary-font-family;
         font-style: normal;
         font-weight: 700;
-        font-size: 18px;
+        font-size: 19px;
         letter-spacing: -0.02em;
         line-height: 1em;
         margin: 0 0 50px;
@@ -2096,63 +1980,63 @@
 }
 
 .mz-section--our-location {
-    .mz-col {
-      margin: 100px auto 180px;
+  .mz-col {
+    margin: 100px auto 180px;
       
-      .mz-title-02 {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-        margin: 0px auto;
-        justify-content: center;
+    .mz-title-02 {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      margin: 0px auto;
+      justify-content: center;
 
-        @media only screen and (max-width: 1180px) {
-          width: 65%;
-        }
-        
-        @media only screen and (max-width: 768px) {
-          width: 70%;
-        }
-
-        @media only screen and (max-width: 768px) {
-          width: 100%;
-        }
-
-        h3 {
-          color: $quinary-color;
-          font-family: $primary-font-family;
-          font-style: normal;
-          font-weight: 700;
-          font-size: 24px;
-          text-align: center;
-          letter-spacing: -0.02em;
-          text-transform: uppercase;
-          margin: 0 0;
-        }
-
-        .loc {
-          color: $black-color;
-          font-family: $primary-font-family;
-          font-style: normal;
-          font-weight: 700;
-          font-size: 32px;
-          text-align: center;
-          letter-spacing: -0.02em;
-          text-transform: uppercase;
-          margin: 0 0 50px;
-          line-height: 35px;
-        }
+      @media only screen and (max-width: 1180px) {
+        width: 65%;
       }
+      
+      @media only screen and (max-width: 768px) {
+        width: 70%;
+      }
+
+      @media only screen and (max-width: 768px) {
+        width: 100%;
+      }
+
+      h3 {
+        color: $quinary-color;
+        font-family: $primary-font-family;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        margin: 0 0;
+      }
+
+      .loc {
+        color: $black-color;
+        font-family: $primary-font-family;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 33px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        margin: 0 0 50px;
+        line-height: 35px;
+      }
+    }
     
 
     .mz-row {
-        padding: 0 0;
-        margin: 0 0 ;
-        gap: 0px;
+      padding: 0;
+      margin: 0;
+      gap: 0px;
 
-        @media only screen and (max-width: 768px) {
-          flex-direction: column;
-        }
+      @media only screen and (max-width: 768px) {
+        flex-direction: column;
+      }
         
       .mz-col {
         display: flex;
@@ -2162,9 +2046,7 @@
         padding:0;
         flex-wrap: nowrap;
         align-items: flex-start;
-
         
-
         .mz-icon {
           margin-top: 20px;
           display: flex;
@@ -2190,85 +2072,85 @@
         }
 
         .mz-content {
-            display: flex;
-            flex-direction: row;
-            gap: 20px;
-            align-items: flex-end;
-            margin:0;
+          display: flex;
+          flex-direction: row;
+          gap: 20px;
+          align-items: flex-end;
+          margin:0;
 
-            svg {
-              filter: invert(73%) sepia(18%) saturate(1136%) hue-rotate(341deg) brightness(99%) contrast(86%);
-            }
-            
-            .mz-inner-row {
-              display: flex;
-              flex-direction: column;
-              // width: 50%;
-
-              h4 {
-                color: $black-color;
-                font-family: $primary-font-family;
-                font-style: normal;
-                font-weight: 700;
-                font-size: 16px;
-                letter-spacing: -0.02em;
-                text-transform: uppercase;
-                margin: 0 0;
-              }
-
-              p {
-                color: $senary-color;
-                font-family: $primary-font-family;
-                font-style: normal;
-                font-weight: 500;
-                font-size: 14px;
-                letter-spacing: -0.02em;
-                margin: 0 0;
-                text-align: left;
-                line-height: 20px;
-                width: 65%;
-
-                @media only screen and (max-width: 768px) {
-                  width: 55%;
-                }
-              }
-            }
-            
+          svg {
+            filter: invert(73%) sepia(18%) saturate(1136%) hue-rotate(341deg) brightness(99%) contrast(86%);
           }
+            
+          .mz-inner-row {
+            display: flex;
+            flex-direction: column;
+            // width: 50%;
+
+            h4 {
+              color: $black-color;
+              font-family: $primary-font-family;
+              font-style: normal;
+              font-weight: 700;
+              font-size: 17px;
+              letter-spacing: -0.02em;
+              text-transform: uppercase;
+              margin: 0 0;
+            }
+
+            p {
+              color: $senary-color;
+              font-family: $primary-font-family;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 15px;
+              letter-spacing: -0.02em;
+              margin: 0 0;
+              text-align: left;
+              line-height: 20px;
+              width: 65%;
+
+              @media only screen and (max-width: 768px) {
+                width: 55%;
+              }
+            }
+          }
+        }
       }
     }
   }
-    .h-01 {
-      display: block;
-      background-color: #909090;
-      width: 99%;
-      height: 2px;
-      margin: 20px 0 0 10px;
+
+  .h-01 {
+    display: block;
+    background-color: #909090;
+    width: 99%;
+    height: 2px;
+    margin: 20px 0 0 10px;
+    border: none;
+    z-index: -1;
+    margin-top: -9px;
+
+    @media only screen and (max-width: 768px) {
       border: none;
-      z-index: -1;
-      margin-top: -9px;
-
-      @media only screen and (max-width: 768px) {
-        border: none;
-        border-left: 2px solid #909090;
-        height: 10vh;
-        width: 2px; 
-        margin: -290px 0 0 14px;
-
-      }
+      border-left: 2px solid #909090;
+      height: 10vh;
+      width: 2px; 
+      margin: -290px 0 0 14px;
     }
-    .h-02 {
-      display: none;
+  }
 
-      @media only screen and (max-width: 768px) {
-        display: block;
-        border: none;
-        border-left: 2px solid #909090;
-        height: 10vh;
-        width: 2px; 
-        margin: 50px 0 0 14px;
-      }
+  .h-02 {
+    display: none;
+
+    @media only screen and (max-width: 768px) {
+      display: block;
+      border: none;
+      border-left: 2px solid #909090;
+      height: 10vh;
+      width: 2px; 
+      margin: 50px 0 0 14px;
     }
+  }
 }
 
 .theme-dark {
@@ -2276,7 +2158,7 @@
     .mz-row {
       .mz-col-01 { 
         &::before {
-          background:  linear-gradient(#825036 0%, #49230C 100% );
+          background: linear-gradient(#825036 0%, #49230C 100% );
         }
       }
     }
@@ -2286,7 +2168,6 @@
     .mz-section { 
       .mz-col {
         .mz-title-01 {
-
           h3 {
             background: -webkit-linear-gradient( #C2AB90, #8F6C45 );
             -webkit-background-clip: text;
@@ -2297,6 +2178,7 @@
             color: $white-color;
           }
         }
+
         .mz-row {
           display: flex;
           flex-direction: row;
@@ -2329,7 +2211,7 @@
   }
 
   .mz-section--our-location {
-    .mz-col {      
+    .mz-col {
       .mz-title-02 {
         h3 {
           background: -webkit-linear-gradient( #C2AB90, #8F6C45 );
@@ -2356,31 +2238,31 @@
             path {
               fill: #D3A07A;
             }
+
             .point {
-              circle{
+              circle {
                 fill: #D3A07A;
-              }
-              }
-            }
-          }
-  
-          .mz-content {            
-  
-            svg {
-              filter: invert(24%) sepia(78%) saturate(303%) hue-rotate(326deg) brightness(85%) contrast(82%);
-            }
-  
-            .mz-inner-row {            
-              h4 {
-                color: $white-color;
-              }
-  
-              p {
-                color: $septenary-color;
               }
             }
           }
         }
+  
+        .mz-content {
+          svg {
+            filter: invert(24%) sepia(78%) saturate(303%) hue-rotate(326deg) brightness(85%) contrast(82%);
+          }
+
+          .mz-inner-row {
+            h4 {
+              color: $white-color;
+            }
+
+            p {
+              color: $septenary-color;
+            }
+          }
+        }
+      }
     }
   }
 }
@@ -2397,7 +2279,7 @@
     h3 {
       color: #6F4A37;
       font-style: normal;
-      font-size: 24px;
+      font-size: 25px;
       text-transform: uppercase;
       letter-spacing: -0.02em;
       line-height: 1.25em;
@@ -2407,7 +2289,7 @@
     h2 {
       color: #000000;
       font-style: normal;
-      font-size: 32px;
+      font-size: 33px;
       font-weight: 700;
       text-align: center;
       text-transform: uppercase;
@@ -2421,7 +2303,7 @@
       color: #373F41;
       font-family: 'Archivo';
       font-style: normal;
-      font-size: 18px;
+      font-size: 19px;
       font-weight: 300;
       line-height: 1.25em;
     }

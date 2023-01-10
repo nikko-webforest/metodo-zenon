@@ -14,8 +14,8 @@
 
 	<?php echo do_shortcode('[mz-sc-section--hero title="WHERE WE ARE" hero-bg="/wp-content/themes/metodo-zenon/images/MZ_Contact_Us_Hero_sect-bg-v01-1440x440.png"]'); ?>
 
-    <section class="mz-section mz-section--zenon-method">
-        <div class="mz-container">
+	<section class="mz-section mz-section--zenon-method">
+		<div class="mz-container">
 			<div class ="mz-row">
 				<div class="mz-col-01">
 					<h3>
@@ -26,10 +26,10 @@
 					</p>	
 				</div>			
 			</div>
-        </div>
-    </section>
+		</div>
+	</section>
 	<section class="mz-section mz-section--talk-to-zenon">
-        <div class="mz-container">
+		<div class="mz-container">
 			<div class ="mz-section">
 				<div class="mz-col">
 					<div class="mz-title-01">
@@ -40,7 +40,8 @@
 							Metodo zenon
 						</h2>
 					</div>
-					<!-- <div class="mz-row">
+					<!--
+					<div class="mz-row">
 						<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path d="M23.2143 25.7321L33.1964 35.7143L35.7143 33.1965L26.7857 24.25V8.92859H23.2143V25.7321Z" fill="#6F4A37"/>
 							<path fill-rule="evenodd" clip-rule="evenodd" d="M11.1107 45.7867C15.222 48.5337 20.0555 50 25 50C31.6304 50 37.9893 47.3661 42.6777 42.6776C47.3661 37.9893 50 31.6304 50 25C50 20.0555 48.5338 15.222 45.7868 11.1108C43.0397 6.99956 39.1353 3.79521 34.5671 1.90301C29.9989 0.0108157 24.9723 -0.484223 20.1227 0.48035C15.2732 1.44503 10.8186 3.82606 7.32234 7.32239C3.82603 10.8187 1.445 15.2732 0.480376 20.1228C-0.484252 24.9723 0.0108408 29.999 1.90301 34.5671C3.79521 39.1352 6.99953 43.0397 11.1107 45.7867ZM13.0949 7.18288C16.6188 4.82823 20.7618 3.57145 25 3.57145C30.6832 3.57145 36.1337 5.8291 40.1523 9.84772C44.1709 13.8663 46.4286 19.3168 46.4286 25C46.4286 29.2382 45.1718 33.3812 42.8172 36.9051C40.4626 40.429 37.1159 43.1755 33.2004 44.7974C29.2848 46.4193 24.9762 46.8436 20.8195 46.0168C16.6628 45.19 12.8445 43.1491 9.84772 40.1523C6.85089 37.1555 4.81 33.3373 3.98317 29.1805C3.15636 25.0238 3.58072 20.7152 5.20259 16.7996C6.82446 12.8841 9.57102 9.53742 13.0949 7.18288Z" fill="#6F4A37"/>
@@ -55,9 +56,10 @@
 								Monday, Tuesday, Thursday & Saturday
 							</p>
 						</div>
-					</div> -->
+					</div>
+					-->
 					<div class="mz-row">
-						<svg width="50" height="36" viewBox="0 0 50 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<svg class="mz-svg" width="50" height="36" viewBox="0 0 50 36" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path d="M0 0V35.5556H50V0H0ZM44.5 3L25 16.5L5.5 3H44.5ZM3 32.5V4.5L23.9821 19.3214C24.281 19.5288 24.6362 19.6399 25 19.6399C25.3638 19.6399 25.7189 19.5288 26.0178 19.3214L47 4.5V32.5H3Z" fill="#6F4A37"/>
 						</svg>
 						<div class="mz-inner-col">
@@ -70,7 +72,7 @@
 						</div>
 					</div>
 					<div class="mz-row">
-						<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<svg class="mz-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path d="M1.42961 5.19565L1.5122 5.14404L11.9535 0L23.2233 15.0263L18.0383 21.9399C18.1935 24.5472 19.2992 27.0072 21.1461 28.8541C22.993 30.701 25.453 31.8066 28.0603 31.9618L34.9739 26.7768L50 38.0463L44.8988 48.4004L44.8558 48.4878L44.8041 48.5703C44.5319 49.0089 44.1519 49.3706 43.7004 49.6208C43.2489 49.8711 42.7408 50.0016 42.2246 50H39.5303C34.3391 50 29.1987 48.9775 24.4027 46.9909C19.6067 45.0043 15.2489 42.0925 11.5781 38.4218C7.9074 34.751 4.99562 30.3932 3.00905 25.5972C1.02247 20.8011 0 15.6608 1.52588e-05 10.4696V7.77521C-0.00164032 7.25898 0.128868 6.75091 0.379108 6.29938C0.629345 5.84785 0.990986 5.46788 1.42961 5.19565ZM3.85856 10.4696C3.85856 30.1391 19.8609 46.1414 39.5303 46.1414H41.7104L45.1235 39.2126L34.9731 31.5998L29.3219 35.838H28.6789C24.8299 35.8337 21.1397 34.3028 18.418 31.5811C15.6964 28.8594 14.1654 25.1693 14.1611 21.3203V20.6772L18.3994 15.0261L10.7874 4.87636L3.85856 8.29008V10.4696Z" fill="#6F4A37"/>
 						</svg>
 						<div class="mz-inner-col">
@@ -94,7 +96,7 @@
 		</div>
 	</section>
 	<section class="mz-section mz-section--our-location">
-        <div class="mz-container">
+		<div class="mz-container">
 			<div class ="mz-col">
 				<div class="mz-title-02">
 					<h3>
@@ -104,8 +106,17 @@
 						Plaza Tenerías 5, bajo (47006) (Valladolid)
 					</h2>
 				</div>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2981.3702858352435!2d-4.735671884281076!3d41.64774098777694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd476d495ae72729%3A0x511aa189f0fb45e0!2sPlaza%20Tener%C3%ADas%2C%205%2C%2047006%20Valladolid%2C%20Spain!5e0!3m2!1sen!2sph!4v1672935503737!5m2!1sen!2sph" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-				<!-- <div class="mz-row">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2981.3702858352435!2d-4.735671884281076!3d41.64774098777694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd476d495ae72729%3A0x511aa189f0fb45e0!2sPlaza%20Tener%C3%ADas%2C%205%2C%2047006%20Valladolid%2C%20Spain!5e0!3m2!1sen!2sph!4v1672935503737!5m2!1sen!2sph" 
+					width="100%"
+					height="400"
+					allowfullscreen=""
+					loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"
+					style="border:0;">
+				</iframe>
+				<!--
+				<div class="mz-row">
 					<div class="mz-col">
 						<div class="mz-icon">
 							<svg class="loc" width="30" height="45" viewBox="0 0 30 45" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -177,10 +188,12 @@
 					</div>
 				</div>
 				<hr class="h-01">
-				<hr class="h-02"> -->
+				<hr class="h-02">
+				-->
 			</div>
 		</div>
 	</section>
+
 	<!-- .entry-content -->
 	<div class="entry-content">
 		<?php

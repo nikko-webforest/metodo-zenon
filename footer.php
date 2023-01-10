@@ -99,50 +99,54 @@
                 Copyright &copy; Metodo Zenon. All Right Reserved.
               </p>
             </div>
-            <!-- <div class="mz-col">
-              <ul class="mz-social-list">
-                <li class="mz-social-item">
-                  <a class="mz-social-link"
-                    title="Social Facebook"
-                    href="#"
-                    rel="">
-                    <?php include('svg/svg-icon-facebook.svg'); ?>
-                  </a>
-                </li>
-                <li class="mz-social-item">
-                  <a class="mz-social-link"
-                    title="Social Instagram"
-                    href="#"
-                    rel="">
-                    <?php include('svg/svg-icon-instagram.svg'); ?>
-                  </a>
-                </li>
-                <li class="mz-social-item">
-                  <a class="mz-social-link"
-                    title="Social LinkedIn"
-                    href="#"
-                    rel="">
-                    <?php include('svg/svg-icon-linkedin.svg'); ?>
-                  </a>
-                </li>
-                <li class="mz-social-item">
-                  <a class="mz-social-link"
-                    title="Social Twitter"
-                    href="#"
-                    rel="">
-                    <?php include('svg/svg-icon-twitter.svg'); ?>
-                  </a>
-                </li>
-                <li class="mz-social-item">
-                  <a class="mz-social-link"
-                    title="Social Youtube"
-                    href="#"
-                    rel="">
-                    <?php include('svg/svg-icon-youtube.svg'); ?>
-                  </a>
-                </li>
-              </ul>
-            </div> -->
+            <div class="mz-col">
+              <?php
+                /*
+                <ul class="mz-social-list">
+                  <li class="mz-social-item">
+                    <a class="mz-social-link"
+                      title="Social Facebook"
+                      href="#"
+                      rel="">
+                      <?php include('svg/svg-icon-facebook.svg'); ?>
+                    </a>
+                  </li>
+                  <li class="mz-social-item">
+                    <a class="mz-social-link"
+                      title="Social Instagram"
+                      href="#"
+                      rel="">
+                      <?php include('svg/svg-icon-instagram.svg'); ?>
+                    </a>
+                  </li>
+                  <li class="mz-social-item">
+                    <a class="mz-social-link"
+                      title="Social LinkedIn"
+                      href="#"
+                      rel="">
+                      <?php include('svg/svg-icon-linkedin.svg'); ?>
+                    </a>
+                  </li>
+                  <li class="mz-social-item">
+                    <a class="mz-social-link"
+                      title="Social Twitter"
+                      href="#"
+                      rel="">
+                      <?php include('svg/svg-icon-twitter.svg'); ?>
+                    </a>
+                  </li>
+                  <li class="mz-social-item">
+                    <a class="mz-social-link"
+                      title="Social Youtube"
+                      href="#"
+                      rel="">
+                      <?php include('svg/svg-icon-youtube.svg'); ?>
+                    </a>
+                  </li>
+                </ul>
+                */
+              ?>
+            </div>
           </div>
         </div>
       </section>

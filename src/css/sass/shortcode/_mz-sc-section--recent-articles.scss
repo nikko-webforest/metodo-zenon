@@ -25,7 +25,7 @@
         h2 {
           color: #000000;
           font-style: normal;
-          font-size: 32px;
+          font-size: 34px;
           font-weight: 700;
           text-transform: uppercase;
           line-height: 1.2em;
@@ -33,7 +33,7 @@
           margin: 0;
 
           @media only screen and (max-width: 1180px) {
-            font-size: 30px;
+            font-size: 32px;
             text-align: center;
             width: 100%;
           }
@@ -92,7 +92,7 @@
               color: #000000;
               font-family: $primary-font-family;
               font-style: normal;
-              font-size: 18px;
+              font-size: 20px;
               font-weight: 700;
               text-transform: uppercase;
               letter-spacing: -0.02em;
@@ -103,7 +103,7 @@
             .mz-recent-article-excerpt {
               color: #373F41;
               font-style: normal;
-              font-size: 12px;
+              font-size: 14px;
               font-weight: 300;
               line-height: 1.5em;
               min-height: 100px;
@@ -119,7 +119,7 @@
               .mz-recent-article-released-date {
                 color: #AFACB4;
                 font-style: normal;
-                font-size: 14px;
+                font-size: 16px;
                 font-weight: 300;
                 text-transform: uppercase;
                 letter-spacing: -0.02em;
@@ -129,7 +129,7 @@
               .mz-link-more-info {
                 color: #6F4A37;
                 font-style: normal;
-                font-size: 15px;
+                font-size: 17px;
                 font-weight: 700;
                 text-decoration: none;
                 text-transform: uppercase;

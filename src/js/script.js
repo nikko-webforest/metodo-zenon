@@ -305,16 +305,16 @@
 
 })();
 
-/* mz-sc-section--testimonials-carousel | function */
+/* mz-sc-section--written-testimonials-carousel | function */
 (function (){
 
   var
-    thisSectionClass          = '.mz-sc-section--testimonials-carousel',
-    carouselMainClass         = '.mz-carousel-main',
-    carouselCellClass         = '.mz-carousel-cell',
-    carouselPrevBtnClass      = '.mz-carousel-prev-btn',
-    carouselNextBtnClass      = '.mz-carousel-next-btn',
-    carouselCounterSlideClass = '.mz-carousel-counter-slide',
+    thisSectionClass          = '.mz-sc-section--written-testimonials-carousel',
+    carouselMainClass         = '.testimonial-carousel-main',
+    carouselCellClass         = '.testimonial-carousel-cell',
+    carouselPrevBtnClass      = '.testimonial-carousel-prev-btn',
+    carouselNextBtnClass      = '.testimonial-carousel-next-btn',
+    carouselCounterSlideClass = '.testimonial-carousel-counter-slide',
     carouselInitialize,
     carouselTotalSlides,
     carouselSetCurrentSlide,
@@ -338,12 +338,6 @@
 
     // get data-current-slide from shortcode attribute then set as current slide
     carouselSetCurrentSlide = $(thisSectionClass+' '+carouselMainClass).attr('data-current-slide');
-
-    // get data-carousel-autoplay from shortcode attribute
-    carouselAutoPlay = $(thisSectionClass+' '+carouselMainClass).attr('data-carousel-autoplay');
-
-    // set autoPlayInterval 3000ms/3s default
-    carouselAutoPlayInterval = 3000;
 
     // index starts at 0
     // convert index to slide
@@ -382,11 +376,12 @@
 
       }
 
-      $(thisSectionClass+' '+carouselCounterSlideClass).html('0'+carouselGetCurrentSlide);
-      // $(thisSectionClass+' '+carouselMainClass+' '+carouselCellClass+'.is-prevOut').removeClass('is-prevOut');
-      // $(thisSectionClass+' '+carouselMainClass+' '+carouselCellClass+'.is-nextOut').removeClass('is-nextOut');
-      // $(thisSectionClass+' '+carouselMainClass+' '+carouselCellClass+':nth-child('+ carouselPrevOutSlide +')').addClass("is-prevOut");
-      // $(thisSectionClass+' '+carouselMainClass+' '+carouselCellClass+':nth-child('+ carouselNextOutSlide +')').addClass("is-nextOut");
+      if( carouselGetCurrentSlide < 10 ){
+        $(thisSectionClass+' '+carouselCounterSlideClass).html('0'+carouselGetCurrentSlide);
+      }
+      else {
+        $(thisSectionClass+' '+carouselCounterSlideClass).html(carouselGetCurrentSlide);
+      }
 
       console.log("\nthisSectionClass        = "+thisSectionClass);
       console.log("carouselTotalSlides     = "+carouselTotalSlides);
@@ -430,23 +425,6 @@
           break;
       }
     };
-
-    if( carouselAutoPlay == 'true' ){
-
-      setInterval(function () {
-        carouselInitialize.next();
-        carouselUpdate();
-      }, carouselAutoPlayInterval);
-
-    } else if ( carouselAutoPlay == 'false' || carouselAutoPlay == '' || carouselAutoPlay == ' ' ){
-    } else {
-
-      setInterval(function () {
-        carouselInitialize.next();
-        carouselUpdate();
-      }, carouselAutoPlay);
-
-    }
   }
 
 })();
@@ -599,52 +577,11 @@
 
 })();
 
-/* mz-sc-coach-tab | function */
+/* mz-sc-section--coaches-carousel | function */
 (function (){
 
   var
-    thisSectionClass = '.mz-sc-coach-tab',
-    tabActiveIndex,
-    tabButtonClass = '.mz-tab-btn',
-    tabButtonID,
-    tabPaneClass = '.mz-tab-pane'
-  ;
-
-  if( document.querySelectorAll(thisSectionClass).length >= 1 ){
-    console.log("\nthisSectionClass = "+thisSectionClass);
-
-    tabActiveIndex = $(thisSectionClass).attr('data-active-tab');
-    // tabActiveIndex = document.querySelector(thisSectionClass).getAttribute('data-active-tab');
-    console.log("tabActiveIndex   = "+tabActiveIndex);
-    
-    $(thisSectionClass+' '+tabPaneClass).hide();
-    $(thisSectionClass+' [data-tab-index='+tabActiveIndex+']').addClass("--active-tab");
-    $(thisSectionClass+' '+tabPaneClass+'.pane-0'+tabActiveIndex).addClass("--active-pane");
-    $(thisSectionClass+' '+tabPaneClass+'.pane-0'+tabActiveIndex).fadeIn();
-
-    $(thisSectionClass+' '+tabButtonClass).click(function (){
-
-      $(thisSectionClass+' '+tabButtonClass).removeClass("--active-tab");
-      $(this).addClass("--active-tab");
-
-      tabButtonID = $(this).attr('data-tab-index');
-      console.log("tabButtonID      = "+tabButtonID);
-      
-      $(thisSectionClass+' '+tabPaneClass).hide();
-      $(thisSectionClass+' '+tabPaneClass).removeClass("--active-pane");
-      $(thisSectionClass+' '+tabPaneClass+'.pane-0'+tabButtonID).addClass("--active-pane");
-      $(thisSectionClass+' '+tabPaneClass+'.pane-0'+tabButtonID).fadeIn();
-
-    });
-  }
-
-})();
-
-/* mz-sc-coaches-carousel | function */
-(function (){
-
-  var
-    thisSectionClass  = '.mz-sc-coaches-carousel',
+    thisSectionClass  = '.mz-sc-section--coaches-carousel',
     carouselMainClass = '.carousel-main',
     carouselCellClass = '.carousel-cell',
     carouselInitialize,

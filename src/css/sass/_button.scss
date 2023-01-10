@@ -24,7 +24,7 @@
   color: #6F4A37;
   font-family: $primary-font-family;
   font-style: normal;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -144,13 +144,21 @@
     }
   }
 
-  svg {}
+  svg {
+    max-width: 45px;
+    min-width: 45px;
+
+    @media only screen and (max-width: 480px) {
+      max-width: 40px;
+      min-width: 40px;
+    }
+  }
 
   span {
     font-family: $primary-font-family;
     font-style: normal;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
     text-transform: uppercase;
     line-height: 1em;

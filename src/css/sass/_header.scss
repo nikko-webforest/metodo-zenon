@@ -154,7 +154,7 @@
               padding: 50px 30px;
 
               .mz-mega-menu-title {
-                font-size: 33px;
+                font-size: 34px;
                 font-weight: 800;
                 text-align: center;
                 text-transform: uppercase;
@@ -163,7 +163,7 @@
               }
 
               .mz-mega-menu-subtitle {
-                font-size: 18px;
+                font-size: 19px;
                 font-weight: 300;
                 text-align: center;
                 line-height: 1.25em;
@@ -335,7 +335,7 @@
             .mz-mega-menu-title {
               > a {
                 color: #000000;
-                font-size: 33px;
+                font-size: 34px;
                 font-weight: 800;
                 text-align: center;
                 text-transform: uppercase;
@@ -350,7 +350,7 @@
               &.menu-item-has-children {
                 > a {
                   color: #000000;
-                  font-size: 18px;
+                  font-size: 19px;
                   font-weight: 300;
                   text-align: center;
                   line-height: 1.25em;
@@ -392,6 +392,8 @@
                       > .menu-image {
                         position: absolute;
                         top: 0;
+                        object-fit: cover;
+                        object-position: center;
                         width: 100%;
                         height: 145px;
                         padding: 0;
@@ -402,7 +404,7 @@
                         font-family: $primary-font-family;
                         font-style: normal;
                         font-weight: 700;
-                        font-size: 14px;
+                        font-size: 15px;
                         text-align: left;
                         text-transform: uppercase;
                         letter-spacing: -0.02em;
@@ -417,10 +419,10 @@
                       &::after {
                         content: attr(title);
                         color: transparent;
-                        font-family: 'Archivo';
+                        font-family: $primary-font-family;
                         font-style: normal;
                         font-weight: 800;
-                        font-size: 14px;
+                        font-size: 15px;
                         text-transform: uppercase;
                         letter-spacing: -0.02em;
                         line-height: 1.25em;
@@ -532,7 +534,7 @@
       .menu-item {
         a {
           color: #512912;
-          font-size: 15px;
+          font-size: 16px;
           font-weight: 600;
           text-align: center;
           text-transform: uppercase;
@@ -786,7 +788,7 @@
 
           > a {
             color: #FFFFFF;
-            font-size: 18px;
+            font-size: 19px;
             display: flex;
             justify-content: space-between;
             align-items: center;
