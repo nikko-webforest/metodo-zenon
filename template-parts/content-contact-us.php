@@ -12,17 +12,20 @@
 <!-- #post-<?php the_ID(); ?> -->
 <article id="page-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<?php echo do_shortcode('[mz-sc-section--hero title="WHERE WE ARE" hero-bg="/wp-content/themes/metodo-zenon/images/MZ_Contact_Us_Hero_sect-bg-v01-1440x440.png"]'); ?>
+	<?php echo do_shortcode('[mz-sc-section--hero title="Donde Estamos" hero-bg="/wp-content/themes/metodo-zenon/images/MZ_Contact_Us_Hero_sect-bg-v01-1440x440.png"]'); ?>
 
     <section class="mz-section mz-section--zenon-method">
         <div class="mz-container">
 			<div class ="mz-row">
 				<div class="mz-col-01">
 					<h3>
-						Zenon Method
+						Método Zenon
 					</h3>
 					<p>
-						Multidisciplinary center with coordinated professionals in physical preparation, nutrition,  physiotherapy and psychology with a cutting-edge method and state-of-the-art technology generation.
+						Somos un centro de entrenamiento. Contamos con un equipo multidisciplinar, para
+						asegurarnos de que consigues tus objetivos. Entrenador personal, preparador físico,
+						fisioterapeuta, psicólogo deportivo y nutricionista, todos ellos junto a tecnología de
+						vanguardia para que disfrutes consiguiendo lo que buscas.
 					</p>	
 				</div>			
 			</div>
@@ -34,10 +37,10 @@
 				<div class="mz-col">
 					<div class="mz-title-01">
 						<h3>
-							Talk to
+							Escríbenos
 						</h3>
 						<h2>
-							Metodo zenon
+							Método Zenon
 						</h2>
 					</div>
 					<!-- <div class="mz-row">
@@ -62,7 +65,7 @@
 						</svg>
 						<div class="mz-inner-col">
 							<h4>
-								EMAIL
+								Correo electrónico
 							</h4>
 							<p class="p-03">
 								metodozenon@gmail.com
@@ -75,7 +78,7 @@
 						</svg>
 						<div class="mz-inner-col">
 							<h4>
-								PHONE
+								Teléfono
 							</h4>
 							<p class="p-03">
 								613 91 40 90
@@ -86,7 +89,7 @@
 				<div class="mz-contact-form">
 					<!-- <div class ="mz-form-container"></div> -->
 					<h4>
-						Leave us a message
+						Déjanos un mensaje
 					</h4>
 					<?php echo do_shortcode('[fluentform id="4"]'); ?>
 				</div>
@@ -98,7 +101,7 @@
 			<div class ="mz-col">
 				<div class="mz-title-02">
 					<h3>
-						Our Location
+						Donde encontrarnos
 					</h3>
 					<h2 class="loc">
 						Plaza Tenerías 5, bajo (47006) (Valladolid)

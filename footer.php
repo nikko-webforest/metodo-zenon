@@ -96,7 +96,7 @@
           <div class="mz-row">
             <div class="mz-col">
               <p class="p-01">
-                Copyright &copy; Metodo Zenon. All Right Reserved.
+                Derechos de autor &copy; Método Zenón. Todos los derechos reservados.
               </p>
             </div>
             <!-- <div class="mz-col">
