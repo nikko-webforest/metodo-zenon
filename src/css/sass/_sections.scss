@@ -579,6 +579,14 @@
   background-color: #F0F0F0;
   padding: 135px 30px;
 
+  @media only screen and (max-width: 1180px) {
+    padding: 100px 30px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    padding: 50px 30px;
+  }
+
   .mz-container {
     max-width: 1040px;
 
@@ -596,20 +604,29 @@
       @media only screen and (max-width: 1180px) {
         flex-wrap: wrap-reverse;
         margin: 0 auto 70px;
+        height: auto;
+      }
+
+      @media only screen and (max-width: 768px) {
+        margin: 0 auto 50px;
       }
 
       .mz-category-tab-filter-list {
         display: flex;
         justify-content: flex-start;
         align-items: center;
+        height: 100%;
 
         @media only screen and (max-width: 1180px) {
           width: 100%;
+          height: 90px;
           overflow: auto;
-          padding: 0 0 4px;
+          padding: 0 0 15px;
         }
 
         .mz-category-tab-filter-item {
+          height: 100%;
+
           .mz-category-tab-filter-link {
             color: #000000;
             font-family: $primary-font-family;
@@ -619,14 +636,17 @@
             text-align: center;
             text-transform: uppercase;
             line-height: 1.5em;
-            display: block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             background-color: rgba(10, 10, 10, 0.05);
             opacity: 1;
             max-width: 200px;
             min-width: 125px;
             width: 100%;
+            height: 100%;
             overflow: hidden;
-            padding: 20px 15px;
+            padding: 0px 15px;
             border-width: 1px;
             border-style: solid;
             border-color: transparent;
@@ -677,6 +697,7 @@
 
         @media only screen and (max-width: 1180px) {
           max-width: 100%;
+          height: 60px;
         }
 
         .mz-search-bar-input {
@@ -894,11 +915,21 @@
     .mz-container {
       .mz-top-bar-row {
         .mz-category-tab-filter-list {
-          background-color: rgba(255, 255, 255, 0.05);
-
           .mz-category-tab-filter-item {
             .mz-category-tab-filter-link {
               color: #FFFFFF;
+              background-color: rgba(255, 255, 255, 0.05);
+            }
+
+            &.--active-item {
+              .mz-category-tab-filter-link {
+                color: #FFFFFF;
+                background-color: #6F4A37;
+
+                &:hover {
+                  opacity: 0.9;
+                }
+              }
             }
           }
         }
@@ -2270,49 +2301,6 @@
           }
         }
       }
-    }
-  }
-}
-
-/*===== Zenon Family Page =====*/
-.mz-pb-about-us-section {
-  background-color: #FFFFFF;
-  padding: 140px 30px;
-
-  .mz-container {
-    max-width: 900px;
-    text-align: center;
-
-    h3 {
-      color: #6F4A37;
-      font-style: normal;
-      font-size: 25px;
-      text-transform: uppercase;
-      letter-spacing: -0.02em;
-      line-height: 1.25em;
-      margin: 0 auto 18px;
-    }
-
-    h2 {
-      color: #000000;
-      font-style: normal;
-      font-size: 33px;
-      font-weight: 700;
-      text-align: center;
-      text-transform: uppercase;
-      letter-spacing: -0.02em;
-      line-height: 1.5em;
-      max-width: 815px;
-      margin: 0 auto 30px;
-    }
-
-    .p-01 {
-      color: #373F41;
-      font-family: 'Archivo';
-      font-style: normal;
-      font-size: 19px;
-      font-weight: 300;
-      line-height: 1.25em;
     }
   }
 }

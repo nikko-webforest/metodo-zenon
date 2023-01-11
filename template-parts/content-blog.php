@@ -106,7 +106,7 @@
 							</div>
 							<div class="mz-blog-post-details-wrap">
 								<h3 class="mz-blog-post-title"><?php echo $post->post_name; ?></h3>
-								<p class="mz-blog-post-excerpt"><?php echo get_the_excerpt($post->ID); ?></p>
+								<p class="mz-blog-post-excerpt"><?php echo str_replace( ['[', ']'], '', get_the_excerpt($post->ID) ); ?></p>
 								<div class="mz-blog-post-categories"><?php echo get_the_category($post->ID); ?></div>
 								<div class="mz-blog-post-tags"><?php echo wp_get_post_tags($post->ID); ?></div>
 								<div class="mz-inner-row">

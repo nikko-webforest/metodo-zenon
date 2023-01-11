@@ -310,6 +310,7 @@
               width: 10px;
               height: 8px;
               margin: 0 0 3px 14px;
+              transform: rotate(0deg);
               transition: transform $hover-transition-duration ease-in-out;
             }
           }
@@ -796,8 +797,23 @@
           }
 
           &.menu-item-has-children {
+            > a {
+              &.--show-sub-menu {
+                &::after {
+                  transform: rotate(180deg);
+                }
+              }
+            }
+
             > .sub-menu {
               position: relative;
+
+              &.--show-sub-menu {
+                opacity: 1;
+                visibility: visible;
+                height: auto;
+                padding: 50px 30px;
+              }
             }
           }
 
@@ -824,6 +840,17 @@
           &:hover {
             > a {
               color: #FFFFFF;
+
+              &::after {
+                transform: unset;
+              }
+            }
+
+            > .sub-menu {
+              opacity: 0;
+              visibility: hidden;
+              height: 0;
+              padding: 0 30px;
             }
           }
 

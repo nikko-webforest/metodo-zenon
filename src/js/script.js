@@ -29,6 +29,15 @@
   console.log('thisHeaderClass      = '+thisHeaderClass);
   console.log('hamburgerButtonClass = '+hamburgerButtonClass);
   console.log('hamburgerMenuClass   = '+hamburgerMenuClass);
+  
+  if( $(window).width() < 768 ){
+    $('.mz-header-menu > .menu-item.menu-item-has-children:nth-child(1) > a').attr('href', 'javacsript:void(0)');
+    $('.mz-header-menu > .menu-item.menu-item-has-children:nth-child(1) > a').click(function() {
+      $(this).toggleClass('--show-sub-menu');
+      $('.mz-header-menu > .menu-item.menu-item-has-children:nth-child(1) > .sub-menu').toggleClass('--show-sub-menu');
+    });
+  }
+  console.log('windowWidth = '+$(window).width() );
 
 })();
 
