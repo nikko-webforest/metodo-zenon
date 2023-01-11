@@ -12,7 +12,7 @@
 <!-- #post-<?php the_ID(); ?> -->
 <article id="page-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<?php echo do_shortcode('[mz-sc-section--hero title="Our Blogs" hero-bg="/wp-content/themes/metodo-zenon/images/MZ_Blog_Hero_sect-bg-v01-1440x440.jpg"]'); ?>
+	<?php echo do_shortcode('[mz-sc-section--hero title="Nuestros Blogs" hero-bg="/wp-content/themes/metodo-zenon/images/MZ_Blog_Hero_sect-bg-v01-1440x440.jpg"]'); ?>
 	
 	<?php if( count($args['posts']->posts) > 0 ) : ?>
 
