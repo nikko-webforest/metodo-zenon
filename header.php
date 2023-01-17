@@ -70,13 +70,15 @@
         mzToggleThemeBtn.classList.remove('theme-light');
         mzToggleThemeBtn.classList.add('theme-dark');
         mzToggleThemeBtn.querySelector('span').innerHTML = 'DARK THEME';
-      } else if( currentTheme == "theme-light" ){
+      }
+      else if( currentTheme == "theme-light" ){
         document.body.classList.remove('theme-dark');
         document.body.classList.add('theme-light');
         mzToggleThemeBtn.classList.remove('theme-dark');
         mzToggleThemeBtn.classList.add('theme-light');
         mzToggleThemeBtn.querySelector('span').innerHTML = 'LIGHT THEME';
-      } else {
+      }
+      else {
         document.body.classList.add('theme-light');
       }
 
@@ -92,7 +94,8 @@
           mzToggleThemeBtn.classList.add('theme-dark');
           mzToggleThemeBtn.querySelector('span').innerHTML = 'DARK THEME';
           console.log("currentToggledTheme = "+theme);
-        } else {
+        }
+        else {
           theme = 'theme-light';
           document.body.classList.remove('theme-dark');
           document.body.classList.add(theme);
@@ -121,8 +124,7 @@
 			<div class="mz-wrap">
 				<div class="mz-header-logo">
 					<a class="mz-header-logo-link"
-						title=""
-						target=""
+						title="METODO ZENON"
 						href="<?php echo home_url(); ?>"
 						rel="">
 					</a>
@@ -135,7 +137,7 @@
 					</div>
 				</button>
 				<?php
-					wp_nav_menu(array(
+					wp_nav_menu( array(
             'theme_location' => 'Primary',
             'menu'           => 'Header - Primary - Mega Menu',
 						'container'      => false,
@@ -147,7 +149,7 @@
 						// 'link_before' => '<span>before2</span>'
 					));
           
-					wp_nav_menu(array(
+					wp_nav_menu( array(
             // 'theme_location' => 'Primary',
             'menu'           => 'Header - Primary - CTA',
 						'container'      => false,

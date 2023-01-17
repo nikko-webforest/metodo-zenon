@@ -24,12 +24,14 @@ get_header();
 					<div class="mz-post-navigation-wrap">
 
 						<?php
+							/*
 							the_post_navigation(
 								array(
 									'prev_text' => '<span class="nav-subtitle">' . esc_html__( 'Previous:', 'metodo-zenon' ) . '</span> <span class="nav-title">%title</span>',
 									'next_text' => '<span class="nav-subtitle">' . esc_html__( 'Next:', 'metodo-zenon' ) . '</span> <span class="nav-title">%title</span>',
 								)
 							);
+							*/
 						?>
 
 					</div>

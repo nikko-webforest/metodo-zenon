@@ -160,7 +160,7 @@
 									src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_ProgramsPage_Featured_Elite.jpg"
 									width=""
 									height=""
-									loading=""/>
+									loading="lazy"/>
 								<div class="overlap-label-wrap">
 									<h3>
 										ÉLITE
@@ -281,25 +281,6 @@
 									<p class="p-02">
 										No pierdas más el tiempo, arriesgando tu salud, o haciendo el "entrenamiento" o la dieta de moda.
 									</p>
-									<div class="mz-inner-row">
-										<svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<path d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194Z" fill="#6F4A37"></path>
-											<path d="M25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723Z" fill="#6F4A37"></path>
-											<path d="M12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185Z" fill="#6F4A37"></path>
-											<path d="M12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387Z" fill="#6F4A37"></path>
-											<path d="M1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644Z" fill="#6F4A37"></path>
-											<path d="M50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677Z" fill="#6F4A37"></path>
-											<path d="M20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"></path>
-										</svg>
-										<div class="mz-inner-col">
-											<h4>
-												TRAINING
-											</h4>
-											<p class="p-03">
-												Lorem ipsum dolor sit amet, consec tetur adipiscing elit
-											</p>
-										</div>
-									</div>
 								</div>
 							</div>
 							<div class="mz-col">
@@ -309,7 +290,7 @@
 									src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_ProgramsPage_Featured_Metamorfosis.jpg"
 									width=""
 									height=""
-									loading=""/>
+									loading="lazy"/>
 								<div class="overlap-label-wrap">
 									<h3>
 										METAMORFOSIS
@@ -433,25 +414,6 @@
 										SI quieres subirle el volumen a tu vida, este programa es para ti.
 										Reduce y elimina tu dolor, y vuelve a hacer todas esas actividades que echas de menos :)
 									</p>
-									<div class="mz-inner-row">
-										<svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<path d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194Z" fill="#6F4A37"></path>
-											<path d="M25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723Z" fill="#6F4A37"></path>
-											<path d="M12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185Z" fill="#6F4A37"></path>
-											<path d="M12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387Z" fill="#6F4A37"></path>
-											<path d="M1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644Z" fill="#6F4A37"></path>
-											<path d="M50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677Z" fill="#6F4A37"></path>
-											<path d="M20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"></path>
-										</svg>
-										<div class="mz-inner-col">
-											<h4>
-												TRAINING
-											</h4>
-											<p class="p-03">
-												Lorem ipsum dolor sit amet, consec tetur adipiscing elit
-											</p>
-										</div>
-									</div>
 								</div>
 							</div>
 							<div class="mz-col">
@@ -461,7 +423,7 @@
 									src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_ProgramsPage_Featured_EspaldaSana.jpg"
 									width=""
 									height=""
-									loading=""/>
+									loading="lazy"/>
 								<div class="overlap-label-wrap">
 									<h3>
 										ESPALDA SANA
@@ -615,7 +577,7 @@
 									src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_ProgramsPage_Featured_Recuperation.jpg"
 									width=""
 									height=""
-									loading=""/>
+									loading="lazy"/>
 								<div class="overlap-label-wrap">
 									<h3>
 										RECUPERATIO
@@ -733,7 +695,6 @@
 										Quiero mantenerme san@ y funcional
 									</h3>
 									<p class="p-02">
-										Eos tota dicunt democritum no. Has natum gubergren ne. soleat sadipscing cu.
 										No hay ningún motivo para que renuncies a la calidad de vida que has tenido cuando eras más joven.
 										Ni que te conformes con vivir peor de lo que podrías.
 										Sigue disfrutando de tu cuerpo y de tus aficiones como lo hacías antes.
@@ -770,7 +731,7 @@
 									src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_ProgramsPage_Featured_Nurture.jpg"
 									width=""
 									height=""
-									loading=""/>
+									loading="lazy"/>
 								<div class="overlap-label-wrap">
 									<h3>
 										NURTURA
@@ -793,23 +754,6 @@
 										<p class="p-05">
 											Si lo que buscas es mantenerte san@ y funcional, sin perder capacidad con el paso de los años, NURTURA está diseñado para ti. Nuestro compromiso es claro: Puedes sentirte más joven y gozar de más vitalidad que nunca, con menos esfuerzo del que piensas.
 										</p>
-										<ul>
-											<li> 
-												<span class="mz-title">PROGRAM</span>
-												<hr>
-												<span class="mz-curriculum">PHYSIO CURRICULUM</span>
-											</li>
-											<li> 
-												<span class="mz-title">PROGRAM</span>
-												<hr>
-												<span class="mz-curriculum">PHYSIO CURRICULUM</span>
-											</li>
-											<li> 
-												<span class="mz-title">PROGRAM</span>
-												<hr>
-												<span class="mz-curriculum">PHYSIO CURRICULUM</span>
-											</li>
-										</ul>
 									</div>
 								</div>
 							</div>
@@ -867,18 +811,19 @@
 								<div class="mz-inner-row">
 									<a class="mz-cta mz-cta--primary"
 										title="Prueba gratis el Método Zenon"
-										target=""
 										href="/contact-us"
 										rel="">
 										Prueba gratis el Método Zenon
 									</a>
-									<!-- <a class="mz-cta mz-cta--secondary"
-										title="Prueba gratis el Método Zenon"
-										target=""
-										href=""
-										rel="">
-										Prueba gratis el Método Zenon
-									</a> -->
+									<!--
+										<a class="mz-cta mz-cta--secondary"
+											title="Prueba gratis el Método Zenon"
+											target=""
+											href=""
+											rel="">
+											Prueba gratis el Método Zenon
+										</a>
+									-->
 								</div>
 							</div>
 						</div>
@@ -929,7 +874,7 @@
 									src="/wp-content/themes/metodo-zenon/images/mz-zenon-programs-section/MZ_ProgramsPage_Featured_Zenon.jpg"
 									width=""
 									height=""
-									loading=""/>
+									loading="lazy"/>
 								<div class="overlap-label-wrap">
 									<h3>
 										ZENON

@@ -36,7 +36,7 @@
 		?>
 	</div>
 
-	<?php if ( get_edit_post_link() ) : ?>
+	<?php if( get_edit_post_link() ) : ?>
 
 		<!-- .entry-footer -->
 		<footer class="entry-footer">

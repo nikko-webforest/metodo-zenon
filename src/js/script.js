@@ -18,7 +18,8 @@
     if( this.classList.contains('--active-hamburger') ){
       console.log('\nhamburgerButtonClass = '+hamburgerButtonClass+' .--active-hamburger');
       console.log('hamburgerMenuClass   = '+hamburgerMenuClass+' .--show-menu');
-    } else {
+    }
+    else {
       console.log('\nhamburgerButtonClass = '+hamburgerButtonClass);
       console.log('hamburgerMenuClass   = '+hamburgerMenuClass);
     }
@@ -131,11 +132,14 @@
         
         if( titleValue.toLowerCase().indexOf(filterSearch) > -1 ){
           blogPostItem[i].style.display = '';
-        } else if( contentValue.toLowerCase().indexOf(filterSearch) > -1 ){
+        }
+        else if( contentValue.toLowerCase().indexOf(filterSearch) > -1 ){
           blogPostItem[i].style.display = '';
-        } else if ( dateValue.toLowerCase().indexOf(filterSearch) > -1 ){
+        }
+        else if ( dateValue.toLowerCase().indexOf(filterSearch) > -1 ){
           blogPostItem[i].style.display = '';
-        } else {
+        }
+        else {
           blogPostItem[i].style.display = 'none';
         }
       }
@@ -363,22 +367,26 @@
         carouselPrevOutSlide = carouselTotalSlides - carouselGetCurrentSlide;
         carouselNextOutSlide = carouselGetCurrentSlide + 2;
 
-      } else if( carouselGetCurrentSlide == 2 ){
+      }
+      else if( carouselGetCurrentSlide == 2 ){
 
         carouselPrevOutSlide = carouselTotalSlides;
         carouselNextOutSlide = carouselGetCurrentSlide + 2;
 
-      } else if( carouselGetCurrentSlide == carouselTotalSlides - 1 ){
+      }
+      else if( carouselGetCurrentSlide == carouselTotalSlides - 1 ){
 
         carouselPrevOutSlide = carouselGetCurrentSlide - 2;
         carouselNextOutSlide = 1;
 
-      } else if( carouselGetCurrentSlide == carouselTotalSlides ){
+      }
+      else if( carouselGetCurrentSlide == carouselTotalSlides ){
 
         carouselPrevOutSlide = carouselGetCurrentSlide - 2;
         carouselNextOutSlide = 2;
 
-      } else {
+      }
+      else {
 
         carouselPrevOutSlide = carouselGetCurrentSlide - 2;
         carouselNextOutSlide = carouselGetCurrentSlide + 2;
@@ -501,22 +509,26 @@
           carouselPrevOutSlide = carouselTotalSlides - carouselGetCurrentSlide;
           carouselNextOutSlide = carouselGetCurrentSlide + 2;
 
-        } else if( carouselGetCurrentSlide == 2 ){
+        }
+        else if( carouselGetCurrentSlide == 2 ){
 
           carouselPrevOutSlide = carouselTotalSlides;
           carouselNextOutSlide = carouselGetCurrentSlide + 2;
 
-        } else if( carouselGetCurrentSlide == carouselTotalSlides - 1 ){
+        }
+        else if( carouselGetCurrentSlide == carouselTotalSlides - 1 ){
 
           carouselPrevOutSlide = carouselGetCurrentSlide - 2;
           carouselNextOutSlide = 1;
 
-        } else if( carouselGetCurrentSlide == carouselTotalSlides ){
+        }
+        else if( carouselGetCurrentSlide == carouselTotalSlides ){
 
           carouselPrevOutSlide = carouselGetCurrentSlide - 2;
           carouselNextOutSlide = 2;
 
-        } else {
+        }
+        else {
 
           carouselPrevOutSlide = carouselGetCurrentSlide - 2;
           carouselNextOutSlide = carouselGetCurrentSlide + 2;
@@ -721,7 +733,8 @@
 
 //     if( scrollTopValue >= 600 ){
 //       mzBackToTopBtn.classList.add('--show-btn');
-//     } else {
+//     }
+//     else {
 //       mzBackToTopBtn.classList.remove('--show-btn');
 //     }
 

@@ -18,7 +18,8 @@
           $recentArticleFeatureImg = '';
           if( has_post_thumbnail() ){
             $recentArticleFeatureImg = wp_get_attachment_url( get_post_thumbnail_id( $recent['ID'] ) );
-          } else {
+          }
+          else {
             $recentArticleFeatureImg = '/wp-content/themes/metodo-zenon/images/MZ_Blog_Temp_Article_Featured_img-320x215.png';
           }
         ?>
