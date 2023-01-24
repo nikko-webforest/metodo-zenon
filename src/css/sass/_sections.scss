@@ -2378,16 +2378,8 @@
             height: 375px;
             padding: 45px 35px 40px 35px;
 
-            .services-card-number {
-              color: #6F4A37;
-              font-family: $primary-font-family;
-              font-size: 65px;
-              font-style: normal;
-              font-weight: 700;
-              letter-spacing: -0.02em;
-              line-height: 1em;
-              width: max-content;
-              margin: 0 0 auto 0;
+            .icon-image {
+              filter: invert(69%) sepia(80%) saturate(250%) hue-rotate(339deg) brightness(92%) contrast(89%);
             }
 
             .services-card-title {
@@ -2430,6 +2422,7 @@
                 background: linear-gradient( 180deg, #825036 0%, #49230C 100% );
                 padding: 10px 25px;
                 width: 100%;
+                border: none;
 
                 &:hover {
                   background: linear-gradient( #49230C, #512912 );
@@ -2534,6 +2527,7 @@
               background: linear-gradient( 180deg, #825036 0%, #49230C 100% );
               padding: 15px 25px;
               width: 100%;
+              border: none;
 
                 svg {
                   margin-inline-end: 10px;
@@ -2751,11 +2745,178 @@
                 color: #373F41;
                 font-style: normal;
                 font-weight: 500;
-                font-size: 15px;
+                font-size: 14px;
                 line-height: 1.25em;
 
                 @media only screen and (max-width: 768px) {
                   font-size: 14px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.theme-dark {
+  .mz-section--services-carousel {
+      .mz-container {
+        &::before {
+          background-color: #0B0D0F;
+        }
+  
+        h2 {
+          color: $white-color;
+        }
+  
+        .carousel-main {  
+          .carousel-cell {
+            
+            &.is-selected {
+              .services-card {
+                background: linear-gradient( 180deg, #825036 0%, #49230C 100% );
+              }
+            }
+            
+            &.is-prevOut,
+            &.is-nextOut {
+              opacity: 0.35;
+            }
+  
+              &.is-selected {
+                opacity: 1;
+              }
+            }
+  
+            .services-card {    
+              .services-card-title {
+                color: $white-color;
+              }
+              
+
+              .services-card-desc {
+                color: #AFACB4;
+              }     
+              
+              .services-card-link {  
+                .mz-cta {
+                  color: #7F4D33;
+                  background: $white-color;
+                  border: none;
+
+                  &:hover {
+                    background: #f1ebeb;
+                  }
+                }
+              }
+            }
+  
+            .active-card {
+              background: linear-gradient( 180deg, #825036 0%, #49230C 100% );
+              
+              .icon-image {
+                filter: invert(27%) sepia(20%) saturate(932%) hue-rotate(336deg) brightness(95%) contrast(80%);
+              }
+              .icon-stroke {
+                path {
+                  stroke: #D3A07A;
+                }
+              }
+
+              .icon-fill {
+                path {
+                  fill: #D3A07A;
+                }
+              }
+
+
+              .services-card-desc {
+                color: $white-color;
+              } 
+            }
+          }
+        }
+  }
+  
+  .uc-sf-section--body {
+    .mz-container {
+      .mz-row {  
+        .mz-col {
+          &:nth-child(1) {
+            .mz-services-list {
+                .mz-services-item {
+                  color: $white-color;                    
+                  
+                  path {
+                    stroke: $white-color;
+                  }
+                }
+
+                .active-item {
+                  background-color: #7C4B31;
+                  color: $white-color;
+                  border-bottom: none;
+                  
+                  path {
+                    stroke: $white-color;
+                  }
+                }
+
+                .services-card:active + .services-card {
+                  border-bottom: none;
+              }
+
+                .active-item:before {
+                  border-bottom: none;
+                }
+  
+                &:hover {
+                  cursor: pointer;
+                }
+            }
+                
+            .mz-contact-link {
+              .mz-cta {
+                background: linear-gradient( 180deg, #825036 0%, #49230C 100% );
+                border: none;
+
+                &:hover {
+                  background: linear-gradient(180deg, #49230C, #512912);
+                  color: white;
+                  border: none;
+                }
+              }
+            }
+          }
+          &:nth-child(2) {  
+            h5 {
+              color: $white-color;
+            }
+  
+            .p-06 {
+              color: #AFACB4;
+            }
+  
+            .service-features-list {
+              .service-features-item {
+                .mz-inner-row {
+                  h4 {
+                    color: $white-color;
+                  }
+  
+                  .p-03 {
+                    color: #AFACB4;
+                  } 
+                }
+              }
+            }
+  
+            .benefits-list { 
+              .benefits-item {  
+                .benefits-label {
+                  color: #AFACB4;
                 }
               }
             }
