@@ -20,8 +20,8 @@
                 <h2>
                     Since We Met You, The Change Begins.
                 </h2>
-                <div class="carousel-main" data-current-slide='1'>
-                    <div class="carousel-cell">
+                <div class="carousel-main">
+                    <div class="carousel-cell training active" data-tab="training">
                         <div class="services-card">
                             <!-- <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <rect width="60" height="60" transform="matrix(-1 0 0 1 60 0)" fill="url(#pattern0)"/>
@@ -42,13 +42,13 @@
                                 It is the main element to achieve the physical change you want. If you don't give him the right encouragement, you won't get the improvements you're looking for. 
                             </div>
                             <div class="services-card-link">
-                                <a class="mz-cta mz-cta--primary" title="Learn More" target="" href="#" rel="">
+                                <a class="mz-cta mz-cta--primary" title="Learn More" target="" href="#training" rel="">
                                     Learn More
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-cell active-card">
+                    <div class="carousel-cell nutrition" data-tab="nutrition">
                         <div class="services-card active-card">
                             <svg class=icon-stroke width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M16.9805 13.8815C18.2756 15.4837 18.7166 16.5526 19.2798 18.5951" stroke="#6F4A37" stroke-width="1.5" stroke-linejoin="round"/>
@@ -72,13 +72,13 @@
                                 It's not just what you eat, it's also when, how much and how you eat it.
                             </div>
                             <div class="services-card-link">
-                                <a class="mz-cta mz-cta--primary" title="Learn More" target="" href="#" rel="">
+                                <a class="mz-cta mz-cta--primary" title="Learn More" target="" href="#nutrition" rel="">
                                     Learn More
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-cell">
+                    <div class="carousel-cell psychology" data-tab="psychology">
                         <div class="services-card">
                             <svg class=icon-fill width="55" height="59" viewBox="0 0 55 59" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M15.9567 23.4368H22.2015V27.1074H26.0312V33.3146H22.2015V37.4118L15.9567 37.121V33.3146H12.0422V27.1074H15.9567V23.4368ZM17.4566 24.9368V28.6074H13.5422V31.8146H17.4566V35.6892L20.7015 35.8403V31.8146H24.5312V28.6074H20.7015V24.9368H17.4566Z" fill="#6F4A37"/>
@@ -91,13 +91,13 @@
                                 We are what we do, feel, think and say, and all of this is part of human behavior. Do you know what the science of behavior is?
                             </div>
                             <div class="services-card-link">
-                                <a class="mz-cta mz-cta--primary" title="Learn More" target="" href="#" rel="">
+                                <a class="mz-cta mz-cta--primary" title="Learn More" target="" href="#psychology" rel="">
                                     Learn More
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-cell">
+                    <div class="carousel-cell physicaltherapy" data-tab="physicaltherapy">
                         <div class="services-card">
                             <svg class=icon-fill width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M23.1341 0.75C20.4195 0.75 18.2305 2.96898 18.2305 5.69177C18.2305 8.41456 20.4195 10.6335 23.1341 10.6335C25.8488 10.6335 28.0378 8.41456 28.0378 5.69177C28.0378 2.96898 25.8488 0.75 23.1341 0.75ZM19.7305 5.69177C19.7305 3.78446 21.2608 2.25 23.1341 2.25C25.0075 2.25 26.5378 3.78446 26.5378 5.69177C26.5378 7.59907 25.0075 9.13353 23.1341 9.13353C21.2608 9.13353 19.7305 7.59907 19.7305 5.69177Z" fill="#6F4A37"/>
@@ -120,7 +120,7 @@
                                 The human body is an almost perfect machine, but sometimes it gets out of hand. A review with our physiotherapists, and you will recover the best sensations.
                             </div>
                             <div class="services-card-link">
-                                <a class="mz-cta mz-cta--primary" title="Learn More" target="" href="#" rel="">
+                                <a class="mz-cta mz-cta--primary" title="Learn More" target="" href="#physicaltherapy" rel="">
                                     Learn More
                                 </a>
                             </div>
@@ -135,42 +135,54 @@
             <div class="mz-row">
                 <div class="mz-col">
                     <div class="mz-services-list">
-                        <div class="mz-services-item">
-                            Training
-                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 1L6.33333 6L1 11" stroke="#0A0A0A" stroke-width="2"/>
-                            </svg>
-                        </div>
-                        <div class="mz-services-item active-item">
-                            Physical Therapy
-                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 1L6.33333 6L1 11" stroke="#0A0A0A" stroke-width="2"/>
-                            </svg>
-                        </div>
-                        <div class="mz-services-item">
-                            Psychology
-                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 1L6.33333 6L1 11" stroke="#0A0A0A" stroke-width="2"/>
-                            </svg>
-                        </div>
-                        <div class="mz-services-item">
-                            Nutrition
-                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 1L6.33333 6L1 11" stroke="#0A0A0A" stroke-width="2"/>
-                            </svg>
-                        </div>
-                        <div class="mz-services-item">
-                            Physical Therapy
-                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 1L6.33333 6L1 11" stroke="#0A0A0A" stroke-width="2"/>
-                            </svg>
-                        </div>
-                        <div class="mz-services-item">
-                            Comprehensive Programs
-                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 1L6.33333 6L1 11" stroke="#0A0A0A" stroke-width="2"/>
-                            </svg>
-                        </div>
+                        <a target="" href="#training" rel="">
+                            <button class="servicelinks training active" data-tab="training">
+                                Training
+                                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L6.33333 6L1 11" stroke="#0A0A0A" stroke-width="2"/>
+                                </svg>
+                            </button>
+                        </a>
+                        <a target="" href="#physicaltherapy" rel="">
+                            <button class="servicelinks physicaltherapy" data-tab="physicaltherapy">
+                                Physical Therapy
+                                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L6.33333 6L1 11" stroke="#0A0A0A" stroke-width="2"/>
+                                </svg>
+                            </button>
+                        </a>
+                        <a target="" href="#psychology" rel="">
+                            <button class="servicelinks psychology" data-tab="psychology">
+                                Psychology
+                                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L6.33333 6L1 11" stroke="#0A0A0A" stroke-width="2"/>
+                                </svg>
+                            </button>
+                        </a>
+                        <a target="" href="#nutrition" rel="">
+                            <button class="servicelinks nutrition" data-tab="nutrition">
+                                Nutrition
+                                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L6.33333 6L1 11" stroke="#0A0A0A" stroke-width="2"/>
+                                </svg>
+                            </button>
+                        </a>
+                        <a target="" href="#physicaltherapy2" rel="">
+                            <button class="servicelinks physicaltherapy2" data-tab="physicaltherapy2">
+                                Physical Therapy
+                                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L6.33333 6L1 11" stroke="#0A0A0A" stroke-width="2"/>
+                                </svg>
+                            </button>
+                        </a>
+                        <a target="" href="#comprehensiveprograms" rel="">
+                            <button class="servicelinks comprehensiveprograms" data-tab="comprehensiveprograms">
+                                Comprehensive Programs
+                                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L6.33333 6L1 11" stroke="#0A0A0A" stroke-width="2"/>
+                                </svg>
+                            </button>
+                        </a>
                     </div>
                     <div class="mz-zenon-form">
                         <a class="mz-cta"
@@ -231,126 +243,714 @@
                         </a>
                     </div>
                 </div>
-                <div class="mz-col">
-                    <img class="mz-img"
-                        alt=""
-                        title=""
-                        src="/wp-content/themes/metodo-zenon/images/mz-zenon-services-section/MZ_ServicesPage_Featured_1.png"
-                        width=""
-                        height=""
-                        loading=""/>
-                    <h5>
-                        Physical Therapy
-                    </h5>
-                    <p class="p-06">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean. Mattis nunc sed blandit libero. Feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed id semper risus in. Varius vel pharetra vel turpis nunc eget. Ut etiam sit amet nisl purus. Imperdiet proin fermentum leo vel orci porta non. Integer feugiat scelerisque varius morbi enim. Sed ullamcorper morbi tincidunt ornare. Habitant morbi tristique senectus et netus et malesuada fames ac.
-                    </p>
-                    <div class="service-features-list">
-                        <div class="service-features-item">
-                            <svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194ZM25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723ZM12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185ZM12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387ZM1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644ZM50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677ZM20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"/>
-                            </svg>
-                            <div class="mz-inner-row">
-                                <h4>
-                                    Exercise and Stretches
-                                </h4>
-                                <p class="p-03">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="service-features-item">
-                            <svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194ZM25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723ZM12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185ZM12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387ZM1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644ZM50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677ZM20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"/>
-                            </svg>
-                            <div class="mz-inner-row">
-                                <h4>
-                                    Rehabilitation
-                                </h4>
-                                <p class="p-03">
+                <div class="mz-col services-contents">
+                    <div id="training" class="servicecontent active">
+                        <img class="mz-img"
+                            alt=""
+                            title=""
+                            src="/wp-content/themes/metodo-zenon/images/mz-zenon-services-section/MZ_ServicesPage_Featured_1.png"
+                            width=""
+                            height=""
+                            loading=""/>
+                        <h5>
+                            Training
+                        </h5>
+                        <p class="p-06">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean. Mattis nunc sed blandit libero. Feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed id semper risus in. Varius vel pharetra vel turpis nunc eget. Ut etiam sit amet nisl purus. Imperdiet proin fermentum leo vel orci porta non. Integer feugiat scelerisque varius morbi enim. Sed ullamcorper morbi tincidunt ornare. Habitant morbi tristique senectus et netus et malesuada fames ac.
+                        </p>
+                        <div class="service-features-list">
+                            <div class="service-features-item">
+                                <svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194ZM25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723ZM12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185ZM12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387ZM1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644ZM50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677ZM20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"/>
+                                </svg>
+                                <div class="mz-inner-row">
+                                    <h4>
+                                        Exercise and Stretches
+                                    </h4>
+                                    <p class="p-03">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-                                </p>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-features-item">
+                                <svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194ZM25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723ZM12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185ZM12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387ZM1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644ZM50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677ZM20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"/>
+                                </svg>
+                                <div class="mz-inner-row">
+                                    <h4>
+                                        Rehabilitation
+                                    </h4>
+                                    <p class="p-03">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-features-item">
+                                <svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194ZM25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723ZM12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185ZM12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387ZM1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644ZM50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677ZM20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"/>
+                                </svg>
+                                <div class="mz-inner-row">
+                                    <h4>
+                                        Massage
+                                    </h4>
+                                    <p class="p-03">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-features-item">
+                                <svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194ZM25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723ZM12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185ZM12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387ZM1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644ZM50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677ZM20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"/>
+                                </svg>
+                                <div class="mz-inner-row">
+                                    <h4>
+                                        Practice With Gadgets
+                                    </h4>
+                                    <p class="p-03">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div class="service-features-item">
-                            <svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194ZM25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723ZM12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185ZM12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387ZM1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644ZM50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677ZM20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"/>
-                            </svg>
-                            <div class="mz-inner-row">
-                                <h4>
-                                    Massage
-                                </h4>
-                                <p class="p-03">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="service-features-item">
-                            <svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194ZM25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723ZM12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185ZM12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387ZM1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644ZM50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677ZM20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"/>
-                            </svg>
-                            <div class="mz-inner-row">
-                                <h4>
-                                    Practice With Gadgets
-                                </h4>
-                                <p class="p-03">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-                                </p>
-                            </div>
-                        </div>
+                        <img class="mz-img"
+                            alt=""
+                            title=""
+                            src="/wp-content/themes/metodo-zenon/images/mz-zenon-services-section/MZ_ServicesPage_Featured_2.png"
+                            width=""
+                            height=""
+                            loading=""/>
+                        <p class="p-06 p-02">
+                            This is to suggest what students should understand and be able to do at specific grade levels, focusing on helping students to adopt a healthy lifestyle during the years of education from prekindergarten through college. The development of the Instructional Framework assumes that a health-enhancing level of physical fitness is attainable for all students through regular engagement in moderate to vigorous physical activity, regardless of gender, age, ethnicity or cultural background.
+                        </p>
+                        <ul class="benefits-list">
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Relieve Pain</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Improve movement or ability</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Prevent or recover from a sports injury</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Prevent disability or surgery</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Rehab after a stroke, accident, injury, or surgery</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Work on balance to prevent a slip or fall</span>
+                            </li>
+                        </ul>
                     </div>
-                    <img class="mz-img"
-                        alt=""
-                        title=""
-                        src="/wp-content/themes/metodo-zenon/images/mz-zenon-services-section/MZ_ServicesPage_Featured_2.png"
-                        width=""
-                        height=""
-                        loading=""/>
-                    <p class="p-06 p-02">
-                        This is to suggest what students should understand and be able to do at specific grade levels, focusing on helping students to adopt a healthy lifestyle during the years of education from prekindergarten through college. The development of the Instructional Framework assumes that a health-enhancing level of physical fitness is attainable for all students through regular engagement in moderate to vigorous physical activity, regardless of gender, age, ethnicity or cultural background.
-                    </p>
-                    <ul class="benefits-list">
-                        <li class="benefits-item">
-                            <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
-                            </svg>
-                            <span class="benefits-label">Relieve Pain</span>
-                        </li>
-                        <li class="benefits-item">
-                            <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
-                            </svg>
-                            <span class="benefits-label">Improve movement or ability</span>
-                        </li>
-                        <li class="benefits-item">
-                            <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
-                            </svg>
-                            <span class="benefits-label">Prevent or recover from a sports injury</span>
-                        </li>
-                        <li class="benefits-item">
-                            <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
-                            </svg>
-                            <span class="benefits-label">Prevent disability or surgery</span>
-                        </li>
-                        <li class="benefits-item">
-                            <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
-                            </svg>
-                            <span class="benefits-label">Rehab after a stroke, accident, injury, or surgery</span>
-                        </li>
-                        <li class="benefits-item">
-                            <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
-                            </svg>
-                            <span class="benefits-label">Work on balance to prevent a slip or fall</span>
-                        </li>
-                    </ul>
+                    <div id="physicaltherapy" class="servicecontent">
+                        <img class="mz-img"
+                            alt=""
+                            title=""
+                            src="/wp-content/themes/metodo-zenon/images/mz-zenon-services-section/MZ_ServicesPage_Featured_1.png"
+                            width=""
+                            height=""
+                            loading=""/>
+                        <h5>
+                            Physical Therapy
+                        </h5>
+                        <p class="p-06">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean. Mattis nunc sed blandit libero. Feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed id semper risus in. Varius vel pharetra vel turpis nunc eget. Ut etiam sit amet nisl purus. Imperdiet proin fermentum leo vel orci porta non. Integer feugiat scelerisque varius morbi enim. Sed ullamcorper morbi tincidunt ornare. Habitant morbi tristique senectus et netus et malesuada fames ac.
+                        </p>
+                        <div class="service-features-list">
+                            <div class="service-features-item">
+                                <svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194ZM25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723ZM12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185ZM12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387ZM1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644ZM50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677ZM20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"/>
+                                </svg>
+                                <div class="mz-inner-row">
+                                    <h4>
+                                        Exercise and Stretches
+                                    </h4>
+                                    <p class="p-03">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-features-item">
+                                <svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194ZM25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723ZM12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185ZM12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387ZM1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644ZM50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677ZM20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"/>
+                                </svg>
+                                <div class="mz-inner-row">
+                                    <h4>
+                                        Rehabilitation
+                                    </h4>
+                                    <p class="p-03">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-features-item">
+                                <svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194ZM25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723ZM12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185ZM12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387ZM1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644ZM50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677ZM20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"/>
+                                </svg>
+                                <div class="mz-inner-row">
+                                    <h4>
+                                        Massage
+                                    </h4>
+                                    <p class="p-03">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-features-item">
+                                <svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194ZM25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723ZM12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185ZM12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387ZM1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644ZM50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677ZM20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"/>
+                                </svg>
+                                <div class="mz-inner-row">
+                                    <h4>
+                                        Practice With Gadgets
+                                    </h4>
+                                    <p class="p-03">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="mz-img"
+                            alt=""
+                            title=""
+                            src="/wp-content/themes/metodo-zenon/images/mz-zenon-services-section/MZ_ServicesPage_Featured_2.png"
+                            width=""
+                            height=""
+                            loading=""/>
+                        <p class="p-06 p-02">
+                            This is to suggest what students should understand and be able to do at specific grade levels, focusing on helping students to adopt a healthy lifestyle during the years of education from prekindergarten through college. The development of the Instructional Framework assumes that a health-enhancing level of physical fitness is attainable for all students through regular engagement in moderate to vigorous physical activity, regardless of gender, age, ethnicity or cultural background.
+                        </p>
+                        <ul class="benefits-list">
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Relieve Pain</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Improve movement or ability</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Prevent or recover from a sports injury</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Prevent disability or surgery</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Rehab after a stroke, accident, injury, or surgery</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Work on balance to prevent a slip or fall</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="psychology" class="servicecontent">
+                        <img class="mz-img"
+                            alt=""
+                            title=""
+                            src="/wp-content/themes/metodo-zenon/images/mz-zenon-services-section/MZ_ServicesPage_Featured_1.png"
+                            width=""
+                            height=""
+                            loading=""/>
+                        <h5>
+                            Psychological Health & Habits
+                        </h5>
+                        <p class="p-06">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean. Mattis nunc sed blandit libero. Feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed id semper risus in. Varius vel pharetra vel turpis nunc eget. Ut etiam sit amet nisl purus. Imperdiet proin fermentum leo vel orci porta non. Integer feugiat scelerisque varius morbi enim. Sed ullamcorper morbi tincidunt ornare. Habitant morbi tristique senectus et netus et malesuada fames ac.
+                        </p>
+                        <div class="service-features-list">
+                            <div class="service-features-item">
+                                <svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194ZM25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723ZM12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185ZM12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387ZM1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644ZM50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677ZM20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"/>
+                                </svg>
+                                <div class="mz-inner-row">
+                                    <h4>
+                                        Exercise and Stretches
+                                    </h4>
+                                    <p class="p-03">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-features-item">
+                                <svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194ZM25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723ZM12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185ZM12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387ZM1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644ZM50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677ZM20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"/>
+                                </svg>
+                                <div class="mz-inner-row">
+                                    <h4>
+                                        Rehabilitation
+                                    </h4>
+                                    <p class="p-03">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-features-item">
+                                <svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194ZM25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723ZM12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185ZM12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387ZM1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644ZM50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677ZM20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"/>
+                                </svg>
+                                <div class="mz-inner-row">
+                                    <h4>
+                                        Massage
+                                    </h4>
+                                    <p class="p-03">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-features-item">
+                                <svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194ZM25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723ZM12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185ZM12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387ZM1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644ZM50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677ZM20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"/>
+                                </svg>
+                                <div class="mz-inner-row">
+                                    <h4>
+                                        Practice With Gadgets
+                                    </h4>
+                                    <p class="p-03">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="mz-img"
+                            alt=""
+                            title=""
+                            src="/wp-content/themes/metodo-zenon/images/mz-zenon-services-section/MZ_ServicesPage_Featured_2.png"
+                            width=""
+                            height=""
+                            loading=""/>
+                        <p class="p-06 p-02">
+                            This is to suggest what students should understand and be able to do at specific grade levels, focusing on helping students to adopt a healthy lifestyle during the years of education from prekindergarten through college. The development of the Instructional Framework assumes that a health-enhancing level of physical fitness is attainable for all students through regular engagement in moderate to vigorous physical activity, regardless of gender, age, ethnicity or cultural background.
+                        </p>
+                        <ul class="benefits-list">
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Relieve Pain</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Improve movement or ability</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Prevent or recover from a sports injury</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Prevent disability or surgery</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Rehab after a stroke, accident, injury, or surgery</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Work on balance to prevent a slip or fall</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="nutrition" class="servicecontent">
+                        <img class="mz-img"
+                            alt=""
+                            title=""
+                            src="/wp-content/themes/metodo-zenon/images/mz-zenon-services-section/MZ_ServicesPage_Featured_1.png"
+                            width=""
+                            height=""
+                            loading=""/>
+                        <h5>
+                            Nutrition
+                        </h5>
+                        <p class="p-06">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean. Mattis nunc sed blandit libero. Feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed id semper risus in. Varius vel pharetra vel turpis nunc eget. Ut etiam sit amet nisl purus. Imperdiet proin fermentum leo vel orci porta non. Integer feugiat scelerisque varius morbi enim. Sed ullamcorper morbi tincidunt ornare. Habitant morbi tristique senectus et netus et malesuada fames ac.
+                        </p>
+                        <div class="service-features-list">
+                            <div class="service-features-item">
+                                <svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194ZM25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723ZM12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185ZM12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387ZM1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644ZM50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677ZM20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"/>
+                                </svg>
+                                <div class="mz-inner-row">
+                                    <h4>
+                                        Exercise and Stretches
+                                    </h4>
+                                    <p class="p-03">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-features-item">
+                                <svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194ZM25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723ZM12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185ZM12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387ZM1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644ZM50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677ZM20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"/>
+                                </svg>
+                                <div class="mz-inner-row">
+                                    <h4>
+                                        Rehabilitation
+                                    </h4>
+                                    <p class="p-03">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-features-item">
+                                <svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194ZM25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723ZM12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185ZM12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387ZM1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644ZM50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677ZM20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"/>
+                                </svg>
+                                <div class="mz-inner-row">
+                                    <h4>
+                                        Massage
+                                    </h4>
+                                    <p class="p-03">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-features-item">
+                                <svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194ZM25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723ZM12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185ZM12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387ZM1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644ZM50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677ZM20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"/>
+                                </svg>
+                                <div class="mz-inner-row">
+                                    <h4>
+                                        Practice With Gadgets
+                                    </h4>
+                                    <p class="p-03">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="mz-img"
+                            alt=""
+                            title=""
+                            src="/wp-content/themes/metodo-zenon/images/mz-zenon-services-section/MZ_ServicesPage_Featured_2.png"
+                            width=""
+                            height=""
+                            loading=""/>
+                        <p class="p-06 p-02">
+                            This is to suggest what students should understand and be able to do at specific grade levels, focusing on helping students to adopt a healthy lifestyle during the years of education from prekindergarten through college. The development of the Instructional Framework assumes that a health-enhancing level of physical fitness is attainable for all students through regular engagement in moderate to vigorous physical activity, regardless of gender, age, ethnicity or cultural background.
+                        </p>
+                        <ul class="benefits-list">
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Relieve Pain</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Improve movement or ability</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Prevent or recover from a sports injury</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Prevent disability or surgery</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Rehab after a stroke, accident, injury, or surgery</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Work on balance to prevent a slip or fall</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="physicaltherapy2" class="servicecontent">
+                        <img class="mz-img"
+                            alt=""
+                            title=""
+                            src="/wp-content/themes/metodo-zenon/images/mz-zenon-services-section/MZ_ServicesPage_Featured_1.png"
+                            width=""
+                            height=""
+                            loading=""/>
+                        <h5>
+                            Physical Therapy
+                        </h5>
+                        <p class="p-06">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean. Mattis nunc sed blandit libero. Feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed id semper risus in. Varius vel pharetra vel turpis nunc eget. Ut etiam sit amet nisl purus. Imperdiet proin fermentum leo vel orci porta non. Integer feugiat scelerisque varius morbi enim. Sed ullamcorper morbi tincidunt ornare. Habitant morbi tristique senectus et netus et malesuada fames ac.
+                        </p>
+                        <div class="service-features-list">
+                            <div class="service-features-item">
+                                <svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194ZM25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723ZM12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185ZM12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387ZM1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644ZM50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677ZM20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"/>
+                                </svg>
+                                <div class="mz-inner-row">
+                                    <h4>
+                                        Exercise and Stretches
+                                    </h4>
+                                    <p class="p-03">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-features-item">
+                                <svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194ZM25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723ZM12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185ZM12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387ZM1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644ZM50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677ZM20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"/>
+                                </svg>
+                                <div class="mz-inner-row">
+                                    <h4>
+                                        Rehabilitation
+                                    </h4>
+                                    <p class="p-03">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-features-item">
+                                <svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194ZM25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723ZM12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185ZM12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387ZM1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644ZM50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677ZM20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"/>
+                                </svg>
+                                <div class="mz-inner-row">
+                                    <h4>
+                                        Massage
+                                    </h4>
+                                    <p class="p-03">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-features-item">
+                                <svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194ZM25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723ZM12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185ZM12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387ZM1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644ZM50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677ZM20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"/>
+                                </svg>
+                                <div class="mz-inner-row">
+                                    <h4>
+                                        Practice With Gadgets
+                                    </h4>
+                                    <p class="p-03">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="mz-img"
+                            alt=""
+                            title=""
+                            src="/wp-content/themes/metodo-zenon/images/mz-zenon-services-section/MZ_ServicesPage_Featured_2.png"
+                            width=""
+                            height=""
+                            loading=""/>
+                        <p class="p-06 p-02">
+                            This is to suggest what students should understand and be able to do at specific grade levels, focusing on helping students to adopt a healthy lifestyle during the years of education from prekindergarten through college. The development of the Instructional Framework assumes that a health-enhancing level of physical fitness is attainable for all students through regular engagement in moderate to vigorous physical activity, regardless of gender, age, ethnicity or cultural background.
+                        </p>
+                        <ul class="benefits-list">
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Relieve Pain</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Improve movement or ability</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Prevent or recover from a sports injury</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Prevent disability or surgery</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Rehab after a stroke, accident, injury, or surgery</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Work on balance to prevent a slip or fall</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="comprehensiveprograms" class="servicecontent">
+                        <img class="mz-img"
+                            alt=""
+                            title=""
+                            src="/wp-content/themes/metodo-zenon/images/mz-zenon-services-section/MZ_ServicesPage_Featured_1.png"
+                            width=""
+                            height=""
+                            loading=""/>
+                        <h5>
+                            Comprehensive Programs
+                        </h5>
+                        <p class="p-06">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean. Mattis nunc sed blandit libero. Feugiat nisl pretium fusce id velit ut tortor pretium. Nisl purus in mollis nunc sed id semper risus in. Varius vel pharetra vel turpis nunc eget. Ut etiam sit amet nisl purus. Imperdiet proin fermentum leo vel orci porta non. Integer feugiat scelerisque varius morbi enim. Sed ullamcorper morbi tincidunt ornare. Habitant morbi tristique senectus et netus et malesuada fames ac.
+                        </p>
+                        <div class="service-features-list">
+                            <div class="service-features-item">
+                                <svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194ZM25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723ZM12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185ZM12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387ZM1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644ZM50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677ZM20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"/>
+                                </svg>
+                                <div class="mz-inner-row">
+                                    <h4>
+                                        Exercise and Stretches
+                                    </h4>
+                                    <p class="p-03">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-features-item">
+                                <svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194ZM25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723ZM12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185ZM12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387ZM1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644ZM50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677ZM20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"/>
+                                </svg>
+                                <div class="mz-inner-row">
+                                    <h4>
+                                        Rehabilitation
+                                    </h4>
+                                    <p class="p-03">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-features-item">
+                                <svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194ZM25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723ZM12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185ZM12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387ZM1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644ZM50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677ZM20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"/>
+                                </svg>
+                                <div class="mz-inner-row">
+                                    <h4>
+                                        Massage
+                                    </h4>
+                                    <p class="p-03">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-features-item">
+                                <svg class="mz-svg" width="54" height="49" viewBox="0 0 54 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M47.5246 4.74194C47.5246 7.36084 45.4016 9.48387 42.7827 9.48387C40.1638 9.48387 38.0407 7.36084 38.0407 4.74194C38.0407 2.12304 40.1638 0 42.7827 0C45.4016 0 47.5246 2.12304 47.5246 4.74194ZM25.5315 3.29723C26.5967 2.23219 28.2637 2.06696 29.5202 2.90207L35.3612 6.94589C34.6949 7.25896 34.0857 7.65992 33.5691 8.17647L30.4809 11.2646L28.1696 9.59969L21.3083 16.461C20.0734 17.6959 18.0729 17.696 16.838 16.4611C15.6031 15.2262 15.6031 13.2257 16.838 11.9908L25.5315 3.29723ZM12.7506 4.74185H4.74196C3.86828 4.74185 3.16131 5.44882 3.16131 6.3225C3.16131 7.19617 3.86828 7.90314 4.74196 7.90314H12.7506C13.6242 7.90314 14.3312 7.19617 14.3312 6.3225C14.3312 5.44882 13.6242 4.74185 12.7506 4.74185ZM12.7506 17.387H4.74196C3.86828 17.387 3.16131 18.094 3.16131 18.9676C3.16131 19.8413 3.86828 20.5483 4.74196 20.5483H12.7506C13.6242 20.5483 14.3312 19.8413 14.3312 18.9676C14.3312 18.094 13.6242 17.387 12.7506 17.387ZM1.58065 11.0644H9.58925C10.4629 11.0644 11.1699 11.7713 11.1699 12.645C11.1699 13.5187 10.4629 14.2256 9.58925 14.2256H1.58065C0.70697 14.2256 0 13.5187 0 12.645C0 11.7713 0.70697 11.0644 1.58065 11.0644ZM50.7914 18.9677H41.2022V12.6452C41.2022 9.86892 37.806 8.40714 35.8048 10.411L23.1606 23.0552C21.9257 24.2901 21.9257 26.2906 23.1606 27.5255L30.4093 34.7742L21.5799 43.6036C20.345 44.8385 20.345 46.839 21.5799 48.0739C22.8147 49.3087 24.8153 49.3088 26.0502 48.0739L37.1147 37.0093C38.3496 35.7744 38.3496 33.774 37.1147 32.5391L29.866 25.2903L34.8796 20.2767V22.129C34.8796 23.8748 36.2951 25.2903 38.0409 25.2903H50.7914C52.5372 25.2903 53.9527 23.8748 53.9527 22.129C53.9527 20.3833 52.5372 18.9677 50.7914 18.9677ZM20.9254 29.7603C20.1244 28.9593 19.5897 27.9735 19.3078 26.9075L2.61211 43.6033C1.3772 44.8382 1.3772 46.8386 2.61211 48.0735C3.84691 49.3083 5.84748 49.3084 7.08238 48.0735L23.1605 31.9954L20.9254 29.7603Z" fill="#6F4A37"/>
+                                </svg>
+                                <div class="mz-inner-row">
+                                    <h4>
+                                        Practice With Gadgets
+                                    </h4>
+                                    <p class="p-03">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="mz-img"
+                            alt=""
+                            title=""
+                            src="/wp-content/themes/metodo-zenon/images/mz-zenon-services-section/MZ_ServicesPage_Featured_2.png"
+                            width=""
+                            height=""
+                            loading=""/>
+                        <p class="p-06 p-02">
+                            This is to suggest what students should understand and be able to do at specific grade levels, focusing on helping students to adopt a healthy lifestyle during the years of education from prekindergarten through college. The development of the Instructional Framework assumes that a health-enhancing level of physical fitness is attainable for all students through regular engagement in moderate to vigorous physical activity, regardless of gender, age, ethnicity or cultural background.
+                        </p>
+                        <ul class="benefits-list">
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Relieve Pain</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Improve movement or ability</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Prevent or recover from a sports injury</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Prevent disability or surgery</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Rehab after a stroke, accident, injury, or surgery</span>
+                            </li>
+                            <li class="benefits-item">
+                                <svg class="benefits-icon mz-svg" width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.2759 0.258764C13.369 0.176836 13.4801 0.111751 13.6027 0.0673184C13.7252 0.0228862 13.8569 0 13.9898 0C14.1228 0 14.2544 0.0228862 14.377 0.0673184C14.4996 0.111751 14.6106 0.176836 14.7037 0.258764C15.0937 0.598788 15.0992 1.14824 14.7173 1.49414L6.65399 9.71825C6.56244 9.80499 6.45134 9.8747 6.3275 9.92312C6.20365 9.97154 6.06965 9.99765 5.93371 9.99985C5.79777 10.0021 5.66273 9.9803 5.53686 9.93593C5.411 9.89156 5.29694 9.82549 5.20169 9.74178L0.295222 5.45207C0.105996 5.28557 0 5.06168 0 4.8285C0 4.59531 0.105996 4.37142 0.295222 4.20492C0.388287 4.123 0.499361 4.05791 0.621941 4.01348C0.74452 3.96905 0.876142 3.94616 1.0091 3.94616C1.14206 3.94616 1.27368 3.96905 1.39626 4.01348C1.51884 4.05791 1.62991 4.123 1.72298 4.20492L5.88488 7.844L13.2487 0.284648C13.2571 0.275556 13.2663 0.266912 13.2759 0.258764Z" fill="#7C4B31"></path>
+                                </svg>
+                                <span class="benefits-label">Work on balance to prevent a slip or fall</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
 	
     <?php echo do_shortcode('[mz-sc-section--video-testimonials-carousel]'); ?>
 
@@ -395,4 +995,28 @@
 		</footer>
 		
 	<?php endif; ?>
+
+    <script>
+        $(document).ready(function () {
+            $('.carousel-cell').click(function () {
+                var tab_id = $(this).attr('data-tab');
+                $('.carousel-cell').removeClass('active');
+                $('.servicelinks').removeClass('active');
+                $('.servicecontent').removeClass('active');
+                $(this).addClass('active');
+                $("#" + tab_id).addClass('active');
+                $("." + tab_id).addClass('active');
+            });
+            
+            $('.servicelinks').click(function () {
+                var tab_id = $(this).attr('data-tab');
+                $('.servicelinks').removeClass('active');
+                $('.carousel-cell').removeClass('active');
+                $('.servicecontent').removeClass('active');
+                $(this).addClass('active');
+                $("#" + tab_id).addClass('active');
+                $("." + tab_id).addClass('active');
+            });
+        });
+    </script>
 </article>
