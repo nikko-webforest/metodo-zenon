@@ -164,6 +164,53 @@ function metodo_zenon_setup() {
 			),
 		)
 	);
+
+	register_post_type( 'services',
+		array(
+			'labels' => array(
+				'name'          => __( 'Services' ),
+				'singular_name' => __( 'Service' ),
+				'menu_name'     => __( 'Services' ),
+				'add_new'       => __( 'Add Service' ),
+				'add_new_item'  => __( 'Add New Service' ),
+				'new_item'      => __( 'New Service' ),
+				'edit_item'     => __( 'Edit Testimonail' ),
+				'view_item'     => __( 'View Service' ),
+				'update_item'   => __( 'Update Service' ),
+				'all_items'     => __( 'All Services' ),
+				'search_items'  => __( 'Search Services' )
+			),
+			'public'              => true,
+			'has_archive'         => true,
+			'rewrite' => array(
+				'slug'        => 'services',
+				'with_front'  => false
+			),
+			'exclude_from_search' => true,
+			'publicly_queryable'  => true,
+			'show_in_nav_menus'   => true,
+			'show_in_admin_bar'   => true,
+			'show_in_menu'        => true,
+			'show_in_rest'        => true,
+			'menu_icon'           => 'dashicons-admin-generic',
+			'menu_position'       => 11,
+			'capability_type'     => 'page',
+			'can_export'          => true,
+			'supports' => array(
+				'title',
+				'editor',
+				'excerpt',
+				// 'author',
+				// 'category',
+				'custom-fields',
+				'thumbnail',
+				// 'trackbacks',
+				'revisions',
+				'page-attributes',
+				'post-formats',
+			),
+		)
+	);
 }
 add_action( 'after_setup_theme', 'metodo_zenon_setup' );
 

@@ -22,7 +22,19 @@ get_header();
 			while ( have_posts() ) :
 				the_post();
 
-				get_template_part( 'template-parts/content-services' );
+				$servicesArgs = array(
+					'post_type'   => 'services',
+					'post_status' => 'publish',
+					'orderby'     => 'date',
+					'order'       => 'ASC',
+				);
+
+				$servicesQuery = new WP_Query( $servicesArgs );
+				
+
+				get_template_part( 'template-parts/content', 'services', array(
+					'posts' => $servicesQuery
+				));
 
 				// If comments are open or we have at least one comment, load up the comment template.
 				// if ( comments_open() || get_comments_number() ) :
