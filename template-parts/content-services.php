@@ -130,7 +130,7 @@
             </div>
 		</div>
 	</section>
-    <section class="uc-sf-section uc-sf-section--body" id="uc-sf-section--body">
+    <section class="mz-section mz-section--body" id="mz-section--body">
         <div class="mz-container">
             <div class="mz-row">
                 <div class="mz-col">
