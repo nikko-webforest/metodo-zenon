@@ -1,5 +1,7 @@
 .mz-sc-section--about-zenon-carousel {
   background:
+    -webkit-linear-gradient( 180deg, #49230C 0%, #0B0D0F 100% );
+  background:
     linear-gradient( 180deg, #49230C 0%, #0B0D0F 100% );
   height: 100vh;
   padding: 150px 30px 50px;
@@ -33,6 +35,8 @@
         line-height: 1.3em;
         display: block;
         height: 140px;
+        background:
+          -webkit-linear-gradient( 180deg, #C2AB90 0%, #8B663E 100% );
         background:
           linear-gradient( 180deg, #C2AB90 0%, #8B663E 100% );
         opacity: 0.14;

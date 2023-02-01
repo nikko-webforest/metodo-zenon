@@ -300,7 +300,8 @@
     box-shadow: 0 4px 8px rgb(0 0 0 / 25%);
     opacity: 1;
     transform: translate(-50%, -50%);
-    transition: all 200ms ease-in-out;
+    transition:
+      all 200ms ease-in-out;
   
     svg {
       display: block;
@@ -323,9 +324,15 @@
   .mz-footer {
     background:
       url('images/MZ_Footer_Z_ds-light.svg') no-repeat center/cover,
+      -webkit-linear-gradient( 180deg, #000000 0, #000000 100% );
+    background:
+      url('images/MZ_Footer_Z_ds-light.svg') no-repeat center/cover,
       linear-gradient( 180deg, #000000 0, #000000 100% );
 
     @media only screen and (max-width: 768px) {
+      background:
+        url('images/MZ_Footer_Z_mb-light.svg') no-repeat center/cover,
+        -webkit-linear-gradient( 180deg, #000000 0, #000000 100% );
       background:
         url('images/MZ_Footer_Z_mb-light.svg') no-repeat center/cover,
         linear-gradient( 180deg, #000000 0, #000000 100% );
@@ -337,9 +344,15 @@
   .mz-footer {
     background:
       url('images/MZ_Footer_Z_ds-dark.svg') no-repeat center/cover,
+      -webkit-linear-gradient( 180deg, #181818 0, #181818 100% );
+    background:
+      url('images/MZ_Footer_Z_ds-dark.svg') no-repeat center/cover,
       linear-gradient( 180deg, #181818 0, #181818 100% );
 
     @media only screen and (max-width: 768px) {
+      background:
+        url('images/MZ_Footer_Z_mb-dark.svg') no-repeat center/cover,
+        -webkit-linear-gradient( 180deg, #181818 0, #181818 100% );
       background:
         url('images/MZ_Footer_Z_mb-dark.svg') no-repeat center/cover,
         linear-gradient( 180deg, #181818 0, #181818 100% );

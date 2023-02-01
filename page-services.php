@@ -1,22 +1,22 @@
 <?php
-/**
- * The template for displaying all pages
- *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site may use a
- * different template.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package metodo_zenon
- */
+	/**
+	 * The template for displaying all pages
+	 *
+	 * This is the template that displays all pages by default.
+	 * Please note that this is the WordPress construct of pages
+	 * and that other 'pages' on your WordPress site may use a
+	 * different template.
+	 *
+	 * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+	 *
+	 * @package metodo_zenon
+	 */
 
-get_header();
+	get_header();
 ?>
 
 	<!-- #main -->
-	<main id="primary" class="mz-main services-main">
+	<main id="primary" class="mz-main page-services">
 		
 		<?php
 			while ( have_posts() ) :
@@ -32,7 +32,7 @@ get_header();
 				$servicesQuery = new WP_Query( $servicesArgs );
 				
 
-				get_template_part( 'template-parts/content', 'services', array(
+				get_template_part( 'template-parts/page', 'services', array(
 					'posts' => $servicesQuery
 				));
 
@@ -44,10 +44,8 @@ get_header();
 			endwhile; // End of the loop.
 		?>
 
-		
-
 	</main>
 
 <?php
-	get_sidebar();
+	// get_sidebar();
 	get_footer();

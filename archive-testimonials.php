@@ -1,22 +1,22 @@
 <?php
-/**
- * The template for displaying archive pages
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package metodo_zenon
- */
+	/**
+	 * The template for displaying archive pages
+	 *
+	 * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+	 *
+	 * @package metodo_zenon
+	 */
 
-get_header();
+	get_header();
 ?>
 
 	<!-- #main -->
-	<main id="primary" class="mz-main">
+	<main id="primary" class="mz-main archive-testimonials">
 		
-	testimonails archivesadsadsad
+		testimonails archive
 
 	</main>
 
 <?php
-get_sidebar();
-get_footer();
+	// get_sidebar();
+	get_footer();

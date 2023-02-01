@@ -1,13 +1,13 @@
 <?php
-/**
- * The template for displaying all single posts
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
- *
- * @package metodo_zenon
- */
+	/**
+	 * The template for displaying all single posts
+	 *
+	 * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
+	 *
+	 * @package metodo_zenon
+	 */
 
-get_header();
+	get_header();
 ?>
 
 	<!-- #main -->
@@ -49,5 +49,5 @@ get_header();
 	</main>
 
 <?php
-	get_sidebar();
+	// get_sidebar();
 	get_footer();

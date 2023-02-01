@@ -60,12 +60,10 @@
 									<?php endif; ?>
 
 								</div>
-								<a class="services-card-link mz-cta--primary mz-cta"
-									title="Learn More"
-									href="#<?php echo strtolower( $post->post_title ); ?>"
-									rel="">
+								<button class="services-card-link mz-cta--primary mz-cta"
+									title="Learn More">
 									Learn More
-								</a>
+								</button>
 							</div>
 						</div>
 
@@ -82,7 +80,8 @@
 
 		</div>
 	</section>
-	<section class="mz-section mz-section--other-services">
+	<section class="mz-section mz-section--other-services"
+		id="mz-section--other-services">
 		<div class="mz-container">
 			<div class="mz-row">
 				<div class="mz-col">
@@ -253,6 +252,14 @@
 
 				$('.mz-tabpane-service-content').removeClass('active');
 				$('.mz-tabpane-service-content#'+data_tab).addClass('active');
+
+				const element = document.querySelector(".mz-section--other-services");
+				element.scrollIntoView();
+			});
+
+			$('.services-card-link').click(function () {
+				const element = document.querySelector(".mz-section--other-services");
+				element.scrollIntoView();
 			});
 		});
 	</script>

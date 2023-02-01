@@ -35,7 +35,7 @@ get_header();
 				'paged'          => $paged
 			));
 
-			get_template_part( 'template-parts/content', 'blog', array(
+			get_template_part( 'template-parts/page', 'blog', array(
 				'categories'      => $categories,
 				'active-cat-name' => $category->name,
 				'active-cat-slug' => $category->slug,

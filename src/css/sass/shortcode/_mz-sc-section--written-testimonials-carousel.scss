@@ -248,6 +248,8 @@
     z-index: 1;
     display: block;
     background:
+      -webkit-linear-gradient( 90deg, #EFEEF0, #DCDDE1 75.26%, #BDBCBF 100% );
+    background:
       linear-gradient( 90deg, #EFEEF0, #DCDDE1 75.26%, #BDBCBF 100% );
     width: 100%;
     height: calc(50% + 25px);
@@ -261,6 +263,8 @@
 .theme-dark {
   .mz-sc-section--written-testimonials-carousel {
     .mz-container {
+      background:
+        -webkit-linear-gradient( 180deg, #825036 0%, #49230C 100% );
       background:
         linear-gradient( 180deg, #825036 0%, #49230C 100% );
     }

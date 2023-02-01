@@ -183,7 +183,7 @@ function metodo_zenon_setup() {
 			'public'              => true,
 			'has_archive'         => true,
 			'rewrite' => array(
-				'slug'        => 'services',
+				'slug'        => 'service',
 				'with_front'  => false
 			),
 			'exclude_from_search' => true,

@@ -87,6 +87,8 @@
         text-transform: uppercase;
         display: block;
         background:
+          -webkit-linear-gradient( 180deg, #BDBCBF 0, #512912 100% );
+        background:
           linear-gradient( 180deg, #BDBCBF 0, #512912 100% );
         max-width: 125px;
         min-width: 100px;

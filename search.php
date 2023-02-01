@@ -1,13 +1,13 @@
 <?php
-/**
- * The template for displaying search results pages
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
- *
- * @package metodo_zenon
- */
+	/**
+	 * The template for displaying search results pages
+	 *
+	 * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
+	 *
+	 * @package metodo_zenon
+	 */
 
-get_header();
+	get_header();
 ?>
 
 	<!-- #main -->
@@ -16,11 +16,7 @@ get_header();
 		<section class="mz-section mz-search-result-section">
 			<div class="mz-container">
 
-				<?php
-
-					if ( have_posts() ) :
-						
-					?>
+				<?php if ( have_posts() ) : ?>
 
 					<!-- .page-header -->
 					<header class="page-header">
@@ -48,14 +44,14 @@ get_header();
 						endwhile;
 
 						the_posts_navigation();
-
-					else :
-
-						get_template_part( 'template-parts/content', 'none' );
-
-					endif;
 					
-				?>
+					?>
+
+				<?php else : ?>
+
+					<?php get_template_part( 'template-parts/content', 'none' ); ?>
+
+				<?php endif; ?>
 
 			</div>
 		</section>
@@ -63,5 +59,5 @@ get_header();
 	</main>
 
 <?php
-	get_sidebar();
+	// get_sidebar();
 	get_footer();
