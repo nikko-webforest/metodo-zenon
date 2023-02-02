@@ -1,7 +1,9 @@
-<section class="mz-section mz-sc-section--video-testimonials-carousel">
-  <div class="mz-container">
-    <h2>Video Testimonials</h2>
-    <?php if( count($args['posts']->posts) > 0 ) : ?>
+<?php if( count($args['posts']->posts) > 0 ) : ?>
+  <section class="mz-section mz-sc-section--video-testimonials-carousel">
+    <div class="mz-container">
+      <h2>
+        Video Testimonials
+      </h2>
       <div class="testimonial-carousel-main"
         data-flickity='{
           "cellAlign": "center",
@@ -47,7 +49,7 @@
               </button>
               <video
                 class="video"
-                src="<?php echo get_post_meta( $post->ID, $key = 'video_testimonial', true ); ?>"
+                src="<?php the_field('video_testimonial_link'); ?>"
                 onpause="video_testimonials_onpause(<?php echo $postIndex; ?>)"
                 onplay="video_testimonials_onplay(<?php echo $postIndex; ?>)">
               </video>
@@ -56,79 +58,77 @@
           <?php $postIndex++; ?>
         <?php endforeach; ?>
       </div>
-    <?php else : ?>
-      <h2 class="no-video-testimonial-found">NO VIDEO TESTIMONIAL FOUND</h2>
-    <?php endif; ?>
-  </div>
-</section>
-<script>
-  var testimonialLength = $('.testimonial-carousel-cell').length;
+    </div>
+  </section>
+  <script>
+    var testimonialLength = $('.testimonial-carousel-cell').length;
 
-  function video_testimonials_toggle_play(videoID) {    
-    console.log('videoID           = '+videoID);
-    console.log('testimonialLength = '+testimonialLength);
+    function video_testimonials_toggle_play(videoID) {    
+      console.log('videoID           = '+videoID);
+      console.log('testimonialLength = '+testimonialLength);
 
-    for( var i = 1; i <= testimonialLength; i++ ){
-      console.log('i                = '+i);
-      if( i != videoID ){
-        $('.testimonial-carousel-cell:nth-child('+i+') .video-container video')[0].pause();
-        $('.testimonial-carousel-cell:nth-child('+i+') .video-container video')[0].currentTime = 0;
-        $('.testimonial-carousel-cell:nth-child('+i+') .video-container .video-button.--play-pause').removeClass('control-play').addClass('control-pause');
+      for( var i = 1; i <= testimonialLength; i++ ){
+        console.log('i                = '+i);
+        if( i != videoID ){
+          $('.testimonial-carousel-cell:nth-child('+i+') .video-container video')[0].pause();
+          $('.testimonial-carousel-cell:nth-child('+i+') .video-container video')[0].currentTime = 0;
+          $('.testimonial-carousel-cell:nth-child('+i+') .video-container .video-button.--play-pause').removeClass('control-play').addClass('control-pause');
+        }
       }
-    }
 
-    if( $('.testimonial-carousel-cell:nth-child('+videoID+') .video-container video')[0].paused ){
-      $('.testimonial-carousel-cell:nth-child('+videoID+') .video-container video')[0].play();
-      $('.testimonial-carousel-cell:nth-child('+videoID+') .video-container .video-button.--play-pause').removeClass('control-pause').addClass('control-play');
-    }
-    else {
-      $('.testimonial-carousel-cell:nth-child('+videoID+') .video-container video')[0].pause();
-      $('.testimonial-carousel-cell:nth-child('+videoID+') .video-container .video-button.--play-pause').removeClass('control-play').addClass('control-pause');
-    }
-    $('.testimonial-carousel-cell:nth-child('+videoID+') .video-container video').on('ended', function(){
-      $('.testimonial-carousel-cell:nth-child('+videoID+') .video-container video')[0].pause();
-      $('.testimonial-carousel-cell:nth-child('+videoID+') .video-container video')[0].currentTime = 0;
-      $('.testimonial-carousel-cell:nth-child('+videoID+') .video-container .video-button.--play-pause').removeClass('control-play').addClass('control-pause');
-    });
-  }
-
-  function video_testimonials_toggle_fullscreen(videoID) {
-
-    var testimonialVideo = $('.testimonial-carousel-cell:nth-child('+videoID+') .video-container video')[0];
-    var isFullscreen = false;
-    
-    if( document.fullscreenElement === null ){
-      isFullscreen = true;
-      if( testimonialVideo.webkitRequestFullscreen ){
-        testimonialVideo.webkitRequestFullscreen();
-      }
-      else if( testimonialVideo.msRequestFullscreen ){
-        testimonialVideo.msRequestFullscreen();
+      if( $('.testimonial-carousel-cell:nth-child('+videoID+') .video-container video')[0].paused ){
+        $('.testimonial-carousel-cell:nth-child('+videoID+') .video-container video')[0].play();
+        $('.testimonial-carousel-cell:nth-child('+videoID+') .video-container .video-button.--play-pause').removeClass('control-pause').addClass('control-play');
       }
       else {
-        testimonialVideo.requestFullscreen();
+        $('.testimonial-carousel-cell:nth-child('+videoID+') .video-container video')[0].pause();
+        $('.testimonial-carousel-cell:nth-child('+videoID+') .video-container .video-button.--play-pause').removeClass('control-play').addClass('control-pause');
+      }
+      $('.testimonial-carousel-cell:nth-child('+videoID+') .video-container video').on('ended', function(){
+        $('.testimonial-carousel-cell:nth-child('+videoID+') .video-container video')[0].pause();
+        $('.testimonial-carousel-cell:nth-child('+videoID+') .video-container video')[0].currentTime = 0;
+        $('.testimonial-carousel-cell:nth-child('+videoID+') .video-container .video-button.--play-pause').removeClass('control-play').addClass('control-pause');
+      });
+    }
+
+    function video_testimonials_toggle_fullscreen(videoID) {
+
+      var testimonialVideo = $('.testimonial-carousel-cell:nth-child('+videoID+') .video-container video')[0];
+      var isFullscreen = false;
+      
+      if( document.fullscreenElement === null ){
+        isFullscreen = true;
+        if( testimonialVideo.webkitRequestFullscreen ){
+          testimonialVideo.webkitRequestFullscreen();
+        }
+        else if( testimonialVideo.msRequestFullscreen ){
+          testimonialVideo.msRequestFullscreen();
+        }
+        else {
+          testimonialVideo.requestFullscreen();
+        }
+      }
+      else {
+        if( document.exitFullscreen ){
+          document.exitFullscreen();
+        }
+        else if( document.webkitExitFullscreen ){ /* Safari, Chrome */
+          document.webkitExitFullscreen();
+        }
+        else if( document.msExitFullscreen ){ /* IE11 */
+          document.msExitFullscreen();
+        }
       }
     }
-    else {
-      if( document.exitFullscreen ){
-        document.exitFullscreen();
-      }
-      else if( document.webkitExitFullscreen ){ /* Safari, Chrome */
-        document.webkitExitFullscreen();
-      }
-      else if( document.msExitFullscreen ){ /* IE11 */
-        document.msExitFullscreen();
-      }
+
+    function video_testimonials_onpause(videoID) {
+      console.log('onpause videoID = '+videoID);
+      $('.testimonial-carousel-cell:nth-child('+(videoID)+') .video-container .video-button.--play-pause').removeClass('control-play').addClass('control-pause');
     }
-  }
 
-  function video_testimonials_onpause(videoID) {
-    console.log('onpause videoID = '+videoID);
-    $('.testimonial-carousel-cell:nth-child('+(videoID)+') .video-container .video-button.--play-pause').removeClass('control-play').addClass('control-pause');
-  }
-
-  function video_testimonials_onplay(videoID) {
-    console.log('onplay videoID = '+videoID);
-    $('.testimonial-carousel-cell:nth-child('+(videoID)+') .video-container .video-button.--play-pause').removeClass('control-pause').addClass('control-play');
-  }
-</script>
+    function video_testimonials_onplay(videoID) {
+      console.log('onplay videoID = '+videoID);
+      $('.testimonial-carousel-cell:nth-child('+(videoID)+') .video-container .video-button.--play-pause').removeClass('control-pause').addClass('control-play');
+    }
+  </script>
+<?php endif; ?>

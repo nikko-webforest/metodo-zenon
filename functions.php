@@ -131,6 +131,7 @@ function metodo_zenon_setup() {
 			'show_in_nav_menus'   => true,
 			'show_in_admin_bar'   => true,
 			'show_in_menu'        => true,
+			'show_in_rest'        => true,
 			'menu_icon'           => 'dashicons-video-alt3',
 			'menu_position'       => 10,
 			'capability_type'     => 'post',
