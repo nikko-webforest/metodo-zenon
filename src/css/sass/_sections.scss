@@ -821,7 +821,7 @@
               line-height: 1.1em;
             }
 
-            .mz-a-link.mz-link-more-info {
+            .mz-link--more-info {
               color: #6F4A37;
               font-style: normal;
               font-size: 16px;
@@ -966,7 +966,7 @@
             }
 
             .mz-inner-row {
-              .mz-a-link.mz-link-more-info {
+              .mz-link--more-info {
                 span {
                   &:nth-child(1) {
                     color: #B59C7E;

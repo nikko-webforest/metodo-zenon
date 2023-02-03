@@ -1,17 +1,10 @@
 <?php if( count($args['posts']->posts) > 0 ) : ?>
-  <section class="mz-section mz-sc-section--recent-articles">
+  <section class="mz-section mz-sc-section--articles-you-might-like">
     <div class="mz-container">
-      <div class="mz-row mz-title-row">
-        <h2>
-          Últimos artículos
-        </h2>
-        <a class="mz-cta mz-cta-more-articles"
-          title="Más contenido"
-          href="/blog">
-          Más contenido
-        </a>
-      </div>
-      <div class="mz-row mz-recent-articles-row">
+      <h2>
+        Articles You Might Like
+      </h2>
+      <div class="mz-row article-row">
         <?php foreach( $args['posts']->posts as $item ): ?>
           <?php
             $recentArticleFeatureImg = '';
@@ -22,10 +15,10 @@
               $recentArticleFeatureImg = '/wp-content/themes/metodo-zenon/images/MZ_Blog_Temp_Article_Featured_img-320x215.png';
             }
           ?>
-          <div class="mz-col mz-recent-articles-col-<?php echo $item->ID; ?>"
+          <div class="mz-col article-col-<?php echo $item->ID; ?>"
             id="article-<?php echo $item->ID; ?>">
-            <div class="mz-recent-article-img-wrap">
-              <img class="mz-img mz-recent-article-img"
+            <div class="article-img-wrap">
+              <img class="mz-img mz-article-img"
                 alt="<?php echo $item->post_title; ?>"
                 title="<?php echo $item->post_title; ?>"
                 src="<?php echo $recentArticleFeatureImg; ?>'"
@@ -33,18 +26,18 @@
                 height=""
                 loading="lazy"/>
             </div>
-            <div class="mz-recent-article-details-wrap">
-              <h3 class="mz-recent-article-title">
+            <div class="article-details-wrap">
+              <h3 class="article-title">
                 <?php echo $item->post_title; ?>
               </h3>
-              <p class="mz-recent-article-excerpt">
+              <p class="article-excerpt">
                 <?php echo strip_tags( substr( $item->post_content, 0, 250 ) ).' ...'; ?>
               </p>
               <div class="mz-inner-row">
-                <div class="mz-recent-article-released-date">
+                <div class="article-released-date">
                   <?php echo date_format( date_create( $item->post_date ), 'M j, Y' ); ?>
                 </div>
-                <a class="mz-a-link mz-link-more-info"
+                <a class="mz-link mz-link--more-info"
                   title="<?php echo $item->post_title; ?>"
                   href="<?php echo get_permalink($item->ID); ?>"
                   rel="">

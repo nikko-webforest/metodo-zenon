@@ -29,7 +29,7 @@
 			In Zenon Method you will be able to work with a coordinated team of training, nutrition, physiotherapy and psychology professionals in the same location, who will design a program configured to your needs with clearly established objectives and will guide you throughout the process, saving time, effort and difficulties during the process.
 			</p>
 		</div>
-    </section>
+	</section>
 
 	<section class="mz-section mz-sc-section--mz-coaches-carousel">
 		<div class="mz-container">
@@ -189,8 +189,7 @@
 			</div>
 		</div>
 	</section>
-
-	<!-- <?php echo do_shortcode('[mz-sc-section--coaches-carousel]'); ?> -->
+	
 	<!-- .entry-content -->
 	<div class="entry-content">
 		<?php

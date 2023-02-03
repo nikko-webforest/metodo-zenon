@@ -877,6 +877,37 @@ add_shortcode( 'mz-sc-section--recent-articles', function ( $atts, $conent = nul
 
 });
 
+add_shortcode( 'mz-sc-section--articles-you-might-like', function ( $atts, $conent = null ){
+
+	$attributes = shortcode_atts([
+		'title' => 'Lorem Ipsum'
+	], $atts);
+
+	$args = array(
+		'post_type'      => 'post',
+		'post_status'    => 'publish',
+		'posts_per_page' => 3,
+		'orderby'        => 'date',
+		'order'          => 'DESC'
+	);
+
+	$query = new WP_Query( $args );
+
+	ob_start();
+	get_template_part( 'template-parts/sections/section', 'articles-you-might-like', array(
+		'title' => $attributes['title'],
+		'posts' => $query
+	));
+
+	$output = ob_get_contents();
+	ob_end_clean();
+
+	wp_reset_postdata();
+	
+	return $output;
+
+});
+
 add_shortcode( 'mz-sc-section--coaches-carousel', function ( $atts, $content = null ){
 
 	$attributes = shortcode_atts([

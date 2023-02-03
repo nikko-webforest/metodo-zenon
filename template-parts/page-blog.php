@@ -116,7 +116,7 @@
 											echo date_format($dateCreate, 'M d, Y');
 										?>
 									</div>
-									<a class="mz-a-link mz-link-more-info"
+									<a class="mz-link mz-link--more-info"
 										title="<?php echo $post->post_name; ?>"
 										href="<?php echo get_permalink(); ?>"
 										rel="">

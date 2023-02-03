@@ -1,0 +1,199 @@
+.mz-sc-section--articles-you-might-like {
+  padding: 145px 30px 140px;
+
+  @media only screen and (max-width: 1180px) {
+    padding: 100px 30px;
+  }
+  
+  .mz-container {
+    max-width: 1040px;
+
+    h2 {
+      color: #0A0A0A;
+      font-style: normal;
+      font-size: 32px;
+      font-weight: 700;
+      text-align: center;
+      text-transform: uppercase;
+      line-height: 1.2em;
+      letter-spacing: -0.02em;
+      width: max-content;
+      margin: 0 auto 65px;
+
+      @media only screen and (max-width: 1180px) {
+        font-size: 30px;
+      }
+    }
+
+    .mz-row {
+      &.article-row {
+        justify-content: center;
+        align-items: stretch;
+        gap: 30px 40px;
+
+        @media only screen and (max-width: 1180px) {
+          flex-wrap: wrap;
+          gap: 30px;
+        }
+
+        .mz-col {
+          background-color: #FFFFFF;
+          max-width: 320px;
+          width: 100%;
+
+          .article-img-wrap {
+            background-color: #808080;
+            overflow: hidden;
+
+            .article-img {
+              object-fit: cover;
+              object-position: center;
+              width: 100%;
+              height: 215px;
+            }
+          }
+
+          .article-details-wrap {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 25px 0;
+            background-color: #F0F0F0;
+            height: calc(100% - 215px);
+            padding: 30px 20px;
+
+            .article-title {
+              color: #000000;
+              font-family: $primary-font-family;
+              font-style: normal;
+              font-size: 20px;
+              font-weight: 700;
+              text-transform: uppercase;
+              letter-spacing: -0.02em;
+              line-height: 1.25em;
+              margin: 0;
+            }
+
+            .article-excerpt {
+              color: #373F41;
+              font-style: normal;
+              font-size: 14px;
+              font-weight: 300;
+              line-height: 1.5em;
+              min-height: 100px;
+              margin: 0 0 15px;
+            }
+
+            .mz-inner-row {
+              justify-content: space-between;
+              align-items: center;
+              width: 100%;
+              margin: auto 0 0 0;
+
+              .article-released-date {
+                color: #AFACB4;
+                font-style: normal;
+                font-size: 16px;
+                font-weight: 300;
+                text-transform: uppercase;
+                letter-spacing: -0.02em;
+                line-height: 1.15em;
+              }
+              
+              .mz-link--more-info {
+                color: #6F4A37;
+                font-style: normal;
+                font-size: 17px;
+                font-weight: 700;
+                text-decoration: none;
+                text-transform: uppercase;
+                line-height: 1.25em;
+                display: inline-block;
+                vertical-align: middle;
+
+                span {
+                  display: inline-block;
+                  vertical-align: middle;
+
+                  &:nth-child(1) {
+                    margin: 0 8px 0 0;
+                  }
+
+                  &:nth-child(2) {
+                    width: 20px;
+                    overflow: hidden;
+                    transition: width $hover-transition-duration ease-in-out;
+
+                    svg {
+                      display: block;
+                      float: right;
+
+                      path {
+                        stroke: #6F4A37;
+                      }
+                    }
+                  }
+                }
+
+                &:hover {
+                  span {
+                    &:nth-child(2) {
+                      width: 35px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.theme-dark {
+  .mz-sc-section--articles-you-might-like {
+    background: #0B0D0F;
+    background-color: #0B0D0F;
+
+    .mz-container {
+      h2 {
+        color: #FFFFFF;
+      }
+
+      .mz-row {
+        &.article-row {
+          .mz-col {
+            background-color: #181818;
+
+            .article-title {
+              color: #FFFFFF;
+            }
+
+            .article-excerpt {
+              color: #AFACB4;
+            }
+
+            .mz-inner-row {
+              .mz-link--more-info {
+                span {
+                  &:nth-child(1) {
+                    color: #B59C7E;
+                  }
+
+                  &:nth-child(2) {
+                    svg {
+                      path {
+                        stroke: #B59C7E;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
