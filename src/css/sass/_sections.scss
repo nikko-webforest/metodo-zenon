@@ -2846,3 +2846,478 @@
     }
   }
 }
+
+/*===== Zenon Family Page =====*/
+.mz-section--about-us {
+  margin: 100px 0;
+
+  .p-01 {
+    color: #6F4A37;
+    font-family: $primary-font-family;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    line-height: 1em;
+    width: max-content;
+    margin: 0 auto 16px;
+
+    @media only screen and (max-width: 480px) {
+      font-size: 18px;
+      margin: 0 auto 10px;
+    }
+  }
+
+  h2 {
+    color: #0A0A0A;
+    font-family: $primary-font-family;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    line-height: 1.1em;
+    max-width: 840px;
+    width: 100%;
+    margin: 0 auto 24px;
+    text-transform: uppercase;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 28px;
+    }
+
+    @media only screen and (max-width: 480px) {
+      font-size: 25px;
+    }
+  }
+
+  p {
+    color: #373F41;
+    font-family: $primary-font-family;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    line-height: 24px;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+
+  }
+
+}
+
+.mz-sc-section--mz-coaches-carousel {
+  z-index: 1;
+  background-color: $white-color;
+  padding: 0 0 50px;
+
+  @media only screen and (max-width: 1180px) {
+    padding: 0 30px 50px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    margin: 0 auto;
+  }
+
+  .mz-container {
+    position: relative;
+    z-index: 2;
+    background-color: #49230C;
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 35px;
+
+    @media only screen and (max-width: 1180px) {
+      padding: 60px 30px;
+    }
+
+    @media only screen and (max-width: 768px) {
+      max-width: 600px;
+      padding: 40px;
+    }
+
+    @media only screen and (max-width: 480px) {
+      padding: 20px;
+    }
+
+    .carousel-main {
+
+      .carousel-cell {
+        max-width: 285px;
+        width: 100%;
+        transition: opacity 300ms ease-in-out;
+        display: flex;
+        flex: row;
+        align-items: center;
+        gap: 30px;
+        padding: 40px 0;
+        opacity: 0.7;
+        // @media only screen and (max-width: 768px) {
+        //   opacity: 0.7;
+        // }
+
+        &.is-selected {
+          @media only screen and (max-width: 768px) {
+            opacity: 1;
+          }
+        }
+
+        &:hover {
+          opacity: 0.9;
+          cursor: pointer;
+        }
+
+        &.active {
+          border-bottom: 5px solid $white-color;
+          opacity: 1;
+        }
+
+        .coach-img-wrap {
+          margin: 0 0;
+
+          .coach-img {
+            width: 100%;
+            height: auto;
+            margin: auto;
+          }
+        }
+        .coach-details-wrap {
+          
+          .coach-type {
+            color: $septenary-color;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 18px;
+            width: 100%;
+            margin: 0 0;
+            text-transform: uppercase;
+          }
+          
+          .coach-name {
+            color: $white-color;
+            font-family: $primary-font-family;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            letter-spacing: -0.02em;
+            text-transform: uppercase;
+            line-height: 1em;
+            margin: 0 0;
+          }
+        }
+      }
+
+      &.flickity-enabled {
+        .flickity-viewport {
+          .flickity-slider {
+            .carousel-cell {
+              // padding: 0 25px;
+              transition: opacity 300ms ease-in-out;
+
+              @media only screen and (max-width: 768px) {
+                padding: 0 20px;
+              }
+
+              @media only screen and (max-width: 480px) {
+                max-width: 300px;
+                padding: 0 10px;
+              }
+
+              &.is-prevOut {
+                opacity: 0.7;
+              }
+
+              &.is-selected {
+                opacity: 1;
+              }
+              
+              &.is-nextOut {
+                opacity: 0.7;
+              }
+            }
+          }
+        }
+      }
+
+      &.flickity-disabled {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+
+        @media only screen and (max-width: 1180px) {
+          flex-wrap: wrap;
+        }
+      }
+    }
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    display: block;
+    background-color: #F0F0F0;
+    width: 100%;
+    height: calc(50% + 25px);
+
+    @media only screen and (max-width: 768px) {
+      height: calc(70% + 25px);
+    }
+  }
+
+  
+}
+
+.mz-sc-section--mz-coaches-details {
+  background-color: #F0F0F0;
+
+  .mz-container {
+    .carousel-content {
+      overflow: unset;
+      padding-bottom: 80px;
+    
+        .mz-row {
+          --row-gap: 70px;
+          --col-nth-child-1-width: 300px;
+          justify-content: space-between;
+          align-items: flex-start;
+          gap: 50px var(--row-gap);
+    
+          // display: none;
+          // animation: fadeEffect 1.5s;
+    
+                @keyframes fadeEffect {
+                  from {
+                    opacity: 0;
+                  }
+          
+                  to {
+                    opacity: 1;
+                  }
+                }
+
+          @media only screen and (max-width: 1180px) {
+            --row-gap: 40px;
+          }
+    
+          @media only screen and (max-width: 768px) {
+            --row-gap: 0;
+            display: flex;
+            flex-direction: column;
+            // margin: 0 50px;
+            overflow: hidden;
+          }
+    
+          .mz-col {
+            &:nth-child(1) {
+              // top: 145px;
+              max-width: var(--col-nth-child-1-width);
+              min-width: var(--col-nth-child-1-width);
+    
+              @media only screen and (max-width: 768px) {
+                --col-nth-child-1-width: 100%;
+                position: relative;
+                top: 0;
+                width: 100%;
+              }
+
+              .mz-img {
+                z-index: 1;
+                width: 100%;
+              }
+  
+              .mz-details {
+                background-color: $white-color;
+                padding: 30px;
+
+                h3 {
+                  color: $black-color;
+                  font-family: $primary-font-family;
+                  font-style: normal;
+                  font-size: 18px;
+                  font-weight: 700;
+                  text-transform: uppercase;
+                  letter-spacing: -0.02em;
+                  margin: 0;
+                }
+
+                h6 {
+                  color: $quinary-color;
+                  font-family: $primary-font-family;
+                  font-style: normal;
+                  font-size: 12px;
+                  font-weight: 700;
+                  text-transform: uppercase;
+                  margin: 0 0 20px;
+                }
+                
+                p {
+                  color: $black-color;
+                  font-family: $primary-font-family;
+                  font-style: normal;
+                  font-size: 12px;
+                  font-weight: 300;
+                  line-height: 17px;
+                  margin: 0 0 30px;
+                }
+
+                .mz-socials {
+                  display: flex;
+                  flex-direction: row;
+                  gap: 10px;
+                  margin: 0;
+                }
+              }
+            }
+    
+            &:nth-child(2) {
+              width: calc(100% - (var(--col-nth-child-1-width) + var(--row-gap)));
+              
+              @media only screen and (max-width: 768px) {
+                width: 100%;
+              }
+  
+    
+                h5 {
+                  color: #000000;
+                  font-style: normal;
+                  font-size: 20px;
+                  font-weight: 700;
+                  text-transform: uppercase;
+                  letter-spacing: -0.02em;
+                  line-height: 1em;
+                }
+    
+                .mz-heading-01 {
+                  margin: 0 0 20px;
+                }
+
+                .mz-heading-02 {
+                  margin: 0 0 30px;
+                }
+
+                .p-01 {
+                  color: #373F41;
+                  font-family: $primary-font-family;
+                  font-style: normal;
+                  font-size: 14px;
+                  font-weight: 400;
+                  line-height: 1.5em;
+                  margin: 0;
+                  
+                  @media only screen and (max-width: 768px) {
+                    width: 100%;
+                  }
+                }
+
+                .mz-skillset {
+                  margin: 50px 0;
+                  display: flex;
+                  flex-direction: column;
+                  gap: 25px;
+
+                  .mz-skillset-item {
+                      // position: absolute;
+                      // display: flex;
+                      // flex-direction: column;
+                      align-items: center;
+                      justify-content: center;
+                      width: 100%;
+                      
+                      .mz-skillset-details {
+                        display: flex;
+                        flex-direction: row;
+                        
+                        h6 {
+                          color: $quinary-color;
+                          font-style: normal;
+                          font-size: 20px;
+                          font-weight: 700;
+                          text-transform: uppercase;
+                          letter-spacing: -0.02em;
+                          line-height: 1.1em;
+                          margin: 0;
+                        }
+                        
+                        .mz-skillset-level {
+                          justify-content: end;
+                          margin-right: 0%;
+                          margin-left: auto;
+                        }
+                      }
+                    
+                    progress {
+                      width: 100%;
+                      height: 5px;
+                    }
+
+                    ::-webkit-progress-bar {
+                      background-color: rgba(111,74,55,0.4);
+                    }
+
+                    ::-webkit-progress-value {
+                      background-color: $quinary-color;
+                    }
+                    
+                  }
+                }
+    
+                .mz-specialties-list {
+                  flex-wrap: nowrap !important;
+                  gap: 20px 60px;
+                  width: 95%;
+                  margin: 0 0 40px;
+                  display: flex;
+                  // flex-direction: row;
+
+                  .mz-specialties-item {
+                    display: flex;
+                    justify-items: center;
+                    gap: 20px;
+                    // flex-direction: row;
+
+                    .mz-inner-row {
+                      display: flex;
+                      flex-direction: column;
+                      
+                      h4 {
+                        color: #0A0A0A;
+                        font-family: $primary-font-family;
+                        font-style: normal;
+                        font-size: 20px;
+                        font-weight: 700;
+                        letter-spacing: -0.02em;
+                        line-height: 1.1em;
+                        margin: 0 0 5px;
+                        text-transform: uppercase;
+                      }
+
+                      p {
+                        color: #373F41;
+                        font-family: $primary-font-family;
+                        font-style: normal;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 1.5em;
+                        width: 100%;
+                        margin: 0;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          &.active {
+            display: inherit;
+          }
+        }
+      }
+    }

@@ -564,6 +564,126 @@
 
 })();
 
+/* mz-sc-section--mz-coaches-carousel | function */
+(function (){
+
+  var
+    thisSectionClass  = '.mz-sc-section--mz-coaches-carousel',
+    carouselMainClass = '.carousel-main',
+    carouselCellClass = '.carousel-cell',
+    carouselInitialize,
+    carouselTotalSlides,
+    carouselSetCurrentSlide,
+    carouselGetCurrentSlide,
+    carouselPrevOutSlide,
+    carouselNextOutSlide,
+    carouselAutoPlay,
+    carouselAutoPlayInterval
+  ;
+  
+  if( document.querySelectorAll(thisSectionClass).length >= 1 ){
+    // get total slides
+    carouselTotalSlides = $(thisSectionClass+' '+carouselMainClass+' '+carouselCellClass).length;
+
+    if( carouselTotalSlides < 5 ){
+
+      // $(thisSectionClass+' '+carouselMainClass).addClass("flickity-disabled");
+      document.querySelector(thisSectionClass+' '+carouselMainClass).classList.add('flickity-disabled');
+
+    }
+    else {
+
+      // initialize Flickity
+      carouselInitialize = new Flickity(thisSectionClass+' '+carouselMainClass, {
+        wrapAround: true,
+        prevNextButtons: true,
+        contain: false,
+        pageDots: false,
+      });
+      
+      // get data-current-slide from shortcode attribute then set as current slide
+      // carouselSetCurrentSlide = $(thisSectionClass+' '+carouselMainClass).attr('data-current-slide');
+      carouselSetCurrentSlide = document.querySelector(thisSectionClass+' '+carouselMainClass).dataset.currentSlide;
+
+      // get data-carousel-autoplay from shortcode attribute
+      // carouselAutoPlay = $(thisSectionClass+' '+carouselMainClass).attr('data-carousel-autoplay');
+      carouselAutoPlay = document.querySelector(thisSectionClass+' '+carouselMainClass).dataset.carouselAutoplay;
+
+      // set autoPlayInterval 3000ms/3s default
+      carouselAutoPlayInterval = 3000;
+
+      // index starts at 0
+      // convert index to slide
+      carouselInitialize.select( carouselSetCurrentSlide - 1 );
+
+      function carouselUpdate() {
+
+        carouselGetCurrentSlide = parseInt(carouselSetCurrentSlide);
+          
+        carouselGetCurrentSlide = carouselInitialize.selectedIndex + 1;
+
+        if( carouselGetCurrentSlide == 1 ){
+          
+          carouselPrevOutSlide = carouselTotalSlides - carouselGetCurrentSlide;
+          carouselNextOutSlide = carouselGetCurrentSlide + 2;
+
+        }
+        else if( carouselGetCurrentSlide == 2 ){
+
+          carouselPrevOutSlide = carouselTotalSlides;
+          carouselNextOutSlide = carouselGetCurrentSlide + 2;
+
+        }
+        else if( carouselGetCurrentSlide == carouselTotalSlides - 1 ){
+
+          carouselPrevOutSlide = carouselGetCurrentSlide - 2;
+          carouselNextOutSlide = 1;
+
+        }
+        else if( carouselGetCurrentSlide == carouselTotalSlides ){
+
+          carouselPrevOutSlide = carouselGetCurrentSlide - 2;
+          carouselNextOutSlide = 2;
+
+        }
+        else {
+
+          carouselPrevOutSlide = carouselGetCurrentSlide - 2;
+          carouselNextOutSlide = carouselGetCurrentSlide + 2;
+
+        }
+
+        $(thisSectionClass+' '+carouselMainClass+' '+carouselCellClass+'.is-prevOut').removeClass('is-prevOut');
+        $(thisSectionClass+' '+carouselMainClass+' '+carouselCellClass+'.is-nextOut').removeClass('is-nextOut');
+        $(thisSectionClass+' '+carouselMainClass+' '+carouselCellClass+':nth-child('+ carouselPrevOutSlide +')').addClass("is-prevOut");
+        $(thisSectionClass+' '+carouselMainClass+' '+carouselCellClass+':nth-child('+ carouselNextOutSlide +')').addClass("is-nextOut");
+        $(thisSectionClass+' .carousel-content .carousel-cell').removeClass('is-selected');
+        $(thisSectionClass+' .carousel-content .carousel-cell:nth-child('+(carouselGetCurrentSlide)+')').addClass('is-selected');
+
+        console.log("\nthisSectionClass        = "+thisSectionClass);
+        console.log("carouselTotalSlides     = "+carouselTotalSlides);
+        console.log("carouselAutoPlay        = "+carouselAutoPlay);
+        console.log("carouselSetCurrentSlide = "+carouselSetCurrentSlide);
+        console.log("carouselPrevOutSlide    = "+carouselPrevOutSlide);
+        console.log("carouselGetCurrentSlide = "+carouselGetCurrentSlide);
+        console.log("carouselNextOutSlide    = "+carouselNextOutSlide);	
+
+      }
+
+      carouselUpdate();
+
+      carouselInitialize.on( 'dragEnd', function( event, pointer ){
+
+        // console.log('dragEnd');
+        carouselUpdate();
+
+      });
+
+    }
+  }
+
+})();
+
 /* mz-section--programs-content | function */
 (function (){
 
