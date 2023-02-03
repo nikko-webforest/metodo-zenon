@@ -175,7 +175,7 @@ function metodo_zenon_setup() {
 				'add_new'       => __( 'Add Service' ),
 				'add_new_item'  => __( 'Add New Service' ),
 				'new_item'      => __( 'New Service' ),
-				'edit_item'     => __( 'Edit Testimonail' ),
+				'edit_item'     => __( 'Edit Service' ),
 				'view_item'     => __( 'View Service' ),
 				'update_item'   => __( 'Update Service' ),
 				'all_items'     => __( 'All Services' ),
@@ -195,6 +195,53 @@ function metodo_zenon_setup() {
 			'show_in_rest'        => true,
 			'menu_icon'           => 'dashicons-admin-generic',
 			'menu_position'       => 11,
+			'capability_type'     => 'page',
+			'can_export'          => true,
+			'supports' => array(
+				'title',
+				'editor',
+				'excerpt',
+				// 'author',
+				// 'category',
+				'custom-fields',
+				'thumbnail',
+				// 'trackbacks',
+				'revisions',
+				'page-attributes',
+				'post-formats',
+			),
+		)
+	);
+
+	register_post_type( 'coaches',
+		array(
+			'labels' => array(
+				'name'          => __( 'Coaches' ),
+				'singular_name' => __( 'Coach' ),
+				'menu_name'     => __( 'Coaches' ),
+				'add_new'       => __( 'Add Coach' ),
+				'add_new_item'  => __( 'Add New Coach' ),
+				'new_item'      => __( 'New Coach' ),
+				'edit_item'     => __( 'Edit Coach' ),
+				'view_item'     => __( 'View Coach' ),
+				'update_item'   => __( 'Update Coach' ),
+				'all_items'     => __( 'All Coaches' ),
+				'search_items'  => __( 'Search Coaches' )
+			),
+			'public'              => true,
+			'has_archive'         => true,
+			'rewrite' => array(
+				'slug'        => 'coach',
+				'with_front'  => false
+			),
+			'exclude_from_search' => true,
+			'publicly_queryable'  => true,
+			'show_in_nav_menus'   => true,
+			'show_in_admin_bar'   => true,
+			'show_in_menu'        => true,
+			'show_in_rest'        => true,
+			'menu_icon'           => 'dashicons-groups',
+			'menu_position'       => 12,
 			'capability_type'     => 'page',
 			'can_export'          => true,
 			'supports' => array(
