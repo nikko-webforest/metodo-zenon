@@ -585,7 +585,7 @@
     // get total slides
     carouselTotalSlides = $(thisSectionClass+' '+carouselMainClass+' '+carouselCellClass).length;
 
-    if( carouselTotalSlides < 5 ){
+    if( carouselTotalSlides < 4 ){
 
       // $(thisSectionClass+' '+carouselMainClass).addClass("flickity-disabled");
       document.querySelector(thisSectionClass+' '+carouselMainClass).classList.add('flickity-disabled');

@@ -76,6 +76,20 @@
 						<div class="coach-name">Alvaro</div>
 					</div>
 				</div>
+				<!-- <div class="carousel-cell" data-tab="Coach Juan">
+					<div class="coach-img-wrap">
+						<img class="coach-img mz-img"
+							alt="Coach Juan"
+							title="Coach Juan"
+							src="/wp-content/themes/metodo-zenon/images/mz-zenon-family-section/carousel-cell/MZ_ZenonFamilyPage_CoachJuan.png"
+							width=""
+							height=""/>
+					</div>
+					<div class="coach-details-wrap">
+						<div class="coach-type">Health Coach</div>
+						<div class="coach-name">Juan</div>
+					</div>
+				</div> -->
 			</div>
 		</div>
 	</section>
@@ -189,7 +203,135 @@
 			</div>
 		</div>
 	</section>
-	
+	<section class="mz-section mz-sc-section--mz-programs-offered">
+		<div class="mz-container">
+			<div class="mz-program">
+				<div class="mz-program-details">
+					<h6 class="p-01">
+						Physio Curriculum
+					</h6>
+					<h2>
+					Focused On Helping To Achieve Body and Health
+					</h2>
+					<p>
+					This is to suggest what students should understand and be able to do at specific grade levels, focusing on helping students to adopt a healthy lifestyle during the years of education from prekindergarten through college. The development of the
+					Instructional Framework assumes that a health-enhancing level of physical fitness is attainable for all students through regular engagement in moderate to vigorous physical activity, regardless of gender, age, ethnicity or cultural background.
+					</p>
+				</div>
+				<div class="mz-program-img">
+					<img class="mz-program-img mz-img"
+						alt=""
+						title=""
+						src="/wp-content/themes/metodo-zenon/images/mz-zenon-family-section/programs-offered/MZ_ZenonFamilyPage_P1.1Front.png"
+						width=""
+						height=""/>	
+					<img class="mz-program-img mz-img"
+						alt=""
+						title=""
+						src="/wp-content/themes/metodo-zenon/images/mz-zenon-family-section/programs-offered/MZ_ZenonFamilyPage_P1.1Back.png"
+						width=""
+						height=""/>	
+				</div>
+			</div>
+			<div class="mz-program">
+				<div class="mz-program-img">
+					<img class="mz-program-img mz-img"
+						alt=""
+						title=""
+						src="/wp-content/themes/metodo-zenon/images/mz-zenon-family-section/programs-offered/MZ_ZenonFamilyPage_P1.2Front.png"
+						width=""
+						height=""/>	
+					<img class="mz-program-img mz-img"
+						alt=""
+						title=""
+						src="/wp-content/themes/metodo-zenon/images/mz-zenon-family-section/programs-offered/MZ_ZenonFamilyPage_P1.2Back.png"
+						width=""
+						height=""/>	
+				</div>
+				<div class="mz-program-details">
+					<h6 class="p-01">
+						Physio Curriculum
+					</h6>
+					<h2>
+					Focused On Helping To Achieve Body and Health
+					</h2>
+					<p>
+					This is to suggest what students should understand and be able to do at specific grade levels, focusing on helping students to adopt a healthy lifestyle during the years of education from prekindergarten through college. The development of the
+					Instructional Framework assumes that a health-enhancing level of physical fitness is attainable for all students through regular engagement in moderate to vigorous physical activity, regardless of gender, age, ethnicity or cultural background.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="mz-section mz-sc-section--mz-facilities">
+		<div class="mz-container">
+			<h6 class="p-01">
+				Facilities
+			</h6>
+			<h2>
+				Build Your Health Profile With Our State of the Art Facilities
+			</h2>
+			<div class="mz-facilities-details">
+				<div class="mz-facilities-item">
+					<img class="mz-facilities-img mz-img"
+						alt=""
+						title=""
+						src="/wp-content/themes/metodo-zenon/images/mz-zenon-family-section/facilities/MZ_ZenonFamilyPage_Facilities1.png"
+						width=""
+						height=""/>
+					<h6>
+						Martial Arts Arena
+					</h6>
+					<p>
+						Boxing, Muay Thai & Taekwondo
+					</p>
+				</div>
+				<div class="mz-facilities-item">
+					<img class="mz-facilities-img mz-img"
+						alt=""
+						title=""
+						src="/wp-content/themes/metodo-zenon/images/mz-zenon-family-section/facilities/MZ_ZenonFamilyPage_Facilities2.png"
+						width=""
+						height=""/>
+					<h6>
+						Fitness Area for Women
+					</h6>
+					<p>
+						Strength Exercise
+					</p>
+				</div>
+				<div class="mz-facilities-item">
+					<img class="mz-facilities-img mz-img"
+						alt=""
+						title=""
+						src="/wp-content/themes/metodo-zenon/images/mz-zenon-family-section/facilities/MZ_ZenonFamilyPage_Facilities3.png"
+						width=""
+						height=""/>
+					<h6>
+						Dance Studio
+					</h6>
+					<p>
+						Zumba, Yoga & Dancing
+					</p>
+				</div>
+				<div class="mz-facilities-item">
+					<img class="mz-facilities-img mz-img"
+						alt=""
+						title=""
+						src="/wp-content/themes/metodo-zenon/images/mz-zenon-family-section/facilities/MZ_ZenonFamilyPage_Facilities4.png"
+						width=""
+						height=""/>
+					<h6>
+						Fitness Area for Men
+					</h6>
+					<p>
+						Zumba, Yoga & Dancing
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<?php echo do_shortcode('[mz-sc-section--articles-you-might-like]'); ?>
 	<!-- .entry-content -->
 	<div class="entry-content">
 		<?php
