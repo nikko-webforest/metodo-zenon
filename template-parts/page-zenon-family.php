@@ -48,7 +48,7 @@
 						<div class="coach-name">Anna</div>
 					</div>
 				</div>
-				<div class="carousel-cell active" data-tab="Coach Juan">
+				<div class="carousel-cell" data-tab="Coach Juan">
 					<div class="coach-img-wrap">
 						<img class="coach-img mz-img"
 							alt="Coach Juan"
@@ -76,11 +76,11 @@
 						<div class="coach-name">Alvaro</div>
 					</div>
 				</div>
-				<!-- <div class="carousel-cell" data-tab="Coach Juan">
+				<div class="carousel-cell" data-tab="Coach Juan2">
 					<div class="coach-img-wrap">
 						<img class="coach-img mz-img"
-							alt="Coach Juan"
-							title="Coach Juan"
+							alt="Coach Juan2"
+							title="Coach Juan2"
 							src="/wp-content/themes/metodo-zenon/images/mz-zenon-family-section/carousel-cell/MZ_ZenonFamilyPage_CoachJuan.png"
 							width=""
 							height=""/>
@@ -89,7 +89,7 @@
 						<div class="coach-type">Health Coach</div>
 						<div class="coach-name">Juan</div>
 					</div>
-				</div> -->
+				</div>
 			</div>
 		</div>
 	</section>

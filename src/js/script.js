@@ -657,8 +657,6 @@
         $(thisSectionClass+' '+carouselMainClass+' '+carouselCellClass+'.is-nextOut').removeClass('is-nextOut');
         $(thisSectionClass+' '+carouselMainClass+' '+carouselCellClass+':nth-child('+ carouselPrevOutSlide +')').addClass("is-prevOut");
         $(thisSectionClass+' '+carouselMainClass+' '+carouselCellClass+':nth-child('+ carouselNextOutSlide +')').addClass("is-nextOut");
-        $(thisSectionClass+' .carousel-content .carousel-cell').removeClass('is-selected');
-        $(thisSectionClass+' .carousel-content .carousel-cell:nth-child('+(carouselGetCurrentSlide)+')').addClass('is-selected');
 
         console.log("\nthisSectionClass        = "+thisSectionClass);
         console.log("carouselTotalSlides     = "+carouselTotalSlides);
