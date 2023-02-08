@@ -2916,6 +2916,10 @@
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
+
+    @media only screen and (max-width: 768px) {
+      max-width: 670px;
+    }
   }
 }
 
@@ -2969,13 +2973,12 @@
     width: 100%;
     padding: 0 35px;
 
-    @media only screen and (max-width: 1180px) {
-      padding: 60px 30px;
-    }
+    // @media only screen and (max-width: 1180px) {
+    //   padding: 0 35px;
+    // }
 
     @media only screen and (max-width: 768px) {
-      max-width: 600px;
-      padding: 40px;
+      padding: 0 15px;
     }
 
     @media only screen and (max-width: 480px) {
@@ -2988,7 +2991,7 @@
         width: 100%;
         transition: opacity 300ms ease-in-out;
         display: flex;
-        flex: row;
+        flex-direction: row;
         align-items: center;
         gap: 30px;
         padding: 40px 0;
@@ -2996,6 +2999,15 @@
         opacity: 0.7;
         border-bottom: 5px solid transparent;
         // height: 100%;
+
+        @media only screen and (max-width: 768px) {
+          max-width: 130px;
+          flex-direction: column;
+          gap: 10px;
+          padding: 30px 0;
+          align-items: flex-start;
+          margin-inline: 36px;
+        }
 
         &.is-selected {
           border-bottom: 5px solid $white-color;
@@ -3013,10 +3025,10 @@
 
         .coach-img-wrap {
           margin: 0 0;
-
+          width: 100%;
           .coach-img {
             // width: 100%;
-            width: 129px;
+            width: 130px;
             height: 115px;
             height: auto;
             margin: auto;
@@ -3024,6 +3036,7 @@
         }
 
         .coach-details-wrap {
+          width: 100%;
           .coach-type {
             color: $septenary-color;
             font-size: 12px;
@@ -3055,9 +3068,9 @@
             .carousel-cell {
               // padding: 0 25px;
               transition: opacity 300ms ease-in-out;
-
+              width: 100%;
               @media only screen and (max-width: 768px) {
-                padding: 0 20px;
+                // padding: 0 20px;
               }
 
               @media only screen and (max-width: 480px) {
@@ -3182,6 +3195,7 @@
                 position: relative;
                 top: 0;
                 width: 100%;
+                // padding: 0 120px;
               }
 
               .mz-img {
@@ -3334,6 +3348,9 @@
                 display: flex;
                 // flex-direction: row;
 
+                @media only screen and (max-width: 768px) {
+                  margin: 0;
+                }
                 .mz-specialties-item {
                   display: flex;
                   justify-items: center;
@@ -3463,21 +3480,54 @@
 }
 
 .mz-sc-section--mz-programs-offered {
+  @media only screen and (max-width: 768px) {
+    padding: 0 100px;
+  }
+
   .mz-program {
     display: flex;
     flex-direction: row;
     gap: 80px;
     align-items: center;
 
+    @media only screen and (max-width: 768px) {
+      flex-direction: column;
+      gap: 120px;
+    }
     &:nth-child(1) {
       margin: 100px 80px 180px 30px;
+
+      @media only screen and (max-width: 768px) {
+        margin: 100px 0;
+      }
     }
 
     &:nth-child(2) {
       margin: 100px 30px 180px 80px;
+
+      @media only screen and (max-width: 768px) {
+        margin: 100px 0;
+      }
     }
     .mz-program-details {
       // margin: 30px 0;
+
+      &:nth-child(1) {
+        order: 1;
+
+        @media only screen and (max-width: 768px) {
+          order: 2;
+        }
+      }
+
+      &:nth-child(2) {
+        order: 2;
+
+        @media only screen and (max-width: 768px) {
+          order: 1;
+        }
+      }
+
       h6 {
         color: #6f4a37;
         font-family: $primary-font-family;
@@ -3530,10 +3580,18 @@
         // max-width: 960px;
         width: 80%;
         margin: 0 0;
+
+        @media only screen and (max-width: 768px) {
+          width: 100%;
+        }
       }
     }
     .mz-program-img {
       position: relative;
+      order: 2;
+      @media only screen and (max-width: 768px) {
+        order: 1;
+      }
 
       .mz-img {
         &:nth-child(1) {
