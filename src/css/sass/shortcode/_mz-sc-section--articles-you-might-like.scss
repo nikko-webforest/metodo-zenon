@@ -164,27 +164,29 @@
       .mz-row {
         &.article-row {
           .mz-col {
-            background-color: #181818;
+            .article-details-wrap {
+              background-color: #181818;
 
-            .article-title {
-              color: #FFFFFF;
-            }
+              .article-title {
+                color: #FFFFFF;
+              }
 
-            .article-excerpt {
-              color: #AFACB4;
-            }
+              .article-excerpt {
+                color: #AFACB4;
+              }
 
-            .mz-inner-row {
-              .mz-link--more-info {
-                span {
-                  &:nth-child(1) {
-                    color: #B59C7E;
-                  }
+              .mz-inner-row {
+                .mz-link--more-info {
+                  span {
+                    &:nth-child(1) {
+                      color: #B59C7E;
+                    }
 
-                  &:nth-child(2) {
-                    svg {
-                      path {
-                        stroke: #B59C7E;
+                    &:nth-child(2) {
+                      svg {
+                        path {
+                          stroke: #B59C7E;
+                        }
                       }
                     }
                   }
