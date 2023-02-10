@@ -623,7 +623,7 @@
       thisSectionClass + " " + carouselMainClass + " " + carouselCellClass
     ).length;
 
-    if (carouselTotalSlides < 4) {
+    if (carouselTotalSlides < 3) {
       // $(thisSectionClass+' '+carouselMainClass).addClass("flickity-disabled");
       document
         .querySelector(thisSectionClass + " " + carouselMainClass)
