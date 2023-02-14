@@ -2851,10 +2851,10 @@
 
 /*===== Zenon Family Page =====*/
 .mz-section--about-us {
-  margin: 100px 0;
+  padding: 100px 30px;
 
   @media only screen and (max-width: 480px) {
-    margin: 40px 0;
+    padding: 40px 30px;
   }
 
   .p-01 {
@@ -2899,7 +2899,7 @@
     }
   }
 
-  p {
+  .p-02 {
     color: #373F41;
     font-family: $primary-font-family;
     font-style: normal;
@@ -3113,39 +3113,30 @@
 
           .mz-row {
             --row-gap: 70px;
-            --col-nth-child-1-width: 350px;
+            --col-nth-child-1-width: 325px;
             justify-content: space-between;
             align-items: flex-start;
             gap: 50px var(--row-gap);
 
             @media only screen and (max-width: 1180px) {
               --row-gap: 40px;
+              justify-content: center;
             }
 
             @media only screen and (max-width: 768px) {
-              --row-gap: 0;
               display: flex;
               flex-direction: column;
-              // margin: 0 50px;
               overflow: hidden;
             }
 
             .mz-col {
               &:nth-child(1) {
-                // top: 145px;
                 max-width: var(--col-nth-child-1-width);
                 min-width: var(--col-nth-child-1-width);
+                width: 100%;
 
                 @media only screen and (max-width: 768px) {
-                  --col-nth-child-1-width: 100%;
-                  position: relative;
-                  top: 30px;
-                  width: 100%;
-                  padding: 0 120px;
-                }
-
-                @media only screen and (max-width: 480px) {
-                  padding: 0 30px;
+                  margin: 0 auto;
                 }
 
                 .coach-img {
@@ -3203,16 +3194,9 @@
 
               &:nth-child(2) {
                 width: calc(100% - (var(--col-nth-child-1-width) + var(--row-gap)));
-                margin: 50px 0 0;
 
                 @media only screen and (max-width: 768px) {
                   width: 100%;
-                  padding: 0 60px;
-                }
-
-                @media only screen and (max-width: 480px) {
-                  margin: 20px 0 0;
-                  padding: 0 30px;
                 }
 
                 .coach-competitive-advantages {
@@ -3294,6 +3278,10 @@
                   width: 100%;
                   margin: 0 0 50px;
 
+                  @media only screen and (max-width: 1180px) {
+                    margin: 0;
+                  }
+
                   > h5 {
                     color: #0A0A0A;
                     font-family: $primary-font-family;
@@ -3311,10 +3299,8 @@
                     flex-wrap: wrap;
                     gap: 20px 60px;
 
-                    @media only screen and (max-width: 1080px) {
-                      margin: 0;
-                      flex-direction: column;
-                      gap: 30px;
+                    @media only screen and (max-width: 1180px) {
+                      gap: 20px;
                     }
 
                     @media only screen and (max-width: 768px) {
@@ -3331,6 +3317,10 @@
                       justify-items: center;
                       gap: 20px;
                       width: calc(50% - 30px);
+
+                      @media only screen and (max-width: 1180px) {
+                        width: 100%;
+                      }
 
                       .mz-svg {
                         max-width: 55px;
@@ -3375,14 +3365,6 @@
   .mz-section-03 {
     padding: 100px 30px;
 
-    @media only screen and (max-width: 768px) {
-      padding: 0 100px;
-    }
-
-    @media only screen and (max-width: 480px) {
-      padding: 0 30px;
-    }
-
     .mz-container {
       .carousel-content {
         .carousel-cell {
@@ -3394,18 +3376,34 @@
             justify-content: space-between;
             align-items: center;
             gap: 80px;
+            --img-dimension-size: 450px;
+
+            @media only screen and (max-width: 1180px) {
+              gap: 100px;
+              --img-dimension-size: 350px;
+            }
 
             @media only screen and (max-width: 768px) {
-              // flex-direction: column;
-              gap: 120px;
               flex-wrap: wrap;
-              justify-content: center;
-              align-items: stretch;
+              flex-direction: column;
+            }
+
+            @media only screen and (max-width: 480px) {
+              --img-dimension-size: 250px;
             }
             
             .mz-program-details {
               width: calc(55% - 80px);
               padding: 200px 0;
+
+              @media only screen and (max-width: 1180px) {
+                padding: 75px 0;
+              }
+
+              @media only screen and (max-width: 768px) {
+                width: 100%;
+                padding: 0;
+              }
 
               h6 {
                 color: #6F4A37;
@@ -3455,7 +3453,7 @@
                 font-weight: 400;
                 font-size: 14px;
                 // text-align: center;
-                line-height: 1.75px;
+                line-height: 1.75em;
                 // max-width: 960px;
                 width: 80%;
                 margin: 0 0;
@@ -3468,23 +3466,10 @@
 
             .mz-program-img {
               position: relative;
-              max-width: 450px;
+              max-width: var(--img-dimension-size);
+              min-width: var(--img-dimension-size);
               width: 100%;
-
-              @media only screen and (max-width: 768px) {
-                width: 100%;
-                height: 100%;
-                margin-left: 12px;
-                padding: 0 10px;
-              }
-
-              @media only screen and (max-width: 480px) {
-                width: 100%;
-                height: 100%;
-                max-width: 330px;
-                max-height: 330px;
-                padding: 0;
-              }
+              height: var(--img-dimension-size);
 
               .mz-img {
                 position: absolute;
@@ -3510,24 +3495,46 @@
                 transform: translate(0, -50%);
                 display: block;
                 background: transparent;
-                width: 100%;
-                height: 450px;
+                width: var(--img-dimension-size);
+                height: var(--img-dimension-size);
               }
             }
 
             &:nth-child(1) {
               .mz-program-details {
                 order: 1;
+
+                @media only screen and (max-width: 768px) {
+                  order: 2;
+                }
               }
 
               .mz-program-img {
                 order: 2;
 
+                @media only screen and (max-width: 768px) {
+                  order: 1;
+                }
+
                 .mz-img {
+                  &:nth-child(1) {
+                    @media only screen and (max-width: 768px) {
+                      left: 25px;
+                    }
+                  }
+
                   &:nth-child(2) {
                     left: -50px;
+
+                    @media only screen and (max-width: 768px) {
+                      left: -25px;
+                    }
                   }
                 }
+              }
+
+              @media only screen and (max-width: 768px) {
+                margin: 0 auto 100px;
               }
             }
 
@@ -3542,6 +3549,16 @@
                 .mz-img {
                   &:nth-child(1) {
                     left: 50px;
+
+                    @media only screen and (max-width: 768px) {
+                      left: 25px;
+                    }
+                  }
+
+                  &:nth-child(2) {
+                    @media only screen and (max-width: 768px) {
+                      left: -25px;
+                    }
                   }
                 }
 
@@ -3709,91 +3726,102 @@
   }
 }
 
-.mz-section--mz-facilities {
+.mz-section--facilities {
   background: #0A0A0A;
   padding: 100px 30px;
 
-  h6 {
-    color: #6f4a37;
-    font-family: $primary-font-family;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: -0.02em;
-    line-height: 1em;
-    width: max-content;
-    margin: 0 auto 16px;
-
-    @media only screen and (max-width: 480px) {
-      font-size: 18px;
-      margin: 0 auto 10px;
-    }
+  @media only screen and (max-width: 768px) {
+    padding: 75px 30px;
   }
 
-  h2 {
-    color: #FFFFFF;
-    font-family: $primary-font-family;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: -0.02em;
-    line-height: 1.1em;
-    max-width: 570px;
-    width: 100%;
-    margin: 0 auto 24px;
+  .mz-container {
+    > h6 {
+      color: #6f4a37;
+      font-family: $primary-font-family;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: -0.02em;
+      line-height: 1em;
+      width: max-content;
+      margin: 0 auto 16px;
 
-    @media only screen and (max-width: 768px) {
-      font-size: 28px;
-      width: 70%;
+      @media only screen and (max-width: 480px) {
+        font-size: 18px;
+        margin: 0 auto 10px;
+      }
     }
 
-    @media only screen and (max-width: 480px) {
-      font-size: 25px;
-    }
-  }
-
-  .mz-facilities-details {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: stretch;
-    gap: 35px;
-    margin: 50px 0;
-    flex-wrap: wrap;
-
-    @media only screen and (max-width: 768px) {
-      gap: 50px;
-    }
-
-    h6 {
+    > h2 {
       color: #FFFFFF;
       font-family: $primary-font-family;
       font-style: normal;
       font-weight: 700;
-      font-size: 18px;
+      font-size: 32px;
+      text-align: center;
       text-transform: uppercase;
       letter-spacing: -0.02em;
-      margin: 30px 0 5px;
+      line-height: 1.1em;
+      max-width: 570px;
+      width: 100%;
+      margin: 0 auto 50px;
+
+      @media only screen and (max-width: 768px) {
+        font-size: 28px;
+      }
+
+      @media only screen and (max-width: 480px) {
+        font-size: 25px;
+      }
     }
 
-    p {
-      color: #6F4A37;
-      font-family: $primary-font-family;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 12px;
-      text-transform: uppercase;
-      margin: 0;
+    .facilities-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: stretch;
+      gap: 35px;
+
+      @media only screen and (max-width: 768px) {
+        gap: 50px;
+      }
+
+      @media only screen and (max-width: 480px) {
+        gap: 30px;
+      }
+
+      .facilities-img {
+        margin: 0 0 30px;
+      }
+
+      .facilities-title {
+        color: #FFFFFF;
+        font-family: $primary-font-family;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: -0.02em;
+        margin: 0 0 5px;
+      }
+
+      .facilities-purpose {
+        color: #6F4A37;
+        font-family: $primary-font-family;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        text-transform: uppercase;
+        margin: 0;
+      }
     }
   }
 }
 
 .theme-dark {
-  .mz-section--mz-facilities {
+  .mz-section--facilities {
     background: #0B0D0F;
 
     .p-01 {
@@ -3805,12 +3833,12 @@
       -webkit-text-fill-color: transparent;
     }
 
-    .mz-facilities-details {
-      h6 {
+    .facilities-list {
+      .facilities-title {
         color: #FFFFFF;
       }
 
-      p {
+      .facilities-purpose {
         color: #8B663E;
       }
     }

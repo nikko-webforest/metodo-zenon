@@ -23,7 +23,7 @@
 			<h2>
 				We help people achieve the body and health status they desire
 			</h2>
-			<p>
+			<p class="p-02">
 				Located in the center of Valladolid, we offer our users an elite service completely adapted to their needs. 
 				<br><br>
 				In Zenon Method you will be able to work with a coordinated team of training, nutrition, physiotherapy and psychology professionals in the same location, who will design a program configured to your needs with clearly established objectives and will guide you throughout the process, saving time, effort and difficulties during the process.
@@ -542,68 +542,68 @@
 		</div>
 	</section>
 
-	<section class="mz-section mz-section--mz-facilities">
+	<section class="mz-section mz-section--facilities">
 		<div class="mz-container">
-			<h6 class="p-01">
+			<h6 class="sub-title">
 				Facilities
 			</h6>
-			<h2>
+			<h2 class="main-title">
 				Build Your Health Profile With Our State of the Art Facilities
 			</h2>
-			<div class="mz-facilities-details">
-				<div class="mz-facilities-item">
-					<img class="mz-facilities-img mz-img"
+			<div class="facilities-list">
+				<div class="facilities-item">
+					<img class="facilities-img mz-img"
 						alt=""
 						title=""
 						src="/wp-content/themes/metodo-zenon/images/mz-zenon-family-section/facilities/MZ_ZenonFamilyPage_Facilities1.png"
 						width=""
 						height=""/>
-					<h6>
+					<h6 class="facilities-title">
 						Martial Arts Arena
 					</h6>
-					<p>
+					<p class="facilities-purpose">
 						Boxing, Muay Thai & Taekwondo
 					</p>
 				</div>
-				<div class="mz-facilities-item">
-					<img class="mz-facilities-img mz-img"
+				<div class="facilities-item">
+					<img class="facilities-img mz-img"
 						alt=""
 						title=""
 						src="/wp-content/themes/metodo-zenon/images/mz-zenon-family-section/facilities/MZ_ZenonFamilyPage_Facilities2.png"
 						width=""
 						height=""/>
-					<h6>
+					<h6 class="facilities-title">
 						Fitness Area for Women
 					</h6>
-					<p>
+					<p class="facilities-purpose">
 						Strength Exercise
 					</p>
 				</div>
-				<div class="mz-facilities-item">
-					<img class="mz-facilities-img mz-img"
+				<div class="facilities-item">
+					<img class="facilities-img mz-img"
 						alt=""
 						title=""
 						src="/wp-content/themes/metodo-zenon/images/mz-zenon-family-section/facilities/MZ_ZenonFamilyPage_Facilities3.png"
 						width=""
 						height=""/>
-					<h6>
+					<h6 class="facilities-title">
 						Dance Studio
 					</h6>
-					<p>
+					<p class="facilities-purpose">
 						Zumba, Yoga & Dancing
 					</p>
 				</div>
-				<div class="mz-facilities-item">
-					<img class="mz-facilities-img mz-img"
+				<div class="facilities-item">
+					<img class="facilities-img mz-img"
 						alt=""
 						title=""
 						src="/wp-content/themes/metodo-zenon/images/mz-zenon-family-section/facilities/MZ_ZenonFamilyPage_Facilities4.png"
 						width=""
 						height=""/>
-					<h6>
+					<h6 class="facilities-title">
 						Fitness Area for Men
 					</h6>
-					<p>
+					<p class="facilities-purpose">
 						Zumba, Yoga & Dancing
 					</p>
 				</div>
