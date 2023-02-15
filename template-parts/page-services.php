@@ -17,8 +17,11 @@
 	<?php if( count($args['posts']->posts) > 0 ) : ?>
 		<section class="mz-section mz-section--featured-services">
 			<div class="mz-container">
+				<h6 class="mz-subtitle">
+					Te ofrecemos mejoras que nunca pensaste que podrías conseguir. ¿Cómo? Mediante un servicio multidisciplinar: Entrenamiento Personal, Nutrición personalizada, Psicología deportiva y Fisioterapia, todo en un mismo centro.
+				</h6>
 				<h2 class="mz-title">
-					Since We Met You, The Change Begins.
+					Método Zenon es una mesa que se sustenta sobre 4 patas
 				</h2>
 				<div class="mz-row">
 
@@ -60,6 +63,9 @@
 					<?php endforeach; ?>
 
 				</div>
+				<h6 class="mz-info">
+					Estos cuatro factores deben sostener en armonía el tablero sobre el que apoyarás tu vida.
+				</h6>
 			</div>
 		</section>
 		<section class="mz-section mz-section--other-services"
@@ -85,7 +91,7 @@
 							<?php endforeach; ?>
 
 						</div>
-						<a class="mz-cta mz-cta--zenon-form"
+						<!-- <a class="mz-cta mz-cta--zenon-form"
 							title="Zenon Method Form"
 							href="#"
 							rel="">
@@ -93,7 +99,7 @@
 								<path d="M15.4784 5.73592L9.97845 0.235988C9.90931 0.159218 9.82432 0.0983811 9.72936 0.0576835C9.63439 0.0169858 9.53173 -0.00260112 9.42845 0.000276885H1.57141C1.15503 0.00152044 0.756056 0.167478 0.461629 0.461906C0.167202 0.756333 0.00124356 1.1553 0 1.57169V20.4286C0.00124356 20.845 0.167202 21.2439 0.461629 21.5384C0.756056 21.8328 1.15503 21.9988 1.57141 22H14.1427C14.5591 21.9988 14.958 21.8328 15.2525 21.5384C15.5469 21.2439 15.7128 20.845 15.7141 20.4286V6.28591C15.717 6.18264 15.6974 6.07997 15.6567 5.98501C15.616 5.89005 15.5551 5.80506 15.4784 5.73592ZM9.42845 1.88597L13.8284 6.28591H9.42845V1.88597ZM14.1427 20.4286H1.57141V1.57169H7.85704V6.28591C7.85829 6.70229 8.02424 7.10126 8.31867 7.39569C8.6131 7.69012 9.01207 7.85608 9.42845 7.85732H14.1427V20.4286Z" fill="white"/>
 							</svg>
 							Zenon Method Form
-						</a>
+						</a> -->
 						<div class="mz-contact-details">
 							<img class="mz-img"
 								alt=""
@@ -103,7 +109,7 @@
 								height=""
 								loading=""/>
 							<div class="contact-content">
-								<h3>Need Some Help?</h3>
+								<h3>Necesito ayuda?</h3>
 								<p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod.</p>
 								<ul class="contact-info-list">
 									<li class="contact-info-item">
