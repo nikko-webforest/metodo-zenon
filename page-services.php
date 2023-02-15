@@ -30,7 +30,6 @@
 				);
 
 				$servicesQuery = new WP_Query( $servicesArgs );
-				
 
 				get_template_part( 'template-parts/page', 'services', array(
 					'posts' => $servicesQuery
@@ -41,7 +40,8 @@
 				//	comments_template();
 				// endif;
 
-			endwhile; // End of the loop.
+			endwhile;
+			// End of the loop.
 		?>
 
 	</main>
