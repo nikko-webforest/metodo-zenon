@@ -36,12 +36,18 @@
         inset: 0;
         z-index: 2;
         display: block;
-        background:
-          -webkit-linear-gradient( 180deg, rgba(20, 16, 14, 0) 59.13%, #19110E 100% ),
-          -webkit-linear-gradient( 0deg, rgba(73, 35, 12, 0.2), rgba(73, 35, 12, 0.2) );
-        background:
-          linear-gradient( 180deg, rgba(20, 16, 14, 0) 59.13%, #19110E 100% ),
-          linear-gradient( 0deg, rgba(73, 35, 12, 0.2), rgba(73, 35, 12, 0.2) );
+        background: -webkit-linear-gradient(
+            180deg,
+            rgba(20, 16, 14, 0) 59.13%,
+            #19110e 100%
+          ),
+          -webkit-linear-gradient(0deg, rgba(73, 35, 12, 0.2), rgba(73, 35, 12, 0.2));
+        background: linear-gradient(
+            180deg,
+            rgba(20, 16, 14, 0) 59.13%,
+            #19110e 100%
+          ),
+          linear-gradient(0deg, rgba(73, 35, 12, 0.2), rgba(73, 35, 12, 0.2));
         width: 100%;
         height: 100%;
       }
@@ -59,7 +65,7 @@
           height: 100%;
 
           p {
-            color: #FFFFFF;
+            color: #ffffff;
             font-style: normal;
             font-size: 34px;
             font-weight: 700;
@@ -94,10 +100,16 @@
             text-fill-color: transparent;
             letter-spacing: -0.02em;
             line-height: 1.2em;
-            background:
-              -webkit-linear-gradient( 179.25deg, #FFFFFF 0.65%, #030303 146.06% );
-            background:
-              linear-gradient( 179.25deg, #FFFFFF 0.65%, #030303 146.06% );
+            background: -webkit-linear-gradient(
+              179.25deg,
+              #ffffff 0.65%,
+              #030303 146.06%
+            );
+            background: linear-gradient(
+              179.25deg,
+              #ffffff 0.65%,
+              #030303 146.06%
+            );
             -webkit-background-clip: text;
             background-clip: text;
             margin: 0 auto 20px;
@@ -133,10 +145,8 @@
     }
 
     &:nth-child(2) {
-      background:
-        -webkit-linear-gradient( 180deg, #18110E 0%, #49230C 100% );
-      background:
-        linear-gradient( 180deg, #18110E 0%, #49230C 100% );
+      background: -webkit-linear-gradient(180deg, #18110e 0%, #49230c 100%);
+      background: linear-gradient(180deg, #18110e 0%, #49230c 100%);
       padding: 40px 30px;
 
       .mz-container {
@@ -147,7 +157,7 @@
         }
 
         h2 {
-          color: #FFFFFF;
+          color: #ffffff;
           font-style: normal;
           font-size: 37px;
           font-weight: 700;
@@ -171,7 +181,7 @@
         }
 
         .p-01 {
-          color: #FFFFFF;
+          color: #ffffff;
           font-style: normal;
           font-size: 19px;
           font-weight: 300;
@@ -188,10 +198,8 @@
 }
 
 .mz-pb-banner-section {
-  background:
-    -webkit-linear-gradient( 180deg, #18110E 0%, #49230C 100% );
-  background:
-    linear-gradient( 180deg, #18110E 0%, #49230C 100% );
+  background: -webkit-linear-gradient(180deg, #18110e 0%, #49230c 100%);
+  background: linear-gradient(180deg, #18110e 0%, #49230c 100%);
   padding: 40px 30px;
 
   .mz-container {
@@ -214,7 +222,7 @@
       }
 
       h2 {
-        color: #FFFFFF;
+        color: #ffffff;
         font-style: normal;
         font-size: 37px;
         font-weight: 700;
@@ -240,7 +248,7 @@
       }
 
       .p-01 {
-        color: #FFFFFF;
+        color: #ffffff;
         font-style: normal;
         font-size: 19px;
         font-weight: 300;
@@ -261,7 +269,7 @@
 }
 
 .mz-section--how-we-work {
-  background-color: #0B0D0F;
+  background-color: #0b0d0f;
   padding: 20px 30px 135px;
 
   @media only screen and (max-width: 768px) {
@@ -318,7 +326,7 @@
         }
 
         h2 {
-          color: #FFFFFF;
+          color: #ffffff;
           font-style: normal;
           font-size: 33px;
           font-weight: 700;
@@ -339,7 +347,7 @@
 
             &::before {
               content: counter(items);
-              color: #FFFFFF;
+              color: #ffffff;
               text-align: center;
               position: absolute;
               left: -65px;
@@ -349,12 +357,12 @@
               width: 30px;
               height: 30px;
               padding: 12px;
-              border: 1px solid #FFFFFF;
+              border: 1px solid #ffffff;
               border-radius: 50%;
             }
 
             h3 {
-              color: #FFFFFF;
+              color: #ffffff;
               font-size: 19px;
               font-weight: 700;
               text-transform: uppercase;
@@ -398,7 +406,7 @@
       height: 100%;
 
       .mz-blog-post-date-published {
-        color: #6F4A37;
+        color: #6f4a37;
         font-family: $primary-font-family;
         font-style: normal;
         font-weight: 700;
@@ -410,7 +418,7 @@
       }
 
       .mz-blog-post-title {
-        color: #FFFFFF;
+        color: #ffffff;
         font-family: $primary-font-family;
         font-style: normal;
         font-weight: 700;
@@ -456,7 +464,7 @@
           }
 
           .mz-blog-post-title {
-            color: #6F4A37;
+            color: #6f4a37;
             font-family: $primary-font-family;
             font-style: normal;
             font-weight: 700;
@@ -492,7 +500,7 @@
           }
 
           .mz-blog-post-content {
-            color: #7D7D7D;
+            color: #7d7d7d;
             font-family: $primary-font-family;
             font-style: normal;
             font-size: 17px;
@@ -544,7 +552,7 @@
               .mz-social-share-link {
                 display: block;
                 padding: 10px;
-                border: 1px solid #BBBBBA;
+                border: 1px solid #bbbbba;
                 border-radius: 50px;
 
                 &:hover {
@@ -572,7 +580,7 @@
           &:nth-child(1) {
             .mz-blog-post-content {
               p {
-                color: #FFFFFF;
+                color: #ffffff;
               }
             }
           }
@@ -584,7 +592,7 @@
 
 /*===== Blog Listing Page =====*/
 .mz-section--blog-listing {
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   padding: 135px 30px;
 
   @media only screen and (max-width: 1180px) {
@@ -685,8 +693,8 @@
 
           &.--active-item {
             .mz-category-tab-filter-link {
-              color: #FFFFFF;
-              background-color: #6F4A37;
+              color: #ffffff;
+              background-color: #6f4a37;
 
               &:hover {
                 opacity: 0.9;
@@ -718,7 +726,7 @@
           width: 100%;
           height: 100%;
           padding: 18px 55px 18px 18px;
-          border: 1px solid #D3D3D3;
+          border: 1px solid #d3d3d3;
 
           &::placeholder {
             text-transform: uppercase;
@@ -739,7 +747,7 @@
       width: 100%;
 
       .mz-blog-post-item {
-        background-color: #FFFFFF;
+        background-color: #ffffff;
         max-width: 320px;
         width: 100%;
         margin: 0 auto 40px;
@@ -787,7 +795,7 @@
           }
 
           .mz-blog-post-excerpt {
-            color: #373F41;
+            color: #373f41;
             font-style: normal;
             font-size: 13px;
             font-weight: 300;
@@ -809,7 +817,7 @@
             width: 100%;
 
             .mz-blog-post-released-date {
-              color: #AFACB4;
+              color: #afacb4;
               font-style: normal;
               font-size: 15px;
               font-weight: 300;
@@ -819,7 +827,7 @@
             }
 
             .mz-link--more-info {
-              color: #6F4A37;
+              color: #6f4a37;
               font-style: normal;
               font-size: 16px;
               font-weight: 700;
@@ -847,7 +855,7 @@
                     float: right;
 
                     path {
-                      stroke: #6F4A37;
+                      stroke: #6f4a37;
                     }
                   }
                 }
@@ -880,19 +888,19 @@
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        background-color: #FFFFFF;
+        background-color: #ffffff;
         opacity: 0.7;
         width: 45px;
         height: 45px;
         cursor: pointer;
 
         &.prev {
-          background-color: #49230C;
+          background-color: #49230c;
           opacity: 1;
         }
 
         &.next {
-          background-color: #49230C;
+          background-color: #49230c;
           opacity: 1;
         }
 
@@ -917,20 +925,20 @@
 
 .theme-dark {
   .mz-section--blog-listing {
-    background-color: #0E0E0E;
+    background-color: #0e0e0e;
 
     .mz-container {
       .mz-top-bar-row {
         .mz-category-tab-filter-list {
           .mz-category-tab-filter-item {
             .mz-category-tab-filter-link {
-              color: #FFFFFF;
+              color: #ffffff;
               background-color: rgba(255, 255, 255, 0.05);
             }
 
             &.--active-item {
               .mz-category-tab-filter-link {
-                color: #FFFFFF;
+                color: #ffffff;
                 background-color: #6f4a37;
 
                 &:hover {
@@ -954,7 +962,7 @@
 
           .mz-blog-post-details-wrap {
             .mz-blog-post-title {
-              color: #FFFFFF;
+              color: #ffffff;
             }
 
             .mz-blog-post-excerpt {
@@ -984,7 +992,7 @@
 
       .mz-pagination {
         .page-numbers {
-          color: #FFFFFF;
+          color: #ffffff;
           background-color: rgba(255, 255, 255, 0.05);
 
           &.prev {
@@ -1008,7 +1016,7 @@
     }
 
     .no-blogpost-found {
-      color: #FFFFFF;
+      color: #ffffff;
     }
   }
 }
@@ -1044,7 +1052,7 @@
       }
 
       h2 {
-        color: #0A0A0A;
+        color: #0a0a0a;
         font-family: $primary-font-family;
         font-style: normal;
         font-weight: 700;
@@ -1118,7 +1126,7 @@
             }
 
             .programs-card-title {
-              color: #0A0A0A;
+              color: #0a0a0a;
               font-family: $primary-font-family;
               font-style: normal;
               font-size: 19px;
@@ -1199,7 +1207,7 @@
 
                   @media only screen and (max-width: 768px) {
                     left: -15px;
-                    background-color: #0A0A0A;
+                    background-color: #0a0a0a;
                     width: calc(100% + 30px);
                   }
 
@@ -1209,7 +1217,7 @@
                     right: 0;
                     z-index: 1;
                     display: block;
-                    background-color: #0A0A0A;
+                    background-color: #0a0a0a;
                     width: 50vw;
                     height: 100%;
 
@@ -1248,7 +1256,7 @@
                     }
 
                     h3 {
-                      color: #FFFFFF;
+                      color: #ffffff;
                       font-family: $primary-font-family;
                       font-style: normal;
                       font-size: 37px;
@@ -1284,7 +1292,7 @@
 
                       .mz-inner-col {
                         h4 {
-                          color: #FFFFFF;
+                          color: #ffffff;
                           font-family: $primary-font-family;
                           font-style: normal;
                           font-size: 21px;
@@ -1391,7 +1399,7 @@
                     }
 
                     .p-04 {
-                      color: #FFFFFF;
+                      color: #ffffff;
                       font-family: $primary-font-family;
                       font-style: normal;
                       font-size: 25px;
@@ -1442,7 +1450,7 @@
                       }
 
                       h3 {
-                        color: #FFFFFF;
+                        color: #ffffff;
                         font-style: normal;
                         font-size: 25px;
                         font-weight: 700;
@@ -1466,7 +1474,7 @@
                       }
 
                       .p-05 {
-                        color: #373F41;
+                        color: #373f41;
                         font-style: normal;
                         font-size: 15px;
                         font-weight: 500;
@@ -1565,7 +1573,7 @@
                   }
 
                   .p-07 {
-                    color: #373F41;
+                    color: #373f41;
                     font-style: normal;
                     font-size: 15px;
                     font-weight: 500;
@@ -1608,7 +1616,7 @@
                       }
 
                       .benefits-label {
-                        color: #373F41;
+                        color: #373f41;
                         font-style: normal;
                         font-size: 15px;
                         font-weight: 500;
@@ -1637,19 +1645,15 @@
                       }
 
                       &.mz-cta--primary {
-                        color: #FFFFFF;
-                        background:
-                          -webkit-linear-gradient( #825036, #49230C );
-                        background:
-                          linear-gradient( #825036, #49230C );
+                        color: #ffffff;
+                        background: -webkit-linear-gradient(#825036, #49230c);
+                        background: linear-gradient(#825036, #49230c);
                         border: none;
 
                         &:hover {
-                          color: #FFFFFF;
-                          background:
-                            -webkit-linear-gradient( #49230C, #512912 );
-                          background:
-                            linear-gradient( #49230C, #512912 );
+                          color: #ffffff;
+                          background: -webkit-linear-gradient(#49230c, #512912);
+                          background: linear-gradient(#49230c, #512912);
                         }
                       }
 
@@ -1658,7 +1662,7 @@
                         border-color: #6f4a37;
 
                         &:hover {
-                          color: #FFFFFF;
+                          color: #ffffff;
                         }
                       }
                     }
@@ -1678,34 +1682,34 @@
     .mz-overflow {
       .mz-container {
         .p-01 {
-          background:
-            -webkit-linear-gradient( #C2AB90, #8F6C45 );
-          background:
-            linear-gradient( #C2Ab90, #8F6C45 );
+          background: -webkit-linear-gradient(#c2ab90, #8f6c45);
+          background: linear-gradient(#c2ab90, #8f6c45);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
 
         h2 {
-          color: #FFFFFF;
+          color: #ffffff;
         }
 
         .carousel-main {
           .carousel-cell {
             &.is-selected {
               .programs-card {
-                background:
-                  -webkit-linear-gradient( 180deg, #825036 0%, #49230c 100% );
-                background:
-                  linear-gradient( 180deg, #825036 0%, #49230c 100% );
+                background: -webkit-linear-gradient(
+                  180deg,
+                  #825036 0%,
+                  #49230c 100%
+                );
+                background: linear-gradient(180deg, #825036 0%, #49230c 100%);
                 border: none;
 
                 .programs-card-number {
-                  color: #FFFFFF;
+                  color: #ffffff;
                 }
 
                 .programs-card-link {
-                  color: #FFFFFF;
+                  color: #ffffff;
                 }
               }
             }
@@ -1715,15 +1719,15 @@
               border: none;
 
               .programs-card-number {
-                color: #D3A07A;
+                color: #d3a07a;
               }
 
               .programs-card-title {
-                color: #FFFFFF;
+                color: #ffffff;
               }
 
               .programs-card-link {
-                color: #D3A07A;
+                color: #d3a07a;
               }
             }
           }
@@ -1743,7 +1747,7 @@
                       .mz-inner-row {
                         .mz-svg {
                           path {
-                            fill: #D3A07A;
+                            fill: #d3a07a;
                           }
                         }
                       }
@@ -1752,23 +1756,33 @@
 
                   &:nth-child(2) {
                     .overlap-label-wrap {
-                      background:
-                        -webkit-linear-gradient( 180deg, #825036 0%, #49230C 100% );
-                      background:
-                        linear-gradient( 180deg, #825036 0%, #49230C 100% );
+                      background: -webkit-linear-gradient(
+                        180deg,
+                        #825036 0%,
+                        #49230c 100%
+                      );
+                      background: linear-gradient(
+                        180deg,
+                        #825036 0%,
+                        #49230c 100%
+                      );
 
                       &::before {
-                        background:
-                          -webkit-linear-gradient( 180deg, #825036 0%, #49230C 100% );
-                        background:
-                          linear-gradient( 180deg, #825036 0%, #49230C 100% );
+                        background: -webkit-linear-gradient(
+                          180deg,
+                          #825036 0%,
+                          #49230c 100%
+                        );
+                        background: linear-gradient(
+                          180deg,
+                          #825036 0%,
+                          #49230c 100%
+                        );
                       }
 
                       h3 {
-                        background:
-                          -webkit-linear-gradient( #C2AB90, #8F6C45 );
-                        background:
-                          linear-gradient( #C2AB90, #8F6C45 );
+                        background: -webkit-linear-gradient(#c2ab90, #8f6c45);
+                        background: linear-gradient(#c2ab90, #8f6c45);
                         -webkit-background-clip: text;
                         -webkit-text-fill-color: transparent;
                       }
@@ -1785,11 +1799,11 @@
                         background-color: #181818;
 
                         .p-05 {
-                          color: #FFFFFF;
+                          color: #ffffff;
                         }
 
                         .mz-title {
-                          color: #FFFFFF;
+                          color: #ffffff;
                         }
 
                         .mz-curriculum {
@@ -1801,7 +1815,7 @@
 
                   &:nth-child(2) {
                     h5 {
-                      color: #FFFFFF;
+                      color: #ffffff;
                     }
 
                     .p-06,
@@ -1820,12 +1834,12 @@
                     .mz-inner-row {
                       .mz-cta {
                         &.mz-cta--secondary {
-                          color: #FFFFFF;
-                          border-color: #FFFFFF;
+                          color: #ffffff;
+                          border-color: #ffffff;
 
                           &:hover {
                             color: #000000;
-                            background-color: #FFFFFF;
+                            background-color: #ffffff;
                           }
                         }
                       }
@@ -1843,7 +1857,7 @@
 
 /*===== Contact Us Page =====*/
 .mz-section--zenon-method {
-  background-color: #49230C;
+  background-color: #49230c;
   padding: 50px 30px 20px;
 
   @media only screen and (max-width: 768px) {
@@ -1854,7 +1868,7 @@
     max-width: 800px;
 
     h3 {
-      color: #FFFFFF;
+      color: #ffffff;
       font-family: $primary-font-family;
       font-style: normal;
       font-size: 26px;
@@ -1866,7 +1880,7 @@
     }
 
     p {
-      color: #FFFFFF;
+      color: #ffffff;
       font-family: $primary-font-family;
       font-style: normal;
       font-size: 17px;
@@ -1881,10 +1895,8 @@
 
 .theme-dark {
   .mz-section--zenon-method {
-    background:
-      -webkit-linear-gradient( #825036 0%, #49230C 100% );
-    background:
-      linear-gradient( #825036 0%, #49230C 100% );
+    background: -webkit-linear-gradient(#825036 0%, #49230c 100%);
+    background: linear-gradient(#825036 0%, #49230c 100%);
   }
 }
 
@@ -1932,7 +1944,7 @@
           }
 
           h2 {
-            color: #0A0A0A;
+            color: #0a0a0a;
             font-family: $primary-font-family;
             font-style: normal;
             font-size: 33px;
@@ -1975,7 +1987,7 @@
 
             .mz-inner-col {
               h4 {
-                color: #0A0A0A;
+                color: #0a0a0a;
                 font-family: $primary-font-family;
                 font-style: normal;
                 font-size: 21px;
@@ -1987,7 +1999,7 @@
               }
 
               .p-03 {
-                color: #0A0A0A;
+                color: #0a0a0a;
                 font-family: $primary-font-family;
                 font-style: normal;
                 font-size: 15px;
@@ -2016,7 +2028,7 @@
           }
 
           h4 {
-            color: #0A0A0A;
+            color: #0a0a0a;
             font-family: $primary-font-family;
             font-style: normal;
             font-size: 19px;
@@ -2041,16 +2053,14 @@
         .mz-col {
           &:nth-child(1) {
             h3 {
-              background:
-                -webkit-linear-gradient( #C2AB90, #8F6C45 );
-              background:
-                linear-gradient(#C2AB90, #8F6C45 );
+              background: -webkit-linear-gradient(#c2ab90, #8f6c45);
+              background: linear-gradient(#c2ab90, #8f6c45);
               -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;
             }
 
             h2 {
-              color: #FFFFFF;
+              color: #ffffff;
             }
 
             .mz-inner-row {
@@ -2061,11 +2071,11 @@
               }
 
               h4 {
-                color: #FFFFFF;
+                color: #ffffff;
               }
 
               .p-03 {
-                color: #FFFFFF;
+                color: #ffffff;
               }
             }
           }
@@ -2074,7 +2084,7 @@
             background-color: #181818;
 
             h4 {
-              color: #FFFFFF;
+              color: #ffffff;
             }
           }
         }
@@ -2102,7 +2112,7 @@
     }
 
     .location-label {
-      color: #0A0A0A;
+      color: #0a0a0a;
       font-family: $primary-font-family;
       font-style: normal;
       font-size: 33px;
@@ -2125,16 +2135,14 @@
 .theme-dark {
   .mz-section--our-location {
     h3 {
-      background:
-        -webkit-linear-gradient( #C2AB90, #8F6C45 );
-      background: 
-        linear-gradient( #C2AB90, #8F6C45 );
+      background: -webkit-linear-gradient(#c2ab90, #8f6c45);
+      background: linear-gradient(#c2ab90, #8f6c45);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
 
     .location-label {
-      color: #FFFFFF;
+      color: #ffffff;
     }
   }
 }
@@ -2163,8 +2171,22 @@
       max-width: 800px;
     }
 
+    .mz-subtitle,
+    .mz-info {
+      color: #6f4a37;
+      font-family: $primary-font-family;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: -0.02em;
+      line-height: 1em;
+      margin: 0 auto 18px;
+    }
+
     .mz-title {
-      color: #0A0A0A;
+      color: #0a0a0a;
       font-family: $primary-font-family;
       font-style: normal;
       font-size: 32px;
@@ -2236,7 +2258,7 @@
           }
 
           .services-card-title {
-            color: #0A0A0A;
+            color: #0a0a0a;
             font-family: $primary-font-family;
             font-style: normal;
             font-size: 24px;
@@ -2258,7 +2280,7 @@
           }
 
           .services-card-link {
-            color: #FFFFFF;
+            color: #ffffff;
             font-family: $primary-font-family;
             font-style: normal;
             font-size: 14px;
@@ -2267,10 +2289,12 @@
             text-transform: uppercase;
             visibility: hidden;
             opacity: 0;
-            background:
-              -webkit-linear-gradient( 180deg, #825036 0%, #49230C 100% );
-            background:
-              linear-gradient( 180deg, #825036 0%, #49230C 100% );
+            background: -webkit-linear-gradient(
+              180deg,
+              #825036 0%,
+              #49230c 100%
+            );
+            background: linear-gradient(180deg, #825036 0%, #49230c 100%);
             width: 100%;
             margin: auto 0 0;
             padding: 10px 25px;
@@ -2278,10 +2302,8 @@
             transition: opacity $click-transition-duration ease-in-out;
 
             &:hover {
-              background:
-                -webkit-linear-gradient( #49230C, #512912 );
-              background:
-                linear-gradient( #49230C, #512912 );
+              background: -webkit-linear-gradient(#49230c, #512912);
+              background: linear-gradient(#49230c, #512912);
             }
 
             @media only screen and (max-width: 480px) {
@@ -2296,7 +2318,7 @@
         }
 
         &.active {
-          background-color: #FFFFFF;
+          background-color: #ffffff;
 
           .services-card-link {
             visibility: visible;
@@ -2304,6 +2326,13 @@
           }
         }
       }
+    }
+
+    .mz-info {
+      width: 50%;
+      margin-top: 80px;
+      font-size: 20px;
+      color: $black-color;
     }
   }
 }
@@ -2314,14 +2343,14 @@
 
     .mz-container {
       .mz-title {
-        color: #FFFFFF;
+        color: #ffffff;
       }
 
       .mz-row {
         .mz-col {
           .services-card {
             .services-card-title {
-              color: #FFFFFF;
+              color: #ffffff;
             }
 
             .services-card-desc {
@@ -2329,12 +2358,12 @@
             }
 
             .services-card-link {
-              color: #7F4D33;
-              background: #FFFFFF;
+              color: #7f4d33;
+              background: #ffffff;
               border: none;
 
               &:hover {
-                background: #F1EBEBEB;
+                background: #f1ebebeb;
               }
             }
           }
@@ -2345,10 +2374,12 @@
           }
 
           &.active {
-            background:
-              -webkit-linear-gradient( 180deg, #825036 0%, #49230C 100% );
-            background:
-              linear-gradient( 180deg, #825036 0%, #49230C 100% );
+            background: -webkit-linear-gradient(
+              180deg,
+              #825036 0%,
+              #49230c 100%
+            );
+            background: linear-gradient(180deg, #825036 0%, #49230c 100%);
 
             .services-card-icon-img {
               filter: invert(0%) sepia(0%) saturate(900%) hue-rotate(390deg)
@@ -2356,7 +2387,7 @@
             }
 
             .services-card-desc {
-              color: #FFFFFF;
+              color: #ffffff;
             }
           }
         }
@@ -2416,7 +2447,7 @@
             margin: 0 0 40px;
 
             .mz-services-sidetab-item {
-              color: #0A0A0A;
+              color: #0a0a0a;
               font-family: $primary-font-family;
               font-style: normal;
               font-size: 18px;
@@ -2428,13 +2459,17 @@
               display: flex;
               flex-direction: row;
               align-items: center;
-              background-color: #FFFFFF;
+              background-color: #ffffff;
               width: 100%;
               height: 62px;
               padding: 0 20px;
               border-bottom: 0.5px solid #afacb4;
               cursor: pointer;
               transition: 0.3s;
+
+              &:last-child {
+                height: 102px;
+              }
 
               .mz-svg.svg-icon-angle-right {
                 max-width: 8px;
@@ -2444,28 +2479,28 @@
               }
 
               &:hover {
-                color: #FFFFFF;
+                color: #ffffff;
                 background-color: #945b3c;
 
                 path {
-                  stroke: #FFFFFF;
+                  stroke: #ffffff;
                 }
               }
 
               &.active {
                 background-color: #7c4b31;
-                color: #FFFFFF;
+                color: #ffffff;
                 border-bottom: none;
 
                 path {
-                  stroke: #FFFFFF;
+                  stroke: #ffffff;
                 }
               }
             }
           }
 
           .mz-cta.mz-cta--zenon-form {
-            color: #FFFFFF;
+            color: #ffffff;
             font-family: $primary-font-family;
             font-style: normal;
             font-size: 18px;
@@ -2476,10 +2511,12 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background:
-              -webkit-linear-gradient( 180deg, #825036 0%, #49230c 100% );
-            background:
-              linear-gradient( 180deg, #825036 0%, #49230c 100% );
+            background: -webkit-linear-gradient(
+              180deg,
+              #825036 0%,
+              #49230c 100%
+            );
+            background: linear-gradient(180deg, #825036 0%, #49230c 100%);
             width: 100%;
             margin: 0 0 70px;
             padding: 15px 25px;
@@ -2490,10 +2527,8 @@
             }
 
             &:hover {
-              background:
-                -webkit-linear-gradient( #49230C, #512912 );
-              background:
-                linear-gradient( #49230C, #512912 );
+              background: -webkit-linear-gradient(#49230c, #512912);
+              background: linear-gradient(#49230c, #512912);
             }
           }
 
@@ -2510,7 +2545,7 @@
               padding: 25px 30px;
 
               h3 {
-                color: #FFFFFF;
+                color: #ffffff;
                 font-family: $primary-font-family;
                 font-style: normal;
                 font-size: 24px;
@@ -2525,7 +2560,7 @@
               }
 
               p {
-                color: #FFFFFF;
+                color: #ffffff;
                 font-family: $primary-font-family;
                 font-style: normal;
                 font-size: 14px;
@@ -2566,7 +2601,7 @@
                     }
 
                     .contact-info-label {
-                      color: #FFFFFF;
+                      color: #ffffff;
                       font-family: $primary-font-family;
                       font-style: normal;
                       font-weight: 400;
@@ -2688,7 +2723,7 @@
 
                     &:nth-child(2) {
                       h4 {
-                        color: #0A0A0A;
+                        color: #0a0a0a;
                         font-family: $primary-font-family;
                         font-style: normal;
                         font-size: 20px;
@@ -2781,7 +2816,7 @@
           &:nth-child(1) {
             .mz-services-sidetab-list {
               .mz-services-sidetab-item {
-                color: #FFFFFF;
+                color: #ffffff;
                 background-color: transparent;
 
                 &.active {
@@ -2791,18 +2826,18 @@
             }
 
             .mz-cta--goto-contact {
-              color: #FFFFFF;
-              background:
-                -webkit-linear-gradient( 180deg, #825036 0%, #49230C 100% );
-              background:
-                linear-gradient( 180deg, #825036 0%, #49230C 100% );
+              color: #ffffff;
+              background: -webkit-linear-gradient(
+                180deg,
+                #825036 0%,
+                #49230c 100%
+              );
+              background: linear-gradient(180deg, #825036 0%, #49230c 100%);
               border: none;
 
               &:hover {
-                background:
-                  -webkit-linear-gradient( #49230C, #512912 );
-                background:
-                  linear-gradient( #49230C, #512912 );
+                background: -webkit-linear-gradient(#49230c, #512912);
+                background: linear-gradient(#49230c, #512912);
               }
             }
           }
@@ -2810,11 +2845,11 @@
           &:nth-child(2) {
             .mz-tabpane-service-content {
               h5 {
-                color: #FFFFFF;
+                color: #ffffff;
               }
 
               .p-01 {
-                color: #FFFFFF;
+                color: #ffffff;
               }
 
               .features-list {
@@ -2824,7 +2859,7 @@
                       &:nth-child(2) {
                         h4,
                         p {
-                          color: #FFFFFF;
+                          color: #ffffff;
                         }
                       }
                     }
@@ -2833,12 +2868,12 @@
               }
 
               .p-02 {
-                color: #FFFFFF;
+                color: #ffffff;
               }
 
               .benefits-list {
                 li {
-                  color: #FFFFFF;
+                  color: #ffffff;
                 }
               }
             }
@@ -2858,7 +2893,7 @@
   }
 
   .p-01 {
-    color: #6F4A37;
+    color: #6f4a37;
     font-family: $primary-font-family;
     font-style: normal;
     font-weight: 700;
@@ -2877,7 +2912,7 @@
   }
 
   h2 {
-    color: #0A0A0A;
+    color: #0a0a0a;
     font-family: $primary-font-family;
     font-style: normal;
     font-weight: 700;
@@ -2900,7 +2935,7 @@
   }
 
   .p-02 {
-    color: #373F41;
+    color: #373f41;
     font-family: $primary-font-family;
     font-style: normal;
     font-weight: 300;
@@ -2920,16 +2955,14 @@
 .theme-dark {
   .mz-section--about-us {
     .p-01 {
-      background:
-        -webkit-linear-gradient( #C2AB90, #8F6C45 );
-      background:
-        linear-gradient( #C2AB90, #8F6C45 );
+      background: -webkit-linear-gradient(#c2ab90, #8f6c45);
+      background: linear-gradient(#c2ab90, #8f6c45);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
 
     h2 {
-      color: #FFFFFF;
+      color: #ffffff;
     }
 
     p {
@@ -2954,7 +2987,7 @@
 
   .mz-section-01 {
     z-index: 1;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     padding: 0 30px 50px;
 
     @media only screen and (max-width: 1180px) {
@@ -2968,7 +3001,7 @@
     .mz-container {
       position: relative;
       z-index: 2;
-      background-color: #49230C;
+      background-color: #49230c;
       max-width: 1140px;
       width: 100%;
       padding: 0 35px;
@@ -3012,7 +3045,7 @@
             width: max-content;
 
             .coach-expertise {
-              color: #AFACB4;
+              color: #afacb4;
               font-style: normal;
               font-size: 12px;
               font-weight: 700;
@@ -3023,7 +3056,7 @@
             }
 
             .coach-name {
-              color: #FFFFFF;
+              color: #ffffff;
               font-family: $primary-font-family;
               font-style: normal;
               font-size: 32px;
@@ -3037,7 +3070,7 @@
           }
 
           &.is-selected {
-            border-bottom: 5px solid #FFFFFF;
+            border-bottom: 5px solid #ffffff;
             opacity: 1;
 
             @media only screen and (max-width: 768px) {
@@ -3077,7 +3110,7 @@
                 }
 
                 &.is-selected {
-                  border-bottom: 5px solid #FFFFFF;
+                  border-bottom: 5px solid #ffffff;
                   opacity: 1;
                 }
               }
@@ -3099,7 +3132,7 @@
   }
 
   .mz-section-02 {
-    background-color: #F0F0F0;
+    background-color: #f0f0f0;
     margin: -150px auto 0;
     padding: 0 30px 50px;
 
@@ -3144,11 +3177,11 @@
                 }
 
                 .coach-details {
-                  background-color: #FFFFFF;
+                  background-color: #ffffff;
                   padding: 30px 30px 40px 30px;
 
                   .coach-full-name {
-                    color: #0A0A0A;
+                    color: #0a0a0a;
                     font-family: $primary-font-family;
                     font-style: normal;
                     font-size: 18px;
@@ -3170,7 +3203,7 @@
                   }
 
                   .coach-bio {
-                    color: #0A0A0A;
+                    color: #0a0a0a;
                     font-family: $primary-font-family;
                     font-style: normal;
                     font-size: 12px;
@@ -3186,14 +3219,15 @@
                     margin: 0;
 
                     .oach-social-media-item {
-
                     }
                   }
                 }
               }
 
               &:nth-child(2) {
-                width: calc(100% - (var(--col-nth-child-1-width) + var(--row-gap)));
+                width: calc(
+                  100% - (var(--col-nth-child-1-width) + var(--row-gap))
+                );
 
                 @media only screen and (max-width: 768px) {
                   width: 100%;
@@ -3213,14 +3247,14 @@
                   }
 
                   p {
-                    color: #373F41;
+                    color: #373f41;
                     font-family: $primary-font-family;
                     font-style: normal;
                     font-size: 14px;
                     font-weight: 400;
                     line-height: 1.5em;
                     margin: 0;
-  
+
                     @media only screen and (max-width: 768px) {
                       width: 100%;
                     }
@@ -3266,7 +3300,7 @@
                       &::-webkit-progress-bar {
                         background-color: rgba(111, 74, 55, 0.4);
                       }
-  
+
                       &::-webkit-progress-value {
                         background-color: $quinary-color;
                       }
@@ -3283,7 +3317,7 @@
                   }
 
                   > h5 {
-                    color: #0A0A0A;
+                    color: #0a0a0a;
                     font-family: $primary-font-family;
                     font-style: normal;
                     font-size: 20px;
@@ -3310,7 +3344,7 @@
                     @media only screen and (max-width: 480px) {
                       flex-direction: column;
                     }
-                    
+
                     .coach-specialties-item {
                       display: flex;
                       // flex-direction: row;
@@ -3330,7 +3364,7 @@
 
                       .coach-specialties-details {
                         * {
-                          color: #0A0A0A;
+                          color: #0a0a0a;
                           font-family: $primary-font-family;
                           font-style: normal;
                           letter-spacing: -0.02em;
@@ -3338,7 +3372,12 @@
                           margin: 0;
                         }
 
-                        h1, h2, h3, h4, h5, h6 {
+                        h1,
+                        h2,
+                        h3,
+                        h4,
+                        h5,
+                        h6 {
                           margin: 0 0 5px;
                         }
 
@@ -3391,7 +3430,7 @@
             @media only screen and (max-width: 480px) {
               --img-dimension-size: 250px;
             }
-            
+
             .mz-program-details {
               width: calc(55% - 80px);
               padding: 200px 0;
@@ -3406,7 +3445,7 @@
               }
 
               h6 {
-                color: #6F4A37;
+                color: #6f4a37;
                 font-family: $primary-font-family;
                 font-style: normal;
                 font-weight: 700;
@@ -3424,7 +3463,7 @@
               }
 
               h2 {
-                color: #0A0A0A;
+                color: #0a0a0a;
                 font-family: $primary-font-family;
                 font-style: normal;
                 font-weight: 700;
@@ -3447,7 +3486,7 @@
               }
 
               p {
-                color: #373F41;
+                color: #373f41;
                 font-family: $primary-font-family;
                 font-style: normal;
                 font-weight: 400;
@@ -3585,15 +3624,13 @@
       background-color: #000000;
 
       .mz-container {
-        background:
-          -webkit-linear-gradient( 180deg, #825036 0%, #49230C 100% );
-        background:
-          linear-gradient( 180deg, #825036 0%, #49230C 100% );
+        background: -webkit-linear-gradient(180deg, #825036 0%, #49230c 100%);
+        background: linear-gradient(180deg, #825036 0%, #49230c 100%);
       }
     }
 
     .mz-section-02 {
-      background-color: #0B0D0F;
+      background-color: #0b0d0f;
 
       .mz-container {
         .carousel-content {
@@ -3605,15 +3642,15 @@
                     background-color: #181818;
 
                     .coach-full-name {
-                      color: #FFFFFF;
+                      color: #ffffff;
                     }
 
                     .coach-expertise {
-                      color: #8B663E;
+                      color: #8b663e;
                     }
 
                     .coach-bio {
-                      color: #AFACB4;
+                      color: #afacb4;
                     }
                   }
                 }
@@ -3621,11 +3658,11 @@
                 &:nth-child(2) {
                   .coach-competitive-advantages {
                     h5 {
-                      color: #FFFFFF;
+                      color: #ffffff;
                     }
 
                     p {
-                      color: #AFACB4;
+                      color: #afacb4;
                     }
                   }
 
@@ -3633,10 +3670,8 @@
                     .coach-expertise-level-item {
                       .coach-expertise-level-details {
                         h6 {
-                          background:
-                            -webkit-linear-gradient( #C2AB90, #8F6C45 );
-                          background:
-                            linear-gradient( #C2AB90, #8F6C45 );
+                          background: -webkit-linear-gradient(#c2ab90, #8f6c45);
+                          background: linear-gradient(#c2ab90, #8f6c45);
                           -webkit-background-clip: text;
                           -webkit-text-fill-color: transparent;
                         }
@@ -3648,7 +3683,7 @@
                         }
 
                         ::-webkit-progress-value {
-                          background-color: #8B663E;
+                          background-color: #8b663e;
                         }
                       }
                     }
@@ -3659,13 +3694,13 @@
                       .coach-specialties-item {
                         .mz-svg {
                           path {
-                            fill: #D3A07A;
+                            fill: #d3a07a;
                           }
                         }
 
                         .coach-specialties-details {
                           * {
-                            color: #FFFFFF;
+                            color: #ffffff;
                           }
                         }
                       }
@@ -3686,20 +3721,18 @@
             .mz-program {
               .mz-program-details {
                 h6 {
-                  background:
-                    -webkit-linear-gradient( #C2AB90, #8F6C45 );
-                  background:
-                    linear-gradient( #C2AB90, #8F6C45 );
+                  background: -webkit-linear-gradient(#c2ab90, #8f6c45);
+                  background: linear-gradient(#c2ab90, #8f6c45);
                   -webkit-background-clip: text;
                   -webkit-text-fill-color: transparent;
                 }
 
                 h2 {
-                  color: #FFFFFF;
+                  color: #ffffff;
                 }
 
                 p {
-                  color: #AFACB4;
+                  color: #afacb4;
                 }
               }
 
@@ -3711,11 +3744,13 @@
                 }
 
                 &::before {
-                  content: '';
-                  background:
-                    -webkit-linear-gradient( 180deg, #825036 0%, #49230C 100% );
-                  background:
-                    linear-gradient( 180deg, #825036 0%, #49230C 100% );
+                  content: "";
+                  background: -webkit-linear-gradient(
+                    180deg,
+                    #825036 0%,
+                    #49230c 100%
+                  );
+                  background: linear-gradient(180deg, #825036 0%, #49230c 100%);
                 }
               }
             }
@@ -3727,7 +3762,7 @@
 }
 
 .mz-section--facilities {
-  background: #0A0A0A;
+  background: #0a0a0a;
   padding: 100px 30px;
 
   @media only screen and (max-width: 768px) {
@@ -3755,7 +3790,7 @@
     }
 
     > h2 {
-      color: #FFFFFF;
+      color: #ffffff;
       font-family: $primary-font-family;
       font-style: normal;
       font-weight: 700;
@@ -3797,7 +3832,7 @@
       }
 
       .facilities-title {
-        color: #FFFFFF;
+        color: #ffffff;
         font-family: $primary-font-family;
         font-style: normal;
         font-weight: 700;
@@ -3808,7 +3843,7 @@
       }
 
       .facilities-purpose {
-        color: #6F4A37;
+        color: #6f4a37;
         font-family: $primary-font-family;
         font-style: normal;
         font-weight: 700;
@@ -3822,24 +3857,22 @@
 
 .theme-dark {
   .mz-section--facilities {
-    background: #0B0D0F;
+    background: #0b0d0f;
 
     .p-01 {
-      background:
-        -webkit-linear-gradient( #C2AB90, #8F6C45 );
-      background:
-        linear-gradient( #C2AB90, #8F6C45 );
+      background: -webkit-linear-gradient(#c2ab90, #8f6c45);
+      background: linear-gradient(#c2ab90, #8f6c45);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
 
     .facilities-list {
       .facilities-title {
-        color: #FFFFFF;
+        color: #ffffff;
       }
 
       .facilities-purpose {
-        color: #8B663E;
+        color: #8b663e;
       }
     }
   }
