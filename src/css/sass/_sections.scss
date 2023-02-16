@@ -3012,7 +3012,7 @@
       background-color: #49230c;
       max-width: 1140px;
       width: 100%;
-      padding: 0 35px;
+      padding: 0 60px;
 
       @media only screen and (max-width: 768px) {
         padding: 0 15px;
@@ -3034,6 +3034,7 @@
           width: max-content;
           // height: 100%;
           padding: 40px 0;
+          margin: 0 32px;
           border-bottom: 5px solid transparent;
           cursor: pointer;
           transition: opacity 300ms ease-in-out;
@@ -3096,7 +3097,7 @@
           .flickity-viewport {
             .flickity-slider {
               .carousel-cell {
-                margin: 0 60px 0 0;
+                // margin: 0 80px 0 0;
                 // padding: 0 25px;
                 transition: opacity 300ms ease-in-out;
 
@@ -3387,10 +3388,14 @@
                         h5,
                         h6 {
                           margin: 0 0 5px;
+                          text-transform: uppercase;
                         }
 
                         p {
-                          font-size: 15px;
+                          font-size: 14px;
+                          font-weight: 400;
+                          letter-spacing: normal;
+                          line-height: 1.5em;
                         }
                       }
                     }
@@ -3410,7 +3415,7 @@
   }
 
   .mz-section-03 {
-    padding: 100px 30px;
+    padding: 60px 30px;
 
     .mz-container {
       .carousel-content {
@@ -3441,7 +3446,7 @@
 
             .mz-program-details {
               width: calc(55% - 80px);
-              padding: 200px 0;
+              padding: 180px 0;
 
               @media only screen and (max-width: 1180px) {
                 padding: 75px 0;
