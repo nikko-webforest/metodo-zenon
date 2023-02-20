@@ -111,7 +111,7 @@
 								loading=""/>
 							<div class="contact-content">
 								<h3>Necesito ayuda?</h3>
-								<p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod.</p>
+								<p>¡Háblanos. Contamos con un equipo multidisciplinario para asegurarnos de que alcances tus objetivos.</p>
 								<ul class="contact-info-list">
 									<li class="contact-info-item">
 										<a class="contact-info-link"
