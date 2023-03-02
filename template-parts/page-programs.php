@@ -759,13 +759,13 @@
 							</div>
 							<div class="mz-col">
 								<h5>
-									Competitive Advantages
+									¿por Qué El Programa Recuperatio?
 								</h5>
 								<p class="p-06">
 									Sigue disfrutando de tus aficiones como hacías antes. ¿Y por qué no? descubre otras nuevas.
 								</p>
 								<h5>
-									Program Features
+									¿en Qué Consiste?
 								</h5>
 								<p class="p-07">
 									Te ofrecemos poder tener mayor calidad de vida que nunca. Sentirte seguro de ti mism@, a gusto con tu cuerpo. NO TE CONFORMES CON MENOS.
