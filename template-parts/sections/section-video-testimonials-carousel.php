@@ -2,7 +2,7 @@
   <section class="mz-section mz-sc-section--video-testimonials-carousel">
     <div class="mz-container">
       <h2>
-        Video Testimonials
+        TESTIMONIOS EN VIDEO
       </h2>
       <div class="testimonial-carousel-main"
         data-flickity='{

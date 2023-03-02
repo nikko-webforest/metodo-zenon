@@ -2181,10 +2181,22 @@
       text-align: center;
       text-transform: uppercase;
       letter-spacing: -0.02em;
-      line-height: 1em;
-      margin: 0 auto 18px;
+      line-height: 1.3em;
+      margin: 0 auto 36px;
     }
 
+    .mz-subtitle {
+      width: 65%;
+
+      @media only screen and (max-width: 1180px) {
+        width: 85%;
+      }
+
+      @media only screen and (max-width: 480px) {
+        width: 100%;
+        font-size: 20px;
+      }
+    }
     .mz-title {
       color: #0a0a0a;
       font-family: $primary-font-family;
@@ -2287,8 +2299,6 @@
             font-weight: 700;
             text-align: center;
             text-transform: uppercase;
-            visibility: hidden;
-            opacity: 0;
             background: -webkit-linear-gradient(
               180deg,
               #825036 0%,
@@ -2307,7 +2317,7 @@
             }
 
             @media only screen and (max-width: 480px) {
-              margin-top: 70px;
+              // margin-top: 70px;
             }
           }
         }
@@ -2319,11 +2329,6 @@
 
         &.active {
           background-color: #ffffff;
-
-          .services-card-link {
-            visibility: visible;
-            opacity: 1;
-          }
         }
       }
     }
@@ -2350,7 +2355,8 @@
     background-color: #0b0d0f;
 
     .mz-container {
-      .mz-title {
+      .mz-title,
+      .mz-info {
         color: #ffffff;
       }
 
@@ -2454,6 +2460,9 @@
           .mz-services-sidetab-list {
             margin: 0 0 40px;
 
+            @media only screen and (max-width: 768px) {
+              margin: 0 0;
+            }
             .mz-services-sidetab-item {
               color: #0a0a0a;
               font-family: $primary-font-family;
@@ -2476,7 +2485,15 @@
               transition: 0.3s;
 
               &:last-child {
-                height: 102px;
+                height: 122px;
+
+                @media only screen and (max-width: 768px) {
+                  height: 82px;
+                }
+
+                @media only screen and (max-width: 480px) {
+                  height: 102px;
+                }
               }
 
               .mz-svg.svg-icon-angle-right {
@@ -2543,6 +2560,10 @@
           .mz-contact-details {
             background-color: #49230c;
             margin: 0 0 40px;
+
+            @media only screen and (max-width: 768px) {
+              display: none;
+            }
 
             .mz-img {
               z-index: 1;
@@ -2630,6 +2651,10 @@
           .mz-cta--goto-contact {
             font-size: 18px;
             width: 100%;
+
+            @media only screen and (max-width: 768px) {
+              display: none;
+            }
           }
         }
 
@@ -2644,6 +2669,9 @@
             display: none;
             animation: fadeEffect 1.5s;
 
+            @media only screen and (max-width: 768px) {
+              margin: 0 0 50px;
+            }
             @keyframes fadeEffect {
               from {
                 opacity: 0;
@@ -2677,14 +2705,15 @@
               color: #373f41;
               font-family: $primary-font-family;
               font-style: normal;
-              font-size: 14px;
+              font-size: 15px;
               font-weight: 400;
               line-height: 1.5em;
               width: 85%;
-              margin: 0 0 85px;
+              margin: 0 0 40px;
 
               @media only screen and (max-width: 768px) {
                 width: 100%;
+                font-size: 16px;
               }
             }
 
@@ -2761,7 +2790,7 @@
               color: #373f41;
               font-family: $primary-font-family;
               font-style: normal;
-              font-size: 14px;
+              font-size: 15px;
               font-weight: 400;
               line-height: 1.5em;
               width: 85%;
@@ -2769,6 +2798,7 @@
 
               @media only screen and (max-width: 768px) {
                 width: 100%;
+                font-size: 16px;
               }
             }
 
@@ -2808,6 +2838,107 @@
 
             &.active {
               display: inherit;
+            }
+          }
+
+          .mz-contact-details {
+            background-color: #49230c;
+            margin: 0 0 40px;
+            display: none;
+
+            @media only screen and (max-width: 768px) {
+              display: block;
+            }
+            .mz-img {
+              z-index: 1;
+              width: 100%;
+            }
+
+            .contact-content {
+              padding: 25px 30px;
+
+              h3 {
+                color: #ffffff;
+                font-family: $primary-font-family;
+                font-style: normal;
+                font-size: 24px;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: -0.02em;
+                margin: 0;
+
+                @media only screen and (max-width: 768px) {
+                  text-align: center;
+                }
+              }
+
+              p {
+                color: #ffffff;
+                font-family: $primary-font-family;
+                font-style: normal;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 1.25em;
+
+                @media only screen and (max-width: 768px) {
+                  text-align: center;
+                }
+              }
+
+              .contact-info-list {
+                .contact-info-item {
+                  margin: 0 0 10px;
+
+                  &:last-child {
+                    margin: 0;
+                  }
+
+                  .contact-info-link {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    gap: 0 10px;
+
+                    @media only screen and (max-width: 768px) {
+                      justify-content: center;
+                      align-items: center;
+                    }
+
+                    .contact-info-icon {
+                      max-width: 26px;
+                      width: 100%;
+
+                      .mz-svg.svg-icon-envelope {
+                        width: 100%;
+                      }
+                    }
+
+                    .contact-info-label {
+                      color: #ffffff;
+                      font-family: $primary-font-family;
+                      font-style: normal;
+                      font-weight: 400;
+                      font-size: 14px;
+                      line-height: 1em;
+                      margin: 0;
+                    }
+
+                    &:hover {
+                      opacity: 0.5;
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          .mz-cta--goto-contact {
+            font-size: 18px;
+            width: 100%;
+            display: none;
+
+            @media only screen and (max-width: 768px) {
+              display: block;
             }
           }
         }

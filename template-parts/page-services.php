@@ -18,7 +18,9 @@
 		<section class="mz-section mz-section--featured-services">
 			<div class="mz-container">
 				<h6 class="mz-subtitle">
-					Te ofrecemos mejoras que nunca pensaste que podrías conseguir. ¿Cómo? Mediante un servicio multidisciplinar: Entrenamiento Personal, Nutrición personalizada, Psicología deportiva y Fisioterapia, todo en un mismo centro.
+					Te ofrecemos mejoras que nunca pensaste que podrías conseguir.
+					<br><br>¿Cómo?<br><br>
+					Mediante un servicio multidisciplinar: Entrenamiento Personal, Nutrición personalizada, Psicología deportiva y Fisioterapia, todo en un mismo centro.
 				</h6>
 				<h2 class="mz-title">
 					Método Zenon es una mesa que se sustenta sobre 4 patas
@@ -161,7 +163,51 @@
 
 							<?php $index++; ?>
 						<?php endforeach; ?>
-
+						<div class="mz-contact-details">
+							<img class="mz-img"
+								alt=""
+								title=""
+								src="/wp-content/themes/metodo-zenon/images/mz-zenon-services-section/MZ_ServicesPage_ContactDetails.png"
+								width=""
+								height=""
+								loading=""/>
+							<div class="contact-content">
+								<h3>Necesito ayuda?</h3>
+								<p>¡Háblanos. Contamos con un equipo multidisciplinario para asegurarnos de que alcances tus objetivos.</p>
+								<ul class="contact-info-list">
+									<li class="contact-info-item">
+										<a class="contact-info-link"
+											title="Contact Email"
+											href="mailto:metodozenon@gmail.com">
+											<span class="contact-info-icon">
+												<svg class="mz-svg svg-icon-envelope" width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M0 0V18H25.3125V0H0ZM22.5281 1.51875L12.6562 8.35312L2.78437 1.51875H22.5281ZM1.51875 16.4531V2.27812L12.1409 9.78145C12.2923 9.88643 12.4721 9.94269 12.6562 9.94269C12.8404 9.94269 13.0202 9.88643 13.1715 9.78145L23.7937 2.27812V16.4531H1.51875Z" fill="white"/>
+												</svg>
+											</span>
+											<span class="contact-info-label">metodozenon@gmail.com</span>
+										</a>
+									</li>
+									<li class="contact-info-item">
+										<a class="contact-info-link"
+											title="Contact Number"
+											href="tel:613914090">
+											<span class="contact-info-icon">
+												<svg class="mz-svg svg-icon-phone" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M0.629026 2.28609L0.665369 2.26338L5.25956 0L10.2182 6.61155L7.93687 9.65357C8.00514 10.8008 8.49165 11.8832 9.30429 12.6958C10.1169 13.5084 11.1993 13.9949 12.3465 14.0632L15.3885 11.7818L22 16.7404L19.7555 21.2962L19.7366 21.3346L19.7138 21.3709C19.594 21.5639 19.4268 21.723 19.2282 21.8332C19.0295 21.9433 18.8059 22.0007 18.5788 22H17.3933C15.1092 22 12.8474 21.5501 10.7372 20.676C8.62693 19.8019 6.7095 18.5207 5.09438 16.9056C3.47926 15.2905 2.19807 13.373 1.32398 11.2628C0.449888 9.1525 0 6.89073 5.72205e-06 4.6066V3.42109C-0.000720978 3.19395 0.0567017 2.9704 0.166807 2.77173C0.276911 2.57305 0.436033 2.40587 0.629026 2.28609ZM1.69777 4.6066C1.69777 13.2612 8.7388 20.3022 17.3933 20.3022H18.3526L19.8544 17.2535L15.3882 13.9039L12.9017 15.7687H12.6187C10.9251 15.7668 9.30147 15.0932 8.10393 13.8957C6.90639 12.6982 6.23279 11.0745 6.23089 9.38092V9.09797L8.09572 6.6115L4.74647 2.1456L1.69777 3.64764V4.6066Z" fill="white"></path>
+												</svg>
+											</span>
+											<span class="contact-info-label">613 91 40 90</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<a class="mz-cta--goto-contact mz-cta"
+							title="Contact Page"
+							href="/contact-us"
+							rel="">
+							Go to Contact Page
+						</a>
 					</div>
 				</div>
 			</div>
