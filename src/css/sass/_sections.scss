@@ -2360,6 +2360,13 @@
         color: #ffffff;
       }
 
+      .mz-subtitle {
+        background: -webkit-linear-gradient(#c2ab90, #8f6c45);
+        background: linear-gradient(#c2ab90, #8f6c45);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
       .mz-row {
         .mz-col {
           .services-card {
