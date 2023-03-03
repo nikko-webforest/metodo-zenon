@@ -162,197 +162,197 @@
 })();
 
 /* mz-sc-section--zenon-method | function */
-(function () {
-  var thisSectionClass = ".mz-sc-section--zenon-method",
-    prevSectionClass,
-    nextSectionClass;
+// (function () {
+//   var thisSectionClass = ".mz-sc-section--zenon-method",
+//     prevSectionClass,
+//     nextSectionClass;
 
-  if (document.querySelectorAll(thisSectionClass).length >= 1) {
-    prevSectionClass =
-      document.querySelector(thisSectionClass).previousElementSibling
-        .classList[1];
-    nextSectionClass =
-      document.querySelector(thisSectionClass).nextElementSibling.classList[1];
+//   if (document.querySelectorAll(thisSectionClass).length >= 1) {
+//     prevSectionClass =
+//       document.querySelector(thisSectionClass).previousElementSibling
+//         .classList[1];
+//     nextSectionClass =
+//       document.querySelector(thisSectionClass).nextElementSibling.classList[1];
 
-    gsap.registerPlugin(ScrollTrigger);
-    gsap.defaults({ duration: 30 });
+//     gsap.registerPlugin(ScrollTrigger);
+//     gsap.defaults({ duration: 30 });
 
-    const tl = gsap.timeline();
-    tl.from(thisSectionClass + " .mz-ds-view .mz-title", {
-      y: 50,
-      opacity: 0,
-      delay: 0,
-    });
-    tl.from(thisSectionClass + " .mz-ds-view .mz-svg-wrap", {
-      opacity: 0,
-      delay: 2,
-    });
-    tl.from(thisSectionClass + " .mz-ds-view .mz-col:nth-child(1)", {
-      x: -50,
-      opacity: 0,
-      delay: 6,
-    });
-    tl.from(thisSectionClass + " .mz-ds-view .mz-col:nth-child(2)", {
-      x: 50,
-      opacity: 0,
-      delay: 8,
-    });
-    tl.from(thisSectionClass + " .mz-ds-view .mz-col:nth-child(3)", {
-      x: -50,
-      opacity: 0,
-      delay: 10,
-    });
-    tl.from(thisSectionClass + " .mz-ds-view .mz-col:nth-child(4)", {
-      x: 50,
-      opacity: 0,
-      delay: 12,
-    });
-    tl.from(thisSectionClass + " .mz-ds-view .mz-col:nth-child(5)", {
-      y: 50,
-      opacity: 0,
-      delay: 14,
-    });
+//     const tl = gsap.timeline();
+//     tl.from(thisSectionClass + " .mz-ds-view .mz-title", {
+//       y: 50,
+//       opacity: 0,
+//       delay: 0,
+//     });
+//     tl.from(thisSectionClass + " .mz-ds-view .mz-svg-wrap", {
+//       opacity: 0,
+//       delay: 2,
+//     });
+//     tl.from(thisSectionClass + " .mz-ds-view .mz-col:nth-child(1)", {
+//       x: -50,
+//       opacity: 0,
+//       delay: 6,
+//     });
+//     tl.from(thisSectionClass + " .mz-ds-view .mz-col:nth-child(2)", {
+//       x: 50,
+//       opacity: 0,
+//       delay: 8,
+//     });
+//     tl.from(thisSectionClass + " .mz-ds-view .mz-col:nth-child(3)", {
+//       x: -50,
+//       opacity: 0,
+//       delay: 10,
+//     });
+//     tl.from(thisSectionClass + " .mz-ds-view .mz-col:nth-child(4)", {
+//       x: 50,
+//       opacity: 0,
+//       delay: 12,
+//     });
+//     tl.from(thisSectionClass + " .mz-ds-view .mz-col:nth-child(5)", {
+//       y: 50,
+//       opacity: 0,
+//       delay: 14,
+//     });
 
-    ScrollTrigger.create({
-      animation: tl,
-      trigger: thisSectionClass + " .mz-ds-view",
-      start: "top top",
-      scrub: 1,
-      snap: {
-        snapTo: "labels",
-        duration: { min: 0.2, max: 1 },
-        delay: 0.1,
-      },
-      pin: true,
-      anticipatePin: 1,
-    });
+//     ScrollTrigger.create({
+//       animation: tl,
+//       trigger: thisSectionClass + " .mz-ds-view",
+//       start: "top top",
+//       scrub: 1,
+//       snap: {
+//         snapTo: "labels",
+//         duration: { min: 0.2, max: 1 },
+//         delay: 0.1,
+//       },
+//       pin: true,
+//       anticipatePin: 1,
+//     });
 
-    console.log("");
-    console.log("thisSectionClass = " + thisSectionClass);
-    console.log("prevSectionClass = " + prevSectionClass);
-    console.log("nextSectionClass = " + nextSectionClass);
-  }
-})();
+//     console.log("");
+//     console.log("thisSectionClass = " + thisSectionClass);
+//     console.log("prevSectionClass = " + prevSectionClass);
+//     console.log("nextSectionClass = " + nextSectionClass);
+//   }
+// })();
 
 /* mz-sc-section--about-zenon-carousel | function */
-(function () {
-  var thisSectionClass = ".mz-sc-section--about-zenon-carousel",
-    prevSectionClass,
-    nextSectionClass,
-    carouselNavClass = ".mz-carousel-navs",
-    carouselSlideClass = ".mz-carousel-slides",
-    carouselItemClass = ".mz-carousel-item",
-    carouselMain,
-    carouselNav,
-    carouselTotalSlides,
-    carouselSelectedItemIndex;
+// (function () {
+//   var thisSectionClass = ".mz-sc-section--about-zenon-carousel",
+//     prevSectionClass,
+//     nextSectionClass,
+//     carouselNavClass = ".mz-carousel-navs",
+//     carouselSlideClass = ".mz-carousel-slides",
+//     carouselItemClass = ".mz-carousel-item",
+//     carouselMain,
+//     carouselNav,
+//     carouselTotalSlides,
+//     carouselSelectedItemIndex;
 
-  if (document.querySelectorAll(thisSectionClass).length >= 1) {
-    prevSectionClass =
-      document.querySelector(thisSectionClass).previousElementSibling
-        .classList[1];
-    nextSectionClass =
-      document.querySelector(thisSectionClass).nextElementSibling.classList[1];
+//   if (document.querySelectorAll(thisSectionClass).length >= 1) {
+//     prevSectionClass =
+//       document.querySelector(thisSectionClass).previousElementSibling
+//         .classList[1];
+//     nextSectionClass =
+//       document.querySelector(thisSectionClass).nextElementSibling.classList[1];
 
-    // get total slides
-    carouselTotalSlides = $(
-      thisSectionClass + " " + carouselSlideClass + " " + carouselItemClass
-    ).length;
+//     // get total slides
+//     carouselTotalSlides = $(
+//       thisSectionClass + " " + carouselSlideClass + " " + carouselItemClass
+//     ).length;
 
-    // set width of row Slides
-    // $(thisSectionClass+' '+carouselSlideClass+' .mz-row').css({ 'width' : carouselTotalSlides*100+'%' });
+//     // set width of row Slides
+//     // $(thisSectionClass+' '+carouselSlideClass+' .mz-row').css({ 'width' : carouselTotalSlides*100+'%' });
 
-    gsap.registerPlugin(ScrollTrigger);
-    gsap.defaults({ duration: 30 });
+//     gsap.registerPlugin(ScrollTrigger);
+//     gsap.defaults({ duration: 30 });
 
-    const tl = gsap.timeline();
-    // tl.to(thisSectionClass+' .mz-carousel-slides .mz-row', {left: '   0%'} );
-    // tl.to(thisSectionClass+' .mz-carousel-navs .mz-carousel-nav-item:nth-child(1)', {opacity: 1} );
-    // tl.to(thisSectionClass+' .mz-carousel-slides .mz-row', {left: '-100%'} );
-    // tl.to(thisSectionClass+' .mz-carousel-navs .mz-carousel-nav-item:nth-child(2)', {opacity: 1} );
-    // tl.to(thisSectionClass+' .mz-carousel-slides .mz-row', {left: '-200%'} );
-    // tl.to(thisSectionClass+' .mz-carousel-navs .mz-carousel-nav-item:nth-child(3)', {opacity: 1} );
-    // tl.to(thisSectionClass+' .mz-carousel-slides .mz-row', {left: '-300%'} );
-    // tl.to(thisSectionClass+' .mz-carousel-navs .mz-carousel-nav-item:nth-child(4)', {opacity: 1} );
-    // tl.to(thisSectionClass+' .mz-carousel-slides .mz-row', {left: '-400%'} );
-    // tl.to(thisSectionClass+' .mz-carousel-navs .mz-carousel-nav-item:nth-child(5)', {opacity: 1} );
+//     const tl = gsap.timeline();
+//     // tl.to(thisSectionClass+' .mz-carousel-slides .mz-row', {left: '   0%'} );
+//     // tl.to(thisSectionClass+' .mz-carousel-navs .mz-carousel-nav-item:nth-child(1)', {opacity: 1} );
+//     // tl.to(thisSectionClass+' .mz-carousel-slides .mz-row', {left: '-100%'} );
+//     // tl.to(thisSectionClass+' .mz-carousel-navs .mz-carousel-nav-item:nth-child(2)', {opacity: 1} );
+//     // tl.to(thisSectionClass+' .mz-carousel-slides .mz-row', {left: '-200%'} );
+//     // tl.to(thisSectionClass+' .mz-carousel-navs .mz-carousel-nav-item:nth-child(3)', {opacity: 1} );
+//     // tl.to(thisSectionClass+' .mz-carousel-slides .mz-row', {left: '-300%'} );
+//     // tl.to(thisSectionClass+' .mz-carousel-navs .mz-carousel-nav-item:nth-child(4)', {opacity: 1} );
+//     // tl.to(thisSectionClass+' .mz-carousel-slides .mz-row', {left: '-400%'} );
+//     // tl.to(thisSectionClass+' .mz-carousel-navs .mz-carousel-nav-item:nth-child(5)', {opacity: 1} );
 
-    tl.to(thisSectionClass + " .mz-carousel-slides .mz-row ", {
-      duration: 2,
-    }).add();
-    tl.to(
-      thisSectionClass +
-        " .mz-carousel-navs .mz-carousel-nav-item:nth-child(1)",
-      { duration: 3 }
-    ).add(function () {
-      $(".mz-carousel-navs .mz-carousel-nav-item").css({ opacity: "0.14" });
-      $(".mz-carousel-navs .mz-carousel-nav-item:nth-child(1)").css({
-        opacity: "1",
-      });
-      $(".mz-carousel-slides .mz-row").css({ left: "   0%" });
-    });
-    tl.to(
-      thisSectionClass +
-        " .mz-carousel-navs .mz-carousel-nav-item:nth-child(2)",
-      { duration: 3 }
-    ).add(function () {
-      $(".mz-carousel-navs .mz-carousel-nav-item").css({ opacity: "0.14" });
-      $(".mz-carousel-navs .mz-carousel-nav-item:nth-child(2)").css({
-        opacity: "1",
-      });
-      $(".mz-carousel-slides .mz-row").css({ left: "-100%" });
-    });
-    tl.to(
-      thisSectionClass +
-        " .mz-carousel-navs .mz-carousel-nav-item:nth-child(3)",
-      { duration: 3 }
-    ).add(function () {
-      $(".mz-carousel-navs .mz-carousel-nav-item").css({ opacity: "0.14" });
-      $(".mz-carousel-navs .mz-carousel-nav-item:nth-child(3)").css({
-        opacity: "1",
-      });
-      $(".mz-carousel-slides .mz-row").css({ left: "-200%" });
-    });
-    tl.to(
-      thisSectionClass +
-        " .mz-carousel-navs .mz-carousel-nav-item:nth-child(4)",
-      { duration: 3 }
-    ).add(function () {
-      $(".mz-carousel-navs .mz-carousel-nav-item").css({ opacity: "0.14" });
-      $(".mz-carousel-navs .mz-carousel-nav-item:nth-child(4)").css({
-        opacity: "1",
-      });
-      $(".mz-carousel-slides .mz-row").css({ left: "-300%" });
-    });
-    tl.to(
-      thisSectionClass +
-        " .mz-carousel-navs .mz-carousel-nav-item:nth-child(5)",
-      { duration: 3 }
-    ).add(function () {
-      $(".mz-carousel-navs .mz-carousel-nav-item").css({ opacity: "0.14" });
-      $(".mz-carousel-navs .mz-carousel-nav-item:nth-child(5)").css({
-        opacity: "1",
-      });
-      $(".mz-carousel-slides .mz-row").css({ left: "-400%" });
-    });
-    tl.to(thisSectionClass + " .mz-carousel-slides .mz-row ", {
-      duration: 2,
-    }).add();
+//     tl.to(thisSectionClass + " .mz-carousel-slides .mz-row ", {
+//       duration: 2,
+//     }).add();
+//     tl.to(
+//       thisSectionClass +
+//         " .mz-carousel-navs .mz-carousel-nav-item:nth-child(1)",
+//       { duration: 3 }
+//     ).add(function () {
+//       $(".mz-carousel-navs .mz-carousel-nav-item").css({ opacity: "0.14" });
+//       $(".mz-carousel-navs .mz-carousel-nav-item:nth-child(1)").css({
+//         opacity: "1",
+//       });
+//       $(".mz-carousel-slides .mz-row").css({ left: "   0%" });
+//     });
+//     tl.to(
+//       thisSectionClass +
+//         " .mz-carousel-navs .mz-carousel-nav-item:nth-child(2)",
+//       { duration: 3 }
+//     ).add(function () {
+//       $(".mz-carousel-navs .mz-carousel-nav-item").css({ opacity: "0.14" });
+//       $(".mz-carousel-navs .mz-carousel-nav-item:nth-child(2)").css({
+//         opacity: "1",
+//       });
+//       $(".mz-carousel-slides .mz-row").css({ left: "-100%" });
+//     });
+//     tl.to(
+//       thisSectionClass +
+//         " .mz-carousel-navs .mz-carousel-nav-item:nth-child(3)",
+//       { duration: 3 }
+//     ).add(function () {
+//       $(".mz-carousel-navs .mz-carousel-nav-item").css({ opacity: "0.14" });
+//       $(".mz-carousel-navs .mz-carousel-nav-item:nth-child(3)").css({
+//         opacity: "1",
+//       });
+//       $(".mz-carousel-slides .mz-row").css({ left: "-200%" });
+//     });
+//     tl.to(
+//       thisSectionClass +
+//         " .mz-carousel-navs .mz-carousel-nav-item:nth-child(4)",
+//       { duration: 3 }
+//     ).add(function () {
+//       $(".mz-carousel-navs .mz-carousel-nav-item").css({ opacity: "0.14" });
+//       $(".mz-carousel-navs .mz-carousel-nav-item:nth-child(4)").css({
+//         opacity: "1",
+//       });
+//       $(".mz-carousel-slides .mz-row").css({ left: "-300%" });
+//     });
+//     tl.to(
+//       thisSectionClass +
+//         " .mz-carousel-navs .mz-carousel-nav-item:nth-child(5)",
+//       { duration: 3 }
+//     ).add(function () {
+//       $(".mz-carousel-navs .mz-carousel-nav-item").css({ opacity: "0.14" });
+//       $(".mz-carousel-navs .mz-carousel-nav-item:nth-child(5)").css({
+//         opacity: "1",
+//       });
+//       $(".mz-carousel-slides .mz-row").css({ left: "-400%" });
+//     });
+//     tl.to(thisSectionClass + " .mz-carousel-slides .mz-row ", {
+//       duration: 2,
+//     }).add();
 
-    ScrollTrigger.create({
-      animation: tl,
-      trigger: thisSectionClass,
-      scrub: 2,
-      pin: true,
-      anticipatePin: 1,
-    });
+//     ScrollTrigger.create({
+//       animation: tl,
+//       trigger: thisSectionClass,
+//       scrub: 2,
+//       pin: true,
+//       anticipatePin: 1,
+//     });
 
-    console.log("");
-    console.log("thisSectionClass = " + thisSectionClass);
-    console.log("prevSectionClass = " + prevSectionClass);
-    console.log("nextSectionClass = " + nextSectionClass);
-  }
-})();
+//     console.log("");
+//     console.log("thisSectionClass = " + thisSectionClass);
+//     console.log("prevSectionClass = " + prevSectionClass);
+//     console.log("nextSectionClass = " + nextSectionClass);
+//   }
+// })();
 
 /* mz-sc-section--written-testimonials-carousel | function */
 (function () {
@@ -605,7 +605,6 @@
 
 /* mz-section--coaches-profile-carousel | function */
 (function () {
-
   var thisSectionClass = ".mz-section--coaches-profile-carousel",
     carouselMainClass = ".carousel-main",
     carouselCellClass = ".carousel-cell",
@@ -618,72 +617,108 @@
     carouselAutoPlay,
     carouselAutoPlayInterval;
 
-  if( document.querySelectorAll(thisSectionClass).length >= 1 ){
-
+  if (document.querySelectorAll(thisSectionClass).length >= 1) {
     console.log("");
-    console.log("thisSectionClass        = " +thisSectionClass);
+    console.log("thisSectionClass        = " + thisSectionClass);
 
-    carouselTotalSlides = $(thisSectionClass+' '+carouselMainClass+' '+carouselCellClass).length;
-    console.log("carouselTotalSlides     = "+carouselTotalSlides);
+    carouselTotalSlides = $(
+      thisSectionClass + " " + carouselMainClass + " " + carouselCellClass
+    ).length;
+    console.log("carouselTotalSlides     = " + carouselTotalSlides);
 
     // initialize Flickity
-    carouselInitialize = new Flickity(thisSectionClass+" "+carouselMainClass, {
-      contain: true,
-      cellAlign: "center",
-      wrapAround: false,
-      prevNextButtons: false,
-      pageDots: false,
-      initialIndex: 0,
-    });
+    carouselInitialize = new Flickity(
+      thisSectionClass + " " + carouselMainClass,
+      {
+        contain: true,
+        cellAlign: "center",
+        wrapAround: false,
+        prevNextButtons: false,
+        pageDots: false,
+        initialIndex: 0,
+      }
+    );
 
     carouselInitialize.selectCell(carouselSetCurrentSlide);
     selectedCarouselContentCell(carouselSetCurrentSlide);
 
-    $(thisSectionClass+' '+carouselMainClass+' '+carouselCellClass).click(function() {
+    $(
+      thisSectionClass + " " + carouselMainClass + " " + carouselCellClass
+    ).click(function () {
       carouselSetCurrentSlide = $(this).index();
-      console.log('carouselSetCurrentSlide = '+$(this).index());
+      console.log("carouselSetCurrentSlide = " + $(this).index());
       carouselInitialize.selectCell(carouselSetCurrentSlide);
       selectedCarouselContentCell(carouselSetCurrentSlide);
     });
 
     function selectedCarouselContentCell(index) {
-      $(thisSectionClass+' .mz-section-02 .mz-container .carousel-content .carousel-cell').removeClass('is-selected');
-      $(thisSectionClass+' .mz-section-02 .mz-container .carousel-content .carousel-cell').eq(index).addClass('is-selected');
-      $(thisSectionClass+' .mz-section-03 .mz-container .carousel-content .carousel-cell').removeClass('is-selected');
-      $(thisSectionClass+' .mz-section-03 .mz-container .carousel-content .carousel-cell').eq(index).addClass('is-selected');
+      $(
+        thisSectionClass +
+          " .mz-section-02 .mz-container .carousel-content .carousel-cell"
+      ).removeClass("is-selected");
+      $(
+        thisSectionClass +
+          " .mz-section-02 .mz-container .carousel-content .carousel-cell"
+      )
+        .eq(index)
+        .addClass("is-selected");
+      $(
+        thisSectionClass +
+          " .mz-section-03 .mz-container .carousel-content .carousel-cell"
+      ).removeClass("is-selected");
+      $(
+        thisSectionClass +
+          " .mz-section-03 .mz-container .carousel-content .carousel-cell"
+      )
+        .eq(index)
+        .addClass("is-selected");
     }
 
     function initalizedFlickity() {
       // console.log("screen.width         = "+screen.width);
-      if( screen.width > 1140 ){
-
-        if( carouselTotalSlides < 4 ){
+      if (screen.width > 1140) {
+        if (carouselTotalSlides < 4) {
           carouselInitialize.destroy();
           selectedCarouselContentCell(carouselSetCurrentSlide);
-          $(thisSectionClass+' '+carouselMainClass+' '+carouselCellClass).eq(carouselSetCurrentSlide).addClass('is-selected');
-          $(thisSectionClass+' '+carouselMainClass).addClass('flickity-disabled');
-          $(thisSectionClass+' '+carouselMainClass+' '+carouselCellClass).click(function() {
-            $(thisSectionClass+' '+carouselMainClass+' '+carouselCellClass).removeClass('is-selected');
-            $(this).addClass('is-selected');
+          $(
+            thisSectionClass + " " + carouselMainClass + " " + carouselCellClass
+          )
+            .eq(carouselSetCurrentSlide)
+            .addClass("is-selected");
+          $(thisSectionClass + " " + carouselMainClass).addClass(
+            "flickity-disabled"
+          );
+          $(
+            thisSectionClass + " " + carouselMainClass + " " + carouselCellClass
+          ).click(function () {
+            $(
+              thisSectionClass +
+                " " +
+                carouselMainClass +
+                " " +
+                carouselCellClass
+            ).removeClass("is-selected");
+            $(this).addClass("is-selected");
             carouselSetCurrentSlide = $(this).index();
-            console.log('carouselSetCurrentSlide = '+$(this).index());
+            console.log("carouselSetCurrentSlide = " + $(this).index());
             selectedCarouselContentCell(carouselSetCurrentSlide);
           });
         }
-
-      }
-      else {
-
-        $(thisSectionClass+' '+carouselMainClass).removeClass('flickity-disabled');
+      } else {
+        $(thisSectionClass + " " + carouselMainClass).removeClass(
+          "flickity-disabled"
+        );
         // re-initialize Flickity
-        carouselInitialize = new Flickity(thisSectionClass+" "+carouselMainClass, {
-          contain: true,
-          cellAlign: "center",
-          wrapAround: false,
-          prevNextButtons: false,
-          pageDots: false,
-        });
-
+        carouselInitialize = new Flickity(
+          thisSectionClass + " " + carouselMainClass,
+          {
+            contain: true,
+            cellAlign: "center",
+            wrapAround: false,
+            prevNextButtons: false,
+            pageDots: false,
+          }
+        );
       }
     }
 
@@ -691,10 +726,8 @@
 
     onresize = (event) => {
       initalizedFlickity();
-    }
-    
+    };
   }
-
 })();
 
 /* mz-section--programs-content | function */
@@ -713,16 +746,20 @@
 
   if (document.querySelectorAll(thisSectionClass).length >= 1) {
     // get total slides
-    carouselTotalSlides = $(thisSectionClass+" "+carouselMainClass+" "+carouselCellClass).length;
+    carouselTotalSlides = $(
+      thisSectionClass + " " + carouselMainClass + " " + carouselCellClass
+    ).length;
 
     if (carouselTotalSlides < 5) {
       // $(thisSectionClass+' '+carouselMainClass).addClass("flickity-disabled");
-      document.querySelector(thisSectionClass+" "+carouselMainClass).classList.add("flickity-disabled");
-    }
-    else {
+      document
+        .querySelector(thisSectionClass + " " + carouselMainClass)
+        .classList.add("flickity-disabled");
+    } else {
       // initialize Flickity
       carouselInitialize01 = new Flickity(
-        thisSectionClass+" "+carouselMainClass,{
+        thisSectionClass + " " + carouselMainClass,
+        {
           wrapAround: true,
           prevNextButtons: false,
           contain: false,
@@ -736,11 +773,13 @@
           sParameterName,
           i;
 
-        for( i = 0; i < sURLVariables.length; i++ ){
+        for (i = 0; i < sURLVariables.length; i++) {
           sParameterName = sURLVariables[i].split("=");
 
-          if( sParameterName[0] === sParam ){
-            return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+          if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined
+              ? true
+              : decodeURIComponent(sParameterName[1]);
           }
         }
         return false;
@@ -750,16 +789,19 @@
 
       // get data-current-slide from shortcode attribute then set as current slide
       // carouselSetCurrentSlide = $(thisSectionClass+' '+carouselMainClass).attr('data-current-slide');
-      if( URLparamSlide ){
+      if (URLparamSlide) {
         carouselSetCurrentSlide = URLparamSlide;
-      }
-      else {
-        carouselSetCurrentSlide = document.querySelector(thisSectionClass+" "+carouselMainClass).dataset.currentSlide;
+      } else {
+        carouselSetCurrentSlide = document.querySelector(
+          thisSectionClass + " " + carouselMainClass
+        ).dataset.currentSlide;
       }
 
       // get data-carousel-autoplay from shortcode attribute
       // carouselAutoPlay = $(thisSectionClass+' '+carouselMainClass).attr('data-carousel-autoplay');
-      carouselAutoPlay = document.querySelector(thisSectionClass+" "+carouselMainClass).dataset.carouselAutoplay;
+      carouselAutoPlay = document.querySelector(
+        thisSectionClass + " " + carouselMainClass
+      ).dataset.carouselAutoplay;
 
       // set autoPlayInterval 3000ms/3s default
       carouselAutoPlayInterval = 3000;
@@ -854,7 +896,9 @@
         carouselUpdate();
       });
 
-      $(thisSectionClass+" "+carouselMainClass+" "+carouselCellClass).click(function() {
+      $(
+        thisSectionClass + " " + carouselMainClass + " " + carouselCellClass
+      ).click(function () {
         carouselInitialize01.select($(this).index());
         carouselUpdate();
       });

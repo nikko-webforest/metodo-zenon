@@ -469,7 +469,6 @@ add_shortcode( 'mz-sc-section--zenon-method', function ( $atts, $content = null 
 									alt=""
 									title=""
 									src="/wp-content/themes/metodo-zenon/images/mz-zenon-method-section/MZ_Zenon-Method_Girl-on-Table.png"
-									data-aos-delay="200" data-aos-easing="ease-out-cubic" data-aos-anchor-placement="top-bottom"
 									width=""
 									height=""/>
 							</div>
@@ -571,12 +570,10 @@ add_shortcode( 'mz-sc-section--zenon-method', function ( $atts, $content = null 
 				</div>
 				<div class="mz-tb-view">
 					<div class="mz-container">
-						<h2 class="mz-title"
-							data-mz-aos="fade-up" data-mz-aos-delay="0">
+						<h2 class="mz-title">
 							'. $attributes['title'] .'
 						</h2>
-						<div class="mz-bg-wrap"
-							data-mz-aos="fade-up" data-mz-aos-delay="100">
+						<div class="mz-bg-wrap">
 							<div class="mz-svg-wrap">
 								'. $attributes['zenon-svg'] .'
 							</div>
@@ -585,14 +582,12 @@ add_shortcode( 'mz-sc-section--zenon-method', function ( $atts, $content = null 
 									alt=""
 									title=""
 									src="/wp-content/themes/metodo-zenon/images/mz-zenon-method-section/MZ_Zenon-Method_Girl-on-Table.png"
-									data-aos-delay="200" data-aos-easing="ease-out-cubic" data-aos-anchor-placement="top-bottom"
 									width=""
 									height=""/>
 							</div>
 						</div>
 						<div class="mz-row">
-							<div class="mz-col"
-								data-mz-aos="fade-up" data-mz-aos-delay="100">
+							<div class="mz-col">
 								<div class="mz-inner-row">
 									<div class="mz-inner-col">
 										<img class="mz-img"
@@ -612,8 +607,7 @@ add_shortcode( 'mz-sc-section--zenon-method', function ( $atts, $content = null 
 									</div>
 								</div>
 							</div>
-							<div class="mz-col"
-								data-mz-aos="fade-up" data-mz-aos-delay="100">
+							<div class="mz-col">
 								<div class="mz-inner-row">
 									<div class="mz-inner-col">
 										<img class="mz-img"
@@ -633,8 +627,7 @@ add_shortcode( 'mz-sc-section--zenon-method', function ( $atts, $content = null 
 									</div>
 								</div>
 							</div>
-							<div class="mz-col"
-								data-mz-aos="fade-up" data-mz-aos-delay="100">
+							<div class="mz-col">
 								<div class="mz-inner-row">
 									<div class="mz-inner-col">
 										<img class="mz-img"
@@ -654,8 +647,7 @@ add_shortcode( 'mz-sc-section--zenon-method', function ( $atts, $content = null 
 									</div>
 								</div>
 							</div>
-							<div class="mz-col"
-								data-mz-aos="fade-up" data-mz-aos-delay="100">
+							<div class="mz-col">
 								<div class="mz-inner-row">
 									<div class="mz-inner-col">
 										<img class="mz-img"
@@ -675,8 +667,7 @@ add_shortcode( 'mz-sc-section--zenon-method', function ( $atts, $content = null 
 									</div>
 								</div>
 							</div>
-							<div class="mz-col"
-								data-mz-aos="fade-up" data-mz-aos-delay="100">
+							<div class="mz-col">
 								<p class="p-02">
 									'. $attributes['sub-text'] .'
 								</p>
@@ -685,8 +676,7 @@ add_shortcode( 'mz-sc-section--zenon-method', function ( $atts, $content = null 
 						<a class="mz-cta mz-cta-'. $mzCTAclass .'"
 							title="'. $attributes['method-cta'] .'"
 							target="_blank"
-							href="#"
-							data-mz-aos="fade-up" data-mz-aos-delay="700">
+							href="#">
 							'. $attributes['method-cta'] .'
 						</a>
 					</div>
@@ -698,6 +688,81 @@ add_shortcode( 'mz-sc-section--zenon-method', function ( $atts, $content = null 
 	return $output;
 
 });
+
+// add_shortcode( 'mz-sc-section--about-zenon-carousel', function ( $atts, $content = null ){
+
+// 	$attributes = shortcode_atts([
+// 		'slideCount' => '5',
+// 		'slide-nav_01' => 'Z',
+// 		'slide-content_01' => '<b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+// 		'slide-nav_02' => 'E',
+// 		'slide-content_02' => '<b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+// 		'slide-nav_03' => 'N',
+// 		'slide-content_03' => '<b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+// 		'slide-nav_04' => 'O',
+// 		'slide-content_04' => '<b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+// 		'slide-nav_05' => 'N',
+// 		'slide-content_05' => '<b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+// 	], $atts);
+
+//   $output =
+//     '
+//       <section class="mz-section mz-sc-section--about-zenon-carousel">
+//         <div class="mz-container">
+//           <div class="mz-carousel-navs">
+//             <div class="mz-carousel-item mz-carousel-nav-item">
+//               '. $attributes['slide-nav_01'] .'
+//             </div>
+//             <div class="mz-carousel-item mz-carousel-nav-item">
+//               '. $attributes['slide-nav_02'] .'
+//             </div>
+//             <div class="mz-carousel-item mz-carousel-nav-item">
+//               '. $attributes['slide-nav_03'] .'
+//             </div>
+//             <div class="mz-carousel-item mz-carousel-nav-item">
+//               '. $attributes['slide-nav_04'] .'
+//             </div>
+//             <div class="mz-carousel-item mz-carousel-nav-item">
+//               '. $attributes['slide-nav_05'] .'
+//             </div>
+//           </div>
+//           <div class="mz-carousel-slides">
+//             <div class="mz-row">
+//               <div class="mz-carousel-item mz-carousel-slides-item">
+//                 <p class="p-01">
+//                   '. $attributes['slide-content_01'] .'
+//                 </p>
+//               </div>
+//               <div class="mz-carousel-item mz-carousel-slides-item">
+//                 <p class="p-01">
+//                   '. $attributes['slide-content_02'] .'
+//                 </p>
+//               </div>
+//               <div class="mz-carousel-item mz-carousel-slides-item">
+//                 <p class="p-01">
+//                   '. $attributes['slide-content_03'] .'
+//                 </p>
+//               </div>
+//               <div class="mz-carousel-item mz-carousel-slides-item">
+//                 <p class="p-01">
+//                   '. $attributes['slide-content_04'] .'
+//                 </p>
+//               </div>
+//               <div class="mz-carousel-item mz-carousel-slides-item">
+//                 <p class="p-01">
+//                   '. $attributes['slide-content_05'] .'
+//                 </p>
+//               </div>
+//             </div>
+//           </div>
+//         </div>
+//       </section>
+//     '
+//   ;
+
+// 	return $output;
+
+// });
 
 add_shortcode( 'mz-sc-section--about-zenon-carousel', function ( $atts, $content = null ){
 
@@ -719,52 +784,66 @@ add_shortcode( 'mz-sc-section--about-zenon-carousel', function ( $atts, $content
     '
       <section class="mz-section mz-sc-section--about-zenon-carousel">
         <div class="mz-container">
-          <div class="mz-carousel-navs">
-            <div class="mz-carousel-item mz-carousel-nav-item">
-              '. $attributes['slide-nav_01'] .'
-            </div>
-            <div class="mz-carousel-item mz-carousel-nav-item">
-              '. $attributes['slide-nav_02'] .'
-            </div>
-            <div class="mz-carousel-item mz-carousel-nav-item">
-              '. $attributes['slide-nav_03'] .'
-            </div>
-            <div class="mz-carousel-item mz-carousel-nav-item">
-              '. $attributes['slide-nav_04'] .'
-            </div>
-            <div class="mz-carousel-item mz-carousel-nav-item">
-              '. $attributes['slide-nav_05'] .'
-            </div>
-          </div>
-          <div class="mz-carousel-slides">
+          	<div class="mz-row">
+				<div class="mz-carousel-item mz-carousel-nav-item">
+					<h1>
+						'. $attributes['slide-nav_01'] .'
+					</h1>
+				</div>
+				<div class="mz-carousel-item mz-carousel-slides-item">
+					<p class="p-01">
+					'. $attributes['slide-content_01'] .'
+					</p>
+				</div>
+			</div>
             <div class="mz-row">
-              <div class="mz-carousel-item mz-carousel-slides-item">
-                <p class="p-01">
-                  '. $attributes['slide-content_01'] .'
-                </p>
-              </div>
-              <div class="mz-carousel-item mz-carousel-slides-item">
-                <p class="p-01">
-                  '. $attributes['slide-content_02'] .'
-                </p>
-              </div>
-              <div class="mz-carousel-item mz-carousel-slides-item">
-                <p class="p-01">
-                  '. $attributes['slide-content_03'] .'
-                </p>
-              </div>
-              <div class="mz-carousel-item mz-carousel-slides-item">
-                <p class="p-01">
-                  '. $attributes['slide-content_04'] .'
-                </p>
-              </div>
-              <div class="mz-carousel-item mz-carousel-slides-item">
-                <p class="p-01">
-                  '. $attributes['slide-content_05'] .'
-                </p>
-              </div>
-            </div>
-          </div>
+				<div class="mz-carousel-item mz-carousel-nav-item">
+					<h1>
+						'. $attributes['slide-nav_02'] .'
+					</h1>
+				</div>
+				<div class="mz-carousel-item mz-carousel-slides-item">
+					<p class="p-01">
+					'. $attributes['slide-content_02'] .'
+					</p>
+				</div>
+			</div>
+			<div class="mz-row">
+				<div class="mz-carousel-item mz-carousel-nav-item">
+					<h1>
+						'. $attributes['slide-nav_03'] .'
+					</h1>
+				</div>
+				<div class="mz-carousel-item mz-carousel-slides-item">
+					<p class="p-01">
+					'. $attributes['slide-content_03'] .'
+					</p>
+				</div>
+			</div>
+			<div class="mz-row">
+				<div class="mz-carousel-item mz-carousel-nav-item">
+					<h1>
+						'. $attributes['slide-nav_04'] .'
+					</h1>
+				</div>
+				<div class="mz-carousel-item mz-carousel-slides-item">
+					<p class="p-01">
+					'. $attributes['slide-content_04'] .'
+					</p>
+				</div>
+			</div>
+			<div class="mz-row">
+				<div class="mz-carousel-item mz-carousel-nav-item">
+					<h1>
+						'. $attributes['slide-nav_05'] .'
+					</h1>
+				</div>
+				<div class="mz-carousel-item mz-carousel-slides-item">
+					<p class="p-01">
+					'. $attributes['slide-content_05'] .'
+					</p>
+				</div>
+			</div>
         </div>
       </section>
     '

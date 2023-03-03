@@ -1,111 +1,81 @@
 .mz-sc-section--about-zenon-carousel {
-  background:
-    -webkit-linear-gradient( 180deg, #49230C 0%, #0B0D0F 100% );
-  background:
-    linear-gradient( 180deg, #49230C 0%, #0B0D0F 100% );
-  height: 100vh;
-  padding: 150px 30px 50px;
+  background: -webkit-linear-gradient(180deg, #49230c 0%, #0b0d0f 100%);
+  background: linear-gradient(180deg, #49230c 0%, #0b0d0f 100%);
+  padding: 100px 30px;
 
   @media only screen and (max-width: 1180px) {
     height: auto;
-    padding: 210px 30px 100px;
+    padding: 100px 90px 70px;
   }
 
   @media only screen and (max-width: 768px) {
-    padding: 140px 30px 100px;
+    padding: 80px 90px 30px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    padding: 70px 30px 30px;
   }
 
   .mz-container {
-    max-width: 950px;
-
-    .mz-carousel-navs {
+    .mz-row {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 5px;
-      margin: 0 auto 50px;
+      gap: 50px;
+      height: max-content;
 
+      @media only screen and (max-width: 1180px) {
+        padding: 10px 0;
+      }
+
+      @media only screen and (max-width: 480px) {
+        padding: 15px 0;
+      }
       .mz-carousel-nav-item {
-        font-family: $secondary-font-family;
-        font-style: normal;
-        font-size: 130px;
-        font-weight: 400;
-        text-align: center;
-        letter-spacing: -0.02em;
-        line-height: 1.3em;
-        display: block;
-        height: 140px;
-        background:
-          -webkit-linear-gradient( 180deg, #C2AB90 0%, #8B663E 100% );
-        background:
-          linear-gradient( 180deg, #C2AB90 0%, #8B663E 100% );
-        opacity: 0.14;
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        text-fill-color: transparent;
-        cursor: pointer;
+        display: flex;
 
-        @media only screen and (max-width: 1180px) {
-          font-size: 100px;
-          height: 110px;
-        }
+        h1 {
+          font-family: $secondary-font-family;
+          font-style: normal;
+          font-size: 130px;
+          font-weight: 400;
+          text-align: center;
+          letter-spacing: -0.02em;
+          line-height: 1.3em;
+          background: -webkit-linear-gradient(180deg, #c2ab90 0%, #8b663e 100%);
+          background: linear-gradient(180deg, #c2ab90 0%, #8b663e 100%);
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          text-fill-color: transparent;
+          margin: auto 0;
 
-        @media only screen and (max-width: 768px) {
-          font-size: 80px;
-          height: 90px;
-        }
-
-        @media only screen and (max-width: 480px) {
-          font-size: 70px;
-          height: 80px;
+          @media only screen and (max-width: 1180px) {
+            font-size: 100px;
+          }
         }
       }
-    }
-    
-    .mz-carousel-slides {
-      overflow: hidden;
+      .mz-carousel-slides-item {
+        display: flex;
 
-      .mz-row {
-        position: relative;
-        left: 0;
-        justify-content: flex-start;
-        align-items: flex-start;
-        width: 500%;
-        transition:
-          left 300ms ease-in-out;
+        p {
+          color: #afacb4;
+          font-family: $primary-font-family;
+          font-size: 28px;
+          font-weight: 300;
+          // text-align: center;
+          line-height: 1.5em;
+          margin: auto 0;
 
-        .mz-carousel-slides-item {
-          width: 100%;
-          padding: 0 25px;
+          @media only screen and (max-width: 1180px) {
+            font-size: 24px;
+          }
 
-          .p-01 {
-            color: #AFACB4;
-            font-family: $primary-font-family;
-            font-size: 33px;
-            font-weight: 300;
-            text-align: center;
-            line-height: 1.5em;
-            margin: 0;
+          @media only screen and (max-width: 768px) {
+            font-size: 22px;
+            line-height: 1.25em;
+          }
 
-            @media only screen and (max-width: 1180px) {
-              font-size: 30px;
-            }
-
-            @media only screen and (max-width: 768px) {
-              font-size: 26px;
-              line-height: 1.25em;
-            }
-
-            @media only screen and (max-width: 480px) {
-              font-size: 24px;
-              line-height: 1em;
-            }
-
-            span {
-              color: #FFFFFF;
-              font-weight: 700;
-            }
+          @media only screen and (max-width: 480px) {
+            font-size: 20px;
           }
         }
       }
